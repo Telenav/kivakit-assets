@@ -11,4 +11,4 @@ This project contains binary data and applications used by KivaKit.
 
 ![](graphics/icons/horizontal-line/horizontal-line.png)
 
-<sub>© 2011-2021 [Telenav, Inc.](http://telenav.com) Distributed under [Apache License, Version 2.0](LICENSE)</sub>  
+<sub>© 2011-2021 [Telenav](http://telenav.com). Distributed under [Apache License, Version 2.0](LICENSE)</sub>  
