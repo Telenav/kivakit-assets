@@ -6,6 +6,7 @@ This project contains binary data and applications used by KivaKit.
 
 ### Projects &nbsp; ![](icons/gears/gears-40.png)
 
+- [**applications**](applications) - Java applications
 - [**logos**](logos) - Logos used in applications
 - [**icons**](icons) - Icons used in documentation
 
