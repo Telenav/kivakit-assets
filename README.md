@@ -1,4 +1,4 @@
-# kivakit-graphics &nbsp; ![](logos/kivakit/kivakit-64.png)
+# kivakit-data &nbsp; ![](logos/kivakit/kivakit-64.png)
 
 This project contains binary data and applications used by KivaKit.
 
