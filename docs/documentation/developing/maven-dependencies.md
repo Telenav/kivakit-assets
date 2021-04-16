@@ -1,6 +1,6 @@
-# KivaKit - Maven Dependencies &nbsp; ![](../../../../kivakit/https://kivakit.org/images/dependencies-40.png)
+# KivaKit - Maven Dependencies &nbsp; ![](../../../../kivakit/https://www.kivakit.org/images/dependencies-40.png)
 
-![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://www.kivakit.org/images/horizontal-line.png)
 
 The *README.md* markdown file for each KivaKit project includes the Maven dependency, so it can  
 be easily cut and pasted into the *pom.xml* file of a project using KivaKit.
@@ -43,4 +43,4 @@ For example, this *module-info.java* statement imports the *kivakit-core-kernel*
 
 <br/> 
 
-![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://www.kivakit.org/images/horizontal-line.png)

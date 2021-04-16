@@ -1,4 +1,4 @@
-# KivaKit - System Properties   ![](../../../../kivakit/https://kivakit.org/images/gears-48.png)
+# KivaKit - System Properties   ![](../../../../kivakit/https://www.kivakit.org/images/gears-48.png)
 
 ### Summary
 
