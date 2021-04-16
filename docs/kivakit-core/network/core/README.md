@@ -1,4 +1,4 @@
-# kivakit-core-network core &nbsp;&nbsp;![](http://kivakit.org/images/nucleus-40.png)
+# kivakit-core-network core &nbsp;&nbsp;![](https://kivakit.org/images/nucleus-40.png)
 
 This module provides classes that enhance the core networking features of the JDK. Other projects in  
 kivakit-core-network extend this base functionality.
@@ -115,7 +115,7 @@ project [*kivakit-network-core-email*](../email/README.md) makes use of this cla
 
 Javadoc coverage for this project is 89.3%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

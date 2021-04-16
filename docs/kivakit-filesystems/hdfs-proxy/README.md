@@ -1,4 +1,4 @@
-# kivakit-filesystems hdfs-proxy &nbsp;&nbsp;![](http://kivakit.org/images/communicate-40.png)
+# kivakit-filesystems hdfs-proxy &nbsp;&nbsp;![](https://kivakit.org/images/communicate-40.png)
 
 HDFS proxy due to large number of conflicts between HDFS and other projects, especially Spark.
 
@@ -53,7 +53,7 @@ HDFS proxy due to large number of conflicts between HDFS and other projects, esp
 
 Javadoc coverage for this project is 68.5%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-70-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-70-12.png)
 
 
 

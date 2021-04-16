@@ -1,6 +1,6 @@
-# KivaKit - Building   ![](../../../../kivakit/http://kivakit.org/images/gears-40.png)
+# KivaKit - Building   ![](../../../../kivakit/https://kivakit.org/images/gears-40.png)
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
 
 ### Building KivaKit
 
@@ -69,4 +69,4 @@ Usage: kivakit-build.sh *[build-type] [build-modifiers]*
 
 <br/> 
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)

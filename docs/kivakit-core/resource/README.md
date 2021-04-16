@@ -1,4 +1,4 @@
-# kivakit-core resource &nbsp;&nbsp;![](http://kivakit.org/images/water-32.png)
+# kivakit-core resource &nbsp;&nbsp;![](https://kivakit.org/images/water-32.png)
 
 This module contains abstractions for accessing the filesystem and arbitrary resources.
 
@@ -40,7 +40,7 @@ This module pulls together everything that can stream together under a single ab
 providing an easy way to work with different kinds of resources without being tied to any  
 of the details.
 
-### Readable Resources <a name="readable-resources"></a> &nbsp; &nbsp; ![](http://kivakit.org/images/wand-40.png)
+### Readable Resources <a name="readable-resources"></a> &nbsp; &nbsp; ![](https://kivakit.org/images/wand-40.png)
 
 Different resource classes are constructed in different ways, but each implements the *Resource*  
 interface. The most important methods are shown here in a simplified form:
@@ -57,7 +57,7 @@ interface. The most important methods are shown here in a simplified form:
         Bytes size();
     }
 
-### Kinds of Resources <a name="kinds-of-resources"></a> &nbsp; &nbsp; ![](http://kivakit.org/images/diagram-48.png)
+### Kinds of Resources <a name="kinds-of-resources"></a> &nbsp; &nbsp; ![](https://kivakit.org/images/diagram-48.png)
 
 The class *StringResource* is about as simple as they come, but it can be read just like it was a  
 *File* or any other resource:
@@ -80,7 +80,7 @@ other resource and it works the same:
         return resource.reader().string(); 
     }
 
-### Writable Resources <a name="writable-resources"></a> &nbsp; &nbsp; ![](http://kivakit.org/images/pencil-32.png)
+### Writable Resources <a name="writable-resources"></a> &nbsp; &nbsp; ![](https://kivakit.org/images/pencil-32.png)
 
 The *WritableResource* interface extends the *Resource* interface to add output capabilities:
 
@@ -91,7 +91,7 @@ The *WritableResource* interface extends the *Resource* interface to add output 
         ResourceWriter writer();
     }
 
-### Files <a name="files"></a> &nbsp; &nbsp; ![](http://kivakit.org/images/folder-32.png)
+### Files <a name="files"></a> &nbsp; &nbsp; ![](https://kivakit.org/images/folder-32.png)
 
 The *File* object is a *WritableResource* that adds a number of file-specific methods, including:
 
@@ -240,7 +240,7 @@ A wide variety of other resources are available and new ones are easy to write. 
 
 Javadoc coverage for this project is 87.8%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

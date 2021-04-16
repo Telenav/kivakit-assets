@@ -1,4 +1,4 @@
-# kivakit-core configuration &nbsp;&nbsp;![](http://kivakit.org/images/tools-40.png)
+# kivakit-core configuration &nbsp;&nbsp;![](https://kivakit.org/images/tools-40.png)
 
 This module manages sets of configuration objects, defined by properties files, which can be used to configure server  
 deployments. It also provides registration and lookup of objects.
@@ -59,7 +59,7 @@ Details on how to use the *kivakit-core configuration* API are available in the 
 
 Javadoc coverage for this project is 92.4%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

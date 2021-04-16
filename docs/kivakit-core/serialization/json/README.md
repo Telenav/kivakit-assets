@@ -1,4 +1,4 @@
-# kivakit-core-serialization json &nbsp;&nbsp;![](documentation/images/gears-40.png)
+# kivakit-core-serialization json &nbsp;&nbsp;![](https://kivakit.org/images/gears-40.png)
 
 This project contains support for working with JSON.
 
@@ -51,7 +51,7 @@ None
 
 Javadoc coverage for this project is 95.8%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-100-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-100-12.png)
 
 
 

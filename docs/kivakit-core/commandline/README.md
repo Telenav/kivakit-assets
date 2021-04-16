@@ -1,4 +1,4 @@
-# kivakit-core commandline &nbsp;&nbsp;![](http://kivakit.org/images/command-line-40.png)
+# kivakit-core commandline &nbsp;&nbsp;![](https://kivakit.org/images/command-line-40.png)
 
 This project facilitates object-oriented parsing of command line arguments and switches.
 
@@ -59,7 +59,7 @@ arguments and switches is available in the Javadoc for the [*Application*](https
 
 Javadoc coverage for this project is 91.4%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

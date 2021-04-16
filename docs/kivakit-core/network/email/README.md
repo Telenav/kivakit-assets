@@ -1,4 +1,4 @@
-# kivakit-core-network email &nbsp;&nbsp;![](http://kivakit.org/images/envelope-40.png)
+# kivakit-core-network email &nbsp;&nbsp;![](https://kivakit.org/images/envelope-40.png)
 
 This module enables easy composition and sending of emails.
 
@@ -94,7 +94,7 @@ it and enqueueing *Email* objects. No attempt is made to persist the queue of un
 
 Javadoc coverage for this project is 88.3%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

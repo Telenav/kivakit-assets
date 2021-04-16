@@ -1,4 +1,4 @@
-# kivakit-core-serialization core &nbsp;&nbsp;![](http://kivakit.org/images/nucleus-40.png)
+# kivakit-core-serialization core &nbsp;&nbsp;![](https://kivakit.org/images/nucleus-40.png)
 
 This module defines core serialization abstractions.
 
@@ -51,7 +51,7 @@ This module defines core serialization abstractions.
 
 Javadoc coverage for this project is 100.0%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-100-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-100-12.png)
 
 
 

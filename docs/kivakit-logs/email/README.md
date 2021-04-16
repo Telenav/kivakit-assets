@@ -1,4 +1,4 @@
-# kivakit-logs email &nbsp;&nbsp;![](http://kivakit.org/images/envelope-40.png)
+# kivakit-logs email &nbsp;&nbsp;![](https://kivakit.org/images/envelope-40.png)
 
 This module is an email log service provider.
 
@@ -80,7 +80,7 @@ More details about logging are available at [*kivakit-core-kernel logging*](../.
 
 Javadoc coverage for this project is 75.0%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-80-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-80-12.png)
 
 
 

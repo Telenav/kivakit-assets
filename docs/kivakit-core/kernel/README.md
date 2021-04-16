@@ -1,4 +1,4 @@
-# kivakit-core kernel &nbsp;&nbsp;![](http://kivakit.org/images/nucleus-40.png)
+# kivakit-core kernel &nbsp;&nbsp;![](https://kivakit.org/images/nucleus-40.png)
 
 This module provides extensions to the JDK and other packages for everyday Java development.
 
@@ -63,7 +63,7 @@ The major feature areas are listed here, each having its own documentation:
 [**Messaging - Debugging**](documentation/messaging-debugging.md)  
 [**Projects**](documentation/project.md)
 
-![](http://kivakit.org/images/horizontal-line.png)
+![](https://kivakit.org/images/horizontal-line.png)
 
 [//]: # (end-user-text)
 
@@ -237,7 +237,7 @@ The major feature areas are listed here, each having its own documentation:
 
 Javadoc coverage for this project is 73.2%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-70-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-70-12.png)
 
 The following significant classes are undocumented:  
 

@@ -1,4 +1,4 @@
-# kivakit-core collections &nbsp;&nbsp;![](http://kivakit.org/images/set-40.png)
+# kivakit-core collections &nbsp;&nbsp;![](https://kivakit.org/images/set-40.png)
 
 This module provides collections, iteration support, primitive collections, stacks, collection observation and bit I/O.
 
@@ -100,7 +100,7 @@ This module provides collections, iteration support, primitive collections, stac
 
 Javadoc coverage for this project is 70.4%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-70-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-70-12.png)
 
 The following significant classes are undocumented:  
 

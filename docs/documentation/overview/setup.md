@@ -1,6 +1,6 @@
-# KivaKit - Setup   ![](../../../../kivakit/http://kivakit.org/images/box-40.png)
+# KivaKit - Setup   ![](../../../../kivakit/https://kivakit.org/images/box-40.png)
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
 
 ## Setting Up KivaKit
 
@@ -14,9 +14,9 @@ You will need these products, or compatible products, set up to begin:
 2. Latest [Java 12](https://www.oracle.com/java/technologies/javase/jdk12-archive-downloads.html)
 3. Latest [Maven](https://maven.apache.org/download.cgi)
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
 
-### 1. Checking Out the Project  ![](../../../../kivakit/http://kivakit.org/images/down-arrow-32.png)
+### 1. Checking Out the Project  ![](../../../../kivakit/https://kivakit.org/images/down-arrow-32.png)
 
 The KivaKit project will look roughly like this when we're done with the setup process:
 
@@ -45,15 +45,15 @@ To check out the *kivakit* project:
        cd Workspace 
        git clone git@github.com:Telenav/kivakit.git
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
 
-### 2. Setting Up Your Environment   ![](../../../../kivakit/http://kivakit.org/images/box-40.png)
+### 2. Setting Up Your Environment   ![](../../../../kivakit/https://kivakit.org/images/box-40.png)
 
 To configure your environment, you will need several environment variables set.
 
 > Without the correct environment variables set, the setup script in Step 3 won't work.
 
-### MacOS and UNIX    ![](../../../../kivakit/http://kivakit.org/images/bluebook-32.png)
+### MacOS and UNIX    ![](../../../../kivakit/https://kivakit.org/images/bluebook-32.png)
 
 On macOS or UNIX, you can use a sample .profile* from KivaKit to configure your shell environment.
 
@@ -77,7 +77,7 @@ On macOS or UNIX, you can use a sample .profile* from KivaKit to configure your 
 
 4. Start a new shell or execute *source ~/.profile*
 
-### Windows &nbsp;&nbsp; ![](../../../../kivakit/http://kivakit.org/images/window-32.png)
+### Windows &nbsp;&nbsp; ![](../../../../kivakit/https://kivakit.org/images/window-32.png)
 
 On Windows, a UNIX-like environment with *bash* is required. It is recommended to install [Git for Windows](https://gitforwindows.org/),  
 which will install both git, and a bash shell.
@@ -104,28 +104,28 @@ which will install both git, and a bash shell.
 
 5. Start a new shell or execute *source ~/.profile*
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
 
-### 3. Finishing the Job  ![](../../../../kivakit/http://kivakit.org/images/stars-48.png)
+### 3. Finishing the Job  ![](../../../../kivakit/https://kivakit.org/images/stars-48.png)
 
 Once you have cloned the project into your workspace and set up your environment,  
 you can complete your set up with one final command:
 
     $KIVAKIT_HOME/setup/setup.sh
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
 
-### Done!   ![](../../../../kivakit/http://kivakit.org/images/rocket-40.png)
+### Done!   ![](../../../../kivakit/https://kivakit.org/images/rocket-40.png)
 
 Congratulations! You're set up and ready to build or help to develop KivaKit.
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)
 
-### Next Steps &nbsp; &nbsp;  ![](../../../../kivakit/http://kivakit.org/images/footprints-40.png)
+### Next Steps &nbsp; &nbsp;  ![](../../../../kivakit/https://kivakit.org/images/footprints-40.png)
 
 [I want to build KivaKit](building.md)
 
 [I want to work on KivaKit](../developing/index.md)
 
 
-![](../../../../kivakit/http://kivakit.org/images/horizontal-line.png)
+![](../../../../kivakit/https://kivakit.org/images/horizontal-line.png)

@@ -1,4 +1,4 @@
-# kivakit-service registry &nbsp;&nbsp;![](http://kivakit.org/images/gears-40.png)
+# kivakit-service registry &nbsp;&nbsp;![](https://kivakit.org/images/gears-40.png)
 
 This project provides shared registry code to kivakit-service-client and kivakit-service-server.
 
@@ -65,7 +65,7 @@ to provide core registration and discovery functionality.
 
 Javadoc coverage for this project is 95.5%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-100-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-100-12.png)
 
 
 

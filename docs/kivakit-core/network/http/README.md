@@ -1,4 +1,4 @@
-# kivakit-core-network http &nbsp;&nbsp;![](http://kivakit.org/images/world-40.png)
+# kivakit-core-network http &nbsp;&nbsp;![](https://kivakit.org/images/world-40.png)
 
 This module provides HTTP and HTTPS resources.
 
@@ -75,7 +75,7 @@ The *SecureHttpNetworkLocation*, *SecureHttpGetResource* and *SecureHttpPostReso
 
 Javadoc coverage for this project is 90.4%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

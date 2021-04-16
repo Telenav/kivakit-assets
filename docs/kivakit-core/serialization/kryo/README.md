@@ -1,4 +1,4 @@
-# kivakit-serialization kryo &nbsp;&nbsp;![](http://kivakit.org/images/ice-48.png)
+# kivakit-serialization kryo &nbsp;&nbsp;![](https://kivakit.org/images/ice-48.png)
 
 This module provides integration of the Kryo serialization framework with KivaKit serialization.
 
@@ -51,7 +51,7 @@ This module provides integration of the Kryo serialization framework with KivaKi
 
 Javadoc coverage for this project is 87.9%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

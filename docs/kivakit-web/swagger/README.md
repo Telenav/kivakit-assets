@@ -1,4 +1,4 @@
-# kivakit-web-swagger &nbsp;&nbsp;![](http://kivakit.org/images/books-40.png)
+# kivakit-web-swagger &nbsp;&nbsp;![](https://kivakit.org/images/books-40.png)
 
 This project contains support for using Swagger with Jersey and Jetty.
 
@@ -65,7 +65,7 @@ None
 
 Javadoc coverage for this project is 70.0%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-70-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-70-12.png)
 
 
 

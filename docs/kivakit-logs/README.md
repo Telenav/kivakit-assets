@@ -1,4 +1,4 @@
-# kivakit-logs &nbsp;&nbsp;![](http://kivakit.org/images/log-40.png)
+# kivakit-logs &nbsp;&nbsp;![](https://kivakit.org/images/log-40.png)
 
 This project provides log services that satisfy the kivakit-core-kernel logging service provider interface.
 
@@ -27,8 +27,8 @@ provider interface (SPI) to implement a new log service.
 
 ### Javadoc Coverage <a name = "javadoc-coverage"></a> &nbsp; ![](https://kivakit.org/images/bargraph-32.png)
 
-&nbsp;  ![](documentation/images/meter-80-12.png) &nbsp; &nbsp; [**kivakit-logs-email**](email/README.md)  
-&nbsp;  ![](documentation/images/meter-80-12.png) &nbsp; &nbsp; [**kivakit-logs-file**](file/README.md)
+&nbsp;  ![](https://kivakit.org/images/meter-80-12.png) &nbsp; &nbsp; [**kivakit-logs-email**](email/README.md)  
+&nbsp;  ![](https://kivakit.org/images/meter-80-12.png) &nbsp; &nbsp; [**kivakit-logs-file**](file/README.md)
 
 [//]: # (start-user-text)
 
