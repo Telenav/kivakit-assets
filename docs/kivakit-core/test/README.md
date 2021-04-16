@@ -1,4 +1,4 @@
-# kivakit-core test &nbsp;&nbsp;![](documentation/images/gears-40.png)
+# kivakit-core test &nbsp;&nbsp;![](https://kivakit.org/images/gears-40.png)
 
 This module contains functionality for unit testing.
 
@@ -54,7 +54,7 @@ This module contains functionality for unit testing.
 
 Javadoc coverage for this project is 85.1%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

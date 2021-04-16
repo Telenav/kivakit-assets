@@ -1,4 +1,4 @@
-# kivakit-core security &nbsp;&nbsp;![](http://kivakit.org/images/lock-40.png)
+# kivakit-core security &nbsp;&nbsp;![](https://kivakit.org/images/lock-40.png)
 
 This project contains functionality related to security
 
@@ -58,7 +58,7 @@ producing simple message digests easier.
 
 Javadoc coverage for this project is 83.3%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-80-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-80-12.png)
 
 
 

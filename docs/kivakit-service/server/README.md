@@ -1,4 +1,4 @@
-# kivakit-service server &nbsp;&nbsp;![](http://kivakit.org/images/server-16.png)
+# kivakit-service server &nbsp;&nbsp;![](https://kivakit.org/images/server-16.png)
 
 This module provides port registration services to kivakit-service-client
 
@@ -54,7 +54,7 @@ This module provides port registration services to kivakit-service-client
 
 Javadoc coverage for this project is 95.5%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-100-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-100-12.png)
 
 
 

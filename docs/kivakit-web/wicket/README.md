@@ -1,4 +1,4 @@
-# kivakit-web-wicket &nbsp;&nbsp;![](http://kivakit.org/images/wicket-48.png)
+# kivakit-web-wicket &nbsp;&nbsp;![](https://kivakit.org/images/wicket-48.png)
 
 This project contains support for using Apache Wicket on Jetty.
 
@@ -66,7 +66,7 @@ None
 
 Javadoc coverage for this project is 92.9%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

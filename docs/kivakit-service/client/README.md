@@ -1,4 +1,4 @@
-# kivakit-service client &nbsp;&nbsp;![](http://kivakit.org/images/communicate-40.png)
+# kivakit-service client &nbsp;&nbsp;![](https://kivakit.org/images/communicate-40.png)
 
 This project provides a client for accessing local and network service registries.
 
@@ -56,7 +56,7 @@ for a detailed discussion.
 
 Javadoc coverage for this project is 100.0%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-100-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-100-12.png)
 
 
 

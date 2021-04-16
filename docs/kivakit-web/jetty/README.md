@@ -1,4 +1,4 @@
-# kivakit-web-jetty &nbsp;&nbsp;![](http://kivakit.org/images/server-16.png)
+# kivakit-web-jetty &nbsp;&nbsp;![](https://kivakit.org/images/server-16.png)
 
 This project contains support for using the Jetty web server.
 
@@ -52,7 +52,7 @@ None
 
 Javadoc coverage for this project is 82.1%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-80-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-80-12.png)
 
 
 

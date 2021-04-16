@@ -1,4 +1,4 @@
-# kivakit-web-jersey &nbsp;&nbsp;![](http://kivakit.org/images/server-16.png)
+# kivakit-web-jersey &nbsp;&nbsp;![](https://kivakit.org/images/server-16.png)
 
 This project contains support for running Jersey on Jetty.
 
@@ -60,7 +60,7 @@ None
 
 Javadoc coverage for this project is 75.0%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-80-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-80-12.png)
 
 
 

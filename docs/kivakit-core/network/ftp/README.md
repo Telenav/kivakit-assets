@@ -1,4 +1,4 @@
-# kivakit-core-network ftp &nbsp;&nbsp;![](http://kivakit.org/images/convert-32.png)
+# kivakit-core-network ftp &nbsp;&nbsp;![](https://kivakit.org/images/convert-32.png)
 
 This module provides FTP resources.
 
@@ -53,7 +53,7 @@ This module provides FTP resources.
 
 Javadoc coverage for this project is 89.1%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-90-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-90-12.png)
 
 
 

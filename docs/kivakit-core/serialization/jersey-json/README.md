@@ -1,4 +1,4 @@
-# kivakit-core-serialization jersey-json &nbsp;&nbsp;![](documentation/images/gears-40.png)
+# kivakit-core-serialization jersey-json &nbsp;&nbsp;![](https://kivakit.org/images/gears-40.png)
 
 This module defines JSON serialization for use with Jersey.
 
@@ -51,7 +51,7 @@ None
 
 Javadoc coverage for this project is 83.3%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-80-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-80-12.png)
 
 
 

@@ -1,4 +1,4 @@
-# kivakit-core-network socket &nbsp;&nbsp;![](http://kivakit.org/images/communicate-40.png)
+# kivakit-core-network socket &nbsp;&nbsp;![](https://kivakit.org/images/communicate-40.png)
 
 This module improves access to TCP/IP sockets.
 
@@ -67,7 +67,7 @@ a connection is made. Usage looks like this:
 
 Javadoc coverage for this project is 75.0%.  
   
-&nbsp; &nbsp;  ![](documentation/images/meter-80-12.png)
+&nbsp; &nbsp;  ![](https://kivakit.org/images/meter-80-12.png)
 
 
 

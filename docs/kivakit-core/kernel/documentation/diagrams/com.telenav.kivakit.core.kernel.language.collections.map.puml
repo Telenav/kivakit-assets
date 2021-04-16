@@ -41,6 +41,7 @@
         +BaseMap(Maximum)
         +BaseMap(Maximum, Map<Key, Value>)
         --
+        +Value get(Object key, Value defaultValue)
         +Value getOrCreate(Key)
         --(collection)--
         +Maximum maximumSize()

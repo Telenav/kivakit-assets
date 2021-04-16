@@ -1,6 +1,6 @@
-## KivaKit - Developer Setup &nbsp; &nbsp;  ![](../../../../kivakit/http://kivakit.org/images/coffee-40.png)
+## KivaKit - Developer Setup &nbsp; &nbsp;  ![](../../../../kivakit/https://kivakit.org/images/coffee-40.png)
 
-### Setting Up for Development &nbsp; ![](../../../../kivakit/http://kivakit.org/images/box-40.png)
+### Setting Up for Development &nbsp; ![](../../../../kivakit/https://kivakit.org/images/box-40.png)
 
 If you are helping to develop KivaKit this page will help you get set up.  
 If you haven't set up to build KivaKit, see [KivaKit Setup](../overview/setup.md).
@@ -39,6 +39,6 @@ Import the settings under *File / Manage IDE Settings*.
 
 You will find handy templates relevant to KivaKit that you can use with IDE completion.
 
-### Start Coding!  &nbsp;  ![](../../../../kivakit/http://kivakit.org/images/rocket-40.png)
+### Start Coding!  &nbsp;  ![](../../../../kivakit/https://kivakit.org/images/rocket-40.png)
 
 Houston, we have liftoff.

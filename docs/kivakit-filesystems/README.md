@@ -1,4 +1,4 @@
-# kivakit-filesystems &nbsp;&nbsp;![](http://kivakit.org/images/folder-40.png)
+# kivakit-filesystems &nbsp;&nbsp;![](https://kivakit.org/images/folder-40.png)
 
 This project contains filesystem service providers for the service provider interface in *kivakit-core-resource*.
 
@@ -31,10 +31,10 @@ classes.
 
 ### Javadoc Coverage <a name = "javadoc-coverage"></a> &nbsp; ![](https://kivakit.org/images/bargraph-32.png)
 
-&nbsp;  ![](documentation/images/meter-90-12.png) &nbsp; &nbsp; [**kivakit-filesystems-hdfs**](hdfs/README.md)  
-&nbsp;  ![](documentation/images/meter-70-12.png) &nbsp; &nbsp; [**kivakit-filesystems-hdfs-proxy**](hdfs-proxy/README.md)  
-&nbsp;  ![](documentation/images/meter-100-12.png) &nbsp; &nbsp; [**kivakit-filesystems-hdfs-proxy-spi**](hdfs-proxy-spi/README.md)  
-&nbsp;  ![](documentation/images/meter-80-12.png) &nbsp; &nbsp; [**kivakit-filesystems-s3fs**](s3fs/README.md)
+&nbsp;  ![](https://kivakit.org/images/meter-90-12.png) &nbsp; &nbsp; [**kivakit-filesystems-hdfs**](hdfs/README.md)  
+&nbsp;  ![](https://kivakit.org/images/meter-70-12.png) &nbsp; &nbsp; [**kivakit-filesystems-hdfs-proxy**](hdfs-proxy/README.md)  
+&nbsp;  ![](https://kivakit.org/images/meter-100-12.png) &nbsp; &nbsp; [**kivakit-filesystems-hdfs-proxy-spi**](hdfs-proxy-spi/README.md)  
+&nbsp;  ![](https://kivakit.org/images/meter-80-12.png) &nbsp; &nbsp; [**kivakit-filesystems-s3fs**](s3fs/README.md)
 
 [//]: # (start-user-text)
 
