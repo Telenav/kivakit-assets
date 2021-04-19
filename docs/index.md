@@ -1,3 +1,5 @@
+[![](https://www.kivakit.org/images/zulip-32.png)](https://kivakit.zulipchat.com)
+&nbsp;
 [![](https://www.kivakit.org/images/github-32.png)](https://github.com/Telenav/kivakit)
 &nbsp;
 [![](https://www.kivakit.org/images/twitter-32.png)](https://twitter.com/openkivakit)
