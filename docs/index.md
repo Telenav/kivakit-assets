@@ -1,8 +1,14 @@
-[![](https://www.kivakit.org/images/zulip-32.png)](https://kivakit.zulipchat.com)
-&nbsp;
-[![](https://www.kivakit.org/images/github-32.png)](https://github.com/Telenav/kivakit)
-&nbsp;
-[![](https://www.kivakit.org/images/twitter-32.png)](https://twitter.com/openkivakit)
+
+
+<a href="https://github.com/Telenav/kivakit">
+<img src="https://www.kivakit.org/images/github-32.png" srcset="https://www.kivakit.org/images/github-32@2x.png 2x"/>
+</a>
+<a href="https://twitter.com/openkivakit">
+<img src="https://www.kivakit.org/images/twitter-32.png" srcset="https://www.kivakit.org/images/twitter-32@2x.png 2x"/>
+</a>
+<a href="https://kivakit.zulipchat.com">
+<img src="https://www.kivakit.org/images/zulip-32.png" srcset="https://www.kivakit.org/images/zulip-32@2x.png 2x"/>
+</a>
 
 ![](https://www.kivakit.org/images/kivakit-background-500.jpg)
 
@@ -42,8 +48,6 @@ developing Java applications. The resources below will help you to get started.
 | Lead | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | Administrator | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | Email | [kivakit@telenav.com](mailto:kivakit@telenav.com) |
-| Chat | [Zulip](https://kivakit.zulipchat.com) |
-| Twitter | [@OpenKivaKit](https://twitter.com/openkivakit) |
 | Issues | [GitHub Issues](https://github.com/Telenav/kivakit/issues) |
 | Code | [GitHub](https://github.com/Telenav/kivakit) |
 | Checkout | `git clone git@github.com:Telenav/kivakit.git` |
