@@ -166,7 +166,7 @@
         +ObjectFormatter filter(PropertyFilter)
     }
     
-    class PathStrings
+    class Paths
     {
         --
         +String head(String path, String separator)
@@ -178,6 +178,8 @@
         +String tail(String text, char separator)
         +String withoutOptionalSuffix(String path, char separator)
         +String withoutSuffix(String path, char separator)
+        --(conversion)--
+        +String toPackage(String path)
     }
     
     class Plural

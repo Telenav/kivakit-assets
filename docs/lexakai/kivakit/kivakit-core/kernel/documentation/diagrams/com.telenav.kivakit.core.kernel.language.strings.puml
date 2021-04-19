@@ -99,7 +99,13 @@
         +String join(Collection<T> values, Function<T,String> toString, String separator)
     }
     
-    class PathStrings
+    class Packages
+    {
+        --(path)--
+        +String toPath(String packagePath)
+    }
+    
+    class Paths
     {
         --
         +String head(String path, String separator)
@@ -111,6 +117,8 @@
         +String tail(String text, char separator)
         +String withoutOptionalSuffix(String path, char separator)
         +String withoutSuffix(String path, char separator)
+        --(conversion)--
+        +String toPackage(String path)
     }
     
     class Plural
