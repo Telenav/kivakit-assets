@@ -1,6 +1,8 @@
 
+[//]: # (start-user-text)
+
 <a href="https://github.com/Telenav/kivakit">
-<img src="https://www.kivakit.org/images/world-32.png" srcset="https://www.kivakit.org/images/github-32-2x.png 2x"/>
+<img src="https://www.kivakit.org/images/github-32.png" srcset="https://www.kivakit.org/images/github-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openkivakit">
@@ -12,6 +14,8 @@
 </a>
 
 ![](https://www.kivakit.org/images/kivakit-background-500.jpg)
+
+[//]: # (end-user-text)
 
 # KivaKit 0.9.0-SNAPSHOT &nbsp;&nbsp;<img src="https://www.kivakit.org/images/kivakit-64.png" srcset="https://www.kivakit.org/images/kivakit-64-2x.png 2x"/>
 

@@ -1,3 +1,20 @@
+
+<a href="https://www.kivakit.org">
+<img src="https://www.kivakit.org/images/web-32.png" srcset="https://www.kivakit.org/images/web-32-2x.png 2x"/>
+</a>
+&nbsp;
+<a href="https://twitter.com/openkivakit">
+<img src="https://www.kivakit.org/images/twitter-32.png" srcset="https://www.kivakit.org/images/twitter-32-2x.png 2x"/>
+</a>
+&nbsp;
+<a href="https://kivakit.zulipchat.com">
+<img src="https://www.kivakit.org/images/zulip-32.png" srcset="https://www.kivakit.org/images/zulip-32-2x.png 2x"/>
+</a>
+
+<p></p>
+
+<img src="https://www.kivakit.org/images/kivakit-background-512.png" srcset="https://www.kivakit.org/images/kivakit-background-512-2x.png 2x"/>
+
 # kivakit-data &nbsp; ![](logos/kivakit/kivakit-64.png)
 
 This project contains binary data and applications used by KivaKit.
