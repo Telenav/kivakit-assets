@@ -32,13 +32,13 @@ are usually available or can be added.
 KivaKit is composed of a number of nested sub-projects that are Java 11+ modules. These modules address different areas of concern in
 developing Java applications. The resources below will help you to get started.
 
-<img src="https://www.kivakit.org/images/horizontal-line-512.png" srcset="https://www.kivakit.org/images/horizontal-line-512-2x.png 2x"/>
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Setup &nbsp; <img src="https://www.kivakit.org/images/box-32.png" srcset="https://www.kivakit.org/images/box-32-2x.png 2x"/>
 
 [Step-by-Step Setup Instructions](https://github.com/Telenav/kivakit/blob/master/documentation/overview/setup.md)
 
-&nbsp;
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Project Resources <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/water-32.png" srcset="https://www.kivakit.org/images/water-32-2x.png 2x"/>
 
@@ -49,6 +49,8 @@ developing Java applications. The resources below will help you to get started.
 | Lead | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | Administrator | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com) |
 | Email | [kivakit@telenav.com](mailto:kivakit@telenav.com) |
+| Chat | [Zulip](https://kivakit.zulip.com) |
+| Twitter | [@OpenKivaKit](https://twitter.com/openkivakit) |
 | Issues | [GitHub Issues](https://github.com/Telenav/kivakit/issues) |
 | Code | [GitHub](https://github.com/Telenav/kivakit) |
 | Checkout | `git clone git@github.com:Telenav/kivakit.git` |
