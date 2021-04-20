@@ -1,5 +1,4 @@
 
-
 <a href="https://github.com/Telenav/kivakit">
 <img src="https://www.kivakit.org/images/world-32.png" srcset="https://www.kivakit.org/images/github-32-2x.png 2x"/>
 </a>
