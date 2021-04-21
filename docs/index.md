@@ -27,7 +27,11 @@ KivaKit is a set of integrated Java mini-frameworks that makes Java development 
 
 ### Welcome <a name = "welcome"></a>! &nbsp; <img src="https://www.kivakit.org/images/stars-32.png" srcset="https://www.kivakit.org/images/stars-32-2x.png 2x"/>
 
-*The mission of KivaKit is to accelerate the development of Java software through the use of integrated, modular, object-oriented design.*
+ “Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.”
+
+&nbsp; &nbsp; &nbsp; &nbsp; — *Antoine de Saint-Exupéry*
+
+> *The mission of KivaKit is to accelerate the development of Java software through the use of integrated, modular, object-oriented design.*
 
 KivaKit provides quick and easy solutions to common everyday     software problems by providing APIs, and sometimes by "wrapping" them in a
 simplified abstraction. It is not KivaKit's goal to provide access to all features of underlying APIs, but the most frequently used features
