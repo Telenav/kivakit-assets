@@ -17,10 +17,10 @@ reverse link Stoppable to KivaKitThread--><path codeLine="17" d="M426.8646,210.4
 reverse link Named to KivaKitThread--><path codeLine="18" d="M185.0625,211.8695 C188.9479,243.8382 194.6146,290.4007 200.9063,342.057 " fill="none" id="Named-backto-KivaKitThread" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="177.7813,212.4215,182.5,190.859,192.2604,210.6611,177.7813,212.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[147ae1faf67dedec8daaa4d0fd09263d]
 reverse link KivaKitThread to RepeatingKivaKitThread--><path codeLine="56" d="M487.5729,1033.8903 C489.1042,1035.6403 490.6458,1037.3903 492.1875,1039.1195 C510.8333,1060.1195 531.625,1081.2549 552.5938,1101.3695 " fill="none" id="KivaKitThread-backto-RepeatingKivaKitThread" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="481.8542,1038.4215,473.75,1017.8903,492.8854,1028.8903,481.8542,1038.4215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[bcc51b191cd8d40d25be63269ee70c16]
 reverse link Pausable to RepeatingKivaKitThread--><path codeLine="57" d="M1153.0625,735.7236 C1156.4896,806.9945 1153.1563,948.7965 1083.8542,1039.1195 C1048.4063,1085.3174 998.5833,1120.6715 946.4375,1147.5049 " fill="none" id="Pausable-backto-RepeatingKivaKitThread" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1145.7813,736.0674,1151.7604,714.8278,1160.3333,735.1611,1145.7813,736.0674" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e154e770a23b48a9b83c238bf988dc48]
-reverse link BaseRepeater to Retry--><path codeLine="72" d="M669.6042,211.2028 C690.875,297.1403 738.6875,490.307 766.6146,603.1507 " fill="none" id="BaseRepeater-backto-Retry" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="662.5,212.8382,664.5729,190.859,676.6563,209.3382,662.5,212.8382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6eabd20ad4b1b7957c7d80c61a0bc304]
+reverse link BaseRepeater to Retry--><path codeLine="72" d="M669.6042,211.2028 C690.875,297.1403 738.6875,490.307 766.6146,603.1507 " fill="none" id="BaseRepeater-backto-Retry" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="662.5,212.8382,664.5729,190.859,676.6563,209.3382,662.5,212.8382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e26633187f1a2e8ef13c8fdd2b6cba6c]
 @startuml
 
-    !include ../lexakai/lexakai.theme
+    !include lexakai.theme
     
     title "com.telenav.kivakit.core.kernel.language.threading"
     

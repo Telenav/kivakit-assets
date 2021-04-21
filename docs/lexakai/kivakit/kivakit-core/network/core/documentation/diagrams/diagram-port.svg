@@ -15,10 +15,10 @@ reverse link Host to LocalHost--><path codeLine="57" d="M239.0208,1537.3903 C236
 reverse link Host to Loopback--><path codeLine="68" d="M365.1146,1537.1924 C368.6042,1561.4215 371.75,1583.2236 374.3646,1601.3486 " fill="none" id="Host-backto-Loopback" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="357.8646,1537.9632,362.1042,1516.2965,372.2917,1535.8799,357.8646,1537.9632" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[50e63c13cfe33da1e1f7eaed5dcf7e9d]
 reverse link Port to Host--><path codeLine="77" d="M488.7083,609.3278 C479.6563,633.0257 470.3958,657.2757 461.0729,681.6924 " fill="none" id="Port-backto-Host" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="493.5625,596.609,487.443,600.9651,489.1103,608.2893,495.2298,603.9332,493.5625,596.609" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b724d959b7db028fb7c7f5eef780ba82]
 reverse link Port to Protocol--><path codeLine="78" d="M660.1042,610.0465 C692.2188,754.2757 728.8854,918.9632 750.3646,1015.3903 " fill="none" id="Port-backto-Protocol" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="657.1042,596.609,654.39,603.6131,659.8114,608.8124,662.5256,601.8083,657.1042,596.609" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="45.8333" x="671.875" y="643.9128">speaks</text><!--MD5=[763f75466e3d8beb8e6301e9ebf7657d]
-reverse link Name to Protocol--><path codeLine="108" d="M801.1563,370.3695 C795.5833,495.3903 779.6771,852.6195 772.4271,1015.3799 " fill="none" id="Name-backto-Protocol" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="793.8854,369.6924,802.0938,349.2028,808.4583,370.3382,793.8854,369.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[56c55a0a2a873b59209653ef1e9487e3]
+reverse link Name to Protocol--><path codeLine="108" d="M801.1563,370.3695 C795.5833,495.3903 779.6771,852.6195 772.4271,1015.3799 " fill="none" id="Name-backto-Protocol" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="793.8854,369.6924,802.0938,349.2028,808.4583,370.3382,793.8854,369.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c198cfddc631eb869637650fe82d9053]
 @startuml
 
-    !include ../lexakai/lexakai.theme
+    !include lexakai.theme
     
     title "Hosts, Ports and Protocols"
     

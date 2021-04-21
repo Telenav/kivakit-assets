@@ -37,10 +37,10 @@ link kivakit_math to kivakit_core_collections--><path d="M737.6458,98.9424 C722.
 link kryo to minlog--><path d="M206.7188,416.3903 C174.6979,433.8695 125.0729,460.9632 89.4063,480.432 " fill="none" id="kryo-to-minlog" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="84.6875,483.0153,94.913,482.184,89.2599,480.5213,90.9226,474.8682,84.6875,483.0153" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e75c16e47fcf6c43b15d3c25536a9ed0]
 link kryo to objenesis--><path d="M252.3542,420.8174 C262.8854,437.432 277.4271,460.3695 288.5833,477.9945 " fill="none" id="kryo-to-objenesis" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="291.6458,482.8174,290.1368,472.6698,288.8535,478.4209,283.1023,477.1376,291.6458,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e061beb27669383d030ce0c5c656b006]
 link kryo to reflectasm--><path d="M224.5104,420.8174 C213.8229,437.432 199.0521,460.3695 187.7188,477.9945 " fill="none" id="kryo-to-reflectasm" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="184.6146,482.8174,193.1939,477.1918,187.4348,478.4387,186.188,472.6795,184.6146,482.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[338783537f3f9263e4097f5ff0c514d3]
-link reflectasm to asm--><path d="M170.8333,528.109 C170.8333,544.5778 170.8333,567.2757 170.8333,584.8278 " fill="none" id="reflectasm-to-asm" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="170.8333,590.109,175,580.734,170.8333,584.9007,166.6667,580.734,170.8333,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[46117dc5d27d097094fec02d2b2746fa]
+link reflectasm to asm--><path d="M170.8333,528.109 C170.8333,544.5778 170.8333,567.2757 170.8333,584.8278 " fill="none" id="reflectasm-to-asm" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="170.8333,590.109,175,580.734,170.8333,584.9007,166.6667,580.734,170.8333,590.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5d5510972bc2c7908b7616b361d39d45]
 @startuml
 
-    !include ../lexakai/lexakai.theme
+    !include lexakai.theme
     
     title "kivakit-math"
     

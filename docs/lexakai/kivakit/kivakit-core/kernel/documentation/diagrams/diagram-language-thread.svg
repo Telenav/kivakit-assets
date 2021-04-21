@@ -27,10 +27,10 @@ reverse link ThreadSnapshot to ThreadStatus--><path codeLine="135" d="M2486.4583
 link CallStack to CodeContext--><!--MD5=[02e8d104d0546924e5a427b9d416d6fe]
 link CodeContext to InitializationLatch--><!--MD5=[ba4f3ebf5f7acc8163118366c0fc5def]
 link CallStack to ReentrancyTracker--><!--MD5=[e4dfa34a7a5c92fc8494f7e10fc6c027]
-link ReentrancyTracker to Threads--><!--MD5=[ab8a2978363c7cd108f11b0d75ae2078]
+link ReentrancyTracker to Threads--><!--MD5=[786b83e3d196e4092e2e4759253a2b0b]
 @startuml
 
-    !include ../lexakai/lexakai.theme
+    !include lexakai.theme
     
     title "Language - Concurrency"
     

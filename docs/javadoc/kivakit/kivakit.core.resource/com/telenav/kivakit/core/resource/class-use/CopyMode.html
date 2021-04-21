@@ -299,6 +299,14 @@ the order they are declared.</div>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>default void</code></td>
+<th class="colSecond" scope="row"><span class="typeNameLabel">Resource.</span><code><span class="memberNameLink"><a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/File.html" title="class in com.telenav.kivakit.core.filesystem">File</a>&nbsp;destination,
+          <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode)</code></th>
+<td class="colLast">
+<div class="block">Copies this resource to the given file safely (ensuring that a corrupted copy of the file never exists).</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>default void</code></td>
 <th class="colSecond" scope="row"><span class="typeNameLabel">Resource.</span><code><span class="memberNameLink"><a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/File.html" title="class in com.telenav.kivakit.core.filesystem">File</a>&nbsp;destination,
           <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
           <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</code></th>
@@ -306,7 +314,24 @@ the order they are declared.</div>
 <div class="block">Copies this resource to the given file safely (ensuring that a corrupted copy of the file never exists).</div>
 </td>
 </tr>
+<tr class="rowColor">
+<td class="colFirst"><code>default void</code></td>
+<th class="colSecond" scope="row"><span class="typeNameLabel">Resource.</span><code><span class="memberNameLink"><a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/Folder.html" title="class in com.telenav.kivakit.core.filesystem">Folder</a>&nbsp;destination,
+          <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode)</code></th>
+<td class="colLast">
+<div class="block">Copies this readable resource to the given folder safely</div>
+</td>
+</tr>
 <tr class="altColor">
+<td class="colFirst"><code>default void</code></td>
+<th class="colSecond" scope="row"><span class="typeNameLabel">Resource.</span><code><span class="memberNameLink"><a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/Folder.html" title="class in com.telenav.kivakit.core.filesystem">Folder</a>&nbsp;destination,
+          <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
+          <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</code></th>
+<td class="colLast">
+<div class="block">Copies this readable resource to the given folder safely</div>
+</td>
+</tr>
+<tr class="rowColor">
 <td class="colFirst"><code>default void</code></td>
 <th class="colSecond" scope="row"><span class="typeNameLabel">ResourceFolder.</span><code><span class="memberNameLink"><a href="../ResourceFolder.html#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/Folder.html" title="class in com.telenav.kivakit.core.filesystem">Folder</a>&nbsp;folder,
           <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
@@ -341,24 +366,6 @@ the order they are declared.</div>
       <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</code></th>
 <td class="colLast">
 <div class="block">Copies the data in this resource to the destination.</div>
-</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><span class="typeNameLabel">BaseReadableResource.</span><code><span class="memberNameLink"><a href="../reading/BaseReadableResource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/File.html" title="class in com.telenav.kivakit.core.filesystem">File</a>&nbsp;destination,
-          <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
-          <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</code></th>
-<td class="colLast">
-<div class="block">Copies this readable resource to the given file safely (ensuring that a corrupted copy of the file never exists).</div>
-</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><span class="typeNameLabel">BaseReadableResource.</span><code><span class="memberNameLink"><a href="../reading/BaseReadableResource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/Folder.html" title="class in com.telenav.kivakit.core.filesystem">Folder</a>&nbsp;destination,
-          <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
-          <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</code></th>
-<td class="colLast">
-<div class="block">Copies this readable resource to the given folder safely</div>
 </td>
 </tr>
 </tbody>

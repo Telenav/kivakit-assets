@@ -27,7 +27,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};
+var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -141,7 +141,6 @@ implements <a href="../Resource.html" title="interface in com.telenav.kivakit.co
 
  <ul>
      <li><a href="#codec(com.telenav.kivakit.core.resource.compression.Codec)"><code>codec(Codec)</code></a> - Applies a <a href="../compression/Codec.html" title="interface in com.telenav.kivakit.core.resource.compression"><code>Codec</code></a> to this resource</li>
-     <li><a href="#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)"><code>safeCopyTo(Folder, CopyMode, ProgressReporter)</code></a> - Copies this resource to a folder</li>
  </ul>
  <p>
  All other methods are documented in the <a href="../Resource.html" title="interface in com.telenav.kivakit.core.resource"><code>Resource</code></a> superinterface.</div>
@@ -241,24 +240,6 @@ implements <a href="../Resource.html" title="interface in com.telenav.kivakit.co
 </td>
 </tr>
 <tr class="rowColor" id="i9">
-<td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/File.html" title="class in com.telenav.kivakit.core.filesystem">File</a>&nbsp;destination,
-          <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
-          <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</code></th>
-<td class="colLast">
-<div class="block">Copies this readable resource to the given file safely (ensuring that a corrupted copy of the file never exists).</div>
-</td>
-</tr>
-<tr class="altColor" id="i10">
-<td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></span>&#8203;(<a href="../../filesystem/Folder.html" title="class in com.telenav.kivakit.core.filesystem">Folder</a>&nbsp;destination,
-          <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
-          <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</code></th>
-<td class="colLast">
-<div class="block">Copies this readable resource to the given folder safely</div>
-</td>
-</tr>
-<tr class="rowColor" id="i11">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#toString()">toString</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
@@ -356,7 +337,7 @@ implements <a href="../Resource.html" title="interface in com.telenav.kivakit.co
 <!--   -->
 </a>
 <h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.resource.<a href="../Resource.html" title="interface in com.telenav.kivakit.core.resource">Resource</a></h3>
-<code><a href="../Resource.html#ensureExists()">ensureExists</a>, <a href="../Resource.html#isEmpty()">isEmpty</a>, <a href="../Resource.html#isLocal()">isLocal</a>, <a href="../Resource.html#isMaterializable()">isMaterializable</a>, <a href="../Resource.html#isPackaged()">isPackaged</a>, <a href="../Resource.html#isRemote()">isRemote</a>, <a href="../Resource.html#isSame(com.telenav.kivakit.core.resource.Resource)">isSame</a>, <a href="../Resource.html#resource()">resource</a></code></li>
+<code><a href="../Resource.html#ensureExists()">ensureExists</a>, <a href="../Resource.html#isEmpty()">isEmpty</a>, <a href="../Resource.html#isLocal()">isLocal</a>, <a href="../Resource.html#isMaterializable()">isMaterializable</a>, <a href="../Resource.html#isPackaged()">isPackaged</a>, <a href="../Resource.html#isRemote()">isRemote</a>, <a href="../Resource.html#isSame(com.telenav.kivakit.core.resource.Resource)">isSame</a>, <a href="../Resource.html#resource()">resource</a>, <a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode)">safeCopyTo</a>, <a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a>, <a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode)">safeCopyTo</a>, <a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.resource.path.ResourcePathed">
@@ -527,42 +508,6 @@ implements <a href="../Resource.html" title="interface in com.telenav.kivakit.co
 <dd><code><a href="../path/ResourcePathed.html#path()">path</a></code>&nbsp;in interface&nbsp;<code><a href="../path/ResourcePathed.html" title="interface in com.telenav.kivakit.core.resource.path">ResourcePathed</a></code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>The path to this object</dd>
-</dl>
-</li>
-</ul>
-<a id="safeCopyTo(com.telenav.kivakit.core.filesystem.Folder,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>safeCopyTo</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;safeCopyTo&#8203;(<a href="../../filesystem/Folder.html" title="class in com.telenav.kivakit.core.filesystem">Folder</a>&nbsp;destination,
-                       <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
-                       <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</pre>
-<div class="block">Copies this readable resource to the given folder safely</div>
-<dl>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>destination</code> - The file to copy to</dd>
-</dl>
-</li>
-</ul>
-<a id="safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">
-<!--   -->
-</a>
-<ul class="blockList">
-<li class="blockList">
-<h4>safeCopyTo</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;safeCopyTo&#8203;(<a href="../../filesystem/File.html" title="class in com.telenav.kivakit.core.filesystem">File</a>&nbsp;destination,
-                       <a href="../CopyMode.html" title="enum in com.telenav.kivakit.core.resource">CopyMode</a>&nbsp;mode,
-                       <a href="../../../../../../../kivakit.core.kernel/com/telenav/kivakit/core/kernel/language/progress/ProgressReporter.html" title="interface in com.telenav.kivakit.core.kernel.language.progress">ProgressReporter</a>&nbsp;reporter)</pre>
-<div class="block">Copies this readable resource to the given file safely (ensuring that a corrupted copy of the file never exists).
- This is done by first copying to a temporary file in the same folder. If the copy operation is successful, the
- destination file is then removed and the temporary file is renamed to the destination file's name.</div>
-<dl>
-<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../Resource.html#safeCopyTo(com.telenav.kivakit.core.filesystem.File,com.telenav.kivakit.core.resource.CopyMode,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">safeCopyTo</a></code>&nbsp;in interface&nbsp;<code><a href="../Resource.html" title="interface in com.telenav.kivakit.core.resource">Resource</a></code></dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd><code>destination</code> - The file to copy to</dd>
 </dl>
 </li>
 </ul>

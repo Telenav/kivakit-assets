@@ -1,6 +1,6 @@
 @startuml
 
-    !include ../lexakai/lexakai.theme
+    !include lexakai.theme
     
     title "com.telenav.kivakit.core.resource.reading"
     
@@ -20,8 +20,6 @@
         --
         +BaseReadableResource codec(Codec)
         #void charset(Charset)
-        --(filesystem)--
-        +void safeCopyTo(Folder destination, CopyMode, ProgressReporter)
     }
     
     Multicaster <|-- LineReader

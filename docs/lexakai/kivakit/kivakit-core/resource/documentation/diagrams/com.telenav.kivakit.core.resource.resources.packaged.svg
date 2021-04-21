@@ -11,10 +11,10 @@ class PackageResource.Resolver--><rect codeLine="53" fill="#282828" height="48.0
 reverse link ResourceFolder to Package--><path codeLine="12" d="M559.8958,132.7653 C559.8958,147.7236 559.8958,165.2757 559.8958,183.4424 " fill="none" id="ResourceFolder-backto-Package" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="552.6042,132.5049,559.8958,111.6715,567.1875,132.5049,552.6042,132.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[828efa58960e0142d89c27cf70a5589d]
 reverse link BaseReadableResource to PackageResource--><path codeLine="28" d="M190.1042,132.5465 C190.1042,156.807 190.1042,187.9111 190.1042,217.3903 " fill="none" id="BaseReadableResource-backto-PackageResource" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="182.8125,132.5049,190.1042,111.6715,197.3958,132.5049,182.8125,132.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[788dcdbaf77d3ddef49f8edcea794ea8]
 reverse link ResourceFolderResolver to Package.Resolver--><path codeLine="47" d="M1003.6458,132.7236 C1003.6458,179.7445 1003.6458,252.3695 1003.6458,289.0882 " fill="none" id="ResourceFolderResolver-backto-Package.Resolver" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="996.3542,132.5049,1003.6458,111.6715,1010.9375,132.5049,996.3542,132.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[f0981f75adc7840478d2791913a1497f]
-reverse link ResourceResolver to PackageResource.Resolver--><path codeLine="52" d="M795.3125,132.7236 C795.3125,179.7445 795.3125,252.3695 795.3125,289.0882 " fill="none" id="ResourceResolver-backto-PackageResource.Resolver" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="788.0208,132.5049,795.3125,111.6715,802.6042,132.5049,788.0208,132.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[9a55359c9bf63291cc271ca6282d5b16]
+reverse link ResourceResolver to PackageResource.Resolver--><path codeLine="52" d="M795.3125,132.7236 C795.3125,179.7445 795.3125,252.3695 795.3125,289.0882 " fill="none" id="ResourceResolver-backto-PackageResource.Resolver" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="788.0208,132.5049,795.3125,111.6715,802.6042,132.5049,788.0208,132.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1459a1a428b75bb3a64b725b1e2ae85a]
 @startuml
 
-    !include ../lexakai/lexakai.theme
+    !include lexakai.theme
     
     title "com.telenav.kivakit.core.resource.resources.packaged"
     
