@@ -85,6 +85,7 @@
         +HttpGetResource get(NetworkAccessConstraints, String contentType)
         +HttpGetResource get()
         +HttpGetResource get(NetworkAccessConstraints)
+        +HttpGetResource get(NetworkAccessConstraints, Initializer<HttpGet>)
         +HttpNetworkLocation parent()
         +HttpPostResource post()
         +HttpPostResource post(NetworkAccessConstraints)

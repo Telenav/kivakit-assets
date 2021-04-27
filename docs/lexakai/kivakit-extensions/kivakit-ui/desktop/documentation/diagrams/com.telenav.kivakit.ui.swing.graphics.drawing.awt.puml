@@ -1,0 +1,20 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.swing.graphics.drawing.awt"
+    
+    interface DrawingSurface
+    
+    DrawingSurface <|-- AwtDrawingSurface
+    class AwtDrawingSurface
+    {
+        --(constructors)--
+        #AwtDrawingSurface(Graphics2D)
+        --
+        +Shape drawBox(Style, DrawingPoint at, DrawingDistance width, DrawingDistance height)
+        +AwtDrawingSurface of(Graphics2D)
+    }
+    
+@enduml
+

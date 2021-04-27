@@ -1,0 +1,119 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.swing.graphics.drawing"
+    
+    interface Drawable
+    
+    Drawable <|-- BaseDrawable
+    abstract class BaseDrawable
+    {
+        --(constructors)--
+        #BaseDrawable(BaseDrawable)
+        #BaseDrawable(Style)
+        +BaseDrawable(Style, Coordinate)
+        --
+        #Box box(CoordinateSize)
+        #Dot dot(CoordinateDistance radius)
+        #Label label(String text)
+        #Line line(Coordinate from, Coordinate to)
+        #Shape shape(Shape)
+        #Text text(String text)
+        --(functional)--
+        +BaseDrawable withStyle(Style)
+    }
+    
+    interface Drawable
+    {
+        --
+        +Drawable at(Coordinate)
+        +Coordinate at()
+        +Shape draw(DrawingSurface)
+        +Shape shape()
+        +Style style()
+        --(filesystem)--
+        +Drawable copy()
+        --(functional)--
+        +Drawable scaled(double scaleFactor)
+        +Drawable scaled(Percent scaleFactor)
+    }
+    
+    class DrawingDistance
+    {
+        --(constructors)--
+        +DrawingDistance(double)
+        --
+        +DrawingDistance of(double units)
+        +double units()
+    }
+    
+    class DrawingPoint
+    {
+        --(constructors)--
+        +DrawingPoint(double, double)
+        --
+        +DrawingPoint at(double x, double y)
+        +DrawingPoint at(Point2D)
+        +double x()
+        +double y()
+        --(math)--
+        +DrawingPoint plus(double dx, double dy)
+        +DrawingPoint plus(DrawingSize)
+    }
+    
+    class DrawingRectangle
+    {
+        --(constructors)--
+        +DrawingRectangle(DrawingPoint, DrawingSize)
+        --
+        +DrawingPoint at()
+        +double height()
+        +DrawingRectangle rectangle(Rectangle2D)
+        +DrawingRectangle rectangle(DrawingPoint, DrawingSize)
+        +DrawingRectangle rectangle(double x, double y, double width, double height)
+        +double width()
+        +double x()
+        +double y()
+        --(collection)--
+        +DrawingSize size()
+        --(conversion)--
+        +DrawingPoint to()
+        --(filesystem)--
+        +DrawingRectangle copy()
+        --(functional)--
+        +DrawingRectangle centeredIn(DrawingSize)
+    }
+    
+    class DrawingSize
+    {
+        --(constructors)--
+        +DrawingSize(double, double)
+        --
+        +double height()
+        +double width()
+        --(collection)--
+        +DrawingSize plus(double width, double height)
+        +DrawingSize size(double width, double height)
+        +DrawingSize size(Dimension2D)
+        --(conversion)--
+        +DrawingPoint asPoint()
+    }
+    
+    interface CoordinateSystem
+    CoordinateSystem <|-- DrawingSurface
+    interface DrawingSurface
+    {
+        --
+        +Shape drawBox(Style, DrawingPoint at, DrawingSize)
+        +Shape drawCircle(Style, DrawingPoint at, DrawingDistance radius)
+        +Shape drawLine(Style, DrawingPoint from, DrawingPoint to)
+        +Shape drawText(Style, DrawingPoint at, String text)
+        --(collection)--
+        +DrawingSize size(Style, String text)
+        --(path)--
+        +Shape drawPath(Style, Path2D)
+    }
+    
+@enduml
+

@@ -1,0 +1,115 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.swing.graphics.style"
+    
+    abstract BaseStringConverter
+    
+    interface Iterator
+    
+    class Color
+    {
+        --
+        +T applyAsSelectionBackground(T component)
+        +T applyAsSelectionForeground(T component)
+        --(conversion)--
+        +ColorUIResource asColorUiResource()
+        +String asHexString()
+        +String asHexStringWithAlpha()
+        --(functional)--
+        +Color darkened()
+        +Color darkened(Percent)
+        +Color lightened()
+        +Color lightened(Percent)
+        +Color withAlpha(int alpha)
+    }
+    
+    BaseStringConverter <|-- Color.ColorConverter
+    class Color.ColorConverter
+    {
+        --(constructors)--
+        +ColorConverter(Listener)
+    }
+    
+    Iterator <|-- ColorSequence
+    class ColorSequence
+    {
+    }
+    
+    class Shapes
+    {
+        --
+        +Area combine(Collection<Shape> shapes)
+        +Area combine(Shape... shapes)
+    }
+    
+    class Stroke
+    {
+        --(constructors)--
+        #Stroke()
+        #Stroke(Stroke)
+        #Stroke(java.awt.Stroke)
+        --
+        +void apply(Graphics2D)
+        +Stroke create()
+        +Stroke of(java.awt.Stroke)
+        +Stroke scale(double scaleFactor)
+        --(filesystem)--
+        +Stroke copy()
+        --(functional)--
+        +Shape stroked(Shape)
+        +Stroke withCap(int cap)
+        +Stroke withDash(float[] dash)
+        +Stroke withDashPhase(float dash)
+        +Stroke withJoin(int join)
+        +Stroke withMiterLimit(int miterLimit)
+        +Stroke withWidth(double width)
+    }
+    
+    class Style
+    {
+        --(constructors)--
+        #Style()
+        --
+        +Style apply(Graphics2D)
+        +Style apply(Component)
+        +Style applyColors(Component)
+        +Style applyColors(Graphics2D)
+        +Style applyDrawColor(Graphics)
+        +Style applyDrawStyle(Graphics2D)
+        +Style applyFillColor(Graphics2D)
+        +Style applyFillStyle(Graphics2D)
+        +Style applyTextColor(Component)
+        +Style applyTextColor(Graphics)
+        +Style applyTextFont(Component)
+        +Style applyTextFont(Graphics)
+        +Style applyTextStyle(Component)
+        +Style applyTextStyle(Graphics)
+        +Style applyToSelectionStyle(JTable component)
+        +Style applyToSelectionStyle(JList<?> component)
+        +Style applyToSelectionStyle(JTextComponent)
+        +Style create()
+        +Color drawColor()
+        +Stroke drawStroke()
+        +Color fillColor()
+        +Stroke fillStroke()
+        +Shape shape(Shape)
+        +Color textColor()
+        +Font textFont()
+        --(functional)--
+        +Style darkened(Percent)
+        +Style darkened()
+        +Style lightened(Percent)
+        +Style lightened()
+        +Style withDrawColor(Color)
+        +Style withDrawStroke(Stroke)
+        +Style withFillColor(Color fill)
+        +Style withFillStroke(Stroke)
+        +Style withTextColor(Color text)
+        +Style withTextFont(Font)
+        +Style withTextFontSize(int size)
+    }
+    
+@enduml
+

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1064.5833px" preserveAspectRatio="none" style="width:1456px;height:1064px;background:#333333;" version="1.1" viewBox="0 0 1456 1064" width="1456.25px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="495.8333" x="472.9167" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="472.9167" x="484.375" y="30.5583">com.telenav.kivakit.ui.swing.graphics.geometry</text><!--MD5=[30dc73a96e169bc81cf0b7b4ba9c9525]
+class Coordinated--><rect codeLine="119" fill="#282828" height="111.4563" id="Coordinated" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="245.8333" x="695.3125" y="181.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="245.8333" x="695.3125" y="181.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="245.8333" x="695.3125" y="204.8828"/><rect codeLine="119" fill="none" height="111.4563" id="Coordinated" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="245.8333" x="695.3125" y="181.8278"/><ellipse cx="770.8333" cy="197.522" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M770.9473,194.224 L770.0989,197.9533 L771.8018,197.9533 Z M769.8486,192.5761 L772.052,192.5761 L774.5117,201.6886 L772.7112,201.6886 L772.1497,199.4364 L769.7388,199.4364 L769.1895,201.6886 L767.3889,201.6886 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="80.2083" x="793.75" y="202.2461">Coordinated</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="696.3542" x2="940.1042" y1="213.2161" y2="213.2161"/><ellipse cx="706.7708" cy="248.586" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="718.2292" y="255.4972">Coordinated(CoordinateSystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="696.3542" x2="774.4792" y1="231.4219" y2="231.4219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="777.6042" y="235.2315">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="861.9792" x2="940.1042" y1="231.4219" y2="231.4219"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="696.3542" x2="940.1042" y1="265.2059" y2="265.2059"/><ellipse cx="706.7708" cy="276.6642" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="213.5417" x="718.2292" y="283.5754">CoordinateSystem coordinateSystem()</text><!--MD5=[8c7d7abc12e214c3cc12c9ab70edee11]
+class Coordinate--><rect codeLine="7" fill="#282828" height="400.3845" id="Coordinate" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="328.125" x="272.9167" y="483.9111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="328.125" x="272.9167" y="483.9111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="328.125" x="272.9167" y="506.9661"/><rect codeLine="7" fill="none" height="400.3845" id="Coordinate" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="328.125" x="272.9167" y="483.9111"/><ellipse cx="393.75" cy="499.6053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M395.6604,504.0304 Q395.2332,504.2501 394.7632,504.3599 Q394.2932,504.4698 393.7744,504.4698 Q391.9312,504.4698 390.9607,503.2552 Q389.9902,502.0406 389.9902,499.7457 Q389.9902,497.4447 390.9607,496.2301 Q391.9312,495.0155 393.7744,495.0155 Q394.2932,495.0155 394.7693,495.1253 Q395.2454,495.2352 395.6604,495.4549 L395.6604,497.4569 Q395.1965,497.0296 394.7601,496.8313 Q394.3237,496.6329 393.8599,496.6329 Q392.8711,496.6329 392.3676,497.4172 Q391.864,498.2015 391.864,499.7457 Q391.864,501.2838 392.3676,502.0681 Q392.8711,502.8524 393.8599,502.8524 Q394.3237,502.8524 394.7601,502.654 Q395.1965,502.4556 395.6604,502.0284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="71.875" x="416.6667" y="504.3294">Coordinate</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="273.9583" x2="600" y1="515.2995" y2="515.2995"/><ellipse cx="284.375" cy="550.6694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="262.5" x="295.8333" y="557.5806">Coordinate(CoordinateSystem, double, double)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="273.9583" x2="393.2292" y1="533.5052" y2="533.5052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="396.3542" y="537.3149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="480.7292" x2="600" y1="533.5052" y2="533.5052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="273.9583" x2="600" y1="567.2892" y2="567.2892"/><ellipse cx="284.375" cy="578.7476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="295.8333" x="295.8333" y="585.6588">Coordinate at(CoordinateSystem, double x, double y)</text><ellipse cx="284.375" cy="598.4924" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="170.8333" x="295.8333" y="605.4036">DrawingPoint inDrawingUnits()</text><ellipse cx="284.375" cy="618.2373" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="209.375" x="295.8333" y="625.1485">Coordinate origin(CoordinateSystem)</text><ellipse cx="284.375" cy="637.9822" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="295.8333" y="644.8934">double x()</text><ellipse cx="284.375" cy="657.7271" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="56.25" x="295.8333" y="664.6383">double y()</text><ellipse cx="284.375" cy="701.3835" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="295.8333" y="708.2947">CoordinateSize asSize()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="273.9583" x2="402.6042" y1="684.2194" y2="684.2194"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="405.7292" y="688.029">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="471.3542" x2="600" y1="684.2194" y2="684.2194"/><ellipse cx="284.375" cy="745.0399" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="295.8333" y="751.9511">Coordinate scaled(double scaleFactor)</text><ellipse cx="284.375" cy="764.7847" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="151.0417" x="295.8333" y="771.696">Coordinate scaled(Percent)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="273.9583" x2="401.5625" y1="727.8758" y2="727.8758"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="404.6875" y="731.6854">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="472.3958" x2="600" y1="727.8758" y2="727.8758"/><ellipse cx="284.375" cy="808.4412" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="195.8333" x="295.8333" y="815.3524">Coordinate minus(Coordinate that)</text><ellipse cx="284.375" cy="828.186" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="295.8333" y="835.0972">Coordinate plus(CoordinateSize that)</text><ellipse cx="284.375" cy="847.9309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="295.8333" y="854.8421">Coordinate plus(Coordinate that)</text><ellipse cx="284.375" cy="867.6758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="215.625" x="295.8333" y="874.587">Coordinate plus(double dx, double dy)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="273.9583" x2="415.625" y1="791.2771" y2="791.2771"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="418.75" y="795.0867">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="458.3333" x2="600" y1="791.2771" y2="791.2771"/><!--MD5=[ff63423deef9bd54057de7afdaf1586e]
+class CoordinateDistance--><rect codeLine="30" fill="#282828" height="281.9153" id="CoordinateDistance" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="360.4167" x="638.0208" y="542.7653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="360.4167" x="638.0208" y="542.7653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="360.4167" x="638.0208" y="565.8203"/><rect codeLine="30" fill="none" height="281.9153" id="CoordinateDistance" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="360.4167" x="638.0208" y="542.7653"/><ellipse cx="746.875" cy="558.4595" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M748.7854,562.8845 Q748.3582,563.1042 747.8882,563.2141 Q747.4182,563.324 746.8994,563.324 Q745.0562,563.324 744.0857,562.1094 Q743.1152,560.8948 743.1152,558.5999 Q743.1152,556.2988 744.0857,555.0842 Q745.0562,553.8696 746.8994,553.8696 Q747.4182,553.8696 747.8943,553.9795 Q748.3704,554.0894 748.7854,554.3091 L748.7854,556.311 Q748.3215,555.8838 747.8851,555.6854 Q747.4487,555.4871 746.9849,555.4871 Q745.9961,555.4871 745.4926,556.2714 Q744.989,557.0557 744.989,558.5999 Q744.989,560.1379 745.4926,560.9222 Q745.9961,561.7065 746.9849,561.7065 Q747.4487,561.7065 747.8851,561.5082 Q748.3215,561.3098 748.7854,560.8826 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="128.125" x="769.7917" y="563.1836">CoordinateDistance</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="639.0625" x2="997.3958" y1="574.1536" y2="574.1536"/><ellipse cx="649.4792" cy="609.5235" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="265.625" x="660.9375" y="616.4347">CoordinateDistance(CoordinateSystem, double)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="639.0625" x2="774.4792" y1="592.3594" y2="592.3594"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="777.6042" y="596.169">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="861.9792" x2="997.3958" y1="592.3594" y2="592.3594"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="639.0625" x2="997.3958" y1="626.1434" y2="626.1434"/><ellipse cx="649.4792" cy="637.6017" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="328.125" x="660.9375" y="644.5129">CoordinateDistance units(CoordinateSystem, double units)</text><ellipse cx="649.4792" cy="657.3466" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="78.125" x="660.9375" y="664.2578">double units()</text><ellipse cx="649.4792" cy="701.003" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="660.9375" y="707.9142">DrawingDistance onDrawingSurface()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="639.0625" x2="764.0625" y1="683.8389" y2="683.8389"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="767.1875" y="687.6485">(extension points)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="872.3958" x2="997.3958" y1="683.8389" y2="683.8389"/><polygon fill="#FFFF44" points="649.4792,739.4511,653.6458,743.6178,649.4792,747.7844,645.3125,743.6178" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="260.4167" x="660.9375" y="751.5706">CoordinateDistance newInstance(double units)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="639.0625" x2="791.1458" y1="727.4953" y2="727.4953"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="47.9167" x="794.2708" y="731.3049">(factory)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="845.3125" x2="997.3958" y1="727.4953" y2="727.4953"/><ellipse cx="649.4792" cy="788.3158" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="198.9583" x="660.9375" y="795.2271">CoordinateDistance scaled(Percent)</text><ellipse cx="649.4792" cy="808.0607" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="262.5" x="660.9375" y="814.9719">CoordinateDistance scaled(double scaleFactor)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="639.0625" x2="782.8125" y1="771.1517" y2="771.1517"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="785.9375" y="774.9613">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="853.6458" x2="997.3958" y1="771.1517" y2="771.1517"/><!--MD5=[72fdd0894364f6218a523769db434822]
+class CoordinateHeight--><rect codeLine="47" fill="#282828" height="111.4563" id="CoordinateHeight" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="356.25" x="446.3542" y="946.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="356.25" x="446.3542" y="946.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="356.25" x="446.3542" y="969.4661"/><rect codeLine="47" fill="none" height="111.4563" id="CoordinateHeight" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="356.25" x="446.3542" y="946.4111"/><ellipse cx="559.8958" cy="962.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M561.8062,966.5304 Q561.379,966.7501 560.909,966.8599 Q560.439,966.9698 559.9202,966.9698 Q558.077,966.9698 557.1065,965.7552 Q556.1361,964.5406 556.1361,962.2457 Q556.1361,959.9447 557.1065,958.7301 Q558.077,957.5155 559.9202,957.5155 Q560.439,957.5155 560.9151,957.6253 Q561.3912,957.7352 561.8062,957.9549 L561.8062,959.9569 Q561.3424,959.5296 560.906,959.3313 Q560.4696,959.1329 560.0057,959.1329 Q559.0169,959.1329 558.5134,959.9172 Q558.0098,960.7015 558.0098,962.2457 Q558.0098,963.7838 558.5134,964.5681 Q559.0169,965.3524 560.0057,965.3524 Q560.4696,965.3524 560.906,965.154 Q561.3424,964.9556 561.8062,964.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="114.5833" x="582.8125" y="966.8294">CoordinateHeight</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="447.3958" x2="801.5625" y1="977.7995" y2="977.7995"/><ellipse cx="457.8125" cy="1013.1694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="254.1667" x="469.2708" y="1020.0806">CoordinateHeight(CoordinateSystem, double)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="447.3958" x2="580.7292" y1="996.0052" y2="996.0052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="583.8542" y="999.8149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="668.2292" x2="801.5625" y1="996.0052" y2="996.0052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="447.3958" x2="801.5625" y1="1029.7892" y2="1029.7892"/><ellipse cx="457.8125" cy="1041.2476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="323.9583" x="469.2708" y="1048.1588">CoordinateHeight height(CoordinateSystem, double units)</text><!--MD5=[f6eccaf25c9f83cd05079f8c65151c98]
+class CoordinateSize--><rect codeLine="56" fill="#282828" height="273.5819" id="CoordinateSize" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="413.5417" x="1035.4167" y="546.932"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="413.5417" x="1035.4167" y="546.932"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="413.5417" x="1035.4167" y="569.987"/><rect codeLine="56" fill="none" height="273.5819" id="CoordinateSize" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="413.5417" x="1035.4167" y="546.932"/><ellipse cx="1185.9375" cy="562.6261" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1187.8479,567.0512 Q1187.4207,567.2709 1186.9507,567.3808 Q1186.4807,567.4906 1185.9619,567.4906 Q1184.1187,567.4906 1183.1482,566.276 Q1182.1777,565.0614 1182.1777,562.7665 Q1182.1777,560.4655 1183.1482,559.2509 Q1184.1187,558.0363 1185.9619,558.0363 Q1186.4807,558.0363 1186.9568,558.1462 Q1187.4329,558.256 1187.8479,558.4757 L1187.8479,560.4777 Q1187.384,560.0505 1186.9476,559.8521 Q1186.5112,559.6537 1186.0474,559.6537 Q1185.0586,559.6537 1184.5551,560.438 Q1184.0515,561.2223 1184.0515,562.7665 Q1184.0515,564.3046 1184.5551,565.0889 Q1185.0586,565.8732 1186.0474,565.8732 Q1186.5112,565.8732 1186.9476,565.6748 Q1187.384,565.4765 1187.8479,565.0492 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="97.9167" x="1208.8542" y="567.3503">CoordinateSize</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1036.4583" x2="1447.9167" y1="578.3203" y2="578.3203"/><ellipse cx="1046.875" cy="613.6902" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="284.375" x="1058.3333" y="620.6014">CoordinateSize(CoordinateSystem, double, double)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1036.4583" x2="1198.4375" y1="596.5261" y2="596.5261"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1201.5625" y="600.3357">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1285.9375" x2="1447.9167" y1="596.5261" y2="596.5261"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1036.4583" x2="1447.9167" y1="630.3101" y2="630.3101"/><ellipse cx="1046.875" cy="641.7684" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="85.4167" x="1058.3333" y="648.6796">double height()</text><ellipse cx="1046.875" cy="661.5133" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="80.2083" x="1058.3333" y="668.4245">double width()</text><ellipse cx="1046.875" cy="705.1697" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="239.5833" x="1058.3333" y="712.0809">CoordinateSize minus(CoordinateSize that)</text><ellipse cx="1046.875" cy="724.9146" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="1058.3333" y="731.8258">DrawingSize onDrawingSurface()</text><ellipse cx="1046.875" cy="744.6594" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="1058.3333" y="751.5706">CoordinateSize plus(CoordinateSize that)</text><ellipse cx="1046.875" cy="764.4043" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="236.4583" x="1058.3333" y="771.3155">CoordinateSize scaled(double scaleFactor)</text><ellipse cx="1046.875" cy="784.1492" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="1058.3333" y="791.0604">CoordinateSize scaled(Percent)</text><ellipse cx="1046.875" cy="803.894" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="381.25" x="1058.3333" y="810.8053">CoordinateSize size(CoordinateSystem, double width, double height)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1036.4583" x2="1207.8125" y1="688.0056" y2="688.0056"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1210.9375" y="691.8152">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1276.5625" x2="1447.9167" y1="688.0056" y2="688.0056"/><!--MD5=[eaee47e7e2744cd6e1bf46c19a2928cd]
+class CoordinateSlope--><rect codeLine="72" fill="#282828" height="142.6127" id="CoordinateSlope" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="267.7083" x="7.2917" y="166.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="267.7083" x="7.2917" y="166.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="267.7083" x="7.2917" y="189.2578"/><rect codeLine="72" fill="none" height="142.6127" id="CoordinateSlope" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="267.7083" x="7.2917" y="166.2028"/><ellipse cx="80.2083" cy="181.897" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M82.1187,186.322 Q81.6915,186.5417 81.2215,186.6516 Q80.7515,186.7615 80.2327,186.7615 Q78.3895,186.7615 77.419,185.5469 Q76.4486,184.3323 76.4486,182.0374 Q76.4486,179.7363 77.419,178.5217 Q78.3895,177.3071 80.2327,177.3071 Q80.7515,177.3071 81.2276,177.417 Q81.7037,177.5269 82.1187,177.7466 L82.1187,179.7485 Q81.6549,179.3213 81.2185,179.1229 Q80.7821,178.9246 80.3182,178.9246 Q79.3294,178.9246 78.8259,179.7089 Q78.3223,180.4932 78.3223,182.0374 Q78.3223,183.5754 78.8259,184.3597 Q79.3294,185.144 80.3182,185.144 Q80.7821,185.144 81.2185,184.9457 Q81.6549,184.7473 82.1187,184.3201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="107.2917" x="103.125" y="186.6211">CoordinateSlope</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="273.9583" y1="197.5911" y2="197.5911"/><ellipse cx="18.75" cy="232.961" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="235.4167" x="30.2083" y="239.8722">CoordinateSlope degrees(double degrees)</text><ellipse cx="18.75" cy="252.7059" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="94.7917" x="30.2083" y="259.6171">double degrees()</text><ellipse cx="18.75" cy="272.4508" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="91.6667" x="30.2083" y="279.362">double radians()</text><ellipse cx="18.75" cy="292.1956" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="30.2083" y="299.1069">CoordinateSlope radians(double radians)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="118.75" y1="215.7969" y2="215.7969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="38.5417" x="121.875" y="219.6065">(angle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="163.5417" x2="273.9583" y1="215.7969" y2="215.7969"/><!--MD5=[8bd1b90f0aa43680868aa9acbb7f6507]
+class CoordinateSystem--><rect codeLine="81" fill="#282828" height="368.1396" id="CoordinateSystem" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="333.3333" x="311.9792" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="333.3333" x="311.9792" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="333.3333" x="311.9792" y="76.7578"/><rect codeLine="81" fill="none" height="368.1396" id="CoordinateSystem" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="333.3333" x="311.9792" y="53.7028"/><ellipse cx="411.9792" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M408.8623,66.5588 L408.8623,64.9719 L414.2883,64.9719 L414.2883,66.5588 L412.4756,66.5588 L412.4756,72.4976 L414.2883,72.4976 L414.2883,74.0845 L408.8623,74.0845 L408.8623,72.4976 L410.675,72.4976 L410.675,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="118.75" x="434.8958" y="74.1211">CoordinateSystem</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="313.0208" x2="644.2708" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="313.0208" x2="644.2708" y1="93.4245" y2="93.4245"/><ellipse cx="323.4375" cy="104.8828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="187.5" x="334.8958" y="111.794">Coordinate at(double x, double y)</text><ellipse cx="323.4375" cy="124.6277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="238.5417" x="334.8958" y="131.5389">CoordinateDistance distance(double units)</text><ellipse cx="323.4375" cy="144.3726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="334.8958" y="151.2838">CoordinateHeight height(double height)</text><ellipse cx="323.4375" cy="164.1174" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="256.25" x="334.8958" y="171.0286">Coordinate inCoordinates(double x, double y)</text><ellipse cx="323.4375" cy="183.8623" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="294.7917" x="334.8958" y="190.7735">CoordinateDistance inCoordinates(DrawingDistance)</text><ellipse cx="323.4375" cy="203.6072" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="227.0833" x="334.8958" y="210.5184">Coordinate inCoordinates(DrawingPoint)</text><ellipse cx="323.4375" cy="223.3521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="233.3333" x="334.8958" y="230.2633">DrawingPoint inDrawingUnits(Coordinate)</text><ellipse cx="323.4375" cy="243.0969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="334.8958" y="250.0081">DrawingDistance inDrawingUnits(CoordinateHeight)</text><ellipse cx="323.4375" cy="262.8418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="284.375" x="334.8958" y="269.753">DrawingDistance inDrawingUnits(CoordinateWidth)</text><ellipse cx="323.4375" cy="282.5867" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="301.0417" x="334.8958" y="289.4979">DrawingDistance inDrawingUnits(CoordinateDistance)</text><ellipse cx="323.4375" cy="302.3315" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="276.0417" x="334.8958" y="309.2428">CoordinateSlope slope(Coordinate, Coordinate b)</text><ellipse cx="323.4375" cy="322.0764" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="334.8958" y="328.9876">CoordinateWidth width(double width)</text><ellipse cx="323.4375" cy="365.7328" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="242.7083" x="334.8958" y="372.644">CoordinateSize inCoordinates(DrawingSize)</text><ellipse cx="323.4375" cy="385.4777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="248.9583" x="334.8958" y="392.3889">DrawingSize inDrawingUnits(CoordinateSize)</text><ellipse cx="323.4375" cy="405.2226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="272.9167" x="334.8958" y="412.1338">CoordinateSize size(double width, double height)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="313.0208" x2="444.2708" y1="348.5687" y2="348.5687"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="447.3958" y="352.3783">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="513.0208" x2="644.2708" y1="348.5687" y2="348.5687"/><!--MD5=[471cb4b571d09476b54f5a5149f3603d]
+class CoordinateTransform--><rect codeLine="102" fill="#282828" height="111.4563" id="CoordinateTransform" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="189.5833" x="46.3542" y="628.182"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="189.5833" x="46.3542" y="628.182"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="189.5833" x="46.3542" y="651.237"/><rect codeLine="102" fill="none" height="111.4563" id="CoordinateTransform" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="189.5833" x="46.3542" y="628.182"/><ellipse cx="66.5625" cy="643.8761" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M63.4456,641.038 L63.4456,639.4511 L68.8717,639.4511 L68.8717,641.038 L67.0589,641.038 L67.0589,646.9767 L68.8717,646.9767 L68.8717,648.5636 L63.4456,648.5636 L63.4456,646.9767 L65.2584,646.9767 L65.2584,641.038 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="139.5833" x="84.4792" y="648.6003">CoordinateTransform</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="47.3958" x2="234.8958" y1="659.5703" y2="659.5703"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="47.3958" x2="234.8958" y1="667.9036" y2="667.9036"/><ellipse cx="57.8125" cy="679.362" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="69.2708" y="686.2732">T scale(double x, double y)</text><ellipse cx="57.8125" cy="723.0184" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="69.2708" y="729.9296">T scaled(double x, double y)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="47.3958" x2="105.7292" y1="705.8543" y2="705.8543"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="108.8542" y="709.6639">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="176.5625" x2="234.8958" y1="705.8543" y2="705.8543"/><!--MD5=[e27c6795ccbb3d9dabbff9c9bd60d713]
+class CoordinateWidth--><rect codeLine="111" fill="#282828" height="111.4563" id="CoordinateWidth" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="345.8333" x="839.0625" y="946.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="345.8333" x="839.0625" y="946.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="345.8333" x="839.0625" y="969.4661"/><rect codeLine="111" fill="none" height="111.4563" id="CoordinateWidth" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="345.8333" x="839.0625" y="946.4111"/><ellipse cx="950" cy="962.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M951.9104,966.5304 Q951.4832,966.7501 951.0132,966.8599 Q950.5432,966.9698 950.0244,966.9698 Q948.1812,966.9698 947.2107,965.7552 Q946.2402,964.5406 946.2402,962.2457 Q946.2402,959.9447 947.2107,958.7301 Q948.1812,957.5155 950.0244,957.5155 Q950.5432,957.5155 951.0193,957.6253 Q951.4954,957.7352 951.9104,957.9549 L951.9104,959.9569 Q951.4465,959.5296 951.0101,959.3313 Q950.5737,959.1329 950.1099,959.1329 Q949.1211,959.1329 948.6176,959.9172 Q948.114,960.7015 948.114,962.2457 Q948.114,963.7838 948.6176,964.5681 Q949.1211,965.3524 950.1099,965.3524 Q950.5737,965.3524 951.0101,965.154 Q951.4465,964.9556 951.9104,964.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="109.375" x="972.9167" y="966.8294">CoordinateWidth</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="840.1042" x2="1183.8542" y1="977.7995" y2="977.7995"/><ellipse cx="850.5208" cy="1013.1694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="248.9583" x="861.9792" y="1020.0806">CoordinateWidth(CoordinateSystem, double)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="840.1042" x2="968.2292" y1="996.0052" y2="996.0052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="971.3542" y="999.8149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1055.7292" x2="1183.8542" y1="996.0052" y2="996.0052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="840.1042" x2="1183.8542" y1="1029.7892" y2="1029.7892"/><ellipse cx="850.5208" cy="1041.2476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="313.5417" x="861.9792" y="1048.1588">CoordinateWidth width(CoordinateSystem, double units)</text><!--MD5=[982e69347848f41c3e5f0a158fbaf68f]
+reverse link Coordinated to Coordinate--><path codeLine="6" d="M758.7604,309.5986 C730.2292,343.5465 695.5,384.682 664.0625,421.4111 C643.8333,445.0465 622.5,469.8174 601.3438,494.2861 " fill="none" id="Coordinated-backto-Coordinate" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="753.2396,304.8382,772.2292,293.5674,764.4063,314.2132,753.2396,304.8382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[fc999af8c39bd7210285f9c16cb29f86]
+reverse link Coordinated to CoordinateDistance--><path codeLine="29" d="M818.2292,314.359 C818.2292,376.734 818.2292,466.859 818.2292,542.359 " fill="none" id="Coordinated-backto-CoordinateDistance" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="810.9375,314.359,818.2292,293.5257,825.5208,314.359,810.9375,314.359" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b9bb715e9b118e4c45a55ba7091bc782]
+reverse link CoordinateDistance to CoordinateHeight--><path codeLine="46" d="M721.0313,843.5465 C698.4167,880.4528 675.8229,917.3278 658.1771,946.109 " fill="none" id="CoordinateDistance-backto-CoordinateHeight" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="715.0208,839.4111,732.1146,825.4632,727.4479,847.0361,715.0208,839.4111" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c0771ed0d062340eaed59b293340caeb]
+reverse link Coordinated to CoordinateSize--><path codeLine="55" d="M885.3958,308.984 C946.125,372.6195 1037.2292,468.0986 1112.1771,546.6299 " fill="none" id="Coordinated-backto-CoordinateSize" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="879.75,313.6299,870.6354,293.5257,890.3021,303.557,879.75,313.6299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8573524e70df8970c40916f7b749e78e]
+reverse link CoordinateDistance to CoordinateWidth--><path codeLine="110" d="M915.4271,843.5465 C938.0417,880.4528 960.6354,917.3278 978.2813,946.109 " fill="none" id="CoordinateDistance-backto-CoordinateWidth" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="909.0104,847.0361,904.3438,825.4632,921.4375,839.4111,909.0104,847.0361" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5dfd2ebcccdf376a2291a8c83890bb64]
+link CoordinateSlope to CoordinateSystem--><!--MD5=[a0335327072b117a3fa36e592882d543]
+link CoordinateSlope to CoordinateTransform--><!--MD5=[fb052a69067ddecb18844cb5f0b3ed99]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.swing.graphics.geometry"
+    
+    Coordinated <|- - Coordinate
+    class Coordinate
+    {
+        - -(constructors)- -
+        +Coordinate(CoordinateSystem, double, double)
+        - -
+        +Coordinate at(CoordinateSystem, double x, double y)
+        +DrawingPoint inDrawingUnits()
+        +Coordinate origin(CoordinateSystem)
+        +double x()
+        +double y()
+        - -(collection)- -
+        +CoordinateSize asSize()
+        - -(functional)- -
+        +Coordinate scaled(double scaleFactor)
+        +Coordinate scaled(Percent)
+        - -(math)- -
+        +Coordinate minus(Coordinate that)
+        +Coordinate plus(CoordinateSize that)
+        +Coordinate plus(Coordinate that)
+        +Coordinate plus(double dx, double dy)
+    }
+    
+    Coordinated <|- - CoordinateDistance
+    class CoordinateDistance
+    {
+        - -(constructors)- -
+        +CoordinateDistance(CoordinateSystem, double)
+        - -
+        +CoordinateDistance units(CoordinateSystem, double units)
+        +double units()
+        - -(extension points)- -
+        +DrawingDistance onDrawingSurface()
+        - -(factory)- -
+        #CoordinateDistance newInstance(double units)
+        - -(functional)- -
+        +CoordinateDistance scaled(Percent)
+        +CoordinateDistance scaled(double scaleFactor)
+    }
+    
+    CoordinateDistance <|- - CoordinateHeight
+    class CoordinateHeight
+    {
+        - -(constructors)- -
+        +CoordinateHeight(CoordinateSystem, double)
+        - -
+        +CoordinateHeight height(CoordinateSystem, double units)
+    }
+    
+    Coordinated <|- - CoordinateSize
+    class CoordinateSize
+    {
+        - -(constructors)- -
+        +CoordinateSize(CoordinateSystem, double, double)
+        - -
+        +double height()
+        +double width()
+        - -(collection)- -
+        +CoordinateSize minus(CoordinateSize that)
+        +DrawingSize onDrawingSurface()
+        +CoordinateSize plus(CoordinateSize that)
+        +CoordinateSize scaled(double scaleFactor)
+        +CoordinateSize scaled(Percent)
+        +CoordinateSize size(CoordinateSystem, double width, double height)
+    }
+    
+    class CoordinateSlope
+    {
+        - -(angle)- -
+        +CoordinateSlope degrees(double degrees)
+        +double degrees()
+        +double radians()
+        +CoordinateSlope radians(double radians)
+    }
+    
+    interface CoordinateSystem
+    {
+        - -
+        +Coordinate at(double x, double y)
+        +CoordinateDistance distance(double units)
+        +CoordinateHeight height(double height)
+        +Coordinate inCoordinates(double x, double y)
+        +CoordinateDistance inCoordinates(DrawingDistance)
+        +Coordinate inCoordinates(DrawingPoint)
+        +DrawingPoint inDrawingUnits(Coordinate)
+        +DrawingDistance inDrawingUnits(CoordinateHeight)
+        +DrawingDistance inDrawingUnits(CoordinateWidth)
+        +DrawingDistance inDrawingUnits(CoordinateDistance)
+        +CoordinateSlope slope(Coordinate, Coordinate b)
+        +CoordinateWidth width(double width)
+        - -(collection)- -
+        +CoordinateSize inCoordinates(DrawingSize)
+        +DrawingSize inDrawingUnits(CoordinateSize)
+        +CoordinateSize size(double width, double height)
+    }
+    
+    interface CoordinateTransform
+    {
+        - -
+        +T scale(double x, double y)
+        - -(functional)- -
+        +T scaled(double x, double y)
+    }
+    
+    CoordinateDistance <|- - CoordinateWidth
+    class CoordinateWidth
+    {
+        - -(constructors)- -
+        +CoordinateWidth(CoordinateSystem, double)
+        - -
+        +CoordinateWidth width(CoordinateSystem, double units)
+    }
+    
+    abstract class Coordinated
+    {
+        - -(constructors)- -
+        +Coordinated(CoordinateSystem)
+        - -
+        +CoordinateSystem coordinateSystem()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.ui.swing.graphics.geometry"
+    
+    Coordinated <|- - Coordinate
+    class Coordinate
+    {
+        - -(constructors)- -
+        +Coordinate(CoordinateSystem, double, double)
+        - -
+        +Coordinate at(CoordinateSystem, double x, double y)
+        +DrawingPoint inDrawingUnits()
+        +Coordinate origin(CoordinateSystem)
+        +double x()
+        +double y()
+        - -(collection)- -
+        +CoordinateSize asSize()
+        - -(functional)- -
+        +Coordinate scaled(double scaleFactor)
+        +Coordinate scaled(Percent)
+        - -(math)- -
+        +Coordinate minus(Coordinate that)
+        +Coordinate plus(CoordinateSize that)
+        +Coordinate plus(Coordinate that)
+        +Coordinate plus(double dx, double dy)
+    }
+    
+    Coordinated <|- - CoordinateDistance
+    class CoordinateDistance
+    {
+        - -(constructors)- -
+        +CoordinateDistance(CoordinateSystem, double)
+        - -
+        +CoordinateDistance units(CoordinateSystem, double units)
+        +double units()
+        - -(extension points)- -
+        +DrawingDistance onDrawingSurface()
+        - -(factory)- -
+        #CoordinateDistance newInstance(double units)
+        - -(functional)- -
+        +CoordinateDistance scaled(Percent)
+        +CoordinateDistance scaled(double scaleFactor)
+    }
+    
+    CoordinateDistance <|- - CoordinateHeight
+    class CoordinateHeight
+    {
+        - -(constructors)- -
+        +CoordinateHeight(CoordinateSystem, double)
+        - -
+        +CoordinateHeight height(CoordinateSystem, double units)
+    }
+    
+    Coordinated <|- - CoordinateSize
+    class CoordinateSize
+    {
+        - -(constructors)- -
+        +CoordinateSize(CoordinateSystem, double, double)
+        - -
+        +double height()
+        +double width()
+        - -(collection)- -
+        +CoordinateSize minus(CoordinateSize that)
+        +DrawingSize onDrawingSurface()
+        +CoordinateSize plus(CoordinateSize that)
+        +CoordinateSize scaled(double scaleFactor)
+        +CoordinateSize scaled(Percent)
+        +CoordinateSize size(CoordinateSystem, double width, double height)
+    }
+    
+    class CoordinateSlope
+    {
+        - -(angle)- -
+        +CoordinateSlope degrees(double degrees)
+        +double degrees()
+        +double radians()
+        +CoordinateSlope radians(double radians)
+    }
+    
+    interface CoordinateSystem
+    {
+        - -
+        +Coordinate at(double x, double y)
+        +CoordinateDistance distance(double units)
+        +CoordinateHeight height(double height)
+        +Coordinate inCoordinates(double x, double y)
+        +CoordinateDistance inCoordinates(DrawingDistance)
+        +Coordinate inCoordinates(DrawingPoint)
+        +DrawingPoint inDrawingUnits(Coordinate)
+        +DrawingDistance inDrawingUnits(CoordinateHeight)
+        +DrawingDistance inDrawingUnits(CoordinateWidth)
+        +DrawingDistance inDrawingUnits(CoordinateDistance)
+        +CoordinateSlope slope(Coordinate, Coordinate b)
+        +CoordinateWidth width(double width)
+        - -(collection)- -
+        +CoordinateSize inCoordinates(DrawingSize)
+        +DrawingSize inDrawingUnits(CoordinateSize)
+        +CoordinateSize size(double width, double height)
+    }
+    
+    interface CoordinateTransform
+    {
+        - -
+        +T scale(double x, double y)
+        - -(functional)- -
+        +T scaled(double x, double y)
+    }
+    
+    CoordinateDistance <|- - CoordinateWidth
+    class CoordinateWidth
+    {
+        - -(constructors)- -
+        +CoordinateWidth(CoordinateSystem, double)
+        - -
+        +CoordinateWidth width(CoordinateSystem, double units)
+    }
+    
+    abstract class Coordinated
+    {
+        - -(constructors)- -
+        +Coordinated(CoordinateSystem)
+        - -
+        +CoordinateSystem coordinateSystem()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

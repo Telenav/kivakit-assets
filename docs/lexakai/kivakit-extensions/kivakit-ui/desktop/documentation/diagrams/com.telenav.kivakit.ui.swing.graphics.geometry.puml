@@ -1,0 +1,129 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.swing.graphics.geometry"
+    
+    Coordinated <|-- Coordinate
+    class Coordinate
+    {
+        --(constructors)--
+        +Coordinate(CoordinateSystem, double, double)
+        --
+        +Coordinate at(CoordinateSystem, double x, double y)
+        +DrawingPoint inDrawingUnits()
+        +Coordinate origin(CoordinateSystem)
+        +double x()
+        +double y()
+        --(collection)--
+        +CoordinateSize asSize()
+        --(functional)--
+        +Coordinate scaled(double scaleFactor)
+        +Coordinate scaled(Percent)
+        --(math)--
+        +Coordinate minus(Coordinate that)
+        +Coordinate plus(CoordinateSize that)
+        +Coordinate plus(Coordinate that)
+        +Coordinate plus(double dx, double dy)
+    }
+    
+    Coordinated <|-- CoordinateDistance
+    class CoordinateDistance
+    {
+        --(constructors)--
+        +CoordinateDistance(CoordinateSystem, double)
+        --
+        +CoordinateDistance units(CoordinateSystem, double units)
+        +double units()
+        --(extension points)--
+        +DrawingDistance onDrawingSurface()
+        --(factory)--
+        #CoordinateDistance newInstance(double units)
+        --(functional)--
+        +CoordinateDistance scaled(Percent)
+        +CoordinateDistance scaled(double scaleFactor)
+    }
+    
+    CoordinateDistance <|-- CoordinateHeight
+    class CoordinateHeight
+    {
+        --(constructors)--
+        +CoordinateHeight(CoordinateSystem, double)
+        --
+        +CoordinateHeight height(CoordinateSystem, double units)
+    }
+    
+    Coordinated <|-- CoordinateSize
+    class CoordinateSize
+    {
+        --(constructors)--
+        +CoordinateSize(CoordinateSystem, double, double)
+        --
+        +double height()
+        +double width()
+        --(collection)--
+        +CoordinateSize minus(CoordinateSize that)
+        +DrawingSize onDrawingSurface()
+        +CoordinateSize plus(CoordinateSize that)
+        +CoordinateSize scaled(double scaleFactor)
+        +CoordinateSize scaled(Percent)
+        +CoordinateSize size(CoordinateSystem, double width, double height)
+    }
+    
+    class CoordinateSlope
+    {
+        --(angle)--
+        +CoordinateSlope degrees(double degrees)
+        +double degrees()
+        +double radians()
+        +CoordinateSlope radians(double radians)
+    }
+    
+    interface CoordinateSystem
+    {
+        --
+        +Coordinate at(double x, double y)
+        +CoordinateDistance distance(double units)
+        +CoordinateHeight height(double height)
+        +Coordinate inCoordinates(double x, double y)
+        +CoordinateDistance inCoordinates(DrawingDistance)
+        +Coordinate inCoordinates(DrawingPoint)
+        +DrawingPoint inDrawingUnits(Coordinate)
+        +DrawingDistance inDrawingUnits(CoordinateHeight)
+        +DrawingDistance inDrawingUnits(CoordinateWidth)
+        +DrawingDistance inDrawingUnits(CoordinateDistance)
+        +CoordinateSlope slope(Coordinate, Coordinate b)
+        +CoordinateWidth width(double width)
+        --(collection)--
+        +CoordinateSize inCoordinates(DrawingSize)
+        +DrawingSize inDrawingUnits(CoordinateSize)
+        +CoordinateSize size(double width, double height)
+    }
+    
+    interface CoordinateTransform
+    {
+        --
+        +T scale(double x, double y)
+        --(functional)--
+        +T scaled(double x, double y)
+    }
+    
+    CoordinateDistance <|-- CoordinateWidth
+    class CoordinateWidth
+    {
+        --(constructors)--
+        +CoordinateWidth(CoordinateSystem, double)
+        --
+        +CoordinateWidth width(CoordinateSystem, double units)
+    }
+    
+    abstract class Coordinated
+    {
+        --(constructors)--
+        +Coordinated(CoordinateSystem)
+        --
+        +CoordinateSystem coordinateSystem()
+    }
+    
+@enduml
+

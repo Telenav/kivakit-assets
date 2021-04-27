@@ -13,7 +13,9 @@
         +StateMachine(State)
         +StateMachine(State, Receiver<State>)
         --
+        +State at()
         +boolean is(State)
+        +State toggle(State one, State two)
         +boolean transition(State from, State to, State waitFor, Duration maximumWait, Runnable before)
         +boolean transition(State from, State to, State waitFor, Runnable before)
         +boolean transition(State from, State to)
@@ -24,6 +26,10 @@
         --(thread)--
         +boolean waitFor(State)
         +boolean waitFor(State, Duration maximumWait)
+        +boolean waitFor(Predicate<State>)
+        +boolean waitFor(Predicate<State>, Duration maximumWait)
+        +boolean waitForNot(State)
+        +boolean waitForNot(State, Duration maximumWait)
     }
     
     class StateWatcher<State>

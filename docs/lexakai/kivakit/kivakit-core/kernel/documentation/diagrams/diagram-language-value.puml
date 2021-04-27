@@ -125,6 +125,17 @@
         +Percent percentOf(Count total)
     }
     
+    class ConcurrentMutableValue<T>
+    {
+        --(constructors)--
+        +ConcurrentMutableValue()
+        +ConcurrentMutableValue(T)
+        --
+        +T get()
+        +void set(T value)
+        +void update(Function<T,T> updater)
+    }
+    
     Level <|-- Confidence
     class Confidence
     {

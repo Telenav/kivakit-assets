@@ -1,0 +1,93 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.swing.graphics.drawing.drawables"
+    
+    abstract BaseDrawable
+    
+    Line <|-- Arrow
+    class Arrow
+    {
+        --(constructors)--
+        +Arrow(Style, Coordinate, Coordinate)
+        --
+        +Arrow arrow(Style, Coordinate from, Coordinate to)
+        --(functional)--
+        +Arrow withFromArrowHead(Drawable arrowHead)
+        +Arrow withToArrowHead(Drawable arrowHead)
+    }
+    
+    BaseDrawable <|-- Box
+    class Box
+    {
+        --(constructors)--
+        #Box(Box)
+        #Box(Style)
+        --
+        +Box box(Style)
+        --(collection)--
+        +Box withSize(CoordinateSize)
+    }
+    
+    BaseDrawable <|-- Dot
+    class Dot
+    {
+        --(constructors)--
+        #Dot(Style)
+        --
+        +Dot dot(Style)
+        --(functional)--
+        +Dot withRadius(CoordinateDistance radius)
+    }
+    
+    BaseDrawable <|-- Label
+    class Label
+    {
+        --(constructors)--
+        #Label(Label)
+        #Label(Style, String)
+        --
+        +Label label(Style)
+        +Label label(Style, String text)
+        --(functional)--
+        +Label withMargin(int margin)
+        +Label withText(String text)
+    }
+    
+    BaseDrawable <|-- Line
+    class Line
+    {
+        --(constructors)--
+        #Line(Line)
+        #Line(Style, Coordinate, CoordinateSize)
+        --
+        +Coordinate from()
+        +Line line(Style, Coordinate from, Coordinate to)
+        --(angle)--
+        +CoordinateSlope angle(CoordinateSystem)
+        --(collection)--
+        +CoordinateSize offset()
+        --(conversion)--
+        +Coordinate to()
+        --(functional)--
+        +Line withFrom(Coordinate from)
+        +Line withOffset(CoordinateSize offset)
+        +Line withTo(Coordinate to)
+    }
+    
+    BaseDrawable <|-- Text
+    class Text
+    {
+        --(constructors)--
+        #Text(Style, String)
+        #Text(Text)
+        --
+        +Text text(Style, String text)
+        +Text text(Style)
+        --(functional)--
+        +Text withText(String text)
+    }
+    
+@enduml
+

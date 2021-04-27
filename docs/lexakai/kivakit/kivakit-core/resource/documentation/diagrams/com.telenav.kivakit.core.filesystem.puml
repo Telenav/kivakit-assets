@@ -4,6 +4,7 @@
     
     title "com.telenav.kivakit.core.filesystem"
     
+    abstract BaseRepeater
     abstract BaseStringConverter
     abstract BaseWritableResource
     
@@ -100,14 +101,20 @@
         +File withoutOverwriting()
     }
     
+    BaseRepeater <|-- FileCache
     class FileCache
     {
         --(constructors)--
         +FileCache(Folder)
         --(filesystem)--
+        +File add(Resource, CopyMode)
         +File add(Resource, CopyMode, ProgressReporter)
+        +File addAs(Resource, FileName, CopyMode, ProgressReporter)
+        +File addAs(Resource, FileName, CopyMode)
         +File file(FileName)
         +Folder folder(String name)
+        --(lifecycle)--
+        +void startPruner()
     }
     
     List <|-- FileList
@@ -181,10 +188,10 @@
         +List<Folder> folders()
         +boolean isFolder()
         +boolean isFolder(FilePath)
-        +Folder kivakitCacheFolder()
+        +Folder kivakitCache()
         +Folder kivakitHome()
-        +Folder kivakitTemporaryFolder()
-        +Folder kivakitTestFolder(Class<?> type)
+        +Folder kivakitTemporary()
+        +Folder kivakitTest(Class<?> type)
         +Folder last()
         +Folder mkdirs()
         +FileName name()
@@ -208,9 +215,9 @@
         +Folder root()
         +void safeCopyTo(Folder destination, CopyMode, Matcher<File>, ProgressReporter)
         +Folder scheduleCleanUpOnExit()
+        +Folder temporary(FileName baseName)
         +File temporaryFile(FileName baseName, Extension)
         +File temporaryFile(FileName baseName)
-        +Folder temporaryFolder(FileName baseName)
         +Folder temporaryForProcess(Type)
         +Folder userHome()
         --(network)--

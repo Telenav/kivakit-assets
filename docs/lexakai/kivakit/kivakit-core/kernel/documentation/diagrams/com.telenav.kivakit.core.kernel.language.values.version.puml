@@ -11,7 +11,7 @@
     {
         --(constructors)--
         #Version()
-        #Version(int, int, int, Release)
+        #Version(int, int, int, Release, boolean)
         --
         +int major()
         +int minor()
@@ -24,15 +24,17 @@
         +boolean isNewerThanOrEqualTo(Version that)
         +boolean isOlderThan(Version that)
         +boolean isOlderThanOrEqualTo(Version that)
+        +boolean isSnapshot()
         --(identity)--
         +Version newer(Version that)
         +Version of(int major, int minor)
+        +Version of(int major, int minor, int patch, Release, boolean snapshot)
         +Version of(int major, int minor, int patch)
-        +Version of(int major, int minor, int patch, Release)
         +Version older(Version that)
         +Version parse(String text)
         +Version withoutPatch()
         +Version withoutRelease()
+        +Version withoutSnapshot()
     }
     
     interface Versioned
