@@ -13,7 +13,7 @@
 <img src="https://www.kivakit.org/images/zulip-32.png" srcset="https://www.kivakit.org/images/zulip-32-2x.png 2x"/>
 </a>
 
-![](https://www.kivakit.org/images/kivakit-background-500.jpg)
+![](https://www.kivakit.org/images/kivakit-background.png)
 
 [//]: # (end-user-text)
 
