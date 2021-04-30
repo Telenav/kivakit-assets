@@ -124,8 +124,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 extends java.lang.Object
 implements <a href="../../StringListCodec.html" title="interface in com.telenav.kivakit.data.compression.codecs">StringListCodec</a></pre>
 <div class="block">Compression and decompression of lists of strings using a <a href="../../StringCodec.html" title="interface in com.telenav.kivakit.data.compression.codecs"><code>StringCodec</code></a> and a <a href="../../CharacterCodec.html" title="interface in com.telenav.kivakit.data.compression.codecs"><code>CharacterCodec</code></a>. The
- method <a href="#encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)"><code>encode(ByteList, SymbolProducer)</code></a> receives a sequence of strings produced by the <a href="../../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolProducer</code></a> interface. If the string codec cannot be used to compress the entire string at once, the character
- codec will be used. When the <a href="#decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)"><code>decode(ByteList, SymbolConsumer)</code></a> method is called, this codec will send the
+ method <a href="#encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)"><code>encode(ByteList, SymbolProducer)</code></a> receives a sequence of strings produced by the <a href="../../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolProducer</code></a> interface. If the string codec cannot be used to compress the entire string at once, the character
+ codec will be used. When the <a href="#decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)"><code>decode(ByteList, SymbolConsumer)</code></a> method is called, this codec will send the
  same strings in the same order to the <a href="../../../SymbolConsumer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolConsumer</code></a> consumer.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
@@ -134,7 +134,7 @@ implements <a href="../../StringListCodec.html" title="interface in com.telenav.
 <dd><a href="../HuffmanCodec.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman"><code>HuffmanCodec</code></a>, 
 <a href="../../StringCodec.html" title="interface in com.telenav.kivakit.data.compression.codecs"><code>StringCodec</code></a>, 
 <a href="../../CharacterCodec.html" title="interface in com.telenav.kivakit.data.compression.codecs"><code>CharacterCodec</code></a>, 
-<code>ByteList</code>, 
+<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list"><code>ByteList</code></a>, 
 <a href="../../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolProducer</code></a>, 
 <a href="../../../SymbolConsumer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolConsumer</code></a></dd>
 </dl>
@@ -193,15 +193,15 @@ implements <a href="../../StringListCodec.html" title="interface in com.telenav.
 </tr>
 <tr class="rowColor" id="i1">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;input,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></span>&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;input,
       <a href="../../../SymbolConsumer.html" title="interface in com.telenav.kivakit.data.compression">SymbolConsumer</a>&lt;java.lang.String&gt;&nbsp;consumer)</code></th>
 <td class="colLast">
 <div class="block">Reads the compressed data in the input, calling the consumer with a sequence of decoded symbols</div>
 </td>
 </tr>
 <tr class="altColor" id="i2">
-<td class="colFirst"><code>com.telenav.kivakit.core.collections.primitive.list.ByteList</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;output,
+<td class="colFirst"><code><a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></span>&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;output,
       <a href="../../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression">SymbolProducer</a>&lt;java.lang.String&gt;&nbsp;producer)</code></th>
 <td class="colLast">
 <div class="block">Encodes the input symbols produced into the output</div>
@@ -286,36 +286,36 @@ implements <a href="../../StringListCodec.html" title="interface in com.telenav.
 </dl>
 </li>
 </ul>
-<a id="decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">
+<a id="decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>decode</h4>
-<pre class="methodSignature">public&nbsp;void&nbsp;decode&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;input,
+<pre class="methodSignature">public&nbsp;void&nbsp;decode&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;input,
                    <a href="../../../SymbolConsumer.html" title="interface in com.telenav.kivakit.data.compression">SymbolConsumer</a>&lt;java.lang.String&gt;&nbsp;consumer)</pre>
 <div class="block">Reads the compressed data in the input, calling the consumer with a sequence of decoded symbols</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../Codec.html#decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;java.lang.String&gt;</code></dd>
+<dd><code><a href="../../../Codec.html#decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;java.lang.String&gt;</code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>input</code> - The compressed data to decode</dd>
 <dd><code>consumer</code> - The consumer to call with decoded data</dd>
 </dl>
 </li>
 </ul>
-<a id="encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">
+<a id="encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>encode</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;encode&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;output,
-                                                                           <a href="../../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression">SymbolProducer</a>&lt;java.lang.String&gt;&nbsp;producer)</pre>
+<pre class="methodSignature">public&nbsp;<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;encode&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;output,
+                       <a href="../../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression">SymbolProducer</a>&lt;java.lang.String&gt;&nbsp;producer)</pre>
 <div class="block">Encodes the input symbols produced into the output</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../../Codec.html#encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;java.lang.String&gt;</code></dd>
+<dd><code><a href="../../../Codec.html#encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></code>&nbsp;in interface&nbsp;<code><a href="../../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;java.lang.String&gt;</code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>output</code> - The encoded data output</dd>
 <dd><code>producer</code> - The source of symbols to encode</dd>

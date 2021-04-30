@@ -4,13 +4,6 @@
     
     title "com.telenav.kivakit.core.collections.project"
     
-    KryoTypes <|-- CoreCollectionsKryoTypes
-    class CoreCollectionsKryoTypes
-    {
-        --(constructors)--
-        +CoreCollectionsKryoTypes()
-    }
-    
     Project <|-- CoreCollectionsProject
     class CoreCollectionsProject
     {

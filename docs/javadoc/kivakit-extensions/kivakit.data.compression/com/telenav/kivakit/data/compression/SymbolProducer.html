@@ -109,7 +109,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <hr>
 <pre>public interface <span class="typeNameLabel">SymbolProducer&lt;Symbol&gt;</span></pre>
-<div class="block">A source of input symbols for a <a href="Codec.html" title="interface in com.telenav.kivakit.data.compression"><code>Codec</code></a> to compress. Symbols can be retrieved by the codec through the <a href="#get(int)"><code>get(int)</code></a> method. When the codec cannot encode a symbol, it will call <a href="#onEscape(com.telenav.kivakit.core.collections.primitive.list.ByteList,Symbol)"><code>onEscape(ByteList, Object)</code></a> to allow
+<div class="block">A source of input symbols for a <a href="Codec.html" title="interface in com.telenav.kivakit.data.compression"><code>Codec</code></a> to compress. Symbols can be retrieved by the codec through the <a href="#get(int)"><code>get(int)</code></a> method. When the codec cannot encode a symbol, it will call <a href="#onEscape(com.telenav.kivakit.primitive.collections.list.ByteList,Symbol)"><code>onEscape(ByteList, Object)</code></a> to allow
  the implementer of this interface to write the symbol to codec output.</div>
 </li>
 </ul>
@@ -146,7 +146,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr class="altColor" id="i2">
 <td class="colFirst"><code>default void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onEscape(com.telenav.kivakit.core.collections.primitive.list.ByteList,Symbol)">onEscape</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;output,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onEscape(com.telenav.kivakit.primitive.collections.list.ByteList,Symbol)">onEscape</a></span>&#8203;(<a href="../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;output,
         <a href="SymbolProducer.html" title="type parameter in SymbolProducer">Symbol</a>&nbsp;symbol)</code></th>
 <td class="colLast">
 <div class="block">Called by the codec when it cannot encode an input symbol.</div>
@@ -223,15 +223,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 </li>
 </ul>
-<a id="onEscape(com.telenav.kivakit.core.collections.primitive.list.ByteList,java.lang.Object)">
+<a id="onEscape(com.telenav.kivakit.primitive.collections.list.ByteList,java.lang.Object)">
 <!--   -->
-</a><a id="onEscape(com.telenav.kivakit.core.collections.primitive.list.ByteList,Symbol)">
+</a><a id="onEscape(com.telenav.kivakit.primitive.collections.list.ByteList,Symbol)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>onEscape</h4>
-<pre class="methodSignature">default&nbsp;void&nbsp;onEscape&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;output,
+<pre class="methodSignature">default&nbsp;void&nbsp;onEscape&#8203;(<a href="../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;output,
                       <a href="SymbolProducer.html" title="type parameter in SymbolProducer">Symbol</a>&nbsp;symbol)</pre>
 <div class="block">Called by the codec when it cannot encode an input symbol. The codec will have already written an escape symbol
  and moved to the next byte in the output. The implementer of this method simply needs to write the symbol to the

@@ -129,7 +129,7 @@ extends java.lang.Object
 implements java.lang.Comparable&lt;<a href="Tree.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Tree</a>&lt;Symbol&gt;&gt;</pre>
 <div class="block">A Huffman coding tree, composed of <a href="Node.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree"><code>Node</code></a> and <a href="Leaf.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree"><code>Leaf</code></a> sub-trees. Symbols in the tree are assigned a code
  with <a href="#encode()"><code>encode()</code></a> and the encoded symbols can be retrieved with <a href="#codedSymbols()"><code>codedSymbols()</code></a>. Symbols can be decoded
- with <a href="#decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)"><code>decode(BitReader)</code></a>, which reads compressed data with <code>BitReader</code> and walks the tree until if finds
+ with <a href="#decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)"><code>decode(BitReader)</code></a>, which reads compressed data with <a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/array/bits/io/BitReader.html" title="interface in com.telenav.kivakit.primitive.collections.array.bits.io"><code>BitReader</code></a> and walks the tree until if finds
  the code symbol.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
@@ -170,7 +170,7 @@ implements java.lang.Comparable&lt;<a href="Tree.html" title="class in com.telen
 </tr>
 <tr class="altColor" id="i2">
 <td class="colFirst"><code>abstract <a href="CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="Tree.html" title="type parameter in Tree">Symbol</a>&gt;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)">decode</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader&nbsp;bits)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)">decode</a></span>&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/array/bits/io/BitReader.html" title="interface in com.telenav.kivakit.primitive.collections.array.bits.io">BitReader</a>&nbsp;bits)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i3">
@@ -251,13 +251,13 @@ implements java.lang.Comparable&lt;<a href="Tree.html" title="class in com.telen
 </dl>
 </li>
 </ul>
-<a id="decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)">
+<a id="decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>decode</h4>
-<pre class="methodSignature">public abstract&nbsp;<a href="CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="Tree.html" title="type parameter in Tree">Symbol</a>&gt;&nbsp;decode&#8203;(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader&nbsp;bits)</pre>
+<pre class="methodSignature">public abstract&nbsp;<a href="CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="Tree.html" title="type parameter in Tree">Symbol</a>&gt;&nbsp;decode&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/array/bits/io/BitReader.html" title="interface in com.telenav.kivakit.primitive.collections.array.bits.io">BitReader</a>&nbsp;bits)</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>A symbol decoded from the given input using this Huffman tree</dd>

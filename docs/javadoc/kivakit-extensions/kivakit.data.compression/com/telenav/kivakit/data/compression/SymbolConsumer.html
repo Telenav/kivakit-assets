@@ -117,7 +117,7 @@ public interface <span class="typeNameLabel">SymbolConsumer&lt;Symbol&gt;</span>
 <div class="block">Consumer of a sequence of decoded symbols. The <a href="#next(int,Symbol)"><code>next(int, Object)</code></a> method is called with each decoded symbol
  and its ordinal index in the input. The next() method can examine the symbol and return a <a href="SymbolConsumer.Directive.html" title="enum in com.telenav.kivakit.data.compression"><code>SymbolConsumer.Directive</code></a> to the
  codec to either <a href="SymbolConsumer.Directive.html#CONTINUE"><code>SymbolConsumer.Directive.CONTINUE</code></a> decoding or to <a href="SymbolConsumer.Directive.html#STOP"><code>SymbolConsumer.Directive.STOP</code></a>. When the codec reads an escape
- symbol, it will advance the input to the next byte and call the <a href="#onEscape(com.telenav.kivakit.core.collections.primitive.list.ByteList)"><code>onEscape(ByteList)</code></a> method to permit it to
+ symbol, it will advance the input to the next byte and call the <a href="#onEscape(com.telenav.kivakit.primitive.collections.list.ByteList)"><code>onEscape(ByteList)</code></a> method to permit it to
  read the next symbol using the coding scheme implemented in <a href="SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolProducer</code></a>.</div>
 </li>
 </ul>
@@ -177,7 +177,7 @@ public interface <span class="typeNameLabel">SymbolConsumer&lt;Symbol&gt;</span>
 </tr>
 <tr class="rowColor" id="i1">
 <td class="colFirst"><code>default <a href="SymbolConsumer.Directive.html" title="enum in com.telenav.kivakit.data.compression">SymbolConsumer.Directive</a></code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onEscape(com.telenav.kivakit.core.collections.primitive.list.ByteList)">onEscape</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;input)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#onEscape(com.telenav.kivakit.primitive.collections.list.ByteList)">onEscape</a></span>&#8203;(<a href="../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;input)</code></th>
 <td class="colLast">
 <div class="block">Called when the codec reads an escape symbol.</div>
 </td>
@@ -222,13 +222,13 @@ public interface <span class="typeNameLabel">SymbolConsumer&lt;Symbol&gt;</span>
 </dl>
 </li>
 </ul>
-<a id="onEscape(com.telenav.kivakit.core.collections.primitive.list.ByteList)">
+<a id="onEscape(com.telenav.kivakit.primitive.collections.list.ByteList)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>onEscape</h4>
-<pre class="methodSignature">default&nbsp;<a href="SymbolConsumer.Directive.html" title="enum in com.telenav.kivakit.data.compression">SymbolConsumer.Directive</a>&nbsp;onEscape&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;input)</pre>
+<pre class="methodSignature">default&nbsp;<a href="SymbolConsumer.Directive.html" title="enum in com.telenav.kivakit.data.compression">SymbolConsumer.Directive</a>&nbsp;onEscape&#8203;(<a href="../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;input)</pre>
 <div class="block">Called when the codec reads an escape symbol. The method implementer can read the escaped symbol using the coding
  scheme implemented in <a href="SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolProducer</code></a>.</div>
 <dl>

@@ -17,6 +17,7 @@
     artifact kivakit_core_serialization_kryo
     artifact kivakit_core_test
     artifact kivakit_data_compression
+    artifact kivakit_primitive_collections
     artifact lexakai_annotations
     artifact kryo_serializers
     artifact swagger_annotations
@@ -26,8 +27,6 @@
     artifact objenesis
     artifact asm
     junit --> hamcrest_core
-    kivakit_core_collections --> kivakit_core_serialization_kryo
-    kivakit_core_collections --> kivakit_core_test
     kivakit_core_commandline --> kivakit_core_kernel
     kivakit_core_kernel --> annotations
     kivakit_core_kernel --> jackson_annotations
@@ -41,6 +40,9 @@
     kivakit_core_serialization_kryo --> kryo
     kivakit_core_serialization_kryo --> kryo_serializers
     kivakit_data_compression --> kivakit_core_resource
+    kivakit_data_compression --> kivakit_primitive_collections
+    kivakit_primitive_collections --> kivakit_core_serialization_kryo
+    kivakit_primitive_collections --> kivakit_core_test
     kryo --> minlog
     kryo --> objenesis
     kryo --> reflectasm

@@ -18,7 +18,7 @@ link SecureFtpResource to InputStream--><path codeLine="46" d="M433.4688,364.223
 reverse link SecureFtpResource to NetworkLocation--><path codeLine="47" d="M252.2604,375.4215 C232.3125,403.4945 212.8125,430.9528 199.6771,449.4424 " fill="none" id="SecureFtpResource-backto-NetworkLocation" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="260.2083,364.2236,253.1905,366.902,252.9637,374.4101,259.9815,371.7318,260.2083,364.2236" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="239.5833" y="411.6211">accesses</text><!--MD5=[bb8fb1604beeccf67a222ee1061a23eb]
 reverse link PeriodicCollectionChangeWatcher to SftpFolderWatcher--><path codeLine="77" d="M1153.125,518.484 C1153.125,538.8382 1153.125,562.8695 1153.125,582.807 " fill="none" id="PeriodicCollectionChangeWatcher-backto-SftpFolderWatcher" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1145.8333,518.3174,1153.125,497.484,1160.4167,518.3174,1145.8333,518.3174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[19e2e4e70549922465a5552e37c45441]
 link SftpFolderWatcher to SecureFtpConnector--><path codeLine="78" d="M1096.2083,666.3799 C1049.5417,699.8278 980.8542,749.057 916.0417,795.5153 " fill="none" id="SftpFolderWatcher-to-SecureFtpConnector" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="911.7813,798.5674,921.8263,796.4821,916.0114,795.5288,916.9646,789.7139,911.7813,798.5674" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="89.5833" x="1022.9167" y="735.5794">connects with</text><!--MD5=[41677b1bdcd6712435fb523ebaa03319]
-reverse link SftpFolderWatcher to SecureFtpSettings--><path codeLine="79" d="M1153.125,680.2549 C1153.125,707.3382 1153.125,741.484 1153.125,775.557 " fill="none" id="SftpFolderWatcher-backto-SecureFtpSettings" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="1153.125,666.3799,1148.9583,672.6299,1153.125,678.8799,1157.2917,672.6299,1153.125,666.3799" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c5f2b3d9880026693d0c2f8a054d5c00]
+reverse link SftpFolderWatcher to SecureFtpSettings--><path codeLine="79" d="M1153.125,680.2549 C1153.125,707.3382 1153.125,741.484 1153.125,775.557 " fill="none" id="SftpFolderWatcher-backto-SecureFtpSettings" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="1153.125,666.3799,1148.9583,672.6299,1153.125,678.8799,1157.2917,672.6299,1153.125,666.3799" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2d325c74b32ea889d50d4386969ac3e8]
 @startuml
 
     !include lexakai.theme
@@ -540,7 +540,7 @@ skinparam stack {
     
 @enduml
 
-PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+PlantUML version 1.2021.01(Mon Feb 01 23:55:08 PST 2021)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM
