@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"kivakit.data.compression"},{"l":"kivakit.data.formats.csv"},{"l":"kivakit.data.formats.library"},{"l":"kivakit.math"},{"l":"kivakit.ui.desktop"}]
+moduleSearchIndex = [{"l":"kivakit.collections.primitive"},{"l":"kivakit.data.compression"},{"l":"kivakit.data.formats.csv"},{"l":"kivakit.data.formats.library"},{"l":"kivakit.math"},{"l":"kivakit.ui.desktop"}]

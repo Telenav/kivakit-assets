@@ -21,7 +21,7 @@ reverse link PeriodicCollectionChangeWatcher to FolderChangeWatcher--><path code
 link FolderChangeWatcher to Folder--><path codeLine="117" d="M470.1042,474.5465 C478.7188,532.484 495.7188,646.7861 515.625,780.6299 " fill="none" id="FolderChangeWatcher-to-Folder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="516.3958,785.807,519.1271,775.918,515.624,780.6561,510.8858,777.153,516.3958,785.807" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="52.0833" x="514.0625" y="748.0794">watches</text><!--MD5=[e5a05db314b0d8e8ae1e75e44d652741]
 reverse link List to FolderList--><path codeLine="124" d="M833.8542,122.984 C833.8542,179.557 833.8542,278.5986 833.8542,349.2757 " fill="none" id="List-backto-FolderList" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="826.5625,122.7028,833.8542,101.8695,841.1458,122.7028,826.5625,122.7028" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[0eab663593aaf37391420fb7072fa266]
 reverse link FolderList to Folder--><path codeLine="125" d="M817.0104,530.0882 C805.8229,593.9111 789.9688,684.4007 772.2188,785.7445 " fill="none" id="FolderList-backto-Folder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="819.3854,516.4736,814.2026,521.9107,817.228,528.786,822.4108,523.349,819.3854,516.4736" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="806.125" y="539.4813">1</text><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="6.25" x="764.2888" y="771.3596">*</text><!--MD5=[2f9ff104885b4b4ee828f01910f2291f]
-link FolderPruner to Folder--><path codeLine="136" d="M1123.8854,700.859 C1052.4896,828.307 965.1146,984.2757 884.0104,1129.0465 " fill="none" id="FolderPruner-to-Folder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="881.375,1133.7549,889.5856,1127.6036,883.9157,1129.2083,882.3111,1123.5384,881.375,1133.7549" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="137.5" x="1106.7708" y="748.0794">prunes old files from</text><!--MD5=[af2076d06c150c680d7890935411c2e0]
+link FolderPruner to Folder--><path codeLine="136" d="M1123.8854,700.859 C1052.4896,828.307 965.1146,984.2757 884.0104,1129.0465 " fill="none" id="FolderPruner-to-Folder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="881.375,1133.7549,889.5856,1127.6036,883.9157,1129.2083,882.3111,1123.5384,881.375,1133.7549" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="137.5" x="1106.7708" y="748.0794">prunes old files from</text><!--MD5=[1e3a6804a9c86408827f7f1d680f3c95]
 @startuml
 
     !include lexakai.theme
@@ -701,7 +701,7 @@ skinparam stack {
     
 @enduml
 
-PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+PlantUML version 1.2021.01(Mon Feb 01 23:55:08 PST 2021)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM

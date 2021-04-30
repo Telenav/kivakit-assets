@@ -9,13 +9,6 @@
     
     interface ResourceFolder
     
-    BaseWritableResource <|-- BitArrayResource
-    class BitArrayResource
-    {
-        --(constructors)--
-        +BitArrayResource()
-    }
-    
     BaseReadableResource <|-- InputResource
     class InputResource
     {
