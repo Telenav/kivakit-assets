@@ -129,20 +129,20 @@ extends java.lang.Object
 implements <a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;Symbol&gt;</pre>
 <div class="block">A general-purpose Huffman coder implementing <a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression"><code>Codec</code></a> which works for any arbitrary symbol type. This design
  allows for both characters and strings to be Huffman-coded, which is useful when compressing tags because certain key
- and value strings occur very frequently. Table-based Huffman decoding of symbols from <code>ByteList</code> input is
+ and value strings occur very frequently. Table-based Huffman decoding of symbols from <a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list"><code>ByteList</code></a> input is
  implemented with <a href="FastHuffmanDecoder.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman"><code>FastHuffmanDecoder</code></a>.
  <p>
  A codec can be constructed with <a href="#from(com.telenav.kivakit.data.compression.codecs.huffman.tree.Symbols,com.telenav.kivakit.core.kernel.language.values.count.Maximum)"><code>from(Symbols, Maximum)</code></a>, passing in the symbols to be used and the maximum
  number of bits for the longest allowable Huffman code. The <a href="#toString()"><code>toString()</code></a> method returns a useful representation
  of codes and their bit patterns.
  <p>
- Once the codec has been constructed, it can be used like any other <a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression"><code>Codec</code></a>, by calling <a href="../../Codec.html#encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)"><code>Codec.encode(ByteList, SymbolProducer)</code></a> to encode a series of values and <a href="../../Codec.html#decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)"><code>Codec.decode(ByteList,
+ Once the codec has been constructed, it can be used like any other <a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression"><code>Codec</code></a>, by calling <a href="../../Codec.html#encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)"><code>Codec.encode(ByteList, SymbolProducer)</code></a> to encode a series of values and <a href="../../Codec.html#decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)"><code>Codec.decode(ByteList,
  SymbolConsumer)</code></a> to decode values from a byte array.</div>
 <dl>
 <dt><span class="simpleTagLabel">Author:</span></dt>
 <dd>jonathanl (shibo)</dd>
 <dt><span class="seeLabel">See Also:</span></dt>
-<dd><code>ByteList</code>, 
+<dd><a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list"><code>ByteList</code></a>, 
 <a href="../../SymbolConsumer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolConsumer</code></a>, 
 <a href="../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression"><code>SymbolProducer</code></a>, 
 <a href="FastHuffmanDecoder.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman"><code>FastHuffmanDecoder</code></a>, 
@@ -194,20 +194,20 @@ implements <a href="../../Codec.html" title="interface in com.telenav.kivakit.da
 </tr>
 <tr class="altColor" id="i4">
 <td class="colFirst"><code><a href="tree/CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)">decode</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader&nbsp;reader)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)">decode</a></span>&#8203;(<a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/array/bits/io/BitReader.html" title="interface in com.telenav.kivakit.primitive.collections.array.bits.io">BitReader</a>&nbsp;reader)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor" id="i5">
 <td class="colFirst"><code>void</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;input,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></span>&#8203;(<a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;input,
       <a href="../../SymbolConsumer.html" title="interface in com.telenav.kivakit.data.compression">SymbolConsumer</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&nbsp;consumer)</code></th>
 <td class="colLast">
 <div class="block">Reads the compressed data in the input, calling the consumer with a sequence of decoded symbols</div>
 </td>
 </tr>
 <tr class="altColor" id="i6">
-<td class="colFirst"><code>com.telenav.kivakit.core.collections.primitive.list.ByteList</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;output,
+<td class="colFirst"><code><a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a></code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></span>&#8203;(<a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;output,
       <a href="../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression">SymbolProducer</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&nbsp;producer)</code></th>
 <td class="colLast">
 <div class="block">Encodes the input symbols produced into the output</div>
@@ -321,45 +321,45 @@ implements <a href="../../Codec.html" title="interface in com.telenav.kivakit.da
 <pre class="methodSignature">public&nbsp;java.util.Set&lt;<a href="tree/CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&gt;&nbsp;codedSymbols()</pre>
 </li>
 </ul>
-<a id="decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">
+<a id="decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>decode</h4>
-<pre class="methodSignature">public final&nbsp;void&nbsp;decode&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;input,
+<pre class="methodSignature">public final&nbsp;void&nbsp;decode&#8203;(<a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;input,
                          <a href="../../SymbolConsumer.html" title="interface in com.telenav.kivakit.data.compression">SymbolConsumer</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&nbsp;consumer)</pre>
 <div class="block">Reads the compressed data in the input, calling the consumer with a sequence of decoded symbols</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../Codec.html#decode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></code>&nbsp;in interface&nbsp;<code><a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;</code></dd>
+<dd><code><a href="../../Codec.html#decode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolConsumer)">decode</a></code>&nbsp;in interface&nbsp;<code><a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;</code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>input</code> - The compressed data to decode</dd>
 <dd><code>consumer</code> - The consumer to call with decoded data</dd>
 </dl>
 </li>
 </ul>
-<a id="decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)">
+<a id="decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>decode</h4>
-<pre class="methodSignature">public&nbsp;<a href="tree/CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&nbsp;decode&#8203;(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader&nbsp;reader)</pre>
+<pre class="methodSignature">public&nbsp;<a href="tree/CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&nbsp;decode&#8203;(<a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/array/bits/io/BitReader.html" title="interface in com.telenav.kivakit.primitive.collections.array.bits.io">BitReader</a>&nbsp;reader)</pre>
 </li>
 </ul>
-<a id="encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">
+<a id="encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>encode</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;encode&#8203;(com.telenav.kivakit.core.collections.primitive.list.ByteList&nbsp;output,
-                                                                           <a href="../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression">SymbolProducer</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&nbsp;producer)</pre>
+<pre class="methodSignature">public&nbsp;<a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;encode&#8203;(<a href="../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/list/ByteList.html" title="interface in com.telenav.kivakit.primitive.collections.list">ByteList</a>&nbsp;output,
+                       <a href="../../SymbolProducer.html" title="interface in com.telenav.kivakit.data.compression">SymbolProducer</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;&nbsp;producer)</pre>
 <div class="block">Encodes the input symbols produced into the output</div>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="../../Codec.html#encode(com.telenav.kivakit.core.collections.primitive.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></code>&nbsp;in interface&nbsp;<code><a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;</code></dd>
+<dd><code><a href="../../Codec.html#encode(com.telenav.kivakit.primitive.collections.list.ByteList,com.telenav.kivakit.data.compression.SymbolProducer)">encode</a></code>&nbsp;in interface&nbsp;<code><a href="../../Codec.html" title="interface in com.telenav.kivakit.data.compression">Codec</a>&lt;<a href="HuffmanCodec.html" title="type parameter in HuffmanCodec">Symbol</a>&gt;</code></dd>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>output</code> - The encoded data output</dd>
 <dd><code>producer</code> - The source of symbols to encode</dd>

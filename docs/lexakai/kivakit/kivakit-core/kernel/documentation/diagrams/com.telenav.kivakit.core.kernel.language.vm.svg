@@ -17,7 +17,7 @@ link JavaVirtualMachine.KivaKitExcludeFromSizeOf to JavaVirtualMachine.KivaKitEx
 link JavaVirtualMachine.KivaKitExcludeFromSizeOfDebugTracing to JavaVirtualMachine.KivaKitNonCyclicObjectGraph--><!--MD5=[3df269f7cb98fecd66d7133f3612738d]
 link JavaVirtualMachine.KivaKitExcludeFromSizeOf to KivaKitShutdownHook--><!--MD5=[ae4f5aa4db4efcd49d788a3f2624455e]
 link KivaKitShutdownHook to KivaKitShutdownHook.Order--><!--MD5=[6d60cb3958ccc1bd7a1b348b55a494b9]
-link KivaKitShutdownHook.Order to Processes--><!--MD5=[41d4aefba275588b534a56e38e39debd]
+link KivaKitShutdownHook.Order to Processes--><!--MD5=[1e25d2543904af281c78a9e73cadaa7a]
 @startuml
 
     !include lexakai.theme
@@ -605,7 +605,7 @@ skinparam stack {
     
 @enduml
 
-PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+PlantUML version 1.2021.01(Mon Feb 01 23:55:08 PST 2021)
 (GPL source distribution)
 Java Runtime: Java(TM) SE Runtime Environment
 JVM: Java HotSpot(TM) 64-Bit Server VM

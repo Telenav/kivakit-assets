@@ -70,7 +70,6 @@
         --(constructors)--
         +ZipArchive(FileSystem, ProgressReporter, File)
         --
-        +void dumpStream(String entryName)
         +ZipEntry entry(String pathname)
         +boolean is(File)
         +ZipArchive open(File, ProgressReporter, Mode)

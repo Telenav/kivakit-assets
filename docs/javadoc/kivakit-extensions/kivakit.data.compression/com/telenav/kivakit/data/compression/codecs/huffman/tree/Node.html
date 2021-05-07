@@ -128,7 +128,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <pre>public class <span class="typeNameLabel">Node&lt;T&gt;</span>
 extends <a href="Tree.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Tree</a>&lt;T&gt;</pre>
 <div class="block">An interior node in a Huffman tree, having a left and right sub-tree. The frequency of the node is the sum of the
- frequencies of the sub-trees. A symbol can be decoded with <a href="#decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)"><code>decode(BitReader)</code></a>.</div>
+ frequencies of the sub-trees. A symbol can be decoded with <a href="#decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)"><code>decode(BitReader)</code></a>.</div>
 </li>
 </ul>
 </div>
@@ -212,7 +212,7 @@ extends <a href="Tree.html" title="class in com.telenav.kivakit.data.compression
 <tbody>
 <tr class="altColor" id="i0">
 <td class="colFirst"><code><a href="CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="Node.html" title="type parameter in Node">T</a>&gt;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)">decode</a></span>&#8203;(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader&nbsp;bits)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)">decode</a></span>&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/array/bits/io/BitReader.html" title="interface in com.telenav.kivakit.primitive.collections.array.bits.io">BitReader</a>&nbsp;bits)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </tbody>
@@ -297,16 +297,16 @@ extends <a href="Tree.html" title="class in com.telenav.kivakit.data.compression
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)">
+<a id="decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>decode</h4>
-<pre class="methodSignature">public&nbsp;<a href="CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="Node.html" title="type parameter in Node">T</a>&gt;&nbsp;decode&#8203;(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader&nbsp;bits)</pre>
+<pre class="methodSignature">public&nbsp;<a href="CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">CodedSymbol</a>&lt;<a href="Node.html" title="type parameter in Node">T</a>&gt;&nbsp;decode&#8203;(<a href="../../../../../../../../../kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/array/bits/io/BitReader.html" title="interface in com.telenav.kivakit.primitive.collections.array.bits.io">BitReader</a>&nbsp;bits)</pre>
 <dl>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code><a href="Tree.html#decode(com.telenav.kivakit.core.collections.primitive.array.bits.io.BitReader)">decode</a></code>&nbsp;in class&nbsp;<code><a href="Tree.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Tree</a>&lt;<a href="Node.html" title="type parameter in Node">T</a>&gt;</code></dd>
+<dd><code><a href="Tree.html#decode(com.telenav.kivakit.primitive.collections.array.bits.io.BitReader)">decode</a></code>&nbsp;in class&nbsp;<code><a href="Tree.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Tree</a>&lt;<a href="Node.html" title="type parameter in Node">T</a>&gt;</code></dd>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>A symbol decoded from the given input using this Huffman tree</dd>
 </dl>

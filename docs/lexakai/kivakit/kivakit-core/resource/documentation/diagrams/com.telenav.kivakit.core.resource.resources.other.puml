@@ -7,13 +7,6 @@
     abstract BaseReadableResource
     abstract BaseWritableResource
     
-    BaseWritableResource <|-- BitArrayResource
-    class BitArrayResource
-    {
-        --(constructors)--
-        +BitArrayResource()
-    }
-    
     BaseWritableResource <|-- NullResource
     class NullResource
     {
