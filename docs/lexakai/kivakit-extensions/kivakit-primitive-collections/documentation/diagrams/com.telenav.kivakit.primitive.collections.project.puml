@@ -1,0 +1,29 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.primitive.collections.project"
+    
+    KryoTypes <|-- PrimitiveCollectionsKryoTypes
+    class PrimitiveCollectionsKryoTypes
+    {
+        --(constructors)--
+        +PrimitiveCollectionsKryoTypes()
+    }
+    
+    Project <|-- PrimitiveCollectionsProject
+    class PrimitiveCollectionsProject
+    {
+        --(constructors)--
+        #PrimitiveCollectionsProject()
+        --
+        +PrimitiveCollectionsProject get()
+    }
+    
+    KryoUnitTest <|-- PrimitiveCollectionsUnitTest
+    abstract class PrimitiveCollectionsUnitTest
+    {
+    }
+    
+@enduml
+

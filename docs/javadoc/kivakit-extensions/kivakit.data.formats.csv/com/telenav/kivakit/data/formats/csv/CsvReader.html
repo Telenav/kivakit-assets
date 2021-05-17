@@ -108,7 +108,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>com.telenav.kivakit.core.kernel.language.iteration.BaseIterator&lt;<a href="CsvLine.html" title="class in com.telenav.kivakit.data.formats.csv">CsvLine</a>&gt;</li>
+<li>com.telenav.kivakit.kernel.language.iteration.BaseIterator&lt;<a href="CsvLine.html" title="class in com.telenav.kivakit.data.formats.csv">CsvLine</a>&gt;</li>
 <li>
 <ul class="inheritance">
 <li>com.telenav.kivakit.data.formats.csv.CsvReader</li>
@@ -122,7 +122,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code>com.telenav.kivakit.core.kernel.interfaces.io.Closeable</code>, <code>com.telenav.kivakit.core.kernel.interfaces.messaging.Receiver&lt;com.telenav.kivakit.core.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.core.kernel.interfaces.messaging.Transmitter&lt;com.telenav.kivakit.core.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.core.kernel.interfaces.naming.NamedObject</code>, <code>com.telenav.kivakit.core.kernel.language.trait.Trait</code>, <code>com.telenav.kivakit.core.kernel.messaging.Broadcaster</code>, <code>com.telenav.kivakit.core.kernel.messaging.Listener</code>, <code>com.telenav.kivakit.core.kernel.messaging.Repeater</code>, <code>com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait</code>, <code>com.telenav.kivakit.core.kernel.messaging.Transceiver</code>, <code>java.lang.AutoCloseable</code>, <code>java.util.Iterator&lt;<a href="CsvLine.html" title="class in com.telenav.kivakit.data.formats.csv">CsvLine</a>&gt;</code></dd>
+<dd><code>com.telenav.kivakit.kernel.interfaces.io.Closeable</code>, <code>com.telenav.kivakit.kernel.interfaces.messaging.Receiver&lt;com.telenav.kivakit.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.kernel.interfaces.messaging.Transmitter&lt;com.telenav.kivakit.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.kernel.interfaces.naming.NamedObject</code>, <code>com.telenav.kivakit.kernel.language.trait.Trait</code>, <code>com.telenav.kivakit.kernel.messaging.Broadcaster</code>, <code>com.telenav.kivakit.kernel.messaging.Listener</code>, <code>com.telenav.kivakit.kernel.messaging.Repeater</code>, <code>com.telenav.kivakit.kernel.messaging.repeaters.RepeaterTrait</code>, <code>com.telenav.kivakit.kernel.messaging.Transceiver</code>, <code>java.lang.AutoCloseable</code>, <code>java.util.Iterator&lt;<a href="CsvLine.html" title="class in com.telenav.kivakit.data.formats.csv">CsvLine</a>&gt;</code></dd>
 </dl>
 <dl>
 <dt>Direct Known Subclasses:</dt>
@@ -130,8 +130,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dl>
 <hr>
 <pre>public class <span class="typeNameLabel">CsvReader</span>
-extends com.telenav.kivakit.core.kernel.language.iteration.BaseIterator&lt;<a href="CsvLine.html" title="class in com.telenav.kivakit.data.formats.csv">CsvLine</a>&gt;
-implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, com.telenav.kivakit.core.kernel.interfaces.io.Closeable</pre>
+extends com.telenav.kivakit.kernel.language.iteration.BaseIterator&lt;<a href="CsvLine.html" title="class in com.telenav.kivakit.data.formats.csv">CsvLine</a>&gt;
+implements com.telenav.kivakit.kernel.messaging.repeaters.RepeaterTrait, com.telenav.kivakit.kernel.interfaces.io.Closeable</pre>
 <div class="block">Parses a stream of CSV information. The rules outlined
  <a href="http://en.wikipedia.org/wiki/Comma-separated_values">here</a> dictate valid CSV format.
  In particular, this class can handle quoted strings, line breaks within quotes, comments, empty lines, and some of
@@ -139,7 +139,7 @@ implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, co
 
  <p><b>Processing CSV Lines</b></p>
  <p>
- A reader instance is constructed with <a href="#%3Cinit%3E(com.telenav.kivakit.core.resource.Resource,com.telenav.kivakit.data.formats.csv.CsvSchema,char,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)"><code>CsvReader(Resource, CsvSchema, char, ProgressReporter)</code></a>. Since the
+ A reader instance is constructed with <a href="#%3Cinit%3E(com.telenav.kivakit.resource.Resource,com.telenav.kivakit.data.formats.csv.CsvSchema,char,com.telenav.kivakit.kernel.language.progress.ProgressReporter)"><code>CsvReader(Resource, CsvSchema, char, ProgressReporter)</code></a>. Since the
  class is <code>Iterable</code>, lines can then be retrieved as objects with code similar to:
 
  <pre>
@@ -184,10 +184,10 @@ implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, co
 </tr>
 <tbody>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.core.resource.Resource,com.telenav.kivakit.data.formats.csv.CsvSchema,char,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">CsvReader</a></span>&#8203;(com.telenav.kivakit.core.resource.Resource&nbsp;resource,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.resource.Resource,com.telenav.kivakit.data.formats.csv.CsvSchema,char,com.telenav.kivakit.kernel.language.progress.ProgressReporter)">CsvReader</a></span>&#8203;(com.telenav.kivakit.resource.Resource&nbsp;resource,
          <a href="CsvSchema.html" title="class in com.telenav.kivakit.data.formats.csv">CsvSchema</a>&nbsp;schema,
          char&nbsp;delimiter,
-         com.telenav.kivakit.core.kernel.language.progress.ProgressReporter&nbsp;reporter)</code></th>
+         com.telenav.kivakit.kernel.language.progress.ProgressReporter&nbsp;reporter)</code></th>
 <td class="colLast">
 <div class="block">Constructs a reader for the given input stream and CSV schema</div>
 </td>
@@ -261,10 +261,10 @@ implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, co
 </div>
 </div>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.language.iteration.BaseIterator">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.language.iteration.BaseIterator">
 <!--   -->
 </a>
-<h3>Methods inherited from class&nbsp;com.telenav.kivakit.core.kernel.language.iteration.BaseIterator</h3>
+<h3>Methods inherited from class&nbsp;com.telenav.kivakit.kernel.language.iteration.BaseIterator</h3>
 <code>filter, filter, hasNext, next, remove</code></li>
 </ul>
 <ul class="blockList">
@@ -275,10 +275,10 @@ implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, co
 <code>equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Broadcaster">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Broadcaster">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Broadcaster</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Broadcaster</h3>
 <code>addListener, onTransmit, silence, transmit, transmitAll</code></li>
 </ul>
 <ul class="blockList">
@@ -289,46 +289,46 @@ implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, co
 <code>forEachRemaining</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Listener">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Listener">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Listener</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Listener</h3>
 <code>isDeaf, listenTo, listenTo</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.interfaces.naming.NamedObject">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.interfaces.naming.NamedObject">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.interfaces.naming.NamedObject</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.interfaces.naming.NamedObject</h3>
 <code>objectName, objectName</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Repeater">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Repeater">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Repeater</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Repeater</h3>
 <code>onHandle, onReceive, receive</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.repeaters.RepeaterTrait">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait</h3>
-<code>addListener, clearListeners, debugCodeContext, debugCodeContext, hasListeners, onMessage, removeListener, repeater, transmit</code></li>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.repeaters.RepeaterTrait</h3>
+<code>addListener, clearListeners, debugCodeContext, debugCodeContext, handle, hasListeners, onMessage, parentBroadcaster, parentBroadcaster, removeListener, repeater, transmit</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.language.trait.Trait">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.language.trait.Trait">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.language.trait.Trait</h3>
-<code>value</code></li>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.language.trait.Trait</h3>
+<code>traitValue</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Transceiver">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Transceiver">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Transceiver</h3>
-<code>announce, debug, debugClassContext, halt, halt, handle, ifDebug, information, isDebugOn, isOn, narrate, problem, problem, problem, problem, quibble, quibble, quibble, quibble, throwProblem, throwProblem, trace, trace, trace, trace, warning, warning, warning, warning</code></li>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Transceiver</h3>
+<code>announce, debug, debugClassContext, halt, halt, ifDebug, information, isDebugOn, isOn, narrate, problem, problem, problem, problem, quibble, quibble, quibble, quibble, throwProblem, throwProblem, trace, trace, trace, trace, warning, warning, warning, warning</code></li>
 </ul>
 </li>
 </ul>
@@ -346,16 +346,16 @@ implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, co
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a id="&lt;init&gt;(com.telenav.kivakit.core.resource.Resource,com.telenav.kivakit.data.formats.csv.CsvSchema,char,com.telenav.kivakit.core.kernel.language.progress.ProgressReporter)">
+<a id="&lt;init&gt;(com.telenav.kivakit.resource.Resource,com.telenav.kivakit.data.formats.csv.CsvSchema,char,com.telenav.kivakit.kernel.language.progress.ProgressReporter)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>CsvReader</h4>
-<pre>public&nbsp;CsvReader&#8203;(com.telenav.kivakit.core.resource.Resource&nbsp;resource,
+<pre>public&nbsp;CsvReader&#8203;(com.telenav.kivakit.resource.Resource&nbsp;resource,
                  <a href="CsvSchema.html" title="class in com.telenav.kivakit.data.formats.csv">CsvSchema</a>&nbsp;schema,
                  char&nbsp;delimiter,
-                 com.telenav.kivakit.core.kernel.language.progress.ProgressReporter&nbsp;reporter)</pre>
+                 com.telenav.kivakit.kernel.language.progress.ProgressReporter&nbsp;reporter)</pre>
 <div class="block">Constructs a reader for the given input stream and CSV schema</div>
 </li>
 </ul>
@@ -381,7 +381,7 @@ implements com.telenav.kivakit.core.kernel.messaging.repeaters.RepeaterTrait, co
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
 <dd><code>close</code>&nbsp;in interface&nbsp;<code>java.lang.AutoCloseable</code></dd>
 <dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd><code>close</code>&nbsp;in interface&nbsp;<code>com.telenav.kivakit.core.kernel.interfaces.io.Closeable</code></dd>
+<dd><code>close</code>&nbsp;in interface&nbsp;<code>com.telenav.kivakit.kernel.interfaces.io.Closeable</code></dd>
 </dl>
 </li>
 </ul>

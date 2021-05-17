@@ -8,15 +8,15 @@
     artifact minlog
     artifact reflectasm
     artifact jackson_annotations
-    artifact kivakit_build_metadata
-    artifact kivakit_core_collections
-    artifact kivakit_core_commandline
-    artifact kivakit_core_kernel
-    artifact kivakit_core_resource
-    artifact kivakit_core_serialization_core
-    artifact kivakit_core_serialization_kryo
-    artifact kivakit_core_test
+    artifact cactus_build_metadata
+    artifact kivakit_collections
+    artifact kivakit_commandline
     artifact kivakit_data_formats_csv
+    artifact kivakit_kernel
+    artifact kivakit_resource
+    artifact kivakit_serialization_core
+    artifact kivakit_serialization_kryo
+    artifact kivakit_test
     artifact lexakai_annotations
     artifact kryo_serializers
     artifact swagger_annotations
@@ -26,21 +26,21 @@
     artifact objenesis
     artifact asm
     junit --> hamcrest_core
-    kivakit_core_collections --> kivakit_core_serialization_kryo
-    kivakit_core_collections --> kivakit_core_test
-    kivakit_core_commandline --> kivakit_core_kernel
-    kivakit_core_kernel --> annotations
-    kivakit_core_kernel --> jackson_annotations
-    kivakit_core_kernel --> junit
-    kivakit_core_kernel --> kivakit_build_metadata
-    kivakit_core_kernel --> lexakai_annotations
-    kivakit_core_kernel --> swagger_annotations
-    kivakit_core_resource --> kivakit_core_collections
-    kivakit_core_resource --> kivakit_core_commandline
-    kivakit_core_resource --> kivakit_core_serialization_core
-    kivakit_core_serialization_kryo --> kryo
-    kivakit_core_serialization_kryo --> kryo_serializers
-    kivakit_data_formats_csv --> kivakit_core_resource
+    kivakit_collections --> kivakit_serialization_kryo
+    kivakit_collections --> kivakit_test
+    kivakit_commandline --> kivakit_kernel
+    kivakit_data_formats_csv --> kivakit_resource
+    kivakit_kernel --> annotations
+    kivakit_kernel --> cactus_build_metadata
+    kivakit_kernel --> jackson_annotations
+    kivakit_kernel --> junit
+    kivakit_kernel --> lexakai_annotations
+    kivakit_kernel --> swagger_annotations
+    kivakit_resource --> kivakit_collections
+    kivakit_resource --> kivakit_commandline
+    kivakit_resource --> kivakit_serialization_core
+    kivakit_serialization_kryo --> kryo
+    kivakit_serialization_kryo --> kryo_serializers
     kryo --> minlog
     kryo --> objenesis
     kryo --> reflectasm

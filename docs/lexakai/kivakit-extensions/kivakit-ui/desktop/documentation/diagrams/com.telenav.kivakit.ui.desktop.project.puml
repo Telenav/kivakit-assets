@@ -1,0 +1,17 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.project"
+    
+    Project <|-- UiSwingProject
+    class UiSwingProject
+    {
+        --(constructors)--
+        #UiSwingProject()
+        --
+        +UiSwingProject get()
+    }
+    
+@enduml
+

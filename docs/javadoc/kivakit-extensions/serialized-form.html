@@ -88,26 +88,43 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList"><a id="com.telenav.kivakit.primitive.collections.PrimitiveCollection.AllocationStackTrace">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.collections.primitive/com/telenav/kivakit/primitive/collections/PrimitiveCollection.AllocationStackTrace.html" title="class in com.telenav.kivakit.primitive.collections">com.telenav.kivakit.primitive.collections.PrimitiveCollection.AllocationStackTrace</a> extends java.lang.RuntimeException implements Serializable</h3>
+<h3>Class <a href="kivakit.primitive.collections/com/telenav/kivakit/primitive/collections/PrimitiveCollection.AllocationStackTrace.html" title="class in com.telenav.kivakit.primitive.collections">com.telenav.kivakit.primitive.collections.PrimitiveCollection.AllocationStackTrace</a> extends java.lang.RuntimeException implements Serializable</h3>
 </li>
 </ul>
 </section>
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.service.registry.server.webapp</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.KivaKitPanel">
+<li class="blockList"><a id="com.telenav.kivakit.service.registry.server.webapp.ServiceRegistryWebPage">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">com.telenav.kivakit.ui.swing.component.KivaKitPanel</a> extends javax.swing.JPanel implements Serializable</h3>
+<h3>Class <a href="kivakit.service.server/com/telenav/kivakit/service/registry/server/webapp/ServiceRegistryWebPage.html" title="class in com.telenav.kivakit.service.registry.server.webapp">com.telenav.kivakit.service.registry.server.webapp.ServiceRegistryWebPage</a> extends org.apache.wicket.markup.html.WebPage implements Serializable</h3>
+</li>
+</ul>
+</section>
+</li>
+<li class="blockList">
+<section role="region">
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.service.registry.server.webapp.pages.home</h2>
+<ul class="blockList">
+<li class="blockList"><a id="com.telenav.kivakit.service.registry.server.webapp.pages.home.HomePage">
+<!--   -->
+</a>
+<h3>Class <a href="kivakit.service.server/com/telenav/kivakit/service/registry/server/webapp/pages/home/HomePage.html" title="class in com.telenav.kivakit.service.registry.server.webapp.pages.home">com.telenav.kivakit.service.registry.server.webapp.pages.home.HomePage</a> extends <a href="kivakit.service.server/com/telenav/kivakit/service/registry/server/webapp/ServiceRegistryWebPage.html" title="class in com.telenav.kivakit.service.registry.server.webapp">ServiceRegistryWebPage</a> implements Serializable</h3>
+</li>
+<li class="blockList"><a id="com.telenav.kivakit.service.registry.server.webapp.pages.home.ServicePanel">
+<!--   -->
+</a>
+<h3>Class <a href="kivakit.service.server/com/telenav/kivakit/service/registry/server/webapp/pages/home/ServicePanel.html" title="class in com.telenav.kivakit.service.registry.server.webapp.pages.home">com.telenav.kivakit.service.registry.server.webapp.pages.home.ServicePanel</a> extends org.apache.wicket.markup.html.panel.Panel implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockListLast">
-<h4>repeater</h4>
-<pre>com.telenav.kivakit.core.kernel.language.objects.Lazy&lt;com.telenav.kivakit.core.kernel.messaging.repeaters.BaseRepeater&gt; repeater</pre>
+<h4>model</h4>
+<pre>org.apache.wicket.model.IModel&lt;<a href="kivakit.service.registry/com/telenav/kivakit/service/registry/Service.html" title="class in com.telenav.kivakit.service.registry">Service</a>&gt; model</pre>
 </li>
 </ul>
 </li>
@@ -118,12 +135,24 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.health</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.health.CpuUse">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.KivaKitPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/health/CpuUse.html" title="class in com.telenav.kivakit.ui.swing.component.health">com.telenav.kivakit.ui.swing.component.health.CpuUse</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">com.telenav.kivakit.ui.desktop.component.KivaKitPanel</a> extends javax.swing.JPanel implements Serializable</h3>
+</li>
+</ul>
+</section>
+</li>
+<li class="blockList">
+<section role="region">
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.health</h2>
+<ul class="blockList">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.health.CpuUse">
+<!--   -->
+</a>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/health/CpuUse.html" title="class in com.telenav.kivakit.ui.desktop.component.health">com.telenav.kivakit.ui.desktop.component.health.CpuUse</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -136,21 +165,21 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 </ul>
 </li>
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.health.HealthPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.health.HealthPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/health/HealthPanel.html" title="class in com.telenav.kivakit.ui.swing.component.health">com.telenav.kivakit.ui.swing.component.health.HealthPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/panel/stack/FlashCardPanel.html" title="class in com.telenav.kivakit.ui.swing.component.panel.stack">FlashCardPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/health/HealthPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.health">com.telenav.kivakit.ui.desktop.component.health.HealthPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/panel/stack/FlashCardPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.panel.stack">FlashCardPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockList">
 <h4>cpuUse</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/health/CpuUse.html" title="class in com.telenav.kivakit.ui.swing.component.health">CpuUse</a> cpuUse</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/health/CpuUse.html" title="class in com.telenav.kivakit.ui.desktop.component.health">CpuUse</a> cpuUse</pre>
 </li>
 <li class="blockList">
 <h4>memoryUse</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/health/MemoryUse.html" title="class in com.telenav.kivakit.ui.swing.component.health">MemoryUse</a> memoryUse</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/health/MemoryUse.html" title="class in com.telenav.kivakit.ui.desktop.component.health">MemoryUse</a> memoryUse</pre>
 </li>
 <li class="blockListLast">
 <h4>updates</h4>
@@ -160,10 +189,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 </ul>
 </li>
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.health.MemoryUse">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.health.MemoryUse">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/health/MemoryUse.html" title="class in com.telenav.kivakit.ui.swing.component.health">com.telenav.kivakit.ui.swing.component.health.MemoryUse</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/health/MemoryUse.html" title="class in com.telenav.kivakit.ui.desktop.component.health">com.telenav.kivakit.ui.desktop.component.health.MemoryUse</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -181,48 +210,48 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.icon.logo.kivakit</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.icon.logo.kivakit</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.icon.logo.kivakit.KivaKitLogo">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.icon.logo.kivakit.KivaKitLogo">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/icon/logo/kivakit/KivaKitLogo.html" title="class in com.telenav.kivakit.ui.swing.component.icon.logo.kivakit">com.telenav.kivakit.ui.swing.component.icon.logo.kivakit.KivaKitLogo</a> extends javax.swing.JLabel implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/icon/logo/kivakit/KivaKitLogo.html" title="class in com.telenav.kivakit.ui.desktop.component.icon.logo.kivakit">com.telenav.kivakit.ui.desktop.component.icon.logo.kivakit.KivaKitLogo</a> extends javax.swing.JLabel implements Serializable</h3>
 </li>
 </ul>
 </section>
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.icon.search</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.icon.search</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.icon.search.MagnifyingGlass">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.icon.search.MagnifyingGlass">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/icon/search/MagnifyingGlass.html" title="class in com.telenav.kivakit.ui.swing.component.icon.search">com.telenav.kivakit.ui.swing.component.icon.search.MagnifyingGlass</a> extends javax.swing.JLabel implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/icon/search/MagnifyingGlass.html" title="class in com.telenav.kivakit.ui.desktop.component.icon.search">com.telenav.kivakit.ui.desktop.component.icon.search.MagnifyingGlass</a> extends javax.swing.JLabel implements Serializable</h3>
 </li>
 </ul>
 </section>
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.layout.separator</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.layout.separator</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.layout.separator.HorizontalSeparator">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.layout.separator.HorizontalSeparator">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/layout/separator/HorizontalSeparator.html" title="class in com.telenav.kivakit.ui.swing.component.layout.separator">com.telenav.kivakit.ui.swing.component.layout.separator.HorizontalSeparator</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/layout/separator/HorizontalSeparator.html" title="class in com.telenav.kivakit.ui.desktop.component.layout.separator">com.telenav.kivakit.ui.desktop.component.layout.separator.HorizontalSeparator</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 </li>
 </ul>
 </section>
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.panel.output</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.panel.output</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.panel.output.OutputPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.panel.output.OutputPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/panel/output/OutputPanel.html" title="class in com.telenav.kivakit.ui.swing.component.panel.output">com.telenav.kivakit.ui.swing.component.panel.output.OutputPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/panel/output/OutputPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.panel.output">com.telenav.kivakit.ui.desktop.component.panel.output.OutputPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -240,12 +269,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.panel.properties</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.panel.properties</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.panel.properties.PropertyPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.panel.properties.PropertyPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/panel/properties/PropertyPanel.html" title="class in com.telenav.kivakit.ui.swing.component.panel.properties">com.telenav.kivakit.ui.swing.component.panel.properties.PropertyPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/panel/properties/PropertyPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.panel.properties">com.telenav.kivakit.ui.desktop.component.panel.properties.PropertyPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -263,12 +292,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.panel.section</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.panel.section</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.panel.section.Section">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.panel.section.Section">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/panel/section/Section.html" title="class in com.telenav.kivakit.ui.swing.component.panel.section">com.telenav.kivakit.ui.swing.component.panel.section.Section</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/panel/section/Section.html" title="class in com.telenav.kivakit.ui.desktop.component.panel.section">com.telenav.kivakit.ui.desktop.component.panel.section.Section</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -290,12 +319,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.panel.stack</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.panel.stack</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.panel.stack.CardPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.panel.stack.CardPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/panel/stack/CardPanel.html" title="class in com.telenav.kivakit.ui.swing.component.panel.stack">com.telenav.kivakit.ui.swing.component.panel.stack.CardPanel</a> extends javax.swing.JPanel implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/panel/stack/CardPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.panel.stack">com.telenav.kivakit.ui.desktop.component.panel.stack.CardPanel</a> extends javax.swing.JPanel implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -308,10 +337,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 </ul>
 </li>
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.panel.stack.FlashCardPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.panel.stack.FlashCardPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/panel/stack/FlashCardPanel.html" title="class in com.telenav.kivakit.ui.swing.component.panel.stack">com.telenav.kivakit.ui.swing.component.panel.stack.FlashCardPanel</a> extends javax.swing.JPanel implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/panel/stack/FlashCardPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.panel.stack">com.telenav.kivakit.ui.desktop.component.panel.stack.FlashCardPanel</a> extends javax.swing.JPanel implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -329,12 +358,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.panel.titled</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.panel.titled</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.panel.titled.TitledPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.panel.titled.TitledPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/panel/titled/TitledPanel.html" title="class in com.telenav.kivakit.ui.swing.component.panel.titled">com.telenav.kivakit.ui.swing.component.panel.titled.TitledPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/panel/titled/TitledPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.panel.titled">com.telenav.kivakit.ui.desktop.component.panel.titled.TitledPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
@@ -356,39 +385,39 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.progress</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.progress</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.progress.ProgressPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.progress.ProgressPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/progress/ProgressPanel.html" title="class in com.telenav.kivakit.ui.swing.component.progress">com.telenav.kivakit.ui.swing.component.progress.ProgressPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/progress/ProgressPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.progress">com.telenav.kivakit.ui.desktop.component.progress.ProgressPanel</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 </li>
 </ul>
 </section>
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.searchlist</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.searchlist</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.searchlist.SearchList">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.searchlist.SearchList">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/searchlist/SearchList.html" title="class in com.telenav.kivakit.ui.swing.component.searchlist">com.telenav.kivakit.ui.swing.component.searchlist.SearchList</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/searchlist/SearchList.html" title="class in com.telenav.kivakit.ui.desktop.component.searchlist">com.telenav.kivakit.ui.desktop.component.searchlist.SearchList</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockList">
 <h4>converter</h4>
-<pre>com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/searchlist/SearchList.html" title="type parameter in SearchList">T</a>&gt; converter</pre>
+<pre>com.telenav.kivakit.kernel.data.conversion.string.StringConverter&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/searchlist/SearchList.html" title="type parameter in SearchList">T</a>&gt; converter</pre>
 </li>
 <li class="blockList">
 <h4>elements</h4>
-<pre>java.util.List&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/searchlist/SearchList.html" title="type parameter in SearchList">T</a>&gt; elements</pre>
+<pre>java.util.List&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/searchlist/SearchList.html" title="type parameter in SearchList">T</a>&gt; elements</pre>
 </li>
 <li class="blockList">
 <h4>list</h4>
-<pre>javax.swing.JList&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/searchlist/SearchList.html" title="type parameter in SearchList">T</a>&gt; list</pre>
+<pre>javax.swing.JList&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/searchlist/SearchList.html" title="type parameter in SearchList">T</a>&gt; list</pre>
 </li>
 <li class="blockListLast">
 <h4>searchField</h4>
@@ -403,19 +432,19 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.status</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.status</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.status.StatusPanel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.status.StatusPanel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/status/StatusPanel.html" title="class in com.telenav.kivakit.ui.swing.component.status">com.telenav.kivakit.ui.swing.component.status.StatusPanel</a> extends javax.swing.JPanel implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/status/StatusPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.status">com.telenav.kivakit.ui.desktop.component.status.StatusPanel</a> extends javax.swing.JPanel implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockList">
 <h4>healthPanel</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/health/HealthPanel.html" title="class in com.telenav.kivakit.ui.swing.component.health">HealthPanel</a> healthPanel</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/health/HealthPanel.html" title="class in com.telenav.kivakit.ui.desktop.component.health">HealthPanel</a> healthPanel</pre>
 </li>
 <li class="blockListLast">
 <h4>status</h4>
@@ -430,68 +459,68 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.component.version</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.component.version</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.version.KivaKitBuild">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.version.KivaKitBuild">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/version/KivaKitBuild.html" title="class in com.telenav.kivakit.ui.swing.component.version">com.telenav.kivakit.ui.swing.component.version.KivaKitBuild</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.swing.component">KivaKitPanel</a> implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/version/KivaKitBuild.html" title="class in com.telenav.kivakit.ui.desktop.component.version">com.telenav.kivakit.ui.desktop.component.version.KivaKitBuild</a> extends <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/KivaKitPanel.html" title="class in com.telenav.kivakit.ui.desktop.component">KivaKitPanel</a> implements Serializable</h3>
 </li>
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.component.version.KivaKitVersion">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.component.version.KivaKitVersion">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/component/version/KivaKitVersion.html" title="class in com.telenav.kivakit.ui.swing.component.version">com.telenav.kivakit.ui.swing.component.version.KivaKitVersion</a> extends javax.swing.JLabel implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/component/version/KivaKitVersion.html" title="class in com.telenav.kivakit.ui.desktop.component.version">com.telenav.kivakit.ui.desktop.component.version.KivaKitVersion</a> extends javax.swing.JLabel implements Serializable</h3>
 </li>
 </ul>
 </section>
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.layout</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.layout</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.layout.HorizontalBox">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.layout.HorizontalBox">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/layout/HorizontalBox.html" title="class in com.telenav.kivakit.ui.swing.layout">com.telenav.kivakit.ui.swing.layout.HorizontalBox</a> extends javax.swing.JComponent implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/layout/HorizontalBox.html" title="class in com.telenav.kivakit.ui.desktop.layout">com.telenav.kivakit.ui.desktop.layout.HorizontalBox</a> extends javax.swing.JComponent implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockListLast">
 <h4>layout</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/layout/HorizontalBoxLayout.html" title="class in com.telenav.kivakit.ui.swing.layout">HorizontalBoxLayout</a> layout</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/layout/HorizontalBoxLayout.html" title="class in com.telenav.kivakit.ui.desktop.layout">HorizontalBoxLayout</a> layout</pre>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.layout.RoundedBorder">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.layout.RoundedBorder">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/layout/RoundedBorder.html" title="class in com.telenav.kivakit.ui.swing.layout">com.telenav.kivakit.ui.swing.layout.RoundedBorder</a> extends javax.swing.border.AbstractBorder implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/layout/RoundedBorder.html" title="class in com.telenav.kivakit.ui.desktop.layout">com.telenav.kivakit.ui.desktop.layout.RoundedBorder</a> extends javax.swing.border.AbstractBorder implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockListLast">
 <h4>color</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/graphics/style/Color.html" title="class in com.telenav.kivakit.ui.swing.graphics.style">Color</a> color</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/graphics/drawing/style/Color.html" title="class in com.telenav.kivakit.ui.desktop.graphics.drawing.style">Color</a> color</pre>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.layout.VerticalBox">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.layout.VerticalBox">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/layout/VerticalBox.html" title="class in com.telenav.kivakit.ui.swing.layout">com.telenav.kivakit.ui.swing.layout.VerticalBox</a> extends javax.swing.JComponent implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/layout/VerticalBox.html" title="class in com.telenav.kivakit.ui.desktop.layout">com.telenav.kivakit.ui.desktop.layout.VerticalBox</a> extends javax.swing.JComponent implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockListLast">
 <h4>layout</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/layout/VerticalBoxLayout.html" title="class in com.telenav.kivakit.ui.swing.layout">VerticalBoxLayout</a> layout</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/layout/VerticalBoxLayout.html" title="class in com.telenav.kivakit.ui.desktop.layout">VerticalBoxLayout</a> layout</pre>
 </li>
 </ul>
 </li>
@@ -502,55 +531,103 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </li>
 <li class="blockList">
 <section role="region">
-<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.swing.model</h2>
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.ui.desktop.model</h2>
 <ul class="blockList">
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.model.RefreshableComboBoxModel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.model.RefreshableComboBoxModel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableComboBoxModel.html" title="class in com.telenav.kivakit.ui.swing.model">com.telenav.kivakit.ui.swing.model.RefreshableComboBoxModel</a> extends javax.swing.AbstractListModel&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableComboBoxModel.html" title="type parameter in RefreshableComboBoxModel">E</a>&gt; implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableComboBoxModel.html" title="class in com.telenav.kivakit.ui.desktop.model">com.telenav.kivakit.ui.desktop.model.RefreshableComboBoxModel</a> extends javax.swing.AbstractListModel&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableComboBoxModel.html" title="type parameter in RefreshableComboBoxModel">E</a>&gt; implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockList">
 <h4>items</h4>
-<pre>java.util.List&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableComboBoxModel.html" title="type parameter in RefreshableComboBoxModel">E</a>&gt; items</pre>
+<pre>java.util.List&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableComboBoxModel.html" title="type parameter in RefreshableComboBoxModel">E</a>&gt; items</pre>
 </li>
 <li class="blockList">
 <h4>lock</h4>
-<pre>com.telenav.kivakit.core.kernel.language.threading.locks.ReadWriteLock lock</pre>
+<pre>com.telenav.kivakit.kernel.language.threading.locks.ReadWriteLock lock</pre>
 </li>
 <li class="blockListLast">
 <h4>selected</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableComboBoxModel.html" title="type parameter in RefreshableComboBoxModel">E</a> selected</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableComboBoxModel.html" title="type parameter in RefreshableComboBoxModel">E</a> selected</pre>
 </li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="blockList"><a id="com.telenav.kivakit.ui.swing.model.RefreshableListModel">
+<li class="blockList"><a id="com.telenav.kivakit.ui.desktop.model.RefreshableListModel">
 <!--   -->
 </a>
-<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableListModel.html" title="class in com.telenav.kivakit.ui.swing.model">com.telenav.kivakit.ui.swing.model.RefreshableListModel</a> extends javax.swing.AbstractListModel&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableListModel.html" title="type parameter in RefreshableListModel">E</a>&gt; implements Serializable</h3>
+<h3>Class <a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableListModel.html" title="class in com.telenav.kivakit.ui.desktop.model">com.telenav.kivakit.ui.desktop.model.RefreshableListModel</a> extends javax.swing.AbstractListModel&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableListModel.html" title="type parameter in RefreshableListModel">E</a>&gt; implements Serializable</h3>
 <ul class="blockList">
 <li class="blockList">
 <h3>Serialized Fields</h3>
 <ul class="blockList">
 <li class="blockList">
 <h4>items</h4>
-<pre>java.util.List&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableListModel.html" title="type parameter in RefreshableListModel">E</a>&gt; items</pre>
+<pre>java.util.List&lt;<a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableListModel.html" title="type parameter in RefreshableListModel">E</a>&gt; items</pre>
 </li>
 <li class="blockList">
 <h4>lock</h4>
-<pre>com.telenav.kivakit.core.kernel.language.threading.locks.ReadWriteLock lock</pre>
+<pre>com.telenav.kivakit.kernel.language.threading.locks.ReadWriteLock lock</pre>
 </li>
 <li class="blockListLast">
 <h4>selected</h4>
-<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/swing/model/RefreshableListModel.html" title="type parameter in RefreshableListModel">E</a> selected</pre>
+<pre><a href="kivakit.ui.desktop/com/telenav/kivakit/ui/desktop/model/RefreshableListModel.html" title="type parameter in RefreshableListModel">E</a> selected</pre>
 </li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+</section>
+</li>
+<li class="blockList">
+<section role="region">
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.web.wicket.behaviors.status</h2>
+<ul class="blockList">
+<li class="blockList"><a id="com.telenav.kivakit.web.wicket.behaviors.status.MessageColor">
+<!--   -->
+</a>
+<h3>Class <a href="kivakit.web.wicket/com/telenav/kivakit/web/wicket/behaviors/status/MessageColor.html" title="class in com.telenav.kivakit.web.wicket.behaviors.status">com.telenav.kivakit.web.wicket.behaviors.status.MessageColor</a> extends org.apache.wicket.AttributeModifier implements Serializable</h3>
+</li>
+</ul>
+</section>
+</li>
+<li class="blockList">
+<section role="region">
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.web.wicket.components.feedback</h2>
+<ul class="blockList">
+<li class="blockList"><a id="com.telenav.kivakit.web.wicket.components.feedback.FeedbackPanel">
+<!--   -->
+</a>
+<h3>Class <a href="kivakit.web.wicket/com/telenav/kivakit/web/wicket/components/feedback/FeedbackPanel.html" title="class in com.telenav.kivakit.web.wicket.components.feedback">com.telenav.kivakit.web.wicket.components.feedback.FeedbackPanel</a> extends org.apache.wicket.markup.html.panel.FeedbackPanel implements Serializable</h3>
+</li>
+</ul>
+</section>
+</li>
+<li class="blockList">
+<section role="region">
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.web.wicket.components.header</h2>
+<ul class="blockList">
+<li class="blockList"><a id="com.telenav.kivakit.web.wicket.components.header.HeaderPanel">
+<!--   -->
+</a>
+<h3>Class <a href="kivakit.web.wicket/com/telenav/kivakit/web/wicket/components/header/HeaderPanel.html" title="class in com.telenav.kivakit.web.wicket.components.header">com.telenav.kivakit.web.wicket.components.header.HeaderPanel</a> extends org.apache.wicket.markup.html.panel.Panel implements Serializable</h3>
+</li>
+</ul>
+</section>
+</li>
+<li class="blockList">
+<section role="region">
+<h2 title="Package">Package&nbsp;com.telenav.kivakit.web.wicket.components.refresh</h2>
+<ul class="blockList">
+<li class="blockList"><a id="com.telenav.kivakit.web.wicket.components.refresh.UpdatingContainer">
+<!--   -->
+</a>
+<h3>Class <a href="kivakit.web.wicket/com/telenav/kivakit/web/wicket/components/refresh/UpdatingContainer.html" title="class in com.telenav.kivakit.web.wicket.components.refresh">com.telenav.kivakit.web.wicket.components.refresh.UpdatingContainer</a> extends org.apache.wicket.markup.html.WebMarkupContainer implements Serializable</h3>
 </li>
 </ul>
 </section>

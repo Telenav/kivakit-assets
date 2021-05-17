@@ -120,12 +120,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 extends java.lang.Object</pre>
 <div class="block">A set of <a href="CodedSymbol.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree"><code>CodedSymbol</code></a>s, optionally including an escape symbol, that can be used to construct a <a href="../HuffmanCodec.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman"><code>HuffmanCodec</code></a>.
  <p>
- The constructor <a href="#%3Cinit%3E(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap,Symbol,com.telenav.kivakit.core.kernel.language.values.count.Minimum)"><code>Symbols(CountMap, Object, Minimum)</code></a> takes a map of symbol frequencies, an escape symbol
+ The constructor <a href="#%3Cinit%3E(com.telenav.kivakit.kernel.language.collections.map.count.CountMap,Symbol,com.telenav.kivakit.kernel.language.values.count.Minimum)"><code>Symbols(CountMap, Object, Minimum)</code></a> takes a map of symbol frequencies, an escape symbol
  (which must have a frequency entry in the map) and a minimum number of times that a symbol must appear to be
  encoded.
  <p>
- Once a set of symbols has been constructed, it can be converted to a <code>PropertyMap</code> object with <a href="#asProperties(com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter,java.util.function.Function)"><code>asProperties(StringConverter, Function)</code></a>  and saved to a file with <code>PropertyMap.save(WritableResource)</code>. The
- properties can later be loaded with <code>PropertyMap.load(Resource)</code> and passed to <a href="#load(com.telenav.kivakit.core.resource.resources.other.PropertyMap,Symbol,com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter)"><code>load(PropertyMap,
+ Once a set of symbols has been constructed, it can be converted to a <code>PropertyMap</code> object with <a href="#asProperties(com.telenav.kivakit.kernel.data.conversion.string.StringConverter,java.util.function.Function)"><code>asProperties(StringConverter, Function)</code></a>  and saved to a file with <code>PropertyMap.save(WritableResource)</code>. The
+ properties can later be loaded with <code>PropertyMap.load(Resource)</code> and passed to <a href="#load(com.telenav.kivakit.resource.resources.other.PropertyMap,Symbol,com.telenav.kivakit.kernel.data.conversion.string.StringConverter)"><code>load(PropertyMap,
  Object, StringConverter)</code></a> along with the escape symbol and a converter that can convert property keys into symbols.
  <p>
  PropertyMap files for creating tag codecs can easily be constructed by running the <i>CodecGeneratorApplication</i>
@@ -172,18 +172,18 @@ extends java.lang.Object</pre>
 </tr>
 <tbody>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap)">Symbols</a></span>&#8203;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies)</code></th>
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.kernel.language.collections.map.count.CountMap)">Symbols</a></span>&#8203;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="rowColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap,com.telenav.kivakit.core.kernel.language.values.count.Minimum)">Symbols</a></span>&#8203;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
-       com.telenav.kivakit.core.kernel.language.values.count.Minimum&nbsp;occurrences)</code></th>
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.kernel.language.collections.map.count.CountMap,com.telenav.kivakit.kernel.language.values.count.Minimum)">Symbols</a></span>&#8203;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
+       com.telenav.kivakit.kernel.language.values.count.Minimum&nbsp;occurrences)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor">
-<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap,Symbol,com.telenav.kivakit.core.kernel.language.values.count.Minimum)">Symbols</a></span>&#8203;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
+<th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(com.telenav.kivakit.kernel.language.collections.map.count.CountMap,Symbol,com.telenav.kivakit.kernel.language.values.count.Minimum)">Symbols</a></span>&#8203;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
        <a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&nbsp;escape,
-       com.telenav.kivakit.core.kernel.language.values.count.Minimum&nbsp;occurrences)</code></th>
+       com.telenav.kivakit.kernel.language.values.count.Minimum&nbsp;occurrences)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
 </tbody>
@@ -210,8 +210,8 @@ extends java.lang.Object</pre>
 </tr>
 <tbody>
 <tr class="altColor" id="i0">
-<td class="colFirst"><code>com.telenav.kivakit.core.resource.resources.other.PropertyMap</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#asProperties(com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter,java.util.function.Function)">asProperties</a></span>&#8203;(com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;converter,
+<td class="colFirst"><code>com.telenav.kivakit.resource.resources.other.PropertyMap</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#asProperties(com.telenav.kivakit.kernel.data.conversion.string.StringConverter,java.util.function.Function)">asProperties</a></span>&#8203;(com.telenav.kivakit.kernel.data.conversion.string.StringConverter&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;converter,
             java.util.function.Function&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>,&#8203;java.lang.String&gt;&nbsp;commenter)</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
@@ -227,17 +227,17 @@ extends java.lang.Object</pre>
 </tr>
 <tr class="rowColor" id="i3">
 <td class="colFirst"><code>static &lt;Symbol&gt;&nbsp;<a href="Symbols.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Symbols</a>&lt;Symbol&gt;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#load(com.telenav.kivakit.core.resource.resources.other.PropertyMap,com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter)">load</a></span>&#8203;(com.telenav.kivakit.core.resource.resources.other.PropertyMap&nbsp;properties,
-    com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#load(com.telenav.kivakit.resource.resources.other.PropertyMap,com.telenav.kivakit.kernel.data.conversion.string.StringConverter)">load</a></span>&#8203;(com.telenav.kivakit.resource.resources.other.PropertyMap&nbsp;properties,
+    com.telenav.kivakit.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</code></th>
 <td class="colLast">
 <div class="block">Loads a set of symbols created through statistical analysis of a source file.</div>
 </td>
 </tr>
 <tr class="altColor" id="i4">
 <td class="colFirst"><code>static &lt;Symbol&gt;&nbsp;<a href="Symbols.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Symbols</a>&lt;Symbol&gt;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#load(com.telenav.kivakit.core.resource.resources.other.PropertyMap,Symbol,com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter)">load</a></span>&#8203;(com.telenav.kivakit.core.resource.resources.other.PropertyMap&nbsp;properties,
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#load(com.telenav.kivakit.resource.resources.other.PropertyMap,Symbol,com.telenav.kivakit.kernel.data.conversion.string.StringConverter)">load</a></span>&#8203;(com.telenav.kivakit.resource.resources.other.PropertyMap&nbsp;properties,
     Symbol&nbsp;escape,
-    com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</code></th>
+    com.telenav.kivakit.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</code></th>
 <td class="colLast">
 <div class="block">Loads a set of symbols created through statistical analysis of a source file.</div>
 </td>
@@ -248,7 +248,7 @@ extends java.lang.Object</pre>
 <td class="colLast">&nbsp;</td>
 </tr>
 <tr class="altColor" id="i6">
-<td class="colFirst"><code>com.telenav.kivakit.core.kernel.language.collections.list.ObjectList&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;</code></td>
+<td class="colFirst"><code>com.telenav.kivakit.kernel.language.collections.list.ObjectList&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#symbols()">symbols</a></span>()</code></th>
 <td class="colLast">&nbsp;</td>
 </tr>
@@ -258,7 +258,7 @@ extends java.lang.Object</pre>
 </tr>
 <tr class="altColor" id="i8">
 <td class="colFirst"><code><a href="Tree.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Tree</a>&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#tree(com.telenav.kivakit.core.kernel.language.values.count.Maximum)">tree</a></span>&#8203;(com.telenav.kivakit.core.kernel.language.values.count.Maximum&nbsp;bits)</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#tree(com.telenav.kivakit.kernel.language.values.count.Maximum)">tree</a></span>&#8203;(com.telenav.kivakit.kernel.language.values.count.Maximum&nbsp;bits)</code></th>
 <td class="colLast">
 <div class="block">A brute-force algorithm for building a Huffman coding tree where no code exceeds the given maximum bit length.</div>
 </td>
@@ -290,27 +290,27 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>Constructor Detail</h3>
-<a id="&lt;init&gt;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap)">
+<a id="&lt;init&gt;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>Symbols</h4>
-<pre>public&nbsp;Symbols&#8203;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies)</pre>
+<pre>public&nbsp;Symbols&#8203;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies)</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>frequencies</code> - A frequency map containing the number of times each symbol appears</dd>
 </dl>
 </li>
 </ul>
-<a id="&lt;init&gt;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap,com.telenav.kivakit.core.kernel.language.values.count.Minimum)">
+<a id="&lt;init&gt;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap,com.telenav.kivakit.kernel.language.values.count.Minimum)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>Symbols</h4>
-<pre>public&nbsp;Symbols&#8203;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
-               com.telenav.kivakit.core.kernel.language.values.count.Minimum&nbsp;occurrences)</pre>
+<pre>public&nbsp;Symbols&#8203;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
+               com.telenav.kivakit.kernel.language.values.count.Minimum&nbsp;occurrences)</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>frequencies</code> - A frequency map containing the number of times each symbol appears</dd>
@@ -318,17 +318,17 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
-<a id="&lt;init&gt;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap,java.lang.Object,com.telenav.kivakit.core.kernel.language.values.count.Minimum)">
+<a id="&lt;init&gt;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap,java.lang.Object,com.telenav.kivakit.kernel.language.values.count.Minimum)">
 <!--   -->
-</a><a id="&lt;init&gt;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap,Symbol,com.telenav.kivakit.core.kernel.language.values.count.Minimum)">
+</a><a id="&lt;init&gt;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap,Symbol,com.telenav.kivakit.kernel.language.values.count.Minimum)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>Symbols</h4>
-<pre>public&nbsp;Symbols&#8203;(com.telenav.kivakit.core.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
+<pre>public&nbsp;Symbols&#8203;(com.telenav.kivakit.kernel.language.collections.map.count.CountMap&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;frequencies,
                <a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&nbsp;escape,
-               com.telenav.kivakit.core.kernel.language.values.count.Minimum&nbsp;occurrences)</pre>
+               com.telenav.kivakit.kernel.language.values.count.Minimum&nbsp;occurrences)</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>frequencies</code> - A frequency map containing the number of times each symbol appears</dd>
@@ -347,14 +347,14 @@ extends java.lang.Object</pre>
 <!--   -->
 </a>
 <h3>Method Detail</h3>
-<a id="load(com.telenav.kivakit.core.resource.resources.other.PropertyMap,com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter)">
+<a id="load(com.telenav.kivakit.resource.resources.other.PropertyMap,com.telenav.kivakit.kernel.data.conversion.string.StringConverter)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>load</h4>
-<pre class="methodSignature">public static&nbsp;&lt;Symbol&gt;&nbsp;<a href="Symbols.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Symbols</a>&lt;Symbol&gt;&nbsp;load&#8203;(com.telenav.kivakit.core.resource.resources.other.PropertyMap&nbsp;properties,
-                                            com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</pre>
+<pre class="methodSignature">public static&nbsp;&lt;Symbol&gt;&nbsp;<a href="Symbols.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Symbols</a>&lt;Symbol&gt;&nbsp;load&#8203;(com.telenav.kivakit.resource.resources.other.PropertyMap&nbsp;properties,
+                                            com.telenav.kivakit.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</pre>
 <div class="block">Loads a set of symbols created through statistical analysis of a source file.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -365,17 +365,17 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
-<a id="load(com.telenav.kivakit.core.resource.resources.other.PropertyMap,java.lang.Object,com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter)">
+<a id="load(com.telenav.kivakit.resource.resources.other.PropertyMap,java.lang.Object,com.telenav.kivakit.kernel.data.conversion.string.StringConverter)">
 <!--   -->
-</a><a id="load(com.telenav.kivakit.core.resource.resources.other.PropertyMap,Symbol,com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter)">
+</a><a id="load(com.telenav.kivakit.resource.resources.other.PropertyMap,Symbol,com.telenav.kivakit.kernel.data.conversion.string.StringConverter)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>load</h4>
-<pre class="methodSignature">public static&nbsp;&lt;Symbol&gt;&nbsp;<a href="Symbols.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Symbols</a>&lt;Symbol&gt;&nbsp;load&#8203;(com.telenav.kivakit.core.resource.resources.other.PropertyMap&nbsp;properties,
+<pre class="methodSignature">public static&nbsp;&lt;Symbol&gt;&nbsp;<a href="Symbols.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Symbols</a>&lt;Symbol&gt;&nbsp;load&#8203;(com.telenav.kivakit.resource.resources.other.PropertyMap&nbsp;properties,
                                             Symbol&nbsp;escape,
-                                            com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</pre>
+                                            com.telenav.kivakit.kernel.data.conversion.string.StringConverter&lt;Symbol&gt;&nbsp;converter)</pre>
 <div class="block">Loads a set of symbols created through statistical analysis of a source file.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
@@ -387,14 +387,14 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
-<a id="asProperties(com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter,java.util.function.Function)">
+<a id="asProperties(com.telenav.kivakit.kernel.data.conversion.string.StringConverter,java.util.function.Function)">
 <!--   -->
 </a>
 <ul class="blockList">
 <li class="blockList">
 <h4>asProperties</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.resource.resources.other.PropertyMap&nbsp;asProperties&#8203;(com.telenav.kivakit.core.kernel.data.conversion.string.StringConverter&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;converter,
-                                                                                  java.util.function.Function&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>,&#8203;java.lang.String&gt;&nbsp;commenter)</pre>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.resource.resources.other.PropertyMap&nbsp;asProperties&#8203;(com.telenav.kivakit.kernel.data.conversion.string.StringConverter&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;converter,
+                                                                             java.util.function.Function&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>,&#8203;java.lang.String&gt;&nbsp;commenter)</pre>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>converter</code> - A converter to convert symbols into strings to be used as keys in the properties object</dd>
@@ -448,7 +448,7 @@ extends java.lang.Object</pre>
 <ul class="blockList">
 <li class="blockList">
 <h4>symbols</h4>
-<pre class="methodSignature">public&nbsp;com.telenav.kivakit.core.kernel.language.collections.list.ObjectList&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;symbols()</pre>
+<pre class="methodSignature">public&nbsp;com.telenav.kivakit.kernel.language.collections.list.ObjectList&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;symbols()</pre>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
 <dd>List of symbol values</dd>
@@ -468,13 +468,13 @@ extends java.lang.Object</pre>
 </dl>
 </li>
 </ul>
-<a id="tree(com.telenav.kivakit.core.kernel.language.values.count.Maximum)">
+<a id="tree(com.telenav.kivakit.kernel.language.values.count.Maximum)">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
 <h4>tree</h4>
-<pre class="methodSignature">public&nbsp;<a href="Tree.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Tree</a>&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;tree&#8203;(com.telenav.kivakit.core.kernel.language.values.count.Maximum&nbsp;bits)</pre>
+<pre class="methodSignature">public&nbsp;<a href="Tree.html" title="class in com.telenav.kivakit.data.compression.codecs.huffman.tree">Tree</a>&lt;<a href="Symbols.html" title="type parameter in Symbols">Symbol</a>&gt;&nbsp;tree&#8203;(com.telenav.kivakit.kernel.language.values.count.Maximum&nbsp;bits)</pre>
 <div class="block">A brute-force algorithm for building a Huffman coding tree where no code exceeds the given maximum bit length.
  Simply builds a tree, checks its height and if it's too tall, removes the least frequent symbol and tries again.</div>
 </li>

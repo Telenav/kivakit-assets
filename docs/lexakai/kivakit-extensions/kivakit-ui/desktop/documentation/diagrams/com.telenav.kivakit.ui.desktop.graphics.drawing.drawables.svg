@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1180.2083px" preserveAspectRatio="none" style="width:1370px;height:1180px;background:#333333;" version="1.1" viewBox="0 0 1370 1180" width="1370.8333px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="614.5833" x="370.8333" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="591.6667" x="382.2917" y="30.5583">com.telenav.kivakit.ui.desktop.graphics.drawing.drawables</text><!--MD5=[bd844f4dd4c33de0707c5372ec4d496c]
+class BaseDrawable--><rect codeLine="11" fill="#282828" height="249.6704" id="BaseDrawable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="285.4167" x="684.375" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="285.4167" x="684.375" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="285.4167" x="684.375" y="187.1745"/><rect codeLine="11" fill="none" height="249.6704" id="BaseDrawable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="285.4167" x="684.375" y="164.1195"/><ellipse cx="774.4792" cy="179.8136" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M774.5931,176.5157 L773.7447,180.245 L775.4476,180.245 Z M773.4945,174.8678 L775.6978,174.8678 L778.1576,183.9803 L776.357,183.9803 L775.7955,181.7281 L773.3846,181.7281 L772.8353,183.9803 L771.0347,183.9803 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="90.625" x="797.3958" y="184.5378">BaseDrawable</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="685.4167" x2="968.75" y1="195.5078" y2="195.5078"/><polygon fill="#FFFF44" points="695.8333,225.6694,700,229.836,695.8333,234.0027,691.6667,229.836" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="707.2917" y="237.7889">BaseDrawable(BaseDrawable)</text><polygon fill="#FFFF44" points="695.8333,245.4142,700,249.5809,695.8333,253.7476,691.6667,249.5809" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="110.4167" x="707.2917" y="257.5338">BaseDrawable(Style)</text><ellipse cx="695.8333" cy="270.3674" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="707.2917" y="277.2786">BaseDrawable(Style, DrawingPoint)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="685.4167" x2="783.3333" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="786.4583" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="870.8333" x2="968.75" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="685.4167" x2="968.75" y1="286.9873" y2="286.9873"/><polygon fill="#FFFF44" points="695.8333,293.2373,700,297.404,695.8333,301.5706,691.6667,297.404" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="121.875" x="707.2917" y="305.3569">Box box(DrawingSize)</text><polygon fill="#FFFF44" points="695.8333,312.9822,700,317.1488,695.8333,321.3155,691.6667,317.1488" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="707.2917" y="325.1017">Dot dot(DrawingLength radius)</text><polygon fill="#FFFF44" points="695.8333,332.7271,700,336.8937,695.8333,341.0604,691.6667,336.8937" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="707.2917" y="344.8466">Label label(String text)</text><polygon fill="#FFFF44" points="695.8333,352.4719,700,356.6386,695.8333,360.8053,691.6667,356.6386" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="253.125" x="707.2917" y="364.5915">Line line(DrawingPoint from, DrawingPoint to)</text><polygon fill="#FFFF44" points="695.8333,372.2168,700,376.3835,695.8333,380.5501,691.6667,376.3835" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="111.4583" x="707.2917" y="384.3363">Shape shape(Shape)</text><polygon fill="#FFFF44" points="695.8333,391.9617,700,396.1283,695.8333,400.295,691.6667,396.1283" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="707.2917" y="404.0812">Text text(String text)</text><!--MD5=[630deb9ca358f01922be9b487b80131a]
+class Drawable--><rect codeLine="8" fill="#282828" height="48.055" id="Drawable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="97.9167" x="778.125" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="97.9167" x="778.125" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="97.9167" x="778.125" y="76.7578"/><rect codeLine="8" fill="none" height="48.055" id="Drawable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="97.9167" x="778.125" y="53.7028"/><ellipse cx="792.7083" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M789.5915,66.5588 L789.5915,64.9719 L795.0175,64.9719 L795.0175,66.5588 L793.2048,66.5588 L793.2048,72.4976 L795.0175,72.4976 L795.0175,74.0845 L789.5915,74.0845 L789.5915,72.4976 L791.4042,72.4976 L791.4042,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="60.4167" x="809.375" y="74.1211">Drawable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="779.1667" x2="875" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="779.1667" x2="875" y1="93.4245" y2="93.4245"/><!--MD5=[e54af2a3dfd72988f8d17c8016ff295d]
+class Box--><rect codeLine="27" fill="#282828" height="317.2384" id="Box" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="497.9167" x="9.375" y="517.7653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="497.9167" x="9.375" y="517.7653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="497.9167" x="9.375" y="540.8203"/><rect codeLine="27" fill="none" height="317.2384" id="Box" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="497.9167" x="9.375" y="517.7653"/><ellipse cx="239.0625" cy="533.4595" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M240.9729,537.8845 Q240.5457,538.1042 240.0757,538.2141 Q239.6057,538.324 239.0869,538.324 Q237.2437,538.324 236.2732,537.1094 Q235.3027,535.8948 235.3027,533.5999 Q235.3027,531.2988 236.2732,530.0842 Q237.2437,528.8696 239.0869,528.8696 Q239.6057,528.8696 240.0818,528.9795 Q240.5579,529.0894 240.9729,529.3091 L240.9729,531.311 Q240.509,530.8838 240.0726,530.6854 Q239.6362,530.4871 239.1724,530.4871 Q238.1836,530.4871 237.6801,531.2714 Q237.1765,532.0557 237.1765,533.5999 Q237.1765,535.1379 237.6801,535.9222 Q238.1836,536.7065 239.1724,536.7065 Q239.6362,536.7065 240.0726,536.5082 Q240.509,536.3098 240.9729,535.8826 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="23.9583" x="261.9792" y="538.1836">Box</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="506.25" y1="549.1536" y2="549.1536"/><polygon fill="#FFFF44" points="20.8333,579.3152,25,583.4819,20.8333,587.6485,16.6667,583.4819" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="32.2917" y="591.4347">Box(Box)</text><polygon fill="#FFFF44" points="20.8333,599.0601,25,603.2267,20.8333,607.3934,16.6667,603.2267" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="32.2917" y="611.1796">Box(Style)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="214.5833" y1="567.3594" y2="567.3594"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="217.7083" y="571.169">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="302.0833" x2="506.25" y1="567.3594" y2="567.3594"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="506.25" y1="620.8883" y2="620.8883"/><ellipse cx="20.8333" cy="632.3466" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="80.2083" x="32.2917" y="639.2578">Box box(Style)</text><ellipse cx="20.8333" cy="652.0915" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="54.1667" x="32.2917" y="659.0027">Box box()</text><polygon fill="#FFFF44" points="20.8333,666.628,25,670.7947,20.8333,674.9613,16.6667,670.7947" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="233.3333" x="32.2917" y="678.7476">Shape draw(DrawingSurface, DrawingSize)</text><ellipse cx="20.8333" cy="715.4928" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="32.2917" y="722.404">DrawingSize size()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="223.9583" y1="698.3287" y2="698.3287"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="227.0833" y="702.1383">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="292.7083" x2="506.25" y1="698.3287" y2="698.3287"/><ellipse cx="20.8333" cy="759.1492" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="32.2917" y="766.0604">Box withArea(DrawingRectangle)</text><ellipse cx="20.8333" cy="778.894" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="465.625" x="32.2917" y="785.8053">Box withRoundedCorners(DrawingWidth cornerWidth, DrawingHeight cornerHeight)</text><ellipse cx="20.8333" cy="798.6389" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="276.0417" x="32.2917" y="805.5501">Box withRoundedCorners(DrawingLength corner)</text><ellipse cx="20.8333" cy="818.3838" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="32.2917" y="825.295">Box withSize(DrawingSize)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="222.9167" y1="741.9851" y2="741.9851"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="226.0417" y="745.7947">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="293.75" x2="506.25" y1="741.9851" y2="741.9851"/><!--MD5=[dd8a4c39a55de402715073e2862d1c2e]
+class Dot--><rect codeLine="46" fill="#282828" height="194.6025" id="Dot" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="246.875" x="544.2708" y="579.2236"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="246.875" x="544.2708" y="579.2236"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="246.875" x="544.2708" y="602.2786"/><rect codeLine="46" fill="none" height="194.6025" id="Dot" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="246.875" x="544.2708" y="579.2236"/><ellipse cx="648.4375" cy="594.9178" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M650.3479,599.3429 Q649.9207,599.5626 649.4507,599.6724 Q648.9807,599.7823 648.4619,599.7823 Q646.6187,599.7823 645.6482,598.5677 Q644.6777,597.3531 644.6777,595.0582 Q644.6777,592.7572 645.6482,591.5426 Q646.6187,590.328 648.4619,590.328 Q648.9807,590.328 649.4568,590.4378 Q649.9329,590.5477 650.3479,590.7674 L650.3479,592.7694 Q649.884,592.3421 649.4476,592.1438 Q649.0112,591.9454 648.5474,591.9454 Q647.5586,591.9454 647.0551,592.7297 Q646.5515,593.514 646.5515,595.0582 Q646.5515,596.5963 647.0551,597.3806 Q647.5586,598.1649 648.5474,598.1649 Q649.0112,598.1649 649.4476,597.9665 Q649.884,597.7681 650.3479,597.3409 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="23.9583" x="671.3542" y="599.6419">Dot</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="545.3125" x2="790.1042" y1="610.612" y2="610.612"/><polygon fill="#FFFF44" points="555.7292,640.7735,559.8958,644.9402,555.7292,649.1069,551.5625,644.9402" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="54.1667" x="567.1875" y="652.8931">Dot(Style)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="545.3125" x2="623.9583" y1="628.8177" y2="628.8177"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="627.0833" y="632.6274">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="711.4583" x2="790.1042" y1="628.8177" y2="628.8177"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="545.3125" x2="790.1042" y1="662.6017" y2="662.6017"/><ellipse cx="555.7292" cy="674.0601" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="76.0417" x="567.1875" y="680.9713">Dot dot(Style)</text><ellipse cx="555.7292" cy="693.8049" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="567.1875" y="700.7161">Dot dot()</text><ellipse cx="555.7292" cy="713.5498" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="131.25" x="567.1875" y="720.461">DrawingLength radius()</text><ellipse cx="555.7292" cy="757.2062" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="567.1875" y="764.1174">Dot withRadius(DrawingLength radius)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="545.3125" x2="632.2917" y1="740.0421" y2="740.0421"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="635.4167" y="743.8517">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="703.125" x2="790.1042" y1="740.0421" y2="740.0421"/><!--MD5=[e84c991d4d3bbf916ee1653c86a9249d]
+class Label--><rect codeLine="59" fill="#282828" height="234.0922" id="Label" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="191.6667" x="162.5" y="939.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="191.6667" x="162.5" y="939.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="191.6667" x="162.5" y="962.1745"/><rect codeLine="59" fill="none" height="234.0922" id="Label" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="191.6667" x="162.5" y="939.1195"/><ellipse cx="233.8542" cy="954.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M235.7646,959.2387 Q235.3373,959.4584 234.8674,959.5683 Q234.3974,959.6781 233.8786,959.6781 Q232.0353,959.6781 231.0649,958.4635 Q230.0944,957.2489 230.0944,954.954 Q230.0944,952.653 231.0649,951.4384 Q232.0353,950.2238 233.8786,950.2238 Q234.3974,950.2238 234.8735,950.3337 Q235.3495,950.4435 235.7646,950.6632 L235.7646,952.6652 Q235.3007,952.238 234.8643,952.0396 Q234.4279,951.8412 233.964,951.8412 Q232.9753,951.8412 232.4717,952.6255 Q231.9682,953.4098 231.9682,954.954 Q231.9682,956.4921 232.4717,957.2764 Q232.9753,958.0607 233.964,958.0607 Q234.4279,958.0607 234.8643,957.8623 Q235.3007,957.664 235.7646,957.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="34.375" x="256.7708" y="959.5378">Label</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="163.5417" x2="353.125" y1="970.5078" y2="970.5078"/><polygon fill="#FFFF44" points="173.9583,1000.6694,178.125,1004.836,173.9583,1009.0027,169.7917,1004.836" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="66.6667" x="185.4167" y="1012.7889">Label(Label)</text><polygon fill="#FFFF44" points="173.9583,1020.4142,178.125,1024.5809,173.9583,1028.7476,169.7917,1024.5809" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="103.125" x="185.4167" y="1032.5338">Label(Style, String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="163.5417" x2="214.5833" y1="988.7136" y2="988.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="217.7083" y="992.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="302.0833" x2="353.125" y1="988.7136" y2="988.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="163.5417" x2="353.125" y1="1042.2424" y2="1042.2424"/><ellipse cx="173.9583" cy="1053.7008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="66.6667" x="185.4167" y="1060.612">Label label()</text><ellipse cx="173.9583" cy="1073.4456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="185.4167" y="1080.3569">Label label(Style)</text><ellipse cx="173.9583" cy="1093.1905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="185.4167" y="1100.1017">Label label(Style, String text)</text><ellipse cx="173.9583" cy="1136.8469" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="159.375" x="185.4167" y="1143.7581">Label withMargin(int margin)</text><ellipse cx="173.9583" cy="1156.5918" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="185.4167" y="1163.503">Label withText(String text)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="163.5417" x2="222.9167" y1="1119.6828" y2="1119.6828"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="226.0417" y="1123.4924">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="293.75" x2="353.125" y1="1119.6828" y2="1119.6828"/><!--MD5=[736dfa021baaf4f381c9890dd397bfe9]
+class Line--><rect codeLine="74" fill="#282828" height="400.3845" id="Line" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="317.7083" x="827.6042" y="476.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="317.7083" x="827.6042" y="476.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="317.7083" x="827.6042" y="499.6745"/><rect codeLine="74" fill="none" height="400.3845" id="Line" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="317.7083" x="827.6042" y="476.6195"/><ellipse cx="965.625" cy="492.3136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M967.5354,496.7387 Q967.1082,496.9584 966.6382,497.0683 Q966.1682,497.1781 965.6494,497.1781 Q963.8062,497.1781 962.8357,495.9635 Q961.8652,494.7489 961.8652,492.454 Q961.8652,490.153 962.8357,488.9384 Q963.8062,487.7238 965.6494,487.7238 Q966.1682,487.7238 966.6443,487.8337 Q967.1204,487.9435 967.5354,488.1632 L967.5354,490.1652 Q967.0715,489.738 966.6351,489.5396 Q966.1987,489.3412 965.7349,489.3412 Q964.7461,489.3412 964.2426,490.1255 Q963.739,490.9098 963.739,492.454 Q963.739,493.9921 964.2426,494.7764 Q964.7461,495.5607 965.7349,495.5607 Q966.1987,495.5607 966.6351,495.3623 Q967.0715,495.164 967.5354,494.7367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="27.0833" x="988.5417" y="497.0378">Line</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="828.6458" x2="1144.2708" y1="508.0078" y2="508.0078"/><polygon fill="#FFFF44" points="839.0625,538.1694,843.2292,542.336,839.0625,546.5027,834.8958,542.336" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="54.1667" x="850.5208" y="550.2889">Line(Line)</text><polygon fill="#FFFF44" points="839.0625,557.9142,843.2292,562.0809,839.0625,566.2476,834.8958,562.0809" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="211.4583" x="850.5208" y="570.0338">Line(Style, DrawingPoint, DrawingSize)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="828.6458" x2="942.7083" y1="526.2136" y2="526.2136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="945.8333" y="530.0232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1030.2083" x2="1144.2708" y1="526.2136" y2="526.2136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="828.6458" x2="1144.2708" y1="579.7424" y2="579.7424"/><ellipse cx="839.0625" cy="591.2008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="112.5" x="850.5208" y="598.112">DrawingPoint from()</text><ellipse cx="839.0625" cy="610.9456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="54.1667" x="850.5208" y="617.8569">Line line()</text><ellipse cx="839.0625" cy="630.6905" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="285.4167" x="850.5208" y="637.6017">Line line(Style, DrawingPoint from, DrawingPoint to)</text><ellipse cx="839.0625" cy="650.4354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="117.7083" x="850.5208" y="657.3466">DrawingSlope slope()</text><ellipse cx="839.0625" cy="694.0918" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="111.4583" x="850.5208" y="701.003">DrawingSize offset()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="828.6458" x2="952.0833" y1="676.9277" y2="676.9277"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="955.2083" y="680.7373">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1020.8333" x2="1144.2708" y1="676.9277" y2="676.9277"/><ellipse cx="839.0625" cy="737.7482" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="850.5208" y="744.6594">DrawingPoint to()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="828.6458" x2="947.9167" y1="720.5841" y2="720.5841"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="951.0417" y="724.3937">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1025" x2="1144.2708" y1="720.5841" y2="720.5841"/><ellipse cx="839.0625" cy="781.4046" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="850.5208" y="788.3158">Line withFrom(DrawingPoint from)</text><ellipse cx="839.0625" cy="801.1495" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="263.5417" x="850.5208" y="808.0607">Line withFromArrowHead(Drawable arrowHead)</text><ellipse cx="839.0625" cy="820.8944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="194.7917" x="850.5208" y="827.8056">Line withOffset(DrawingSize offset)</text><ellipse cx="839.0625" cy="840.6392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="850.5208" y="847.5505">Line withTo(DrawingPoint to)</text><ellipse cx="839.0625" cy="860.3841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="248.9583" x="850.5208" y="867.2953">Line withToArrowHead(Drawable arrowHead)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="828.6458" x2="951.0417" y1="764.2405" y2="764.2405"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="954.1667" y="768.0501">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1021.875" x2="1144.2708" y1="764.2405" y2="764.2405"/><!--MD5=[02a8746eb15ecbb4566dafa16ea4db73]
+class Text--><rect codeLine="97" fill="#282828" height="214.3473" id="Text" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="181.25" x="1182.2917" y="569.3278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="181.25" x="1182.2917" y="569.3278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="181.25" x="1182.2917" y="592.3828"/><rect codeLine="97" fill="none" height="214.3473" id="Text" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="181.25" x="1182.2917" y="569.3278"/><ellipse cx="1251.5625" cy="585.022" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1253.4729,589.447 Q1253.0457,589.6667 1252.5757,589.7766 Q1252.1057,589.8865 1251.5869,589.8865 Q1249.7437,589.8865 1248.7732,588.6719 Q1247.8027,587.4573 1247.8027,585.1624 Q1247.8027,582.8613 1248.7732,581.6467 Q1249.7437,580.4321 1251.5869,580.4321 Q1252.1057,580.4321 1252.5818,580.542 Q1253.0579,580.6519 1253.4729,580.8716 L1253.4729,582.8735 Q1253.009,582.4463 1252.5726,582.2479 Q1252.1362,582.0496 1251.6724,582.0496 Q1250.6836,582.0496 1250.1801,582.8339 Q1249.6765,583.6182 1249.6765,585.1624 Q1249.6765,586.7004 1250.1801,587.4847 Q1250.6836,588.269 1251.6724,588.269 Q1252.1362,588.269 1252.5726,588.0707 Q1253.009,587.8723 1253.4729,587.4451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="28.125" x="1274.4792" y="589.7461">Text</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1183.3333" x2="1362.5" y1="600.7161" y2="600.7161"/><polygon fill="#FFFF44" points="1193.75,630.8777,1197.9167,635.0444,1193.75,639.211,1189.5833,635.0444" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="1205.2083" y="642.9972">Text(Style, String)</text><polygon fill="#FFFF44" points="1193.75,650.6226,1197.9167,654.7892,1193.75,658.9559,1189.5833,654.7892" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="58.3333" x="1205.2083" y="662.7421">Text(Text)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1183.3333" x2="1229.1667" y1="618.9219" y2="618.9219"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1232.2917" y="622.7315">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1316.6667" x2="1362.5" y1="618.9219" y2="618.9219"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1183.3333" x2="1362.5" y1="672.4508" y2="672.4508"/><ellipse cx="1193.75" cy="683.9091" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="1205.2083" y="690.8203">Text text(Style, String text)</text><ellipse cx="1193.75" cy="703.654" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="1205.2083" y="710.5652">Text text(Style)</text><ellipse cx="1193.75" cy="723.3988" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="58.3333" x="1205.2083" y="730.3101">Text text()</text><ellipse cx="1193.75" cy="767.0553" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="142.7083" x="1205.2083" y="773.9665">Text withText(String text)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1183.3333" x2="1237.5" y1="749.8912" y2="749.8912"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="1240.625" y="753.7008">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1308.3333" x2="1362.5" y1="749.8912" y2="749.8912"/><!--MD5=[bfbf295f415a3d77f273000e21472bfb]
+reverse link Drawable to BaseDrawable--><path codeLine="10" d="M827.0833,123.182 C827.0833,135.484 827.0833,149.4632 827.0833,163.9528 " fill="none" id="Drawable-backto-BaseDrawable" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="819.7917,122.7445,827.0833,101.9111,834.375,122.7445,819.7917,122.7445" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c8fb59f8442d0af1c234059ad5cac469]
+reverse link BaseDrawable to Box--><path codeLine="26" d="M666.2083,386.3278 C620.4167,414.6403 570.8229,446.1924 526.0417,476.6195 C506.7604,489.7236 486.9271,503.6195 467.1875,517.7445 " fill="none" id="BaseDrawable-backto-Box" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="662.6667,379.9424,684.2292,375.234,670.3125,392.3695,662.6667,379.9424" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b82ec0a26421c4848fe041c0f79dba25]
+reverse link BaseDrawable to Dot--><path codeLine="45" d="M767.7604,433.6195 C747.7292,482.0674 725.8438,534.984 707.6771,578.932 " fill="none" id="BaseDrawable-backto-Dot" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="761.0833,430.6924,775.7813,414.234,774.5521,436.2653,761.0833,430.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[67fe63695669bee8dfbf3dc4282f51bb]
+reverse link Box to Label--><path codeLine="58" d="M258.3333,856.4528 C258.3333,884.5153 258.3333,912.859 258.3333,939.0257 " fill="none" id="Box-backto-Label" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="251.0417,856.4424,258.3333,835.609,265.625,856.4424,251.0417,856.4424" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8bac47cf8257931185f1f41fc2abc2d9]
+reverse link BaseDrawable to Line--><path codeLine="73" d="M886.4271,433.682 C892.1979,447.6403 898.125,461.9632 904.0625,476.3278 " fill="none" id="BaseDrawable-backto-Line" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="879.6146,436.2653,878.3854,414.234,893.0833,430.6924,879.6146,436.2653" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[f219a17654ba59780fe210ebac3032f8]
+reverse link BaseDrawable to Text--><path codeLine="96" d="M988.6771,356.4945 C1048.6771,386.734 1114.0938,426.9945 1163.5417,476.6195 C1189.6979,502.859 1211.3854,536.6611 1228.375,568.9215 " fill="none" id="BaseDrawable-backto-Text" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="985.3125,362.9632,969.8333,347.234,991.75,349.8799,985.3125,362.9632" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3baccaadf7a88d3e5127c8cf390918e2]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing.drawables"
+    
+    abstract BaseDrawable
+    
+    interface Drawable
+    
+    Drawable <|- - BaseDrawable
+    abstract class BaseDrawable
+    {
+        - -(constructors)- -
+        #BaseDrawable(BaseDrawable)
+        #BaseDrawable(Style)
+        +BaseDrawable(Style, DrawingPoint)
+        - -
+        #Box box(DrawingSize)
+        #Dot dot(DrawingLength radius)
+        #Label label(String text)
+        #Line line(DrawingPoint from, DrawingPoint to)
+        #Shape shape(Shape)
+        #Text text(String text)
+    }
+    
+    BaseDrawable <|- - Box
+    class Box
+    {
+        - -(constructors)- -
+        #Box(Box)
+        #Box(Style)
+        - -
+        +Box box(Style)
+        +Box box()
+        #Shape draw(DrawingSurface, DrawingSize)
+        - -(collection)- -
+        +DrawingSize size()
+        - -(functional)- -
+        +Box withArea(DrawingRectangle)
+        +Box withRoundedCorners(DrawingWidth cornerWidth, DrawingHeight cornerHeight)
+        +Box withRoundedCorners(DrawingLength corner)
+        +Box withSize(DrawingSize)
+    }
+    
+    BaseDrawable <|- - Dot
+    class Dot
+    {
+        - -(constructors)- -
+        #Dot(Style)
+        - -
+        +Dot dot(Style)
+        +Dot dot()
+        +DrawingLength radius()
+        - -(functional)- -
+        +Dot withRadius(DrawingLength radius)
+    }
+    
+    Box <|- - Label
+    class Label
+    {
+        - -(constructors)- -
+        #Label(Label)
+        #Label(Style, String)
+        - -
+        +Label label()
+        +Label label(Style)
+        +Label label(Style, String text)
+        - -(functional)- -
+        +Label withMargin(int margin)
+        +Label withText(String text)
+    }
+    
+    BaseDrawable <|- - Line
+    class Line
+    {
+        - -(constructors)- -
+        #Line(Line)
+        #Line(Style, DrawingPoint, DrawingSize)
+        - -
+        +DrawingPoint from()
+        +Line line()
+        +Line line(Style, DrawingPoint from, DrawingPoint to)
+        +DrawingSlope slope()
+        - -(collection)- -
+        +DrawingSize offset()
+        - -(conversion)- -
+        +DrawingPoint to()
+        - -(functional)- -
+        +Line withFrom(DrawingPoint from)
+        +Line withFromArrowHead(Drawable arrowHead)
+        +Line withOffset(DrawingSize offset)
+        +Line withTo(DrawingPoint to)
+        +Line withToArrowHead(Drawable arrowHead)
+    }
+    
+    BaseDrawable <|- - Text
+    class Text
+    {
+        - -(constructors)- -
+        #Text(Style, String)
+        #Text(Text)
+        - -
+        +Text text(Style, String text)
+        +Text text(Style)
+        +Text text()
+        - -(functional)- -
+        +Text withText(String text)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing.drawables"
+    
+    abstract BaseDrawable
+    
+    interface Drawable
+    
+    Drawable <|- - BaseDrawable
+    abstract class BaseDrawable
+    {
+        - -(constructors)- -
+        #BaseDrawable(BaseDrawable)
+        #BaseDrawable(Style)
+        +BaseDrawable(Style, DrawingPoint)
+        - -
+        #Box box(DrawingSize)
+        #Dot dot(DrawingLength radius)
+        #Label label(String text)
+        #Line line(DrawingPoint from, DrawingPoint to)
+        #Shape shape(Shape)
+        #Text text(String text)
+    }
+    
+    BaseDrawable <|- - Box
+    class Box
+    {
+        - -(constructors)- -
+        #Box(Box)
+        #Box(Style)
+        - -
+        +Box box(Style)
+        +Box box()
+        #Shape draw(DrawingSurface, DrawingSize)
+        - -(collection)- -
+        +DrawingSize size()
+        - -(functional)- -
+        +Box withArea(DrawingRectangle)
+        +Box withRoundedCorners(DrawingWidth cornerWidth, DrawingHeight cornerHeight)
+        +Box withRoundedCorners(DrawingLength corner)
+        +Box withSize(DrawingSize)
+    }
+    
+    BaseDrawable <|- - Dot
+    class Dot
+    {
+        - -(constructors)- -
+        #Dot(Style)
+        - -
+        +Dot dot(Style)
+        +Dot dot()
+        +DrawingLength radius()
+        - -(functional)- -
+        +Dot withRadius(DrawingLength radius)
+    }
+    
+    Box <|- - Label
+    class Label
+    {
+        - -(constructors)- -
+        #Label(Label)
+        #Label(Style, String)
+        - -
+        +Label label()
+        +Label label(Style)
+        +Label label(Style, String text)
+        - -(functional)- -
+        +Label withMargin(int margin)
+        +Label withText(String text)
+    }
+    
+    BaseDrawable <|- - Line
+    class Line
+    {
+        - -(constructors)- -
+        #Line(Line)
+        #Line(Style, DrawingPoint, DrawingSize)
+        - -
+        +DrawingPoint from()
+        +Line line()
+        +Line line(Style, DrawingPoint from, DrawingPoint to)
+        +DrawingSlope slope()
+        - -(collection)- -
+        +DrawingSize offset()
+        - -(conversion)- -
+        +DrawingPoint to()
+        - -(functional)- -
+        +Line withFrom(DrawingPoint from)
+        +Line withFromArrowHead(Drawable arrowHead)
+        +Line withOffset(DrawingSize offset)
+        +Line withTo(DrawingPoint to)
+        +Line withToArrowHead(Drawable arrowHead)
+    }
+    
+    BaseDrawable <|- - Text
+    class Text
+    {
+        - -(constructors)- -
+        #Text(Style, String)
+        #Text(Text)
+        - -
+        +Text text(Style, String text)
+        +Text text(Style)
+        +Text text()
+        - -(functional)- -
+        +Text withText(String text)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

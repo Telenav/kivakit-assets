@@ -108,10 +108,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li>java.lang.Object</li>
 <li>
 <ul class="inheritance">
-<li>com.telenav.kivakit.core.kernel.messaging.broadcasters.Multicaster</li>
+<li>com.telenav.kivakit.kernel.messaging.broadcasters.Multicaster</li>
 <li>
 <ul class="inheritance">
-<li>com.telenav.kivakit.core.kernel.messaging.repeaters.BaseRepeater</li>
+<li>com.telenav.kivakit.kernel.messaging.repeaters.BaseRepeater</li>
 <li>
 <ul class="inheritance">
 <li>com.telenav.kivakit.data.formats.csv.CsvSchema</li>
@@ -127,11 +127,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <dl>
 <dt>All Implemented Interfaces:</dt>
-<dd><code>com.telenav.kivakit.core.kernel.interfaces.messaging.Receiver&lt;com.telenav.kivakit.core.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.core.kernel.interfaces.messaging.Transmitter&lt;com.telenav.kivakit.core.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.core.kernel.interfaces.naming.NamedObject</code>, <code>com.telenav.kivakit.core.kernel.language.paths.PackagePathed</code>, <code>com.telenav.kivakit.core.kernel.messaging.Broadcaster</code>, <code>com.telenav.kivakit.core.kernel.messaging.Listener</code>, <code>com.telenav.kivakit.core.kernel.messaging.Repeater</code>, <code>com.telenav.kivakit.core.kernel.messaging.Transceiver</code></dd>
+<dd><code>com.telenav.kivakit.kernel.interfaces.messaging.Receiver&lt;com.telenav.kivakit.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.kernel.interfaces.messaging.Transmitter&lt;com.telenav.kivakit.kernel.interfaces.messaging.Transmittable&gt;</code>, <code>com.telenav.kivakit.kernel.interfaces.naming.NamedObject</code>, <code>com.telenav.kivakit.kernel.language.paths.PackagePathed</code>, <code>com.telenav.kivakit.kernel.messaging.Broadcaster</code>, <code>com.telenav.kivakit.kernel.messaging.Listener</code>, <code>com.telenav.kivakit.kernel.messaging.Repeater</code>, <code>com.telenav.kivakit.kernel.messaging.Transceiver</code></dd>
 </dl>
 <hr>
 <pre>public class <span class="typeNameLabel">CsvSchema</span>
-extends com.telenav.kivakit.core.kernel.messaging.repeaters.BaseRepeater</pre>
+extends com.telenav.kivakit.kernel.messaging.repeaters.BaseRepeater</pre>
 <div class="block">An ordered collection of <a href="CsvColumn.html" title="class in com.telenav.kivakit.data.formats.csv"><code>CsvColumn</code></a> objects, specifying the structure of a line in a CSV (Comma Separated
  Data) file. <a href="CsvColumn.html" title="class in com.telenav.kivakit.data.formats.csv"><code>CsvColumn</code></a> objects are passed to the constructor, <code>CsvSchema(com.telenav.kivakit.data.formats.csv.CsvColumn&lt;?&gt;...)</code> or added with
  <a href="#add(com.telenav.kivakit.data.formats.csv.CsvColumn)"><code>add(CsvColumn)</code></a>. Columns are assigned indexes in the order that they are added. The columns can then be
@@ -209,18 +209,18 @@ extends com.telenav.kivakit.core.kernel.messaging.repeaters.BaseRepeater</pre>
 </div>
 </div>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.repeaters.BaseRepeater">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.repeaters.BaseRepeater">
 <!--   -->
 </a>
-<h3>Methods inherited from class&nbsp;com.telenav.kivakit.core.kernel.messaging.repeaters.BaseRepeater</h3>
+<h3>Methods inherited from class&nbsp;com.telenav.kivakit.kernel.messaging.repeaters.BaseRepeater</h3>
 <code>onMessage</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.broadcasters.Multicaster">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.broadcasters.Multicaster">
 <!--   -->
 </a>
-<h3>Methods inherited from class&nbsp;com.telenav.kivakit.core.kernel.messaging.broadcasters.Multicaster</h3>
-<code>addListener, clearListeners, debugClassContext, debugCodeContext, debugCodeContext, hasListeners, isDeaf, listeners, listenerTree, objectName, removeListener, transmit</code></li>
+<h3>Methods inherited from class&nbsp;com.telenav.kivakit.kernel.messaging.broadcasters.Multicaster</h3>
+<code>addListener, clearListeners, debugClassContext, debugCodeContext, debugCodeContext, hasListeners, isDeaf, listeners, listenerTree, objectName, parentBroadcaster, parentBroadcaster, parentChain, removeListener, transmit</code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
@@ -230,45 +230,45 @@ extends com.telenav.kivakit.core.kernel.messaging.repeaters.BaseRepeater</pre>
 <code>equals, getClass, hashCode, notify, notifyAll, wait, wait, wait</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Broadcaster">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Broadcaster">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Broadcaster</h3>
-<code>addListener, addListener, clearListeners, hasListeners, onHandle, onTransmit, removeListener, silence, transmit, transmit, transmitAll</code></li>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Broadcaster</h3>
+<code>addListener, addListener, clearListeners, hasListeners, onHandle, onTransmit, parentBroadcaster, parentBroadcaster, removeListener, silence, transmit, transmit, transmitAll</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Listener">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Listener">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Listener</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Listener</h3>
 <code>isDeaf, listenTo, listenTo</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.interfaces.naming.NamedObject">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.interfaces.naming.NamedObject">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.interfaces.naming.NamedObject</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.interfaces.naming.NamedObject</h3>
 <code>objectName, objectName</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.language.paths.PackagePathed">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.language.paths.PackagePathed">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.language.paths.PackagePathed</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.language.paths.PackagePathed</h3>
 <code>packagePath</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Repeater">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Repeater">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Repeater</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Repeater</h3>
 <code>onHandle, onReceive, receive</code></li>
 </ul>
 <ul class="blockList">
-<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.core.kernel.messaging.Transceiver">
+<li class="blockList"><a id="methods.inherited.from.class.com.telenav.kivakit.kernel.messaging.Transceiver">
 <!--   -->
 </a>
-<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.core.kernel.messaging.Transceiver</h3>
+<h3>Methods inherited from interface&nbsp;com.telenav.kivakit.kernel.messaging.Transceiver</h3>
 <code>announce, debug, debugClassContext, debugCodeContext, debugCodeContext, halt, halt, handle, ifDebug, information, isDebugOn, isOn, narrate, problem, problem, problem, problem, quibble, quibble, quibble, quibble, throwProblem, throwProblem, trace, trace, trace, trace, warning, warning, warning, warning</code></li>
 </ul>
 </li>

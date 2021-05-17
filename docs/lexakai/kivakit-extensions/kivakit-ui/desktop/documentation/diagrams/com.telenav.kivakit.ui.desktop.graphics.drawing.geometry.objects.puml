@@ -1,0 +1,122 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing.geometry.objects"
+    
+    DrawingObject <|-- DrawingLine
+    class DrawingLine
+    {
+        --(constructors)--
+        #DrawingLine(DrawingPoint, DrawingPoint)
+        --
+        +DrawingPoint a()
+        +DrawingPoint b()
+        +DrawingLine line(DrawingPoint, DrawingPoint b)
+        +DrawingSlope slope()
+    }
+    
+    DrawingObject <|-- DrawingPoint
+    class DrawingPoint
+    {
+        --(constructors)--
+        #DrawingPoint(Coordinated, double, double)
+        --
+        +DrawingPoint pixels(double x, double y)
+        +DrawingPoint point(Coordinated coordinates, double x, double y)
+        +DrawingRectangle rectangle(DrawingSize that)
+        +double x()
+        +double y()
+        --(collection)--
+        +DrawingSize asSize()
+        +DrawingSize sizeBetween(DrawingPoint that)
+        --(conversion)--
+        +DrawingPoint toCoordinates(Coordinated that)
+        --(functional)--
+        +DrawingPoint rounded()
+        +DrawingPoint scaledBy(Percent)
+        --(math)--
+        +DrawingPoint minus(DrawingPoint that)
+        +DrawingPoint minus(double dx, double dy)
+        +DrawingPoint plus(DrawingPoint that)
+        +DrawingPoint plus(double dx, double dy)
+        +DrawingPoint plus(DrawingSize that)
+        +DrawingPoint times(double scaleFactor)
+    }
+    
+    DrawingObject <|-- DrawingRectangle
+    class DrawingRectangle
+    {
+        --(constructors)--
+        #DrawingRectangle(Coordinated, DrawingPoint, DrawingSize)
+        #DrawingRectangle(DrawingRectangle)
+        --
+        +DrawingPoint at()
+        +DrawingRectangle at(DrawingPoint that)
+        +double bottom()
+        +DrawingPoint bottomLeft()
+        +DrawingPoint bottomRight()
+        +double height()
+        +boolean intersects(DrawingRectangle that)
+        +double left()
+        +DrawingRectangle pixels(double x, double y, double width, double height)
+        +DrawingRectangle rectangle(Coordinated coordinates, double x, double y, double width, double height)
+        +DrawingRectangle rectangle(DrawingPoint at, DrawingSize)
+        +DrawingRectangle rectangle(DrawingPoint, DrawingPoint b)
+        +double right()
+        +double top()
+        +DrawingPoint topLeft()
+        +DrawingPoint topRight()
+        +double width()
+        +double x()
+        +double y()
+        --(collection)--
+        +boolean contains(DrawingPoint that)
+        +DrawingSize size()
+        --(conversion)--
+        +DrawingHeight asHeight()
+        +DrawingPoint asPoint()
+        +DrawingWidth asWidth()
+        +DrawingRectangle toCoordinates(Coordinated that)
+        --(filesystem)--
+        +DrawingRectangle copy()
+        --(functional)--
+        +DrawingRectangle centeredIn(DrawingSize that)
+        +DrawingRectangle rounded()
+        --(math)--
+        +DrawingRectangle plus(DrawingPoint that)
+    }
+    
+    DrawingObject <|-- DrawingSize
+    class DrawingSize
+    {
+        --(constructors)--
+        #DrawingSize(Coordinated, double, double)
+        --
+        +DrawingHeight height()
+        +double heightInUnits()
+        +DrawingWidth width()
+        +double widthInUnits()
+        --(collection)--
+        +DrawingSize minus(DrawingSize that)
+        +DrawingSize pixels(double width, double height)
+        +DrawingSize plus(double width, double height)
+        +DrawingSize plus(DrawingSize that)
+        +DrawingSize rounded()
+        +DrawingSize scaledBy(Percent)
+        +DrawingSize scaledBy(double scaleFactor)
+        +DrawingSize size(Coordinated coordinates, double width, double height)
+        +DrawingSize times(double scaleFactor)
+        +DrawingSize toCoordinates(Coordinated that)
+        +DrawingSize withHeight(double height)
+        +DrawingSize withSize(double width, double height)
+        +DrawingSize withWidth(double width)
+        --(conversion)--
+        +DrawingPoint asPoint()
+        +DrawingRectangle asRectangle()
+        --(functional)--
+        +DrawingRectangle centeredIn(DrawingRectangle that)
+    }
+    
+@enduml
+

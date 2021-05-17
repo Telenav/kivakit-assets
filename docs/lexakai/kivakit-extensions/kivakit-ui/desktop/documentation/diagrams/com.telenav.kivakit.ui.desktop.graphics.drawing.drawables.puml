@@ -1,0 +1,112 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing.drawables"
+    
+    abstract BaseDrawable
+    
+    interface Drawable
+    
+    Drawable <|-- BaseDrawable
+    abstract class BaseDrawable
+    {
+        --(constructors)--
+        #BaseDrawable(BaseDrawable)
+        #BaseDrawable(Style)
+        +BaseDrawable(Style, DrawingPoint)
+        --
+        #Box box(DrawingSize)
+        #Dot dot(DrawingLength radius)
+        #Label label(String text)
+        #Line line(DrawingPoint from, DrawingPoint to)
+        #Shape shape(Shape)
+        #Text text(String text)
+    }
+    
+    BaseDrawable <|-- Box
+    class Box
+    {
+        --(constructors)--
+        #Box(Box)
+        #Box(Style)
+        --
+        +Box box(Style)
+        +Box box()
+        #Shape draw(DrawingSurface, DrawingSize)
+        --(collection)--
+        +DrawingSize size()
+        --(functional)--
+        +Box withArea(DrawingRectangle)
+        +Box withRoundedCorners(DrawingWidth cornerWidth, DrawingHeight cornerHeight)
+        +Box withRoundedCorners(DrawingLength corner)
+        +Box withSize(DrawingSize)
+    }
+    
+    BaseDrawable <|-- Dot
+    class Dot
+    {
+        --(constructors)--
+        #Dot(Style)
+        --
+        +Dot dot(Style)
+        +Dot dot()
+        +DrawingLength radius()
+        --(functional)--
+        +Dot withRadius(DrawingLength radius)
+    }
+    
+    Box <|-- Label
+    class Label
+    {
+        --(constructors)--
+        #Label(Label)
+        #Label(Style, String)
+        --
+        +Label label()
+        +Label label(Style)
+        +Label label(Style, String text)
+        --(functional)--
+        +Label withMargin(int margin)
+        +Label withText(String text)
+    }
+    
+    BaseDrawable <|-- Line
+    class Line
+    {
+        --(constructors)--
+        #Line(Line)
+        #Line(Style, DrawingPoint, DrawingSize)
+        --
+        +DrawingPoint from()
+        +Line line()
+        +Line line(Style, DrawingPoint from, DrawingPoint to)
+        +DrawingSlope slope()
+        --(collection)--
+        +DrawingSize offset()
+        --(conversion)--
+        +DrawingPoint to()
+        --(functional)--
+        +Line withFrom(DrawingPoint from)
+        +Line withFromArrowHead(Drawable arrowHead)
+        +Line withOffset(DrawingSize offset)
+        +Line withTo(DrawingPoint to)
+        +Line withToArrowHead(Drawable arrowHead)
+    }
+    
+    BaseDrawable <|-- Text
+    class Text
+    {
+        --(constructors)--
+        #Text(Style, String)
+        #Text(Text)
+        --
+        +Text text(Style, String text)
+        +Text text(Style)
+        +Text text()
+        --(functional)--
+        +Text withText(String text)
+    }
+    
+@enduml
+
