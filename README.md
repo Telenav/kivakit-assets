@@ -1,4 +1,3 @@
-
 <a href="https://www.kivakit.org">
 <img src="https://www.kivakit.org/images/web-32.png" srcset="https://www.kivakit.org/images/web-32-2x.png 2x"/>
 </a>
@@ -25,7 +24,7 @@ This project contains binary data and applications used by KivaKit.
 
 - [**logos**](graphics/logos) - Logos used in applications
 - [**icons**](graphics/icons) - Icons used in documentation
-  
+
 - [**docs/applications**](docs/applications) - Java applications
 - [**docs/codeflowers**](docs/codeflowers) - KivaKit CodeFlowers
 - [**docs/javadoc**](docs/javadoc) - KivaKit Javadoc
@@ -33,4 +32,4 @@ This project contains binary data and applications used by KivaKit.
 
 ![](graphics/icons/horizontal-line/horizontal-line.png)
 
-<sub>Copyright 2011-2021 [Telenav](http://telenav.com), Inc. Licensed under [Apache License, Version 2.0](LICENSE)</sub>
+<sub>Copyright 2011-2021 [Telenav](https://telenav.com), Inc. Licensed under [Apache License, Version 2.0](LICENSE)</sub>
