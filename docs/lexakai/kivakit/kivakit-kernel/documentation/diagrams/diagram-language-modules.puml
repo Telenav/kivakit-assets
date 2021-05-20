@@ -26,7 +26,6 @@
         --
         +ModuleResource resource(StringPath)
         --(collection)--
-        +void addSearchScope(String prefix)
         +List<ModuleResource> allNestedResources(PackagePath _package)
         +List<ModuleResource> nestedResources(PackagePath _package, Matcher<ModuleResource>)
         +List<ModuleResource> nestedResources(PackagePath _package)
