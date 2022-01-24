@@ -1,0 +1,22 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.server.project"
+    
+    KryoTypes <|-- LogsServerKryoTypes
+    class LogsServerKryoTypes
+    {
+        --(constructors)--
+        +LogsServerKryoTypes()
+    }
+    
+    Project <|-- LogsServerProject
+    class LogsServerProject
+    {
+        --
+        +LogsServerProject get()
+    }
+    
+@enduml
+

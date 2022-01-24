@@ -1,0 +1,79 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.configuration.settings"
+    
+    abstract BaseRepeater
+    
+    interface Named
+    interface Iterable
+    interface SettingsTrait
+    
+    BaseRepeater <|-- Settings
+    SettingsTrait <|-- Settings
+    Named <|-- Settings
+    Iterable <|-- Settings
+    class Settings
+    {
+        --
+        +Settings install()
+        +Settings of(Object)
+        --(collection)--
+        +void clear()
+    }
+    
+    Settings <|-- SettingsFolder
+    class SettingsFolder
+    {
+        --(constructors)--
+        #SettingsFolder(Folder)
+        --(filesystem)--
+        +SettingsFolder of(Folder)
+    }
+    
+    Settings <|-- SettingsPackage
+    class SettingsPackage
+    {
+        --(constructors)--
+        #SettingsPackage(PackagePath)
+        --
+        +SettingsPackage of(PackagePath)
+        +SettingsPackage of(Package _package)
+    }
+    
+    SettingsTrait --> T : "gets values"
+    interface SettingsTrait
+    {
+        --
+        +Settings settingsRegistry()
+        --(checks)--
+        +boolean hasSettings(Class<?> type)
+        +boolean hasSettings(Class<?> type, Enum<?> instance)
+        +boolean hasSettings(Class<?> type, String instance)
+        +boolean hasSettings(Class<?> type, InstanceIdentifier)
+        --(lookup)--
+        +T lookupSettings(Class<T> type, InstanceIdentifier)
+        +T lookupSettings(Class<T> settingsClass, PackagePath defaultSettingsPackage, InstanceIdentifier)
+        +T lookupSettings(Class<T> type)
+        +T lookupSettings(Class<T> type, String instance)
+        +T lookupSettings(Class<T> type, Enum<?> instance)
+        +Settings registerAllSettingsIn(Settings)
+        +Settings registerAllSettingsIn(Listener, Package package_)
+        +Settings registerAllSettingsIn(Listener, Folder)
+        +Settings registerAllSettingsIn(Listener, PackagePath)
+        +Settings registerAllSettingsIn(Listener, Class<?> type)
+        +Settings registerAllSettingsIn(Listener, Class<?> relativeTo, String path)
+        +Settings registerDeployment(Deployment)
+        +Settings registerSettings(Object settings, String instance)
+        +Settings registerSettings(Object settings)
+        +Settings registerSettings(Object settings, InstanceIdentifier)
+        +Settings registerSettings(Object settings, Enum<?> instance)
+        +T requireSettings(Class<T> type, String instance)
+        +T requireSettings(Class<T> type)
+        +T requireSettings(Class<T> type, InstanceIdentifier)
+        +T requireSettings(Class<T> type, Enum<?> instance)
+    }
+    
+@enduml
+

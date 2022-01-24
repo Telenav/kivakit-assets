@@ -1,0 +1,21 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.kernel.language.traits"
+    
+    interface Broadcaster
+    Broadcaster <|-- TryTrait
+    interface TryTrait
+    {
+        --
+        +T tryCatch(Unchecked<T> code, String message, Object... arguments)
+        +void tryCatch(UncheckedVoid code, String message, Object... arguments)
+        +T tryCatchDefault(Unchecked<T> code, T defaultValue)
+        +T tryCatchThrow(Unchecked<T> code, String message, Object... arguments)
+        +void tryFinally(UncheckedVoid code, Runnable after)
+        +T tryFinallyReturn(Unchecked<T> code, Runnable after)
+    }
+    
+@enduml
+

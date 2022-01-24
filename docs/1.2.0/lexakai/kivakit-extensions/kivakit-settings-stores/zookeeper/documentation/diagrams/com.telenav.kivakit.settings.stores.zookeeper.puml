@@ -1,0 +1,84 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.settings.stores.zookeeper"
+    
+    abstract BaseComponent
+    abstract BaseSettingsStore
+    
+    interface Watcher
+    interface ZookeeperChangeListener
+    
+    interface ZookeeperConnection.ListenerMethod
+    {
+        --
+        +void on(StringPath)
+    }
+    
+    class ZookeeperConnection.Settings
+    {
+    }
+    
+    enum ZookeeperConnection.State
+    {
+        CONNECTED
+        DISCONNECTED
+    }
+    
+    interface ZookeeperChangeListener
+    {
+        --
+        +void onNodeChildrenChanged(StringPath)
+        +void onNodeCreated(StringPath)
+        +void onNodeDataChanged(StringPath)
+        +void onNodeDeleted(StringPath)
+    }
+    
+    BaseComponent <|-- ZookeeperConnection
+    Watcher <|-- ZookeeperConnection
+    class ZookeeperConnection
+    {
+        --
+        +CreateMode defaultCreateMode()
+        +void watch(StringPath)
+        +void watchRoot()
+        +ZooKeeper zookeeper()
+        --(collection)--
+        +void addChangeListener(ZookeeperChangeListener)
+        +StringList children(StringPath)
+        +Map<StringPath,Watcher> watchers()
+        --(filesystem)--
+        +boolean delete(StringPath)
+        +boolean exists(StringPath)
+        --(path)--
+        +StringPath create(StringPath, byte[] data, List<ACL>, CreateMode)
+        +StringPath root()
+        --(read)--
+        +byte[] read(StringPath)
+        --(write)--
+        +boolean write(StringPath, byte[] data)
+    }
+    
+    BaseSettingsStore <|-- ZookeeperSettingsStore
+    ZookeeperChangeListener <|-- ZookeeperSettingsStore
+    class ZookeeperSettingsStore
+    {
+        --(constructors)--
+        +ZookeeperSettingsStore()
+        +ZookeeperSettingsStore(CreateMode)
+        --
+        #byte[] onSerialize(Object)
+        #void onSettingsDeleted(StringPath, SettingsObject)
+        #void onSettingsUpdated(StringPath, SettingsObject)
+        --(extension points)--
+        #T onDeserialize(byte[] data, Class<?> type)
+        --(path)--
+        +StringPath root()
+        +StringPath unflatten(StringPath)
+        --(read)--
+        +SettingsObject readSettings(StringPath)
+    }
+    
+@enduml
+

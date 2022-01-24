@@ -1,0 +1,54 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.configuration.deployment"
+    
+    abstract BaseRepeater
+    abstract BaseStringConverter
+    
+    interface Named
+    interface Serializable
+    
+    BaseStringConverter <|-- Deployment.Converter
+    class Deployment.Converter
+    {
+        --(constructors)--
+        +Converter(Listener, DeploymentSet)
+    }
+    
+    ConfigurationSet <|-- Deployment
+    Named <|-- Deployment
+    Serializable <|-- Deployment
+    class Deployment
+    {
+        --(constructors)--
+        +Deployment(String, String)
+        --
+        +String description()
+        --(command line parsing)--
+        +SwitchParser<Deployment> deploymentSwitchParser(DeploymentSet, String switchName)
+    }
+    
+    BaseRepeater <|-- DeploymentSet
+    DeploymentSet "1" o-- "*" Deployment
+    class DeploymentSet
+    {
+        --(command line parsing)--
+        +SwitchParser<Deployment> switchParser(String name)
+        --(configuration)--
+        +void add(Deployment)
+        +void addAll(Collection<Deployment> deployments)
+        +DeploymentSet addDeployments(PackagePath)
+        +DeploymentSet addDeployments(Folder parent)
+        +Deployment deployment(String name)
+        +Set<Deployment> deployments()
+        +DeploymentSet load(Listener, Package _package)
+        +DeploymentSet load(Listener, PackagePath)
+        +DeploymentSet load(Listener, Class<?> relativeTo, String path)
+        +DeploymentSet load(Listener, Folder)
+        +DeploymentSet of(Deployment, Deployment... more)
+    }
+    
+@enduml
+

@@ -1,0 +1,23 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.openapi.reader.filters"
+    
+    interface Filter
+    interface PropertyFilter
+    
+    PropertyFilter <|-- OpenApiPropertyFilter
+    class OpenApiPropertyFilter
+    {
+        --(constructors)--
+        +OpenApiPropertyFilter(Type<?>)
+    }
+    
+    Filter <|-- OpenApiTypeFilter
+    class OpenApiTypeFilter
+    {
+    }
+    
+@enduml
+

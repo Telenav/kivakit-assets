@@ -1,0 +1,90 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.configuration"
+    
+    abstract BaseRepeater
+    
+    interface Named
+    interface Iterable
+    
+    ConfigurationSet <|-- ConfigurationFolder
+    class ConfigurationFolder
+    {
+        --(constructors)--
+        +ConfigurationFolder(Folder)
+    }
+    
+    Entry.ConfigurationIdentifier o-- Class
+    Entry.ConfigurationIdentifier o-- InstanceIdentifier
+    -class Entry.ConfigurationIdentifier
+    {
+        --(constructors)--
+        +ConfigurationIdentifier(Class<?>)
+        +ConfigurationIdentifier(Class<?>, InstanceIdentifier)
+        --
+        +Class<?> type()
+        --(identity)--
+        +InstanceIdentifier instance()
+    }
+    
+    ConfigurationSet <|-- ConfigurationPackage
+    class ConfigurationPackage
+    {
+        --(constructors)--
+        #ConfigurationPackage(PackagePath)
+        --(configuration)--
+        +ConfigurationPackage of(Package _package)
+        +ConfigurationPackage of(PackagePath)
+    }
+    
+    BaseRepeater <|-- ConfigurationSet
+    Named <|-- ConfigurationSet
+    Iterable <|-- ConfigurationSet
+    ConfigurationSet --> T : "gets values"
+    ConfigurationSet "1" o-- "*" Entry
+    class ConfigurationSet
+    {
+        --
+        +T get(Class<T> type)
+        +T get(Class<T> type, InstanceIdentifier)
+        +T get(Class<T> type, Enum<?> instance)
+        +boolean has(Class<?> type, Enum<?> instance)
+        +boolean has(Class<?> type)
+        +boolean has(Class<?> type, InstanceIdentifier)
+        --(collection)--
+        +void clear()
+        --(configuration)--
+        +ConfigurationSet add(Object configuration, InstanceIdentifier)
+        +ConfigurationSet add(Object configuration, Enum<?> instance)
+        +ConfigurationSet add(Object configuration)
+        +ConfigurationSet addAll(Collection<Object> configurations)
+        +ConfigurationSet addDeployment(Deployment)
+        +ConfigurationSet addFolder(Folder)
+        +ConfigurationSet addPackage(Class<?> type)
+        +ConfigurationSet addPackage(PackagePath)
+        +ConfigurationSet addPackage(Class<?> relativeTo, String path)
+        +ConfigurationSet addSet(ConfigurationSet)
+        +Iterator<Object> configurations()
+        +ConfigurationSet global()
+        +ConfigurationSet install()
+        --(search)--
+        +T require(Class<T> type, InstanceIdentifier)
+        +T require(Class<T> type, Enum<?> instance)
+        +T require(Class<T> type)
+    }
+    
+    Entry o-- Entry.ConfigurationIdentifier
+    -class Entry
+    {
+        --(constructors)--
+        +Entry(ConfigurationIdentifier, Object)
+        --
+        +T object()
+        --(configuration)--
+        +ConfigurationIdentifier identifier()
+    }
+    
+@enduml
+

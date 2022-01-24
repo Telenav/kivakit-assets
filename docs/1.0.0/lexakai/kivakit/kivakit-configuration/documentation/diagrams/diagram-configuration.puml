@@ -1,0 +1,118 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "Configuration and Deployment"
+    
+    abstract BaseRepeater
+    
+    interface Named
+    interface Iterable
+    
+    Settings <|-- Deployment
+    Named <|-- Deployment
+    class Deployment
+    {
+        --(constructors)--
+        +Deployment(String, String)
+        --
+        +String description()
+        --(configuration)--
+        +Deployment addDeployment(Deployment)
+        +SwitchParser.Builder<Deployment> deploymentSwitchParser(DeploymentSet, String switchName)
+    }
+    
+    BaseRepeater <|-- DeploymentSet
+    DeploymentSet "1" o-- "*" Deployment
+    class DeploymentSet
+    {
+        --(constructors)--
+        #DeploymentSet()
+        --
+        +void install(String name)
+        --(collection)--
+        +boolean isEmpty()
+        +int size()
+        --(command line parsing)--
+        +SwitchParser.Builder<Deployment> switchParser(String name)
+        --(configuration)--
+        +void add(Deployment)
+        +void addAll(Collection<Deployment> deployments)
+        +DeploymentSet addDeploymentsIn(Package package_)
+        +DeploymentSet addDeploymentsIn(Class<?> relativeTo, String path)
+        +DeploymentSet addDeploymentsIn(PackagePath)
+        +DeploymentSet addDeploymentsIn(Folder parent)
+        +DeploymentSet create()
+        +Deployment deployment(String name)
+        +Set<Deployment> deployments()
+        +DeploymentSet load(Listener, Class<?> relativeTo)
+        +DeploymentSet of(Deployment, Deployment... more)
+    }
+    
+    class InstanceIdentifier
+    {
+        --(constructors)--
+        #InstanceIdentifier(String)
+        --(identity)--
+        +InstanceIdentifier of(Class<?> value)
+        +InstanceIdentifier of(String value)
+        +InstanceIdentifier of(Enum<?> value)
+    }
+    
+    BaseRepeater <|-- Settings
+    Named <|-- Settings
+    Iterable <|-- Settings
+    Settings --> T : "gets values"
+    class Settings
+    {
+        --
+        +boolean has(Class<?> type, Enum<?> instance)
+        +boolean has(Class<?> type)
+        +boolean has(Class<?> type, InstanceIdentifier)
+        +Settings install()
+        +Settings of(Object)
+        +T settings(Class<T> type, String instance)
+        +T settings(Class<T> type, InstanceIdentifier)
+        +T settings(Class<T> type, Enum<?> instance)
+        +T settings(Class<T> type)
+        --(collection)--
+        +void clear()
+        +Iterator<Object> settings()
+        --(lookup)--
+        +Settings register(Object settings)
+        +Settings register(Object settings, Enum<?> instance)
+        +Settings register(Object settings, InstanceIdentifier)
+        +Settings registerAll(Settings)
+        +Settings registerAll(Collection<Object> settings)
+        +Settings registerAllIn(PackagePath)
+        +Settings registerAllIn(Package package_)
+        +Settings registerAllIn(Class<?> relativeTo, String path)
+        +Settings registerAllIn(Folder)
+        +Settings registerAllIn(Class<?> type)
+        +Settings registerAllWith(Settings)
+        +T require(Class<T> type, InstanceIdentifier)
+        +T require(Class<T> type, Enum<?> instance)
+        +T require(Class<T> type)
+    }
+    
+    Settings <|-- SettingsFolder
+    class SettingsFolder
+    {
+        --(constructors)--
+        #SettingsFolder(Folder)
+        --(filesystem)--
+        +SettingsFolder of(Folder)
+    }
+    
+    Settings <|-- SettingsPackage
+    class SettingsPackage
+    {
+        --(constructors)--
+        #SettingsPackage(PackagePath)
+        --
+        +SettingsPackage of(PackagePath)
+        +SettingsPackage of(Package _package)
+    }
+    
+@enduml
+

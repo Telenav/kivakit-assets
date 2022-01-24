@@ -1,0 +1,21 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.component.icon.logo.kivakit"
+    
+    JLabel <|-- KivaKitLogo
+    class KivaKitLogo
+    {
+        --(constructors)--
+        +KivaKitLogo(Size)
+    }
+    
+    enum KivaKitLogo.Size
+    {
+        _32x32
+        _64x64
+    }
+    
+@enduml
+

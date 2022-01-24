@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.kernel.language.mixin"
+    
+    interface Mixin
+    {
+        --
+        +T state(Class<? extends Mixin> type, Factory<T>)
+    }
+    
+    class MixinState.MixinKey
+    {
+        --(constructors)--
+        +MixinKey(Object, Class<? extends Mixin>)
+    }
+    
+    class MixinState
+    {
+        --
+        +T get(Object, Class<? extends Mixin> mixinType, Factory<T>)
+    }
+    
+@enduml
+

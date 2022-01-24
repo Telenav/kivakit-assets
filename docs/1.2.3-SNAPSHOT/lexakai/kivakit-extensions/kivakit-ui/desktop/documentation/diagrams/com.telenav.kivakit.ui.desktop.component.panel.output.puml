@@ -1,0 +1,25 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.component.panel.output"
+    
+    KivaKitPanel <|-- OutputPanel
+    class OutputPanel
+    {
+        --(constructors)--
+        +OutputPanel(Type)
+        --
+        +void font(Font)
+        +void html(String html, Object... arguments)
+        +void text(String text, Object... arguments)
+    }
+    
+    enum OutputPanel.Type
+    {
+        FIXED_WIDTH
+        VARIABLE_WIDTH
+    }
+    
+@enduml
+

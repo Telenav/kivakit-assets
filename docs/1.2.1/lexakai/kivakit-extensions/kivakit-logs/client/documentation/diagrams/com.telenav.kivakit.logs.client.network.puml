@@ -1,0 +1,63 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client.network"
+    
+    abstract BaseRepeater
+    
+    interface Stoppable
+    
+    class Connection
+    {
+        --(constructors)--
+        +Connection(Port, InputStream)
+        --(network)--
+        +Port port()
+        --(read)--
+        +InputStream input()
+    }
+    
+    BaseRepeater <|-- Connector
+    class Connector
+    {
+        --(constructors)--
+        +Connector(Receiver, Consumer<State>, Consumer<Connection>)
+        --
+        +void connect(Port)
+        +void disconnect()
+        --(checks)--
+        +boolean isConnected()
+        --(functional)--
+        +Port connectedPort()
+    }
+    
+    BaseRepeater <|-- Receiver
+    Stoppable <|-- Receiver
+    class Receiver
+    {
+        --(messaging)--
+        +void receive(Connection, Consumer<Session> newSessionListener, Consumer<VersionedObject<?>> objectListener)
+        --(thread)--
+        +void synchronizeSessions(SerializationSession)
+    }
+    
+    enum Receiver.State
+    {
+        RUNNING
+        STOPPED
+        STOPPING
+    }
+    
+    enum Connector.State
+    {
+        CONNECTED
+        CONNECTING
+        DISCONNECTED
+        DISCONNECTING
+        STOPPED_CONNECTING
+        STOP_CONNECTING
+    }
+    
+@enduml
+

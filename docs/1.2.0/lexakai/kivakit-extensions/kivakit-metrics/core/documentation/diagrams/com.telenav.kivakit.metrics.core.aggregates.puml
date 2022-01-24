@@ -1,0 +1,57 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.aggregates"
+    
+    abstract BaseMetric
+    
+    interface AggregateMetric
+    
+    BaseMetric <|-- AggregateQuantumMetric
+    AggregateMetric <|-- AggregateQuantumMetric
+    abstract class AggregateQuantumMetric<T>
+    {
+        --(constructors)--
+        +AggregateQuantumMetric(MapFactory<Double, T>)
+        --
+        #double compute()
+        #double total()
+        --(collection)--
+        #int count()
+        --(math)--
+        +boolean subtract(T metric)
+        #double maximum()
+        #double minimum()
+    }
+    
+    AggregateQuantumMetric <|-- AverageMetric
+    class AverageMetric<T>
+    {
+        --(constructors)--
+        +AverageMetric(MapFactory<Double, T>)
+    }
+    
+    AggregateQuantumMetric <|-- MaximumMetric
+    class MaximumMetric<T>
+    {
+        --(constructors)--
+        +MaximumMetric(MapFactory<Double, T>)
+    }
+    
+    AggregateQuantumMetric <|-- MinimumMetric
+    class MinimumMetric<T>
+    {
+        --(constructors)--
+        +MinimumMetric(MapFactory<Double, T>)
+    }
+    
+    AggregateQuantumMetric <|-- TotalMetric
+    class TotalMetric<T>
+    {
+        --(constructors)--
+        +TotalMetric(MapFactory<Double, T>)
+    }
+    
+@enduml
+

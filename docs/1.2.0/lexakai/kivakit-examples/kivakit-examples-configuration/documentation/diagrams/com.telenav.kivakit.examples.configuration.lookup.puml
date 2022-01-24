@@ -1,0 +1,50 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.examples.configuration.lookup"
+    
+    abstract BaseComponent
+    
+    BaseComponent <|-- Alien
+    class Alien
+    {
+        --(constructors)--
+        +Alien(Spaceship)
+        --
+        +void attack()
+    }
+    
+    class AttackPlan
+    {
+        --(constructors)--
+        #AttackPlan(AttackPlan)
+        +AttackPlan()
+        --(time)--
+        +void waitForAttackTime()
+    }
+    
+    class QuantumDatabase
+    {
+        --
+        +AttackPlan retrieveAttackPlan()
+    }
+    
+    BaseComponent <|-- RegistryExample
+    class RegistryExample
+    {
+        --
+        +void main(String[] arguments)
+        --(lifecycle)--
+        +void run()
+    }
+    
+    BaseComponent <|-- Spaceship
+    class Spaceship
+    {
+        --(lifecycle)--
+        +void startAttack()
+    }
+    
+@enduml
+

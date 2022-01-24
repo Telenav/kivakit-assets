@@ -1,0 +1,44 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.swagger"
+    
+    abstract BaseJettyServlet
+    abstract BaseJettyResource
+    
+    HttpServlet <|-- JettySwaggerIndex.IndexServlet
+    class JettySwaggerIndex.IndexServlet
+    {
+    }
+    
+    BaseJettyResource <|-- JettySwaggerIndex
+    class JettySwaggerIndex
+    {
+        --(constructors)--
+        +JettySwaggerIndex(int)
+    }
+    
+    BaseJettyServlet <|-- JettySwaggerOpenApi
+    class JettySwaggerOpenApi
+    {
+        --(constructors)--
+        +JettySwaggerOpenApi(Application)
+    }
+    
+    JettyStaticResources <|-- JettySwaggerStaticResources
+    class JettySwaggerStaticResources
+    {
+        --(constructors)--
+        +JettySwaggerStaticResources()
+    }
+    
+    BaseJettyResource <|-- JettySwaggerWebJar
+    class JettySwaggerWebJar
+    {
+        --(constructors)--
+        +JettySwaggerWebJar(Application)
+    }
+    
+@enduml
+

@@ -1,0 +1,29 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.aggregates.rate"
+    
+    AverageMetric <|-- AverageRateMetric
+    class AverageRateMetric
+    {
+        --(constructors)--
+        +AverageRateMetric()
+    }
+    
+    MaximumMetric <|-- MaximumRateMetric
+    class MaximumRateMetric
+    {
+        --(constructors)--
+        +MaximumRateMetric()
+    }
+    
+    MinimumMetric <|-- MinimumRateMetric
+    class MinimumRateMetric
+    {
+        --(constructors)--
+        +MinimumRateMetric()
+    }
+    
+@enduml
+

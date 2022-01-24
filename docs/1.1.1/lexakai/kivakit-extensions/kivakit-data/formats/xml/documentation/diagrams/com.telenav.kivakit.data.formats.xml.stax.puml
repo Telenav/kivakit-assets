@@ -1,0 +1,78 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.xml.stax"
+    
+    abstract BaseComponent
+    
+    interface Closeable
+    
+    interface BooleanFunction<XMLEvent>
+    interface StaxReader.Matcher
+    BooleanFunction <|-- StaxReader.BooleanMatcher
+    StaxReader.Matcher <|-- StaxReader.BooleanMatcher
+    interface StaxReader.BooleanMatcher
+    {
+    }
+    
+    enum StaxReader.Match
+    {
+        FOUND
+        NOT_FOUND
+        STOP
+    }
+    
+    interface StaxReader.Matcher
+    {
+        --(matching)--
+        +Match matcher(XMLEvent)
+    }
+    
+    StringPath <|-- StaxPath
+    class StaxPath
+    {
+        --(constructors)--
+        +StaxPath()
+        --(checks)--
+        +boolean isInside(StaxPath)
+        --(path)--
+        +StaxPath parseXmlPath(String path)
+    }
+    
+    BaseComponent <|-- StaxReader
+    Closeable <|-- StaxReader
+    class StaxReader
+    {
+        --(constructors)--
+        #StaxReader(XMLEventReader, InputStream)
+        --
+        +String enclosedText()
+        --(checks)--
+        +boolean isAtCharacters()
+        +boolean isAtCloseTag()
+        +boolean isAtOpenTag()
+        +boolean isAtOpenTag(String tagName)
+        +boolean isInside(StaxPath)
+        --(iteration)--
+        +XMLEvent findNext(StaxPath)
+        +boolean hasNext()
+        +XMLEvent next(Matcher)
+        +XMLEvent next()
+        +Attribute nextAttribute()
+        +Characters nextCharacters()
+        +EndElement nextCloseTag()
+        +XMLEvent nextInside(StaxPath, Matcher)
+        +StartElement nextOpenTag()
+        --(lifecycle)--
+        +boolean atEnd()
+        --(messaging)--
+        +XMLEvent at()
+        --(path)--
+        +StaxPath path()
+        --(read)--
+        +StaxReader open(Resource)
+    }
+    
+@enduml
+

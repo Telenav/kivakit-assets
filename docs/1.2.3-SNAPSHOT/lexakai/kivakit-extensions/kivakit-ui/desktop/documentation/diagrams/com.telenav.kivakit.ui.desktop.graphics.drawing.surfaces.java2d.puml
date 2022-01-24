@@ -1,0 +1,27 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing.surfaces.java2d"
+    
+    interface DrawingSurface
+    
+    DrawingCoordinateSystem <|-- Java2dDrawingSurface
+    DrawingSurface <|-- Java2dDrawingSurface
+    class Java2dDrawingSurface
+    {
+        --(constructors)--
+        #Java2dDrawingSurface(String, Graphics2D, DrawingRectangle)
+        --
+        +Java2dDrawingSurface surface(String name, Graphics2D, DrawingRectangle area)
+    }
+    
+    class Java2dShapes
+    {
+        --
+        +Area combine(Collection<Shape> shapes)
+        +Area combine(Shape... shapes)
+    }
+    
+@enduml
+
