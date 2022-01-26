@@ -54,10 +54,11 @@ KivaKit is composed of a number of nested sub-projects that are Java 11+ modules
 [**Tutorial Articles**](https://state-of-the-art.org/)  
 [**Documentation**](https://github.com/Telenav/kivakit/tree/master#readme)  
 [**Example Code**](https://github.com/Telenav/kivakit-examples)  
-[**Published Releases**](https://repo1.maven.org/maven2/com/telenav/kivakit/)  
-  
-&nbsp;  
-&nbsp;  
+[**Published Releases**](https://repo1.maven.org/maven2/com/telenav/kivakit/)
+
+&nbsp;
+
+<img src="https://www.kivakit.org/images/horizontal-line-128.png" srcset="https://www.kivakit.org/images/horizontal-line-128-2x.png 2x"/>
 
 ### Project Resources <a name = "project-resources"></a> &nbsp; <img src="https://www.kivakit.org/images/water-32.png" srcset="https://www.kivakit.org/images/water-32-2x.png 2x"/>
 
@@ -69,7 +70,7 @@ KivaKit is composed of a number of nested sub-projects that are Java 11+ modules
 | *Documentation*         | [README.md](https://github.com/Telenav/kivakit)                                                                                                                                                              |
 | *Related&nbsp;Projects* | [kivakit-examples](https://github.com/Telenav/kivakit-examples), [kivakit-extensions](https://github.com/Telenav/kivakit)                                                                                    |
 | *Javadoc&nbsp;Coverage* | <img src="https://www.kivakit.org/images/meter-90-96.png" srcset="https://www.kivakit.org/images/meter-90-96-2x.png 2x"/>                                                                                    |
-| *Build Setup*           | [Step-by-step build setup instructions](https://github.com/Telenav/kivakit/blob/master/documentation/overview/setup.md)                                                                                      
+| *Build Setup*           | [Step-by-step build setup instructions](https://github.com/Telenav/kivakit/blob/master/documentation/overview/setup.md)
 | *GitHub*                | [GitHub project home page](https://github.com/Telenav/kivakit)                                                                                                                                               |
 | *Code*                  | `git clone https://github.com/Telenav/kivakit.git`                                                                                                                                                           |
 | *Project&nbsp;Lead*     | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com)                                                                                                                      |
