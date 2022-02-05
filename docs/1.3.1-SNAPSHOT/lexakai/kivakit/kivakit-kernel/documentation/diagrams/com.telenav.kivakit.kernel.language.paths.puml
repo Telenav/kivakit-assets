@@ -45,12 +45,6 @@
         +InputStream resourceStream(String path)
     }
     
-    interface PackagePathTrait
-    {
-        --(path)--
-        +PackagePath packagePath()
-    }
-    
     Iterable <|-- Path
     Comparable <|-- Path
     Sized <|-- Path

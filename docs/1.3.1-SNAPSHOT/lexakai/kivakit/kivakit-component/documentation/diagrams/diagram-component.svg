@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg contentscripttype="application/ecmascript" contentstyletype="text/css" height="364.5833px" preserveAspectRatio="none" style="width:906px;height:364px;background:#333333;" version="1.1" viewBox="0 0 880 364" width="906.25px" zoomAndPan="magnify" xmlns="http://www.w3.org/2000/svg">
+  <g style="" transform="matrix(0.942702, 0, 0, 0.942702, 8.691152, 14.040102)">
+    <rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="536.4583" x="177.8646" y="2.0833"/>
+    <text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="513.5417" x="189.3229" y="30.5583" style="white-space: pre;">Component, BaseComponent and ComponentMixin</text>
+    <rect codeline="6" fill="#282828" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="255.2083" y="164.1195"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="255.2083" y="164.1195"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="255.2083" y="187.1745"/>
+    <rect codeline="6" fill="none" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="255.2083" y="164.1195"/>
+    <ellipse cx="269.7917" cy="179.8136" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/>
+    <path d="M269.3848,176.5157 L268.5364,180.245 L270.2393,180.245 Z M268.2861,174.8678 L270.4895,174.8678 L272.9492,183.9803 L271.1487,183.9803 L270.5872,181.7281 L268.1763,181.7281 L267.627,183.9803 L265.8264,183.9803 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="286.4583" y="184.5378" style="white-space: pre;">BaseRepeater</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="256.25" x2="378.125" y1="195.5078" y2="195.5078"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="256.25" x2="378.125" y1="203.8411" y2="203.8411"/>
+    <rect codeline="34" fill="#282828" height="48.055" id="Component" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="113.5417" x="415.625" y="164.1195"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="113.5417" x="415.625" y="164.1195"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="113.5417" x="415.625" y="187.1745"/>
+    <rect codeline="34" fill="none" height="48.055" id="Component" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="113.5417" x="415.625" y="164.1195"/>
+    <ellipse cx="430.2083" cy="179.8136" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M427.6123,176.9755 L427.6123,175.3886 L433.0383,175.3886 L433.0383,176.9755 L431.2256,176.9755 L431.2256,182.9142 L433.0383,182.9142 L433.0383,184.5011 L427.6123,184.5011 L427.6123,182.9142 L429.425,182.9142 L429.425,176.9755 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="76.0417" x="446.875" y="184.5378" style="white-space: pre;">Component</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="416.6667" x2="528.125" y1="195.5078" y2="195.5078"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="416.6667" x2="528.125" y1="203.8411" y2="203.8411"/>
+    <rect codeline="12" fill="#282828" height="83.3781" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="301.0417" x="166.6667" y="274.5361"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="301.0417" x="166.6667" y="274.5361"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="301.0417" x="166.6667" y="297.5911"/>
+    <rect codeline="12" fill="none" height="83.3781" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="301.0417" x="166.6667" y="274.5361"/>
+    <ellipse cx="256.7708" cy="290.2303" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/>
+    <path d="M258.6812,294.6554 Q258.254,294.8751 257.784,294.9849 Q257.314,295.0948 256.7952,295.0948 Q254.952,295.0948 253.9815,293.8802 Q253.0111,292.6656 253.0111,290.3707 Q253.0111,288.0697 253.9815,286.8551 Q254.952,285.6405 256.7952,285.6405 Q257.314,285.6405 257.7901,285.7503 Q258.2662,285.8602 258.6812,286.0799 L258.6812,288.0819 Q258.2174,287.6546 257.781,287.4563 Q257.3446,287.2579 256.8807,287.2579 Q255.8919,287.2579 255.3884,288.0422 Q254.8848,288.8265 254.8848,290.3707 Q254.8848,291.9088 255.3884,292.6931 Q255.8919,293.4774 256.8807,293.4774 Q257.3446,293.4774 257.781,293.279 Q258.2174,293.0806 258.6812,292.6534 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="279.6875" y="294.9544" style="white-space: pre;">BaseComponent</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="167.7083" x2="466.6667" y1="305.9245" y2="305.9245"/>
+    <ellipse cx="178.125" cy="341.2944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="268.75" x="189.5833" y="348.2056" style="white-space: pre;">void onMessage(Consumer&lt;Message&gt; handler)</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="167.7083" x2="279.6875" y1="324.1302" y2="324.1302"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="282.8125" y="327.9399" style="white-space: pre;">(messaging)</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="354.6875" x2="466.6667" y1="324.1302" y2="324.1302"/>
+    <rect codeline="18" fill="#282828" height="48.055" id="LanguageTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="130.2083" x="7.2917" y="53.7028"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="130.2083" x="7.2917" y="53.7028"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="130.2083" x="7.2917" y="76.7578"/>
+    <rect codeline="18" fill="none" height="48.055" id="LanguageTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="130.2083" x="7.2917" y="53.7028"/>
+    <ellipse cx="21.875" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M19.279,66.5588 L19.279,64.9719 L24.705,64.9719 L24.705,66.5588 L22.8923,66.5588 L22.8923,72.4976 L24.705,72.4976 L24.705,74.0845 L19.279,74.0845 L19.279,72.4976 L21.0917,72.4976 L21.0917,66.5588 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="92.7083" x="38.5417" y="74.1211" style="white-space: pre;">LanguageTrait</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="136.4583" y1="85.0911" y2="85.0911"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="136.4583" y1="93.4245" y2="93.4245"/>
+    <rect codeline="19" fill="#282828" height="48.055" id="NamedObject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="173.9583" y="53.7028"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="173.9583" y="53.7028"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="173.9583" y="76.7578"/>
+    <rect codeline="19" fill="none" height="48.055" id="NamedObject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="173.9583" y="53.7028"/>
+    <ellipse cx="188.5417" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M185.9456,66.5588 L185.9456,64.9719 L191.3717,64.9719 L191.3717,66.5588 L189.5589,66.5588 L189.5589,72.4976 L191.3717,72.4976 L191.3717,74.0845 L185.9456,74.0845 L185.9456,72.4976 L187.7584,72.4976 L187.7584,66.5588 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="205.2083" y="74.1211" style="white-space: pre;">NamedObject</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="175" x2="296.875" y1="85.0911" y2="85.0911"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="175" x2="296.875" y1="93.4245" y2="93.4245"/>
+    <rect codeline="20" fill="#282828" height="48.055" id="PackageTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="119.7917" x="334.375" y="53.7028"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="119.7917" x="334.375" y="53.7028"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="119.7917" x="334.375" y="76.7578"/>
+    <rect codeline="20" fill="none" height="48.055" id="PackageTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="119.7917" x="334.375" y="53.7028"/>
+    <ellipse cx="348.9583" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M346.3623,66.5588 L346.3623,64.9719 L351.7883,64.9719 L351.7883,66.5588 L349.9756,66.5588 L349.9756,72.4976 L351.7883,72.4976 L351.7883,74.0845 L346.3623,74.0845 L346.3623,72.4976 L348.175,72.4976 L348.175,66.5588 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="82.2917" x="365.625" y="74.1211" style="white-space: pre;">PackageTrait</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="335.4167" x2="453.125" y1="85.0911" y2="85.0911"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="335.4167" x2="453.125" y1="93.4245" y2="93.4245"/>
+    <rect codeline="21" fill="#282828" height="48.055" id="RegistryTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="120.8333" x="491.1458" y="53.7028"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="120.8333" x="491.1458" y="53.7028"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="120.8333" x="491.1458" y="76.7578"/>
+    <rect codeline="21" fill="none" height="48.055" id="RegistryTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="120.8333" x="491.1458" y="53.7028"/>
+    <ellipse cx="505.7292" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M503.1331,66.5588 L503.1331,64.9719 L508.5592,64.9719 L508.5592,66.5588 L506.7464,66.5588 L506.7464,72.4976 L508.5592,72.4976 L508.5592,74.0845 L503.1331,74.0845 L503.1331,72.4976 L504.9459,72.4976 L504.9459,66.5588 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="83.3333" x="522.3958" y="74.1211" style="white-space: pre;">RegistryTrait</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="492.1875" x2="610.9375" y1="85.0911" y2="85.0911"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="492.1875" x2="610.9375" y1="93.4245" y2="93.4245"/>
+    <rect codeline="22" fill="#282828" height="48.055" id="Repeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="93.75" x="648.4375" y="53.7028"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="93.75" x="648.4375" y="53.7028"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="93.75" x="648.4375" y="76.7578"/>
+    <rect codeline="22" fill="none" height="48.055" id="Repeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="93.75" x="648.4375" y="53.7028"/>
+    <ellipse cx="663.0208" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M660.4248,66.5588 L660.4248,64.9719 L665.8508,64.9719 L665.8508,66.5588 L664.0381,66.5588 L664.0381,72.4976 L665.8508,72.4976 L665.8508,74.0845 L660.4248,74.0845 L660.4248,72.4976 L662.2375,72.4976 L662.2375,66.5588 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="679.6875" y="74.1211" style="white-space: pre;">Repeater</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="649.4792" x2="741.1458" y1="85.0911" y2="85.0911"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="649.4792" x2="741.1458" y1="93.4245" y2="93.4245"/>
+    <rect codeline="23" fill="#282828" height="48.055" id="SettingsTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="120.8333" x="778.6458" y="53.7028"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="120.8333" x="778.6458" y="53.7028"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="120.8333" x="778.6458" y="76.7578"/>
+    <rect codeline="23" fill="none" height="48.055" id="SettingsTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="120.8333" x="778.6458" y="53.7028"/>
+    <ellipse cx="793.2292" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M790.6331,66.5588 L790.6331,64.9719 L796.0592,64.9719 L796.0592,66.5588 L794.2464,66.5588 L794.2464,72.4976 L796.0592,72.4976 L796.0592,74.0845 L790.6331,74.0845 L790.6331,72.4976 L792.4459,72.4976 L792.4459,66.5588 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="83.3333" x="809.8958" y="74.1211" style="white-space: pre;">SettingsTrait</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="779.6875" x2="898.4375" y1="85.0911" y2="85.0911"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="779.6875" x2="898.4375" y1="93.4245" y2="93.4245"/>
+    <rect codeline="35" fill="#282828" height="48.055" id="Mixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="72.9167" x="566.1458" y="164.1195"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="72.9167" x="566.1458" y="164.1195"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="72.9167" x="566.1458" y="187.1745"/>
+    <rect codeline="35" fill="none" height="48.055" id="Mixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="72.9167" x="566.1458" y="164.1195"/>
+    <ellipse cx="580.7292" cy="179.8136" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M578.1331,176.9755 L578.1331,175.3886 L583.5592,175.3886 L583.5592,176.9755 L581.7464,176.9755 L581.7464,182.9142 L583.5592,182.9142 L583.5592,184.5011 L578.1331,184.5011 L578.1331,182.9142 L579.9459,182.9142 L579.9459,176.9755 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="35.4167" x="597.3958" y="184.5378" style="white-space: pre;">Mixin</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="567.1875" x2="638.0208" y1="195.5078" y2="195.5078"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="567.1875" x2="638.0208" y1="203.8411" y2="203.8411"/>
+    <rect codeline="36" fill="#282828" height="48.055" id="RepeaterMixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="129.1667" x="675.5208" y="164.1195"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="129.1667" x="675.5208" y="164.1195"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="129.1667" x="675.5208" y="187.1745"/>
+    <rect codeline="36" fill="none" height="48.055" id="RepeaterMixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="129.1667" x="675.5208" y="164.1195"/>
+    <ellipse cx="690.1042" cy="179.8136" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M687.5081,176.9755 L687.5081,175.3886 L692.9342,175.3886 L692.9342,176.9755 L691.1214,176.9755 L691.1214,182.9142 L692.9342,182.9142 L692.9342,184.5011 L687.5081,184.5011 L687.5081,182.9142 L689.3209,182.9142 L689.3209,176.9755 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="91.6667" x="706.7708" y="184.5378" style="white-space: pre;">RepeaterMixin</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="676.5625" x2="803.6458" y1="195.5078" y2="195.5078"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="676.5625" x2="803.6458" y1="203.8411" y2="203.8411"/>
+    <rect codeline="40" fill="#282828" height="67.7999" id="ComponentMixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="197.9167" x="504.6875" y="282.3486"/>
+    <rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="197.9167" x="504.6875" y="282.3486"/>
+    <rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="197.9167" x="504.6875" y="305.4036"/>
+    <rect codeline="40" fill="none" height="67.7999" id="ComponentMixin" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="197.9167" x="504.6875" y="282.3486"/>
+    <ellipse cx="541.3021" cy="298.0428" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/>
+    <path d="M538.7061,295.2047 L538.7061,293.6178 L544.1321,293.6178 L544.1321,295.2047 L542.3193,295.2047 L542.3193,301.1434 L544.1321,301.1434 L544.1321,302.7303 L538.7061,302.7303 L538.7061,301.1434 L540.5188,301.1434 L540.5188,295.2047 Z " fill="#000000"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="111.4583" x="562.8646" y="302.7669" style="white-space: pre;">ComponentMixin</text>
+    <line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="505.7292" x2="701.5625" y1="313.737" y2="313.737"/>
+    <line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="505.7292" x2="701.5625" y1="322.0703" y2="322.0703"/>
+    <ellipse cx="516.1458" cy="333.5286" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/>
+    <text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="527.6042" y="340.4399" style="white-space: pre;">BaseComponent component()</text>
+    <path codeline="10" d="M317.1875,233.0986 C317.1875,246.4945 317.1875,261.1611 317.1875,274.3382 " fill="none" id="BaseRepeater-backto-BaseComponent" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="309.8958,233.0674,317.1875,212.234,324.4792,233.0674,309.8958,233.0674" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="11" d="M427.6875,225.4215 C408.8542,240.7132 386.8542,258.5882 367.4583,274.3382 " fill="none" id="Component-backto-BaseComponent" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="423.1563,219.7132,443.9271,212.234,432.3542,231.0361,423.1563,219.7132" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="24" d="M629.1042,110.8799 C593.9479,127.9632 551.5417,148.5674 519.7188,164.0361 " fill="none" id="Repeater-backto-Component" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="626.3854,104.0882,648.3125,101.5465,632.7604,117.2132,626.3854,104.0882" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="25" d="M522.4167,118.5882 C511.2083,133.9215 498.8125,150.8903 489.1563,164.0986 " fill="none" id="RegistryTrait-backto-Component" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="516.5938,114.1924,534.7708,101.682,528.3646,122.7965,516.5938,114.1924" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="26" d="M758.2396,102.4215 C679.5208,125.5361 568.8229,158.0465 548.4375,164.1195 C542.2292,165.9632 535.7292,167.9111 529.2708,169.8486 " fill="none" id="SettingsTrait-backto-Component" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="756.4479,95.359,778.4896,96.484,760.5521,109.3486,756.4479,95.359" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="27" d="M158.2188,102.2132 C266.3125,130.734 296.6667,135.7236 397.3958,164.1195 C403.2917,165.7861 409.4375,167.5674 415.5521,169.3799 " fill="none" id="LanguageTrait-backto-Component" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="156.1354,109.2028,137.875,96.807,159.8854,95.109,156.1354,109.2028" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="28" d="M423.0417,118.5882 C434.0938,133.9215 446.3229,150.8903 455.8542,164.0986 " fill="none" id="PackageTrait-backto-Component" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="417.1146,122.8382,410.8438,101.682,428.9375,114.307,417.1146,122.8382" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="29" d="M305.4167,110.5361 C342.9063,127.7132 388.3229,148.5153 422.3229,164.0986 " fill="none" id="NamedObject-backto-Component" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="301.9896,116.984,286.0833,101.682,308.0625,103.7236,301.9896,116.984" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="37" d="M511.5729,226.7445 C529.9375,244.3799 551.6354,265.2132 569.3438,282.2236 " fill="none" id="Component-backto-ComponentMixin" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="506.4479,231.932,496.4688,212.234,516.5417,221.4111,506.4479,231.932" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="38" d="M602.9688,233.2861 C603.1042,249.3799 603.25,267.2757 603.375,282.2236 " fill="none" id="Mixin-backto-ComponentMixin" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="595.6771,233.1299,602.7917,212.234,610.2604,233.0049,595.6771,233.1299" style="stroke:#545454;stroke-width:1.5625;"/>
+    <path codeline="39" d="M699.6563,226.4736 C680.5,244.1715 657.8125,265.1299 639.3125,282.2236 " fill="none" id="RepeaterMixin-backto-ComponentMixin" style="stroke:#545454;stroke-width:1.5625;"/>
+    <polygon fill="none" points="694.8229,221.0153,715.0729,212.234,704.7188,231.734,694.8229,221.0153" style="stroke:#545454;stroke-width:1.5625;"/>
+  </g>
+</svg>

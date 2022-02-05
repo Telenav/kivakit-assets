@@ -2,7 +2,7 @@
 
     !include lexakai.theme
     
-    title "com.telenav.kivakit.component"
+    title "Component, BaseComponent and ComponentMixin"
     
     abstract BaseRepeater
     
@@ -32,14 +32,6 @@
     {
     }
     
-    interface ComponentMixin
-    interface Function<From,To>
-    ComponentMixin <|-- ComponentFunction
-    Function <|-- ComponentFunction
-    interface ComponentFunction<From, To>
-    {
-    }
-    
     interface Component
     interface Mixin
     interface RepeaterMixin
@@ -50,14 +42,6 @@
     {
         --
         +BaseComponent component()
-    }
-    
-    interface ComponentMixin
-    interface Supplier<Value>
-    ComponentMixin <|-- ComponentSupplier
-    Supplier <|-- ComponentSupplier
-    interface ComponentSupplier<Value>
-    {
     }
     
 @enduml

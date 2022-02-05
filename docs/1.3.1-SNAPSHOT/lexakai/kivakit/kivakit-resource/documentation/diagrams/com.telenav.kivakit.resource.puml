@@ -43,6 +43,17 @@
         UPDATE
     }
     
+    interface Repeater
+    Repeater <|-- PackageTrait
+    interface PackageTrait
+    {
+        --
+        +Resource packageResource(String path)
+        +Package relativePackage(String path)
+        --(path)--
+        +PackagePath packagePath()
+    }
+    
     interface Readable
     Readable <|-- ReadableResource
     ReadableResource --> ResourceReader : "provides"
@@ -210,15 +221,6 @@
         #ResourceProject()
         --
         +ResourceProject get()
-    }
-    
-    interface Repeater
-    Repeater <|-- ResourceTrait
-    interface ResourceTrait
-    {
-        --
-        +Resource packageResource(String path)
-        +Package relativePackage(String path)
     }
     
     interface Resourceful

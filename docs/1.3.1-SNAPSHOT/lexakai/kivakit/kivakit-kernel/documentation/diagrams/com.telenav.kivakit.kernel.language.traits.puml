@@ -4,8 +4,10 @@
     
     title "com.telenav.kivakit.kernel.language.traits"
     
-    interface Broadcaster
-    Broadcaster <|-- LanguageTrait
+    interface Repeater
+    interface TryTrait
+    TryTrait <|-- LanguageTrait
+    Repeater <|-- LanguageTrait
     interface LanguageTrait
     {
         --
@@ -15,6 +17,7 @@
         +boolean isFalseOr(boolean value, String message, Object... arguments)
         +boolean isNonNullOr(Object value, String message, Object... arguments)
         +boolean isTrueOr(boolean value, String message, Object... arguments)
+        +boolean isValidOr(Validatable, String message, Object... arguments)
     }
     
     interface Broadcaster

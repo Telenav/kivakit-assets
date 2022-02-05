@@ -99,11 +99,11 @@
     class ReentrancyTracker
     {
         --
-        +boolean enter()
+        +Reentrancy enter()
         --(checks)--
         +boolean hasReentered()
         --(lifecycle)--
-        +void exit()
+        +Reentrancy exit()
     }
     
     KivaKitThread <|-- RepeatingKivaKitThread

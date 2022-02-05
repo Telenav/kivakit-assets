@@ -47,15 +47,16 @@
         +void clear()
     }
     
-    class MappedLazy<Parameter, Value>
+    class LazyMap<Key, Value>
     {
         --(constructors)--
-        +MappedLazy(MapFactory<Parameter, Value>)
+        #LazyMap(MapFactory<Key, Value>)
         --
-        +Value get(Parameter)
-        +boolean has()
+        +Value get(Key)
         --(collection)--
         +void clear()
+        +LazyMap<Key,Value> of(MapFactory<Key,Value>)
+        +void remove(Key)
     }
     
     class Objects
