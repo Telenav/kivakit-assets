@@ -1,0 +1,241 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-examples-lambda"
+    
+    artifact aws_lambda_java_core
+    artifact jackson_annotations
+    artifact jackson_core
+    artifact jackson_databind
+    artifact jackson_dataformat_yaml
+    artifact jackson_datatype_jsr310
+    artifact jackson_jaxrs_base
+    artifact jackson_jaxrs_json_provider
+    artifact jackson_module_jaxb_annotations
+    artifact openjson
+    artifact gson
+    artifact failureaccess
+    artifact guava
+    artifact listenablefuture
+    artifact j2objc_annotations
+    artifact protobuf_java
+    artifact cactus_build_metadata
+    artifact kivakit_application
+    artifact kivakit_collections
+    artifact kivakit_commandline
+    artifact kivakit_component
+    artifact kivakit_conversion
+    artifact kivakit_core
+    artifact kivakit_examples_lambda
+    artifact kivakit_interfaces
+    artifact kivakit_merged_grpc
+    artifact kivakit_merged_protostuff
+    artifact kivakit_merged_zookeeper
+    artifact kivakit_microservice
+    artifact kivakit_mixins
+    artifact kivakit_network_core
+    artifact kivakit_network_http
+    artifact kivakit_resource
+    artifact kivakit_serialization_gson
+    artifact kivakit_serialization_properties
+    artifact kivakit_settings_stores_zookeeper
+    artifact kivakit_settings
+    artifact kivakit_validation
+    artifact kivakit_web_jersey
+    artifact kivakit_web_jetty
+    artifact kivakit_web_swagger
+    artifact kivakit_web_wicket
+    artifact lexakai_annotations
+    artifact commons_codec
+    artifact commons_fileupload
+    artifact commons_io
+    artifact commons_logging
+    artifact classgraph
+    artifact netty_buffer
+    artifact netty_codec
+    artifact netty_common
+    artifact netty_resolver
+    artifact netty_transport_native_epoll
+    artifact netty_transport_native_unix_common
+    artifact netty_transport
+    artifact swagger_annotations
+    artifact swagger_core
+    artifact swagger_integration
+    artifact swagger_jaxrs2
+    artifact swagger_models
+    artifact jakarta_activation_api
+    artifact jakarta_annotation_api
+    artifact jakarta_servlet_api
+    artifact jakarta_validation_api
+    artifact jakarta_ws_rs_api
+    artifact jakarta_xml_bind_api
+    artifact javax_servlet_api
+    artifact junit
+    artifact commons_collections4
+    artifact commons_lang3
+    artifact httpclient
+    artifact httpcore
+    artifact log4j_1_2_api
+    artifact log4j_api
+    artifact wicket_core
+    artifact wicket_extensions
+    artifact wicket_request
+    artifact wicket_util
+    artifact apiguardian_api
+    artifact checker_qual
+    artifact jdk_serializable_functional
+    artifact jetty_http
+    artifact jetty_io
+    artifact jetty_security
+    artifact jetty_server
+    artifact jetty_servlet
+    artifact jetty_util_ajax
+    artifact jetty_util
+    artifact jetty_webapp
+    artifact jetty_xml
+    artifact aopalliance_repackaged
+    artifact jakarta_inject
+    artifact hk2_api
+    artifact hk2_locator
+    artifact hk2_utils
+    artifact osgi_resource_locator
+    artifact jersey_container_servlet_core
+    artifact jersey_container_servlet
+    artifact jersey_client
+    artifact jersey_common
+    artifact jersey_server
+    artifact jersey_entity_filtering
+    artifact jersey_hk2
+    artifact jersey_media_json_jackson
+    artifact hamcrest_core
+    artifact javassist
+    artifact annotations
+    artifact junit_jupiter_api
+    artifact junit_jupiter_engine
+    artifact junit_jupiter_params
+    artifact junit_jupiter
+    artifact junit_platform_commons
+    artifact junit_platform_engine
+    artifact opentest4j
+    artifact slf4j_api
+    artifact swagger_ui
+    artifact snakeyaml
+    guava --> checker_qual
+    guava --> failureaccess
+    guava --> j2objc_annotations
+    guava --> listenablefuture
+    hk2_locator --> aopalliance_repackaged
+    hk2_locator --> hk2_api
+    hk2_locator --> hk2_utils
+    httpclient --> commons_codec
+    httpclient --> commons_logging
+    httpclient --> httpcore
+    jackson_dataformat_yaml --> snakeyaml
+    jackson_jaxrs_json_provider --> jackson_jaxrs_base
+    jackson_jaxrs_json_provider --> jackson_module_jaxb_annotations
+    jersey_common --> jakarta_annotation_api
+    jersey_common --> osgi_resource_locator
+    jersey_container_servlet --> jersey_common
+    jersey_container_servlet --> jersey_container_servlet_core
+    jersey_container_servlet --> jersey_server
+    jersey_container_servlet_core --> jakarta_inject
+    jersey_hk2 --> hk2_locator
+    jersey_hk2 --> javassist
+    jersey_media_json_jackson --> jersey_entity_filtering
+    jersey_server --> jersey_client
+    jetty_http --> jetty_util
+    jetty_server --> jetty_http
+    jetty_server --> jetty_io
+    jetty_servlet --> jetty_security
+    jetty_servlet --> jetty_util_ajax
+    jetty_webapp --> jetty_servlet
+    jetty_webapp --> jetty_xml
+    junit --> hamcrest_core
+    junit_jupiter --> junit_jupiter_api
+    junit_jupiter --> junit_jupiter_params
+    junit_jupiter_api --> opentest4j
+    junit_jupiter_engine --> junit_platform_engine
+    kivakit_application --> kivakit_commandline
+    kivakit_application --> kivakit_component
+    kivakit_commandline --> kivakit_collections
+    kivakit_commandline --> kivakit_conversion
+    kivakit_commandline --> kivakit_core
+    kivakit_commandline --> kivakit_validation
+    kivakit_core --> cactus_build_metadata
+    kivakit_core --> junit
+    kivakit_core --> kivakit_interfaces
+    kivakit_core --> kivakit_mixins
+    kivakit_examples_lambda --> kivakit_microservice
+    kivakit_interfaces --> annotations
+    kivakit_interfaces --> lexakai_annotations
+    kivakit_microservice --> aws_lambda_java_core
+    kivakit_microservice --> guava
+    kivakit_microservice --> kivakit_application
+    kivakit_microservice --> kivakit_merged_grpc
+    kivakit_microservice --> kivakit_merged_protostuff
+    kivakit_microservice --> kivakit_settings_stores_zookeeper
+    kivakit_microservice --> kivakit_web_jetty
+    kivakit_microservice --> kivakit_web_swagger
+    kivakit_microservice --> kivakit_web_wicket
+    kivakit_microservice --> protobuf_java
+    kivakit_microservice --> wicket_core
+    kivakit_network_http --> httpclient
+    kivakit_serialization_gson --> gson
+    kivakit_settings --> kivakit_resource
+    kivakit_settings --> kivakit_serialization_properties
+    kivakit_settings_stores_zookeeper --> kivakit_merged_zookeeper
+    kivakit_settings_stores_zookeeper --> kivakit_network_core
+    kivakit_settings_stores_zookeeper --> kivakit_serialization_gson
+    kivakit_settings_stores_zookeeper --> kivakit_settings
+    kivakit_settings_stores_zookeeper --> netty_buffer
+    kivakit_settings_stores_zookeeper --> netty_codec
+    kivakit_settings_stores_zookeeper --> netty_common
+    kivakit_settings_stores_zookeeper --> netty_transport
+    kivakit_settings_stores_zookeeper --> netty_transport_native_epoll
+    kivakit_web_jersey --> jackson_core
+    kivakit_web_jersey --> jackson_databind
+    kivakit_web_jersey --> jakarta_ws_rs_api
+    kivakit_web_jersey --> jakarta_xml_bind_api
+    kivakit_web_jersey --> jersey_container_servlet
+    kivakit_web_jersey --> jersey_hk2
+    kivakit_web_jersey --> jersey_media_json_jackson
+    kivakit_web_jetty --> jakarta_activation_api
+    kivakit_web_jetty --> javax_servlet_api
+    kivakit_web_jetty --> jetty_server
+    kivakit_web_jetty --> jetty_webapp
+    kivakit_web_jetty --> kivakit_network_http
+    kivakit_web_swagger --> classgraph
+    kivakit_web_swagger --> jackson_annotations
+    kivakit_web_swagger --> kivakit_web_jersey
+    kivakit_web_swagger --> log4j_1_2_api
+    kivakit_web_swagger --> log4j_api
+    kivakit_web_swagger --> swagger_annotations
+    kivakit_web_swagger --> swagger_core
+    kivakit_web_swagger --> swagger_jaxrs2
+    kivakit_web_swagger --> swagger_models
+    kivakit_web_swagger --> swagger_ui
+    kivakit_web_wicket --> apiguardian_api
+    kivakit_web_wicket --> jakarta_servlet_api
+    kivakit_web_wicket --> jdk_serializable_functional
+    kivakit_web_wicket --> junit_jupiter
+    kivakit_web_wicket --> junit_jupiter_engine
+    kivakit_web_wicket --> junit_platform_commons
+    kivakit_web_wicket --> wicket_extensions
+    kivakit_web_wicket --> wicket_request
+    kivakit_web_wicket --> wicket_util
+    netty_transport --> netty_resolver
+    netty_transport_native_epoll --> netty_transport_native_unix_common
+    swagger_core --> commons_lang3
+    swagger_core --> jackson_dataformat_yaml
+    swagger_core --> jackson_datatype_jsr310
+    swagger_core --> jakarta_validation_api
+    swagger_jaxrs2 --> jackson_jaxrs_json_provider
+    swagger_jaxrs2 --> swagger_integration
+    wicket_core --> openjson
+    wicket_core --> slf4j_api
+    wicket_util --> commons_collections4
+    wicket_util --> commons_fileupload
+    wicket_util --> commons_io
+    
+@enduml
