@@ -1,0 +1,22 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.viewer"
+    
+    Application <|-- LogViewerApplication
+    class LogViewerApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+    Application <|-- LogViewerTesterApplication
+    class LogViewerTesterApplication
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

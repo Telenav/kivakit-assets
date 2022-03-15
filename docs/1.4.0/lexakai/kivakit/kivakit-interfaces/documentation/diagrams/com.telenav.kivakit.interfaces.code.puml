@@ -1,0 +1,30 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.code"
+    
+    interface Callback<Value>
+    {
+        --
+        +void callback(Value)
+        +void onCallback(Value)
+    }
+    
+    interface Code<Value>
+    {
+        --
+        +Code<T> of(Code<T>)
+        +Code<T> of(Runnable code)
+        --(lifecycle)--
+        +Value run()
+    }
+    
+    interface Loopable
+    {
+        --
+        +void iteration(int iteration)
+    }
+    
+@enduml
+

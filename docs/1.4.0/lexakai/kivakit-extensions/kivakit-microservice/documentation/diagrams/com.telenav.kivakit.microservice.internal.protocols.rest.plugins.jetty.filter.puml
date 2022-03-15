@@ -1,0 +1,96 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.filter"
+    
+    abstract BaseComponent
+    
+    interface HttpProblemReportingTrait
+    interface Filter
+    interface ComponentMixin
+    
+    BaseComponent <|-- JettyMicroservletFilter
+    Filter <|-- JettyMicroservletFilter
+    HttpProblemReportingTrait <|-- JettyMicroservletFilter
+    JettyMicroservletFilter --> JettyMicroservletRequestCycle : "creates"
+    JettyMicroservletFilter "1" o-- "many" Microservlet : "mounts on paths"
+    JettyMicroservletFilter o-- MicroserviceRestService
+    class JettyMicroservletFilter
+    {
+        --(constructors)--
+        +JettyMicroservletFilter(MicroserviceRestService)
+        --
+        +MountedMicroservlet microservlet(MicroservletRestPath)
+        +void mount(MountedApi)
+        +void mount(MicroservletRestPath, Microservlet<?,?>)
+        +Collection<MountedApi> mountedApis()
+        --(filtering)--
+        +^void doFilter(ServletRequest, ServletResponse, FilterChain)
+        --(path)--
+        +Set<MicroservletRestPath> microservletPaths()
+    }
+    
+    FilterHolder <|-- JettyMicroservletFilterHolder
+    ComponentMixin <|-- JettyMicroservletFilterHolder
+    JettyMicroservletFilterHolder o-- JettyMicroservletFilter
+    class JettyMicroservletFilterHolder
+    {
+        --(constructors)--
+        +JettyMicroservletFilterHolder(MicroserviceRestService)
+        --(filtering)--
+        +JettyMicroservletFilter filter()
+    }
+    
+    BaseComponent <|-- Mounted
+    HttpProblemReportingTrait <|-- Mounted
+    class Mounted
+    {
+        --(constructors)--
+        +Mounted(MicroserviceRestService)
+        --
+        #void measure(MicroservletRestPath, Runnable code)
+        --(service)--
+        #MicroserviceRestService service()
+    }
+    
+    Mounted <|-- MountedApi
+    class MountedApi
+    {
+        --(constructors)--
+        +MountedApi(MicroserviceRestService)
+        --
+        +MountedApi jar(Resource jar)
+        +boolean maybeLaunch()
+        --(checks)--
+        +boolean isAlive()
+        +boolean isReady()
+        --(command line parsing)--
+        +MountedApi commandLine(StringList commandLine)
+        --(identity)--
+        +MountedApi version(Version)
+        --(messaging)--
+        +boolean handleRequest(HttpMethod, JettyMicroservletRequestCycle)
+        --(network)--
+        +MountedApi port(int port)
+        +Port port()
+        +URI uri(String path)
+        +URI uri()
+        --(path)--
+        +MountedApi path(MicroservletRestPath)
+        +MicroservletRestPath path()
+    }
+    
+    Mounted <|-- MountedMicroservlet
+    class MountedMicroservlet
+    {
+        --(constructors)--
+        +MountedMicroservlet(MicroserviceRestService)
+        --
+        +Microservlet<?,?> microservlet()
+        --(messaging)--
+        +void handleRequest(MicroserviceRestService.HttpMethod, JettyMicroservletRequestCycle)
+    }
+    
+@enduml
+

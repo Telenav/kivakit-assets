@@ -1,0 +1,50 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.server.session"
+    
+    abstract BaseComponent
+    
+    interface Comparable
+    
+    Comparable <|-- Session
+    class Session
+    {
+        --(constructors)--
+        #Session()
+        +Session(String, Time, Bytes)
+        --
+        +Session session(FileName)
+        --(collection)--
+        +void addAll(List<LogEntry> entries)
+        +List<LogEntry> entries()
+        +Bytes size()
+        --(naming)--
+        +FileName fileName()
+        +String name()
+    }
+    
+    BaseComponent <|-- SessionStore
+    class SessionStore
+    {
+        --
+        +SessionStore get()
+        +boolean has(Session)
+        +Set<Session> sessions()
+        --(collection)--
+        +void add(Session, byte[] bytes, ProgressReporter)
+        +void add(Session)
+        +void addAll(Session, List<LogEntry> toAdd)
+        +LinkedList<LogEntry> entries(Session)
+        --(filesystem)--
+        +void delete(Session)
+        --(read)--
+        +void load()
+        +byte[] read(Session, ProgressReporter)
+        --(write)--
+        +void save(Session)
+    }
+    
+@enduml
+

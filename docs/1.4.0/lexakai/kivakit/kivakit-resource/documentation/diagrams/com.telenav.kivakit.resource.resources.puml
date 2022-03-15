@@ -1,0 +1,76 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.resource.resources"
+    
+    abstract BaseReadableResource
+    abstract BaseWritableResource
+    
+    interface ResourceResolver
+    
+    BaseReadableResource <|-- InputResource
+    class InputResource
+    {
+        --(constructors)--
+        +InputResource(InputStream)
+    }
+    
+    BaseWritableResource <|-- NullResource
+    class NullResource
+    {
+        --(constructors)--
+        +NullResource()
+    }
+    
+    BaseWritableResource <|-- OutputResource
+    class OutputResource
+    {
+        --(constructors)--
+        +OutputResource(OutputStream)
+    }
+    
+    BaseReadableResource <|-- PackageResource
+    class PackageResource
+    {
+        --(constructors)--
+        #PackageResource(PackagePath, ModuleResource, FileName)
+        --
+        +PackageResource packageResource(Listener, PackagePath _package, String path)
+        +PackageResource packageResource(ModuleResource)
+        +PackageResource packageResource(Listener, Class<?> type, String path)
+        +PackageResource packageResource(PackagePath _package, FilePath)
+        +PackageResource packageResource(PackagePath _package, FileName)
+    }
+    
+    ResourceResolver <|-- PackageResource.Resolver
+    class PackageResource.Resolver
+    {
+    }
+    
+    BaseReadableResource <|-- ResourceSection
+    class ResourceSection
+    {
+        --(constructors)--
+        +ResourceSection(Resource, long, long)
+    }
+    
+    BaseWritableResource <|-- StringOutputResource
+    class StringOutputResource
+    {
+        --
+        +String string()
+    }
+    
+    BaseReadableResource <|-- StringResource
+    class StringResource
+    {
+        --(constructors)--
+        +StringResource(ResourcePath, String)
+        +StringResource(String)
+        --
+        +StringResource transform(Function<String,String> transformation)
+    }
+    
+@enduml
+

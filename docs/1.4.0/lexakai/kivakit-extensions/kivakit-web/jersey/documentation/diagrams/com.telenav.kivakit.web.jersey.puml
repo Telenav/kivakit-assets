@@ -1,0 +1,43 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.jersey"
+    
+    abstract BaseComponent
+    abstract BaseServletJettyPlugin
+    
+    interface RepeaterMixin
+    interface MessageBodyReader
+    interface MessageBodyWriter
+    
+    ResourceConfig <|-- BaseRestApplication
+    RepeaterMixin <|-- BaseRestApplication
+    abstract class BaseRestApplication
+    {
+    }
+    
+    BaseComponent <|-- BaseRestResource
+    class BaseRestResource
+    {
+        --(constructors)--
+        +BaseRestResource()
+    }
+    
+    BaseServletJettyPlugin <|-- JerseyJettyPlugin
+    class JerseyJettyPlugin
+    {
+        --(constructors)--
+        +JerseyJettyPlugin(ResourceConfig)
+    }
+    
+    MessageBodyReader <|-- JerseyJsonSerializer
+    MessageBodyWriter <|-- JerseyJsonSerializer
+    class JerseyJsonSerializer<T>
+    {
+        --(constructors)--
+        +JerseyJsonSerializer(GsonObjectSerializer)
+    }
+    
+@enduml
+
