@@ -1,0 +1,125 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-web-jersey"
+    
+    artifact jackson_annotations
+    artifact jackson_core
+    artifact jackson_databind
+    artifact gson
+    artifact cactus_build_metadata
+    artifact kivakit_collections
+    artifact kivakit_commandline
+    artifact kivakit_component
+    artifact kivakit_conversion
+    artifact kivakit_core
+    artifact kivakit_interfaces
+    artifact kivakit_mixins
+    artifact kivakit_network_core
+    artifact kivakit_network_http
+    artifact kivakit_resource
+    artifact kivakit_serialization_gson
+    artifact kivakit_serialization_properties
+    artifact kivakit_settings
+    artifact kivakit_validation
+    artifact kivakit_web_jersey
+    artifact kivakit_web_jetty
+    artifact lexakai_annotations
+    artifact commons_codec
+    artifact commons_logging
+    artifact jakarta_activation_api
+    artifact jakarta_annotation_api
+    artifact jakarta_validation_api
+    artifact jakarta_ws_rs_api
+    artifact jakarta_xml_bind_api
+    artifact javax_servlet_api
+    artifact junit
+    artifact httpclient
+    artifact httpcore
+    artifact jetty_http
+    artifact jetty_io
+    artifact jetty_security
+    artifact jetty_server
+    artifact jetty_servlet
+    artifact jetty_util_ajax
+    artifact jetty_util
+    artifact jetty_webapp
+    artifact jetty_xml
+    artifact aopalliance_repackaged
+    artifact jakarta_inject
+    artifact hk2_api
+    artifact hk2_locator
+    artifact hk2_utils
+    artifact osgi_resource_locator
+    artifact jersey_container_servlet_core
+    artifact jersey_container_servlet
+    artifact jersey_client
+    artifact jersey_common
+    artifact jersey_server
+    artifact jersey_entity_filtering
+    artifact jersey_hk2
+    artifact jersey_media_json_jackson
+    artifact hamcrest_core
+    artifact javassist
+    artifact annotations
+    hk2_locator --> aopalliance_repackaged
+    hk2_locator --> hk2_api
+    hk2_locator --> hk2_utils
+    httpclient --> commons_codec
+    httpclient --> commons_logging
+    httpclient --> httpcore
+    jersey_common --> jakarta_annotation_api
+    jersey_common --> osgi_resource_locator
+    jersey_container_servlet --> jersey_common
+    jersey_container_servlet --> jersey_container_servlet_core
+    jersey_container_servlet --> jersey_server
+    jersey_container_servlet_core --> jakarta_inject
+    jersey_hk2 --> hk2_locator
+    jersey_hk2 --> javassist
+    jersey_media_json_jackson --> jersey_entity_filtering
+    jersey_server --> jakarta_validation_api
+    jersey_server --> jersey_client
+    jetty_http --> jetty_util
+    jetty_server --> jetty_http
+    jetty_server --> jetty_io
+    jetty_servlet --> jetty_security
+    jetty_servlet --> jetty_util_ajax
+    jetty_webapp --> jetty_servlet
+    jetty_webapp --> jetty_xml
+    junit --> hamcrest_core
+    kivakit_commandline --> kivakit_validation
+    kivakit_component --> kivakit_settings
+    kivakit_conversion --> kivakit_core
+    kivakit_core --> cactus_build_metadata
+    kivakit_core --> junit
+    kivakit_core --> kivakit_interfaces
+    kivakit_core --> kivakit_mixins
+    kivakit_interfaces --> annotations
+    kivakit_interfaces --> lexakai_annotations
+    kivakit_network_http --> httpclient
+    kivakit_network_http --> kivakit_network_core
+    kivakit_resource --> kivakit_collections
+    kivakit_serialization_gson --> gson
+    kivakit_serialization_gson --> kivakit_conversion
+    kivakit_serialization_gson --> kivakit_resource
+    kivakit_settings --> kivakit_commandline
+    kivakit_settings --> kivakit_serialization_properties
+    kivakit_web_jersey --> jackson_annotations
+    kivakit_web_jersey --> jackson_core
+    kivakit_web_jersey --> jackson_databind
+    kivakit_web_jersey --> jakarta_activation_api
+    kivakit_web_jersey --> jakarta_ws_rs_api
+    kivakit_web_jersey --> jakarta_xml_bind_api
+    kivakit_web_jersey --> jersey_container_servlet
+    kivakit_web_jersey --> jersey_hk2
+    kivakit_web_jersey --> jersey_media_json_jackson
+    kivakit_web_jersey --> kivakit_component
+    kivakit_web_jersey --> kivakit_serialization_gson
+    kivakit_web_jersey --> kivakit_web_jetty
+    kivakit_web_jetty --> javax_servlet_api
+    kivakit_web_jetty --> jetty_server
+    kivakit_web_jetty --> jetty_webapp
+    kivakit_web_jetty --> kivakit_network_http
+    
+@enduml

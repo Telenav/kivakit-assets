@@ -1,0 +1,157 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.collections.list"
+    
+    abstract BaseList
+    
+    interface Prependable
+    interface Countable
+    interface Instantiable
+    interface Addable
+    interface Appendable
+    interface RandomAccess
+    interface List
+    interface Indexable
+    interface Stringable
+    
+    Instantiable <|-- BaseList
+    List <|-- BaseList
+    Indexable <|-- BaseList
+    Addable <|-- BaseList
+    Appendable <|-- BaseList
+    Prependable <|-- BaseList
+    RandomAccess <|-- BaseList
+    Countable <|-- BaseList
+    Stringable <|-- BaseList
+    abstract class BaseList<Element>
+    {
+        --(constructors)--
+        #BaseList()
+        #BaseList(Collection<Element>)
+        #BaseList(Maximum)
+        #BaseList(Maximum, Collection<Element>)
+        --
+        +String bracketed(int indent)
+        +String bracketed()
+        +String bulleted()
+        +String bulleted(int indent)
+        +long[] quantized()
+        +boolean replaceAll(Element, Element replacement)
+        +void reverse()
+        +void shuffle(Random)
+        +void shuffle()
+        #void onOutOfRoom()
+        #String separator()
+        --(checks)--
+        +boolean endsWith(BaseList<Element> that)
+        +boolean startsWith(BaseList<Element> that)
+        --(collection)--
+        +boolean addAll(Element[] elements)
+        +BaseList<Element> appendAll(Element[] elements)
+        +Element[] asArray(Class<Element> type)
+        +StringList asStringList()
+        +BaseList<Element> copy()
+        +BaseList<Element> first(int count)
+        +BaseList<Element> first(Count)
+        +BaseList<Element> leftOf(int index)
+        +BaseList<Target> mapped(Function<Element,Target> mapper)
+        +BaseList<Element> matching(Matcher<Element>)
+        +Maximum maximumSize()
+        +BaseList<Element> maybeReversed(boolean reverse)
+        +Element pop()
+        +void push(Element)
+        +Element removeLast()
+        +BaseList<Element> reversed()
+        +BaseList<Element> rightOf(int index)
+        +BaseList<Element> sorted(Comparator<Element>)
+        +BaseList<Element> sorted()
+        +BaseList<Element> uniqued()
+        +BaseList<Element> without(Matcher<Element>)
+        #boolean checkSizeIncrease(int increase)
+        --(lifecycle)--
+        +String join()
+    }
+    
+    ObjectList <|-- LinkedObjectList
+    class LinkedObjectList<Element>
+    {
+        --(constructors)--
+        +LinkedObjectList()
+        +LinkedObjectList(Collection<Element>)
+        +LinkedObjectList(Maximum)
+    }
+    
+    BaseList <|-- ObjectList
+    class ObjectList<Element>
+    {
+        --(constructors)--
+        +ObjectList()
+        +ObjectList(Collection<Element>)
+        +ObjectList(Maximum)
+        --
+        +String titledBox(String title)
+        --(collection)--
+        +ObjectList<T> emptyList()
+        +ObjectList<T> objectList(Iterable<T> values)
+        +ObjectList<T> objectList(Maximum maximumSize, T... objects)
+        +ObjectList<T> objectList(Iterable<Quantizable> values, LongMapFactory<T>)
+        +ObjectList<T> objectList(T... objects)
+        +ObjectList<Long> objectListFromArray(long[] objects)
+        +ObjectList<T> objectListFromArray(T[] objects)
+        +ObjectList<T> objectListFromInts(IntMapFactory<T>, int... values)
+        +ObjectList<T> objectListFromLongs(LongMapFactory<T>, long... values)
+        +ObjectList<ObjectList<Element>> partition(Count partitions)
+        +ObjectList<T> with(T value)
+    }
+    
+    ObjectList <|-- Stack
+    class Stack<T>
+    {
+        --(constructors)--
+        +Stack()
+        +Stack(Maximum)
+        --(collection)--
+        +T pop()
+        +void push(T value)
+    }
+    
+    ObjectList <|-- StringList
+    class StringList
+    {
+        --(constructors)--
+        +StringList()
+        +StringList(Iterable<?>)
+        +StringList(Iterator<?>)
+        +StringList(Maximum)
+        +StringList(Maximum, Iterable<?>)
+        +StringList(Maximum, Iterator<?>)
+        +StringList(Maximum, String)
+        --
+        #String objectToString(Object)
+        --(collection)--
+        +StringList add(String message, Object... arguments)
+        +String[] asStringArray()
+        +VariableMap<String> asVariableMap()
+        +StringList doubleQuoted()
+        +StringList indented(int spaces)
+        +Count longest()
+        +StringList numbered()
+        +StringList prefixedWith(String prefix)
+        +StringList println()
+        +StringList repeat(String text, int times)
+        +StringList singleQuoted()
+        +StringList split(String, String delimiter)
+        +StringList split(Maximum maximumSize, String, char delimiter)
+        +StringList split(Maximum maximumSize, String text, String delimiter)
+        +StringList split(String, char delimiter)
+        +StringList splitOnPattern(String text, String pattern)
+        +StringList stringList(Iterable<T> values)
+        +StringList stringList(String... strings)
+        +StringList stringList(Maximum maximumSize, String... strings)
+        +StringList words(String text)
+    }
+    
+@enduml
+

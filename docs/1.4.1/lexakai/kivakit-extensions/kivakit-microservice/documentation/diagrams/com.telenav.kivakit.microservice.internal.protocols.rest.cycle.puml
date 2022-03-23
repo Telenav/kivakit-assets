@@ -1,0 +1,21 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.cycle"
+    
+    interface HttpProblemReportingTrait
+    {
+        --
+        +JettyMicroserviceResponse response()
+        --(messaging)--
+        +Problem problem(int httpStatus, Throwable exception, String text, Object... arguments)
+        +Problem problem(int httpStatus, String code, String text, Object... arguments)
+        +Problem problem(int httpStatus, String code, Throwable exception, String text, Object... arguments)
+        +Problem problem(int httpStatus, String text, Object... arguments)
+        --(status)--
+        +void status(int status)
+    }
+    
+@enduml
+

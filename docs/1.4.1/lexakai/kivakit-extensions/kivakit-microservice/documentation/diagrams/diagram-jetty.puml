@@ -1,0 +1,130 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "Jetty Microservice Plugin"
+    
+    abstract BaseComponent
+    abstract BaseFilterJettyPlugin
+    abstract BaseMicroservletRequest
+    
+    interface HttpProblemReportingTrait
+    interface Filter
+    interface ComponentMixin
+    
+    BaseComponent <|-- JettyMicroserviceResponse
+    JettyMicroserviceResponse o-- JettyMicroservletRequestCycle
+    JettyMicroserviceResponse o-- MicroservletErrorResponse
+    class JettyMicroserviceResponse
+    {
+        --(constructors)--
+        +JettyMicroserviceResponse(JettyMicroservletRequestCycle, HttpServletResponse)
+        --(conversion)--
+        +String toJson(Object response)
+        --(identity)--
+        +Version version()
+        --(messaging)--
+        +Problem problem(int status, String text, Object... arguments)
+        +Problem problem(int status, Throwable exception, String text, Object... arguments)
+        --(network)--
+        +HttpServletResponse httpResponse()
+        --(status)--
+        +MicroservletErrorResponse errors()
+        +void status(int status)
+        +int status()
+        --(write)--
+        +void writeObject(MicroservletResponse)
+    }
+    
+    BaseComponent <|-- JettyMicroservletFilter
+    Filter <|-- JettyMicroservletFilter
+    HttpProblemReportingTrait <|-- JettyMicroservletFilter
+    JettyMicroservletFilter --> JettyMicroservletRequestCycle : "creates"
+    JettyMicroservletFilter "1" o-- "many" Microservlet : "mounts on paths"
+    JettyMicroservletFilter o-- MicroserviceRestService
+    class JettyMicroservletFilter
+    {
+        --(constructors)--
+        +JettyMicroservletFilter(MicroserviceRestService)
+        --
+        +MountedMicroservlet microservlet(MicroservletRestPath)
+        +void mount(MountedApi)
+        +void mount(MicroservletRestPath, Microservlet<?,?>)
+        +Collection<MountedApi> mountedApis()
+        --(filtering)--
+        +^void doFilter(ServletRequest, ServletResponse, FilterChain)
+        --(path)--
+        +Set<MicroservletRestPath> microservletPaths()
+    }
+    
+    FilterHolder <|-- JettyMicroservletFilterHolder
+    ComponentMixin <|-- JettyMicroservletFilterHolder
+    JettyMicroservletFilterHolder o-- JettyMicroservletFilter
+    class JettyMicroservletFilterHolder
+    {
+        --(constructors)--
+        +JettyMicroservletFilterHolder(MicroserviceRestService)
+        --(filtering)--
+        +JettyMicroservletFilter filter()
+    }
+    
+    BaseComponent <|-- JettyMicroservletRequest
+    HttpProblemReportingTrait <|-- JettyMicroservletRequest
+    JettyMicroservletRequest o-- JettyMicroservletRequestCycle
+    class JettyMicroservletRequest
+    {
+        --(constructors)--
+        +JettyMicroservletRequest(JettyMicroservletRequestCycle, HttpServletRequest)
+        --
+        +T fromJson(String json, Class<T> type)
+        --(checks)--
+        +boolean hasBody()
+        --(collection)--
+        +PropertyMap parameters()
+        +PropertyMap parameters(FilePath)
+        --(filesystem)--
+        +FilePath path()
+        --(identity)--
+        +Version version()
+        --(network)--
+        +HttpServletRequest httpRequest()
+        --(read)--
+        +ServletInputStream open()
+        +T readObject(Class<T> requestType)
+    }
+    
+    BaseComponent <|-- JettyMicroservletRequestCycle
+    HttpProblemReportingTrait <|-- JettyMicroservletRequestCycle
+    JettyMicroservletRequestCycle o-- JettyMicroservletRequest
+    JettyMicroservletRequestCycle o-- JettyMicroserviceResponse
+    class JettyMicroservletRequestCycle
+    {
+        --(constructors)--
+        +JettyMicroservletRequestCycle(MicroserviceRestService, HttpServletRequest, HttpServletResponse)
+        --
+        +void attach(Microservlet<?,?>)
+        +void attach(JettyMicroservletRequestCycle)
+        +JettyMicroservletRequestCycle cycle()
+        +void detach()
+        +Gson gson()
+        +JettyMicroservletRequest request()
+        +Microservlet<?,?> servlet()
+        --(service)--
+        +MicroserviceRestService restService()
+    }
+    
+    BaseFilterJettyPlugin <|-- MicroservletJettyPlugin
+    MicroservletJettyPlugin o-- JettyMicroservletFilterHolder
+    class MicroservletJettyPlugin
+    {
+        --(constructors)--
+        +MicroservletJettyPlugin(MicroserviceRestService)
+    }
+    
+    BaseMicroservletRequest <|-- OpenApiJsonRequest
+    class OpenApiJsonRequest
+    {
+    }
+    
+@enduml
+
