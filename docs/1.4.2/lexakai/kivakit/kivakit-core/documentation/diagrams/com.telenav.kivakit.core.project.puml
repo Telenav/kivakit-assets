@@ -1,0 +1,83 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.project"
+    
+    abstract BaseRepeater
+    
+    interface Named
+    interface Initializable
+    interface ProjectTrait
+    interface JavaTrait
+    interface NamedObject
+    interface LanguageTrait
+    interface RegistryTrait
+    
+    Named <|-- Build
+    class Build
+    {
+        --(constructors)--
+        #Build()
+        --
+        +String formattedDate()
+        +int number()
+        +String property(String key)
+        +LocalDate utcDate()
+        --(building)--
+        +Build build(Class<?> project)
+        --(collection)--
+        +VariableMap<String> properties()
+        --(time)--
+        +LocalTime date()
+        +int epochDay()
+    }
+    
+    BaseRepeater <|-- Project
+    Initializable <|-- Project
+    JavaTrait <|-- Project
+    ProjectTrait <|-- Project
+    RegistryTrait <|-- Project
+    LanguageTrait <|-- Project
+    NamedObject <|-- Project
+    Project "1" --> "*" Class : "depends on"
+    abstract class Project
+    {
+        --
+        +ObjectSet<Class<? extends Project>> dependencies()
+        +void onInitialized()
+        +void onInitializing()
+        +String property(String key)
+        +T resolveProject(Class<T> type)
+        +void visitDependencies(Visitor)
+        --(building)--
+        +Build build()
+        --(collection)--
+        +VariableMap<String> properties()
+        --(identity)--
+        +String artifactId()
+        +String groupId()
+        +Version kivakitVersion()
+        +Version projectVersion()
+    }
+    
+    interface ProjectTrait
+    {
+        --
+        +Project kivakit()
+        +T project(Class<T> type)
+        --(building)--
+        +Build projectBuild()
+        --(identity)--
+        +Version kivakitVersion()
+        +Version projectVersion()
+    }
+    
+    interface Project.Visitor
+    {
+        --
+        +void at(Project at, int level)
+    }
+    
+@enduml
+

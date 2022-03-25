@@ -1,0 +1,20 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.network.http.lexakai"
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramHttp
+    interface DiagramHttp
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramHttps
+    interface DiagramHttps
+    {
+    }
+    
+@enduml
+

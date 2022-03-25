@@ -1,0 +1,53 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.time"
+    
+    interface Comparable<LengthOfTime>
+    interface Quantizable
+    interface Stringable
+    Quantizable <|-- LengthOfTime
+    Comparable <|-- LengthOfTime
+    Stringable <|-- LengthOfTime
+    interface LengthOfTime
+    {
+        --
+        +void after(Callback<Timer> onTimer)
+        +int compareTo(LengthOfTime that)
+        +void repeat(Callback<Timer> onTimer)
+        +String unitString(double value, String units)
+        --(checks)--
+        +boolean isApproximately(LengthOfTime that, LengthOfTime within)
+        +boolean isGreaterThan(LengthOfTime that)
+        +boolean isGreaterThanOrEqualTo(LengthOfTime that)
+        +boolean isLessThan(LengthOfTime that)
+        +boolean isLessThanOrEqualTo(LengthOfTime that)
+        +boolean isNone()
+        +boolean isSome()
+        --(conversion)--
+        +String asHumanReadableString()
+        +String asString(Format)
+        +double asWeeks()
+        --(thread)--
+        +boolean await(Condition)
+        +void sleep()
+        +boolean wait(Object monitor)
+        --(time)--
+        +double asDays()
+        +double asHours()
+        +java.time.Duration asJavaDuration()
+        +double asMilliseconds()
+        +double asMinutes()
+        +double asSeconds()
+        +double asYears()
+        +LengthOfTime dividedBy(int value)
+        +long milliseconds()
+        +LengthOfTime milliseconds(long milliseconds)
+        +LengthOfTime minus(int value)
+        +LengthOfTime plus(int value)
+        +LengthOfTime times(double value)
+    }
+    
+@enduml
+

@@ -1,0 +1,35 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-data-formats-library"
+    
+    artifact cactus_build_metadata
+    artifact kivakit_collections
+    artifact kivakit_commandline
+    artifact kivakit_conversion
+    artifact kivakit_core
+    artifact kivakit_data_formats_library
+    artifact kivakit_interfaces
+    artifact kivakit_mixins
+    artifact kivakit_resource
+    artifact kivakit_validation
+    artifact lexakai_annotations
+    artifact junit
+    artifact hamcrest_core
+    artifact annotations
+    junit --> hamcrest_core
+    kivakit_collections --> kivakit_core
+    kivakit_commandline --> kivakit_conversion
+    kivakit_commandline --> kivakit_validation
+    kivakit_core --> cactus_build_metadata
+    kivakit_core --> junit
+    kivakit_core --> kivakit_interfaces
+    kivakit_core --> kivakit_mixins
+    kivakit_data_formats_library --> kivakit_resource
+    kivakit_interfaces --> annotations
+    kivakit_interfaces --> lexakai_annotations
+    kivakit_resource --> kivakit_collections
+    kivakit_resource --> kivakit_commandline
+    
+@enduml

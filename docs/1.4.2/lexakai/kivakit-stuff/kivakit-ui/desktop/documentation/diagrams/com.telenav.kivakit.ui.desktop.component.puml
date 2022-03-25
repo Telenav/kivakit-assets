@@ -1,0 +1,92 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.component"
+    
+    interface RepeaterMixin
+    
+    class Components
+    {
+        --
+        +void children(Container, Consumer<Component>)
+        +T debugColor(T component)
+        +void fadeIn(Component, Color, Duration update, int step)
+        +void fadeOut(Component, Color, Duration update, int step)
+        --(collection)--
+        +java.util.List<T> items(JComboBox<T> dropdown)
+    }
+    
+    JPanel <|-- KivaKitPanel
+    RepeaterMixin <|-- KivaKitPanel
+    class KivaKitPanel
+    {
+        --(constructors)--
+        +KivaKitPanel()
+        +KivaKitPanel(LayoutManager)
+        --
+        +JLabel configure(JLabel)
+        +JComboBox<T> configure(JComboBox<T> dropdown, int preferredWidth)
+        +JTableHeader configure(JTableHeader)
+        +JTextField configure(JTextField)
+        +JComboBox<T> configure(JComboBox<T> dropdown)
+        +JButton configure(JButton)
+        +JEditorPane configure(JEditorPane)
+        +JCheckBox configure(JCheckBox)
+        +JTable configure(JTable)
+        +JLabel configureComponentLabel(JLabel)
+        +JPanel configureContainerPanel(JPanel)
+        +void debugColor()
+        +KivaKitPanel margins(int width)
+        +Margins margins()
+        +Font smallComponentFont()
+        +Font tableFont()
+        #KivaKitTheme theme()
+        #Box verticalCenter(JComponent)
+        --(checks)--
+        +boolean isDark()
+        --(collection)--
+        +JList<T> configure(JList<T>)
+        --(factory)--
+        +JButton newButton(String text, ActionListener)
+        +JButton newButton(String text)
+        +JButton newButton(String text, Source<Boolean> enabled, ActionListener)
+        +JLabel newCellRenderer(String text, boolean isSelected)
+        +JCheckBox newCheckBox(String text)
+        +JLabel newComponentLabel(String text)
+        +KivaKitPanel newContainerPanel()
+        +KivaKitPanel newContainerPanel(LayoutManager)
+        +JComboBox<T> newDropDown(T[] values, Source<Boolean> enabled)
+        +JComboBox<T> newDropDown(ComboBoxModel<T>)
+        +JComboBox<T> newDropDown(ComboBoxModel<T>, Source<Boolean> enabled)
+        +JComboBox<T> newDropDown(T[] values)
+        +JSeparator newHorizontalSeparator()
+        +JLabel newInformationLabel(String text)
+        +JLabel newLabel(String text)
+        +JLabel newListCellRenderer(String text, boolean isSelected)
+        +JLabel newNote(String text)
+        +JProgressBar newProgressBar()
+        +JScrollPane newScrollPane(JComponent child, AdjustmentListener)
+        +JTextField newSearchField()
+        +JTextField newSearchField(Source<Boolean> enabled)
+        +KivaKitPanel newShadedPanel()
+        +KivaKitPanel newShadedSubPanel()
+        +JLabel newSmallFadedLabel(String text)
+        +JTabbedPane newTabbedPane()
+        +JTextField newTextField(int characters)
+        +JTextField newTextField()
+        +JTextField newTextField(int characters, Source<Boolean> enabled)
+        +JTextField newTextField(Source<Boolean> enabled)
+        +JSeparator newVerticalSeparator()
+        +JSplitPane newVerticalSplitPane(JPanel top, JPanel bottom)
+        --(functional)--
+        +KivaKitPanel configureShadedPanel(KivaKitPanel)
+        +KivaKitPanel configureShadedSubPanel(KivaKitPanel)
+        --(messaging)--
+        +void popupInformation(JFrame, String title, String message)
+        --(search)--
+        +JTextField configureSearchField(JTextField)
+    }
+    
+@enduml
+

@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1167.7083px" preserveAspectRatio="none" style="width:2288px;height:1167px;background:#333333;" version="1.1" viewBox="0 0 2288 1167" width="2288.5417px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="406.25" x="933.8542" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="383.3333" x="945.3125" y="30.5583">com.telenav.kivakit.interfaces.numeric</text><!--MD5=[2df72f5fe2f08a801ba2299fbeaea197]
+class Arithmetic--><rect codeLine="46" fill="#282828" height="142.6127" id="Arithmetic" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="157.2917" x="7.2917" y="559.9528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="157.2917" x="7.2917" y="559.9528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="157.2917" x="7.2917" y="583.0078"/><rect codeLine="46" fill="none" height="142.6127" id="Arithmetic" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="157.2917" x="7.2917" y="559.9528"/><ellipse cx="24.6875" cy="575.647" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M22.0915,572.8088 L22.0915,571.2219 L27.5175,571.2219 L27.5175,572.8088 L25.7048,572.8088 L25.7048,578.7476 L27.5175,578.7476 L27.5175,580.3345 L22.0915,580.3345 L22.0915,578.7476 L23.9042,578.7476 L23.9042,572.8088 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="67.7083" x="41.9792" y="580.3711">Arithmetic</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="43.75" x="123.9583" y="556.8278"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="35.4167" x="128.125" y="573.0794">Value</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="163.5417" y1="591.3411" y2="591.3411"/><ellipse cx="18.75" cy="626.711" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="30.2083" y="633.6222">Value dividedBy(Value)</text><ellipse cx="18.75" cy="646.4559" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="106.25" x="30.2083" y="653.3671">Value minus(Value)</text><ellipse cx="18.75" cy="666.2008" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="95.8333" x="30.2083" y="673.112">Value plus(Value)</text><ellipse cx="18.75" cy="685.9456" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="30.2083" y="692.8569">Value times(Value)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="64.5833" y1="609.5469" y2="609.5469"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="67.7083" y="613.3565">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="107.2917" x2="163.5417" y1="609.5469" y2="609.5469"/><!--MD5=[777c480c2cf46d6d682a9a8325151c45]
+class CastTrait--><rect codeLine="103" fill="#282828" height="150.946" id="CastTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="258.3333" x="327.6042" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="258.3333" x="327.6042" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="258.3333" x="327.6042" y="76.7578"/><rect codeLine="103" fill="none" height="150.946" id="CastTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="258.3333" x="327.6042" y="53.7028"/><ellipse cx="419.7917" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M417.1956,66.5588 L417.1956,64.9719 L422.6217,64.9719 L422.6217,66.5588 L420.8089,66.5588 L420.8089,72.4976 L422.6217,72.4976 L422.6217,74.0845 L417.1956,74.0845 L417.1956,72.4976 L419.0084,72.4976 L419.0084,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="59.375" x="442.7083" y="74.1211">CastTrait</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="328.6458" x2="584.8958" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="328.6458" x2="584.8958" y1="93.4245" y2="93.4245"/><ellipse cx="339.0625" cy="104.8828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="350.5208" y="111.794">T cast(long value, Class&lt;T&gt; type)</text><ellipse cx="339.0625" cy="124.6277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="226.0417" x="350.5208" y="131.5389">T cast(Castable number, Class&lt;T&gt; type)</text><ellipse cx="339.0625" cy="168.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="175" x="350.5208" y="175.1953">long maximum(Class&lt;T&gt; type)</text><ellipse cx="339.0625" cy="188.029" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="171.875" x="350.5208" y="194.9402">long minimum(Class&lt;T&gt; type)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="328.6458" x2="435.4167" y1="151.12" y2="151.12"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="438.5417" y="154.9296">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="478.125" x2="584.8958" y1="151.12" y2="151.12"/><!--MD5=[980ae7f75e070ac3419dd51c9837b2d6]
+class Castable--><rect codeLine="47" fill="#282828" height="221.5922" id="Castable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="146.875" x="201.0417" y="520.3695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="146.875" x="201.0417" y="520.3695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="146.875" x="201.0417" y="543.4245"/><rect codeLine="47" fill="none" height="221.5922" id="Castable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="146.875" x="201.0417" y="520.3695"/><ellipse cx="239.5313" cy="536.0636" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M236.9352,533.2255 L236.9352,531.6386 L242.3612,531.6386 L242.3612,533.2255 L240.5485,533.2255 L240.5485,539.1642 L242.3612,539.1642 L242.3612,540.7511 L236.9352,540.7511 L236.9352,539.1642 L238.748,539.1642 L238.748,533.2255 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="261.5104" y="540.7878">Castable</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="202.0833" x2="346.875" y1="551.7578" y2="551.7578"/><ellipse cx="212.5" cy="587.1277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="114.5833" x="223.9583" y="594.0389">T as(Class&lt;T&gt; type)</text><ellipse cx="212.5" cy="606.8726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="223.9583" y="613.7838">byte asByte()</text><ellipse cx="212.5" cy="626.6174" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="76.0417" x="223.9583" y="633.5286">char asChar()</text><ellipse cx="212.5" cy="646.3623" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="223.9583" y="653.2735">double asDouble()</text><ellipse cx="212.5" cy="666.1072" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="76.0417" x="223.9583" y="673.0184">float asFloat()</text><ellipse cx="212.5" cy="685.8521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="223.9583" y="692.7633">int asInt()</text><ellipse cx="212.5" cy="705.5969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="77.0833" x="223.9583" y="712.5081">long asLong()</text><ellipse cx="212.5" cy="725.3418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="223.9583" y="732.253">short asShort()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="202.0833" x2="235.9375" y1="569.9636" y2="569.9636"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="239.0625" y="573.7732">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="313.0208" x2="346.875" y1="569.9636" y2="569.9636"/><!--MD5=[c79d20ea3b0670d870812cd066af945f]
+class DoubleQuantizable--><rect codeLine="83" fill="#282828" height="83.3781" id="DoubleQuantizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="172.9167" x="2002.6042" y="87.557"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="172.9167" x="2002.6042" y="87.557"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="172.9167" x="2002.6042" y="110.612"/><rect codeLine="83" fill="none" height="83.3781" id="DoubleQuantizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="172.9167" x="2002.6042" y="87.557"/><ellipse cx="2021.875" cy="103.2511" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M2019.279,100.413 L2019.279,98.8261 L2024.705,98.8261 L2024.705,100.413 L2022.8923,100.413 L2022.8923,106.3517 L2024.705,106.3517 L2024.705,107.9386 L2019.279,107.9386 L2019.279,106.3517 L2021.0917,106.3517 L2021.0917,100.413 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="125" x="2039.5833" y="107.9753">DoubleQuantizable</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="2003.6458" x2="2174.4792" y1="118.9453" y2="118.9453"/><ellipse cx="2014.0625" cy="154.3152" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="2025.5208" y="161.2264">double doubleQuantum()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2003.6458" x2="2057.2917" y1="137.1511" y2="137.1511"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="2060.4167" y="140.9607">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2120.8333" x2="2174.4792" y1="137.1511" y2="137.1511"/><!--MD5=[7a4729d26b999f6a4650b01106c103c5]
+class Comparable--><rect codeLine="48" fill="#282828" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="161.4583" x="930.2083" y="607.3486"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="161.4583" x="930.2083" y="607.3486"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="161.4583" x="930.2083" y="630.4036"/><rect codeLine="48" fill="none" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="161.4583" x="930.2083" y="607.3486"/><ellipse cx="944.7917" cy="623.0428" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M942.1956,620.2047 L942.1956,618.6178 L947.6217,618.6178 L947.6217,620.2047 L945.8089,620.2047 L945.8089,626.1434 L947.6217,626.1434 L947.6217,627.7303 L942.1956,627.7303 L942.1956,626.1434 L944.0084,626.1434 L944.0084,620.2047 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="961.4583" y="627.7669">Comparable</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="43.75" x="1051.0417" y="604.2236"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="35.4167" x="1055.2083" y="620.4753">Value</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="931.25" x2="1090.625" y1="638.737" y2="638.737"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="931.25" x2="1090.625" y1="647.0703" y2="647.0703"/><!--MD5=[5a6348fd32e450db6b70e02248389514]
+class MapFactory--><rect codeLine="49" fill="#282828" height="48.055" id="MapFactory" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="192.7083" x="1128.125" y="607.3486"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="192.7083" x="1128.125" y="607.3486"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="192.7083" x="1128.125" y="630.4036"/><rect codeLine="49" fill="none" height="48.055" id="MapFactory" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="192.7083" x="1128.125" y="607.3486"/><ellipse cx="1142.7083" cy="623.0428" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1140.1123,620.2047 L1140.1123,618.6178 L1145.5383,618.6178 L1145.5383,620.2047 L1143.7256,620.2047 L1143.7256,626.1434 L1145.5383,626.1434 L1145.5383,627.7303 L1140.1123,627.7303 L1140.1123,626.1434 L1141.925,626.1434 L1141.925,620.2047 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="73.9583" x="1159.375" y="627.7669">MapFactory</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="79.1667" x="1244.7917" y="604.2236"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="70.8333" x="1248.9583" y="620.4753">Long,Value</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1129.1667" x2="1319.7917" y1="638.737" y2="638.737"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1129.1667" x2="1319.7917" y1="647.0703" y2="647.0703"/><!--MD5=[655bbc760eaaff26224bbdb16ebaf629]
+class Maximizable--><rect codeLine="69" fill="#282828" height="103.123" id="Maximizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="164.5833" x="1357.8125" y="579.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="164.5833" x="1357.8125" y="579.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="164.5833" x="1357.8125" y="602.7995"/><rect codeLine="69" fill="none" height="103.123" id="Maximizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="164.5833" x="1357.8125" y="579.7445"/><ellipse cx="1372.3958" cy="595.4386" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1369.7998,592.6005 L1369.7998,591.0136 L1375.2258,591.0136 L1375.2258,592.6005 L1373.4131,592.6005 L1373.4131,598.5392 L1375.2258,598.5392 L1375.2258,600.1261 L1369.7998,600.1261 L1369.7998,598.5392 L1371.6125,598.5392 L1371.6125,592.6005 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="81.25" x="1389.0625" y="600.1628">Maximizable</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="43.75" x="1481.7708" y="576.6195"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="35.4167" x="1485.9375" y="592.8711">Value</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1358.8542" x2="1521.3542" y1="611.1328" y2="611.1328"/><ellipse cx="1369.2708" cy="646.5027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="1380.7292" y="653.4139">Value maximum()</text><ellipse cx="1369.2708" cy="666.2476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="1380.7292" y="673.1588">Value maximum(Value)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1358.8542" x2="1418.75" y1="629.3386" y2="629.3386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="1421.875" y="633.1482">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1461.4583" x2="1521.3542" y1="629.3386" y2="629.3386"/><!--MD5=[3ed1638fef5c852b5bd9627bac9d799e]
+class Minimizable--><rect codeLine="76" fill="#282828" height="103.123" id="Minimizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="162.5" x="1558.8542" y="579.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="162.5" x="1558.8542" y="579.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="162.5" x="1558.8542" y="602.7995"/><rect codeLine="76" fill="none" height="103.123" id="Minimizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="162.5" x="1558.8542" y="579.7445"/><ellipse cx="1573.4375" cy="595.4386" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1570.8415,592.6005 L1570.8415,591.0136 L1576.2675,591.0136 L1576.2675,592.6005 L1574.4548,592.6005 L1574.4548,598.5392 L1576.2675,598.5392 L1576.2675,600.1261 L1570.8415,600.1261 L1570.8415,598.5392 L1572.6542,598.5392 L1572.6542,592.6005 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="79.1667" x="1590.1042" y="600.1628">Minimizable</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="43.75" x="1680.7292" y="576.6195"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="35.4167" x="1684.8958" y="592.8711">Value</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1559.8958" x2="1720.3125" y1="611.1328" y2="611.1328"/><ellipse cx="1570.3125" cy="646.5027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="93.75" x="1581.7708" y="653.4139">Value minimum()</text><ellipse cx="1570.3125" cy="666.2476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="123.9583" x="1581.7708" y="673.1588">Value minimum(Value)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1559.8958" x2="1618.75" y1="629.3386" y2="629.3386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="1621.875" y="633.1482">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1661.4583" x2="1720.3125" y1="629.3386" y2="629.3386"/><!--MD5=[78d7b700cb4d1e9dce9a0d3bd48333b3]
+class NextValue--><rect codeLine="52" fill="#282828" height="48.055" id="NextValue" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="102.0833" x="1757.8125" y="607.3486"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="102.0833" x="1757.8125" y="607.3486"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="102.0833" x="1757.8125" y="630.4036"/><rect codeLine="52" fill="none" height="48.055" id="NextValue" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="102.0833" x="1757.8125" y="607.3486"/><ellipse cx="1772.3958" cy="623.0428" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1769.7998,620.2047 L1769.7998,618.6178 L1775.2258,618.6178 L1775.2258,620.2047 L1773.4131,620.2047 L1773.4131,626.1434 L1775.2258,626.1434 L1775.2258,627.7303 L1769.7998,627.7303 L1769.7998,626.1434 L1771.6125,626.1434 L1771.6125,620.2047 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="1789.0625" y="627.7669">NextValue</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1758.8542" x2="1858.8542" y1="638.737" y2="638.737"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1758.8542" x2="1858.8542" y1="647.0703" y2="647.0703"/><!--MD5=[bf4550a9339f72ca621189a6baa10b43]
+class Quantizable--><rect codeLine="85" fill="#282828" height="313.0717" id="Quantizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="384.375" x="1896.875" y="474.5361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="384.375" x="1896.875" y="474.5361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="384.375" x="1896.875" y="497.5911"/><rect codeLine="85" fill="none" height="313.0717" id="Quantizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="384.375" x="1896.875" y="474.5361"/><ellipse cx="2042.7083" cy="490.2303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M2040.1123,487.3922 L2040.1123,485.8053 L2045.5383,485.8053 L2045.5383,487.3922 L2043.7256,487.3922 L2043.7256,493.3309 L2045.5383,493.3309 L2045.5383,494.9178 L2040.1123,494.9178 L2040.1123,493.3309 L2041.925,493.3309 L2041.925,487.3922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="2065.625" y="494.9544">Quantizable</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1897.9167" x2="2280.2083" y1="505.9245" y2="505.9245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1897.9167" x2="2280.2083" y1="514.2578" y2="514.2578"/><ellipse cx="1908.3333" cy="525.7161" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="203.125" x="1919.7917" y="532.6274">Quantizable quantizable(Long value)</text><ellipse cx="1908.3333" cy="545.461" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="1919.7917" y="552.3722">Quantizable quantizable(Integer value)</text><ellipse cx="1908.3333" cy="565.2059" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="86.4583" x="1919.7917" y="572.1171">long quantum()</text><ellipse cx="1908.3333" cy="608.8623" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="227.0833" x="1919.7917" y="615.7735">boolean isGreaterThan(Quantizable that)</text><ellipse cx="1908.3333" cy="628.6072" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="286.4583" x="1919.7917" y="635.5184">boolean isGreaterThanOrEqualTo(Quantizable that)</text><ellipse cx="1908.3333" cy="648.3521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="1919.7917" y="655.2633">boolean isLessThan(Quantizable that)</text><ellipse cx="1908.3333" cy="668.0969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="269.7917" x="1919.7917" y="675.0081">boolean isLessThanOrEqualTo(Quantizable that)</text><ellipse cx="1908.3333" cy="687.8418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="114.5833" x="1919.7917" y="694.753">boolean isNonZero()</text><ellipse cx="1908.3333" cy="707.5867" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="91.6667" x="1919.7917" y="714.4979">boolean isZero()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1897.9167" x2="2062.5" y1="591.6982" y2="591.6982"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="2065.625" y="595.5078">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2115.625" x2="2280.2083" y1="591.6982" y2="591.6982"/><ellipse cx="1908.3333" cy="751.2431" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="328.125" x="1919.7917" y="758.1543">int[] toIntArray(Collection&lt;? extends Quantizable&gt; values)</text><ellipse cx="1908.3333" cy="770.988" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="352.0833" x="1919.7917" y="777.8992">long[] toLongArray(Collection&lt;? extends Quantizable&gt; values)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1897.9167" x2="2057.2917" y1="734.079" y2="734.079"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="2060.4167" y="737.8886">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="2120.8333" x2="2280.2083" y1="734.079" y2="734.079"/><!--MD5=[28a1623e36e8f41cdb0f5a8c6f905351]
+class IntegerNumeric--><rect codeLine="62" fill="#282828" height="103.123" id="IntegerNumeric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="182.2917" x="1240.625" y="1057.8695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="182.2917" x="1240.625" y="1057.8695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="182.2917" x="1240.625" y="1080.9245"/><rect codeLine="62" fill="none" height="103.123" id="IntegerNumeric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="182.2917" x="1240.625" y="1057.8695"/><ellipse cx="1255.2083" cy="1073.5636" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1252.6123,1070.7255 L1252.6123,1069.1386 L1258.0383,1069.1386 L1258.0383,1070.7255 L1256.2256,1070.7255 L1256.2256,1076.6642 L1258.0383,1076.6642 L1258.0383,1078.2511 L1252.6123,1078.2511 L1252.6123,1076.6642 L1254.425,1076.6642 L1254.425,1070.7255 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="98.9583" x="1271.875" y="1078.2878">IntegerNumeric</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="43.75" x="1382.2917" y="1054.7445"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="35.4167" x="1386.4583" y="1070.9961">Value</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1241.6667" x2="1421.875" y1="1089.2578" y2="1089.2578"/><ellipse cx="1252.0833" cy="1124.6277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="114.5833" x="1263.5417" y="1131.5389">Value decremented()</text><ellipse cx="1252.0833" cy="1144.3726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="111.4583" x="1263.5417" y="1151.2838">Value incremented()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1241.6667" x2="1296.3542" y1="1107.4636" y2="1107.4636"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="1299.4792" y="1111.2732">(functional)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1367.1875" x2="1421.875" y1="1107.4636" y2="1107.4636"/><!--MD5=[427832923df081a9a97e870748fea065]
+class RandomNumeric--><rect codeLine="105" fill="#282828" height="727.714" id="RandomNumeric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="509.375" x="384.375" y="267.2445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="509.375" x="384.375" y="267.2445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="509.375" x="384.375" y="290.2995"/><rect codeLine="105" fill="none" height="727.714" id="RandomNumeric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="509.375" x="384.375" y="267.2445"/><ellipse cx="578.6458" cy="282.9386" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M576.0498,280.1005 L576.0498,278.5136 L581.4758,278.5136 L581.4758,280.1005 L579.6631,280.1005 L579.6631,286.0392 L581.4758,286.0392 L581.4758,287.6261 L576.0498,287.6261 L576.0498,286.0392 L577.8625,286.0392 L577.8625,280.1005 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="601.5625" y="287.6628">RandomNumeric</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="385.4167" x2="892.7083" y1="298.6328" y2="298.6328"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="385.4167" x2="892.7083" y1="306.9661" y2="306.9661"/><ellipse cx="395.8333" cy="318.4245" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="145.8333" x="407.2917" y="325.3357">T random(Class&lt;T&gt; type)</text><ellipse cx="395.8333" cy="338.1694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="252.0833" x="407.2917" y="345.0806">T random(Class&lt;T&gt; type, Matcher&lt;T&gt; filter)</text><ellipse cx="395.8333" cy="357.9142" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="407.2917" y="364.8254">boolean randomBoolean()</text><ellipse cx="395.8333" cy="377.6591" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="373.9583" x="407.2917" y="384.5703">T randomExclusive(long minimum, long maximum, Class&lt;T&gt; type)</text><ellipse cx="395.8333" cy="397.404" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="451.0417" x="407.2917" y="404.3152">T randomExclusive(long minimum, long maximum, Class&lt;T&gt; type, Matcher&lt;T&gt;)</text><ellipse cx="395.8333" cy="417.1488" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="407.2917" y="424.0601">float randomFloat()</text><ellipse cx="395.8333" cy="436.8937" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="370.8333" x="407.2917" y="443.8049">T randomInclusive(long minimum, long maximum, Class&lt;T&gt; type)</text><ellipse cx="395.8333" cy="456.6386" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="477.0833" x="407.2917" y="463.5498">T randomInclusive(long minimum, long maximum, Class&lt;T&gt; type, Matcher&lt;T&gt; filter)</text><ellipse cx="395.8333" cy="500.295" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="407.2917" y="507.2062">int randomIndex(int maximum)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="385.4167" x2="604.6875" y1="483.1309" y2="483.1309"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="607.8125" y="486.9405">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="673.4375" x2="892.7083" y1="483.1309" y2="483.1309"/><ellipse cx="395.8333" cy="543.9514" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="407.2917" y="550.8626">byte randomByte()</text><ellipse cx="395.8333" cy="563.6963" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="321.875" x="407.2917" y="570.6075">byte randomByteExclusive(byte minimum, byte maximum)</text><ellipse cx="395.8333" cy="583.4412" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="318.75" x="407.2917" y="590.3524">byte randomByteInclusive(byte minimum, byte maximum)</text><ellipse cx="395.8333" cy="603.186" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="407.2917" y="610.0972">char randomChar()</text><ellipse cx="395.8333" cy="622.9309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="329.1667" x="407.2917" y="629.8421">char randomCharExclusive(char minimum, char maximum)</text><ellipse cx="395.8333" cy="642.6758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="326.0417" x="407.2917" y="649.587">char randomCharInclusive(char minimum, char maximum)</text><ellipse cx="395.8333" cy="662.4207" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="133.3333" x="407.2917" y="669.3319">double randomDouble()</text><ellipse cx="395.8333" cy="682.1655" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="330.2083" x="407.2917" y="689.0767">double randomDouble(double minimum, double maximum)</text><ellipse cx="395.8333" cy="701.9104" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="196.875" x="407.2917" y="708.8216">double randomDoubleZeroToOne()</text><ellipse cx="395.8333" cy="721.6553" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="407.2917" y="728.5665">int randomInt()</text><ellipse cx="395.8333" cy="741.4001" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="233.3333" x="407.2917" y="748.3114">int randomInt(int minimum, int maximum)</text><ellipse cx="395.8333" cy="761.145" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="285.4167" x="407.2917" y="768.0562">int randomIntExclusive(int minimum, int maximum)</text><ellipse cx="395.8333" cy="780.8899" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="282.2917" x="407.2917" y="787.8011">int randomIntInclusive(int minimum, int maximum)</text><ellipse cx="395.8333" cy="800.6348" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="407.2917" y="807.546">long randomLong()</text><ellipse cx="395.8333" cy="820.3796" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="330.2083" x="407.2917" y="827.2909">long randomLongExclusive(long minimum, long maximum)</text><ellipse cx="395.8333" cy="840.1245" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="327.0833" x="407.2917" y="847.0357">long randomLongInclusive(long minimum, long maximum)</text><ellipse cx="395.8333" cy="859.8694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="115.625" x="407.2917" y="866.7806">short randomShort()</text><ellipse cx="395.8333" cy="879.6143" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="347.9167" x="407.2917" y="886.5255">short randomShortExclusive(short minimum, short maximum)</text><ellipse cx="395.8333" cy="899.3591" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="344.7917" x="407.2917" y="906.2703">short randomShortInclusive(short minimum, short maximum)</text><ellipse cx="395.8333" cy="919.104" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="186.4583" x="407.2917" y="926.0152">double randomUnsignedDouble()</text><ellipse cx="395.8333" cy="938.8489" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="283.3333" x="407.2917" y="945.7601">double randomUnsignedDouble(double maximum)</text><ellipse cx="395.8333" cy="958.5938" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="137.5" x="407.2917" y="965.505">int randomUnsignedInt()</text><ellipse cx="395.8333" cy="978.3386" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="161.4583" x="407.2917" y="985.2498">long randomUnsignedLong()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="385.4167" x2="607.2917" y1="526.7873" y2="526.7873"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="610.4167" y="530.5969">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="670.8333" x2="892.7083" y1="526.7873" y2="526.7873"/><!--MD5=[307387cc5fe6739ea7e524ae75deaa8f]
+reverse link CastTrait to Castable--><path codeLine="26" d="M389.6667,222.7132 C380.9375,237.182 372.75,252.2965 366.1458,267.2445 C330.2292,348.557 306.5313,446.5882 292.2396,520.2653 " fill="none" id="CastTrait-backto-Castable" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="383.6667,218.5465,400.9375,204.807,396.0104,226.3174,383.6667,218.5465" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5fb71b36d925f05ed25b20a0d120dd6b]
+reverse link Arithmetic to IntegerNumeric--><path codeLine="54" d="M83.1771,723.734 C86.0417,807.7965 104.8229,929.1403 182.8125,995.3695 C262.875,1063.359 982.2083,1095.7861 1240.1979,1105.2965 " fill="none" id="Arithmetic-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="75.8854,723.6611,82.7708,702.6924,90.4688,723.3799,75.8854,723.6611" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6b6b61b71e7a8e88cbd962390de14622]
+reverse link Comparable to IntegerNumeric--><path codeLine="55" d="M1011.8438,676.8486 C1015.5833,750.932 1032.8958,900.7132 1109.8958,995.3695 C1143.1771,1036.2861 1195.125,1063.8695 1240.3958,1081.5361 " fill="none" id="Comparable-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1004.5417,676.7236,1011.0521,655.6299,1019.1146,676.1715,1004.5417,676.7236" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[f68d289bd11a8d45d561f380e24faf6a]
+reverse link Maximizable to IntegerNumeric--><path codeLine="56" d="M1423.8646,703.7236 C1401.7292,800.9945 1362.625,972.7861 1343.2813,1057.807 " fill="none" id="Maximizable-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1416.7813,701.9945,1428.5104,683.2965,1431,705.2236,1416.7813,701.9945" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8362412217cd7afd80967a59a9e95a4a]
+reverse link Minimizable to IntegerNumeric--><path codeLine="57" d="M1636.7292,704.0361 C1629.5833,783.1299 1607.5625,910.4424 1540.1042,995.3695 C1510.2188,1032.984 1464.2708,1059.7965 1423.1146,1077.8382 " fill="none" id="Minimizable-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1629.4792,703.2757,1638.375,683.0778,1644.0104,704.4215,1629.4792,703.2757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3766fb819ea71f3a896240c8529e201c]
+reverse link NextValue to IntegerNumeric--><path codeLine="58" d="M1814.1563,676.6924 C1820.5625,752.2965 1821.8125,906.5986 1740.1042,995.3695 C1697.5729,1041.5778 1530.125,1076.4215 1423.3125,1094.5049 " fill="none" id="NextValue-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1806.8542,676.9528,1812.0417,655.4945,1821.3646,675.5049,1806.8542,676.9528" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3dc75b13695fb16675e0218de23f51f1]
+reverse link Castable to IntegerNumeric--><path codeLine="59" d="M272.6042,763.6611 C278.9271,842.5361 301.125,938.3382 366.1458,995.3695 C431.2188,1052.4424 1011.9688,1090.6195 1240.2292,1103.5361 " fill="none" id="Castable-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="265.3021,763.6924,271.25,742.432,279.8542,762.7549,265.3021,763.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1017123549cb1aad275f70348483994a]
+reverse link MapFactory to IntegerNumeric--><path codeLine="60" d="M1234.2396,675.6507 C1254.1146,763.8174 1299.1771,963.7861 1320.3646,1057.7757 " fill="none" id="MapFactory-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1227.125,677.234,1229.6563,655.307,1241.3438,674.0257,1227.125,677.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d4059bafc7285c7751ebb87c2f327094]
+reverse link Quantizable to IntegerNumeric--><path codeLine="61" d="M2024.5208,807.609 C1990.9583,875.9215 1943.1875,948.8382 1878.6458,995.3695 C1806.8333,1047.1403 1559.1667,1082.5674 1423.0938,1098.6195 " fill="none" id="Quantizable-backto-IntegerNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2018.0833,804.1715,2033.6146,788.4945,2031.2604,810.4424,2018.0833,804.1715" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[26a92dc8824db4f601dd3f11e06dffcb]
+reverse link DoubleQuantizable to Quantizable--><path codeLine="84" d="M2089.0625,192.1924 C2089.0625,262.2236 2089.0625,378.9215 2089.0625,474.2653 " fill="none" id="DoubleQuantizable-backto-Quantizable" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="2081.7708,192.0153,2089.0625,171.182,2096.3542,192.0153,2081.7708,192.0153" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ab1bbf3bce88452b5060363015262ce4]
+reverse link CastTrait to RandomNumeric--><path codeLine="104" d="M491.2396,224.8174 C496.0729,238.057 501.25,252.2549 506.6667,267.1299 " fill="none" id="CastTrait-backto-RandomNumeric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="484.25,226.9215,483.9583,204.8486,497.9479,221.9215,484.25,226.9215" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[daae77a9483b96afb8eb890e34864d14]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.numeric"
+    
+    interface Arithmetic<Value>
+    {
+        - -(math)- -
+        +Value dividedBy(Value)
+        +Value minus(Value)
+        +Value plus(Value)
+        +Value times(Value)
+    }
+    
+    interface CastTrait
+    {
+        - -
+        +T cast(long value, Class<T> type)
+        +T cast(Castable number, Class<T> type)
+        - -(math)- -
+        +long maximum(Class<T> type)
+        +long minimum(Class<T> type)
+    }
+    
+    interface CastTrait
+    CastTrait <|- - Castable
+    interface Castable
+    {
+        - -(conversion)- -
+        +T as(Class<T> type)
+        +byte asByte()
+        +char asChar()
+        +double asDouble()
+        +float asFloat()
+        +int asInt()
+        +long asLong()
+        +short asShort()
+    }
+    
+    interface DoubleQuantizable
+    {
+        - -(primitive)- -
+        +double doubleQuantum()
+    }
+    
+    interface Arithmetic
+    interface Castable
+    interface Comparable<Value>
+    interface MapFactory<Long,Value>
+    interface Maximizable
+    interface Minimizable
+    interface NextValue
+    interface Quantizable
+    Arithmetic <|- - IntegerNumeric
+    Comparable <|- - IntegerNumeric
+    Maximizable <|- - IntegerNumeric
+    Minimizable <|- - IntegerNumeric
+    NextValue <|- - IntegerNumeric
+    Castable <|- - IntegerNumeric
+    MapFactory <|- - IntegerNumeric
+    Quantizable <|- - IntegerNumeric
+    interface IntegerNumeric<Value>
+    {
+        - -(functional)- -
+        +Value decremented()
+        +Value incremented()
+    }
+    
+    interface Maximizable<Value>
+    {
+        - -(math)- -
+        +Value maximum()
+        +Value maximum(Value)
+    }
+    
+    interface Minimizable<Value>
+    {
+        - -(math)- -
+        +Value minimum()
+        +Value minimum(Value)
+    }
+    
+    interface DoubleQuantizable
+    DoubleQuantizable <|- - Quantizable
+    interface Quantizable
+    {
+        - -
+        +Quantizable quantizable(Long value)
+        +Quantizable quantizable(Integer value)
+        +long quantum()
+        - -(checks)- -
+        +boolean isGreaterThan(Quantizable that)
+        +boolean isGreaterThanOrEqualTo(Quantizable that)
+        +boolean isLessThan(Quantizable that)
+        +boolean isLessThanOrEqualTo(Quantizable that)
+        +boolean isNonZero()
+        +boolean isZero()
+        - -(primitive)- -
+        +int[] toIntArray(Collection<? extends Quantizable> values)
+        +long[] toLongArray(Collection<? extends Quantizable> values)
+    }
+    
+    interface CastTrait
+    CastTrait <|- - RandomNumeric
+    interface RandomNumeric
+    {
+        - -
+        +T random(Class<T> type)
+        +T random(Class<T> type, Matcher<T> filter)
+        +boolean randomBoolean()
+        +T randomExclusive(long minimum, long maximum, Class<T> type)
+        +T randomExclusive(long minimum, long maximum, Class<T> type, Matcher<T>)
+        +float randomFloat()
+        +T randomInclusive(long minimum, long maximum, Class<T> type)
+        +T randomInclusive(long minimum, long maximum, Class<T> type, Matcher<T> filter)
+        - -(collection)- -
+        +int randomIndex(int maximum)
+        - -(primitive)- -
+        +byte randomByte()
+        +byte randomByteExclusive(byte minimum, byte maximum)
+        +byte randomByteInclusive(byte minimum, byte maximum)
+        +char randomChar()
+        +char randomCharExclusive(char minimum, char maximum)
+        +char randomCharInclusive(char minimum, char maximum)
+        +double randomDouble()
+        +double randomDouble(double minimum, double maximum)
+        +double randomDoubleZeroToOne()
+        +int randomInt()
+        +int randomInt(int minimum, int maximum)
+        +int randomIntExclusive(int minimum, int maximum)
+        +int randomIntInclusive(int minimum, int maximum)
+        +long randomLong()
+        +long randomLongExclusive(long minimum, long maximum)
+        +long randomLongInclusive(long minimum, long maximum)
+        +short randomShort()
+        +short randomShortExclusive(short minimum, short maximum)
+        +short randomShortInclusive(short minimum, short maximum)
+        +double randomUnsignedDouble()
+        +double randomUnsignedDouble(double maximum)
+        +int randomUnsignedInt()
+        +long randomUnsignedLong()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.interfaces.numeric"
+    
+    interface Arithmetic<Value>
+    {
+        - -(math)- -
+        +Value dividedBy(Value)
+        +Value minus(Value)
+        +Value plus(Value)
+        +Value times(Value)
+    }
+    
+    interface CastTrait
+    {
+        - -
+        +T cast(long value, Class<T> type)
+        +T cast(Castable number, Class<T> type)
+        - -(math)- -
+        +long maximum(Class<T> type)
+        +long minimum(Class<T> type)
+    }
+    
+    interface CastTrait
+    CastTrait <|- - Castable
+    interface Castable
+    {
+        - -(conversion)- -
+        +T as(Class<T> type)
+        +byte asByte()
+        +char asChar()
+        +double asDouble()
+        +float asFloat()
+        +int asInt()
+        +long asLong()
+        +short asShort()
+    }
+    
+    interface DoubleQuantizable
+    {
+        - -(primitive)- -
+        +double doubleQuantum()
+    }
+    
+    interface Arithmetic
+    interface Castable
+    interface Comparable<Value>
+    interface MapFactory<Long,Value>
+    interface Maximizable
+    interface Minimizable
+    interface NextValue
+    interface Quantizable
+    Arithmetic <|- - IntegerNumeric
+    Comparable <|- - IntegerNumeric
+    Maximizable <|- - IntegerNumeric
+    Minimizable <|- - IntegerNumeric
+    NextValue <|- - IntegerNumeric
+    Castable <|- - IntegerNumeric
+    MapFactory <|- - IntegerNumeric
+    Quantizable <|- - IntegerNumeric
+    interface IntegerNumeric<Value>
+    {
+        - -(functional)- -
+        +Value decremented()
+        +Value incremented()
+    }
+    
+    interface Maximizable<Value>
+    {
+        - -(math)- -
+        +Value maximum()
+        +Value maximum(Value)
+    }
+    
+    interface Minimizable<Value>
+    {
+        - -(math)- -
+        +Value minimum()
+        +Value minimum(Value)
+    }
+    
+    interface DoubleQuantizable
+    DoubleQuantizable <|- - Quantizable
+    interface Quantizable
+    {
+        - -
+        +Quantizable quantizable(Long value)
+        +Quantizable quantizable(Integer value)
+        +long quantum()
+        - -(checks)- -
+        +boolean isGreaterThan(Quantizable that)
+        +boolean isGreaterThanOrEqualTo(Quantizable that)
+        +boolean isLessThan(Quantizable that)
+        +boolean isLessThanOrEqualTo(Quantizable that)
+        +boolean isNonZero()
+        +boolean isZero()
+        - -(primitive)- -
+        +int[] toIntArray(Collection<? extends Quantizable> values)
+        +long[] toLongArray(Collection<? extends Quantizable> values)
+    }
+    
+    interface CastTrait
+    CastTrait <|- - RandomNumeric
+    interface RandomNumeric
+    {
+        - -
+        +T random(Class<T> type)
+        +T random(Class<T> type, Matcher<T> filter)
+        +boolean randomBoolean()
+        +T randomExclusive(long minimum, long maximum, Class<T> type)
+        +T randomExclusive(long minimum, long maximum, Class<T> type, Matcher<T>)
+        +float randomFloat()
+        +T randomInclusive(long minimum, long maximum, Class<T> type)
+        +T randomInclusive(long minimum, long maximum, Class<T> type, Matcher<T> filter)
+        - -(collection)- -
+        +int randomIndex(int maximum)
+        - -(primitive)- -
+        +byte randomByte()
+        +byte randomByteExclusive(byte minimum, byte maximum)
+        +byte randomByteInclusive(byte minimum, byte maximum)
+        +char randomChar()
+        +char randomCharExclusive(char minimum, char maximum)
+        +char randomCharInclusive(char minimum, char maximum)
+        +double randomDouble()
+        +double randomDouble(double minimum, double maximum)
+        +double randomDoubleZeroToOne()
+        +int randomInt()
+        +int randomInt(int minimum, int maximum)
+        +int randomIntExclusive(int minimum, int maximum)
+        +int randomIntInclusive(int minimum, int maximum)
+        +long randomLong()
+        +long randomLongExclusive(long minimum, long maximum)
+        +long randomLongInclusive(long minimum, long maximum)
+        +short randomShort()
+        +short randomShortExclusive(short minimum, short maximum)
+        +short randomShortInclusive(short minimum, short maximum)
+        +double randomUnsignedDouble()
+        +double randomUnsignedDouble(double maximum)
+        +int randomUnsignedInt()
+        +long randomUnsignedLong()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,66 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.resource.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramFileSystem
+    class DiagramFileSystem
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramFileSystemFile
+    class DiagramFileSystemFile
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramFileSystemFolder
+    class DiagramFileSystemFolder
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramFileSystemService
+    class DiagramFileSystemService
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramJarLauncher
+    interface DiagramJarLauncher
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramResource
+    class DiagramResource
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramResourceArchive
+    class DiagramResourceArchive
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramResourceCompression
+    class DiagramResourceCompression
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramResourcePath
+    class DiagramResourcePath
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramResourceService
+    class DiagramResourceService
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramResourceType
+    class DiagramResourceType
+    {
+    }
+    
+@enduml
+
