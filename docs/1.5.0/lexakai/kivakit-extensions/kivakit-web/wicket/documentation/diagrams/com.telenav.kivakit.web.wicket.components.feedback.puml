@@ -1,0 +1,18 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.wicket.components.feedback"
+    
+    interface ComponentMixin
+    
+    FeedbackPanel <|-- FeedbackPanel
+    ComponentMixin <|-- FeedbackPanel
+    class FeedbackPanel
+    {
+        --(constructors)--
+        +FeedbackPanel(String)
+    }
+    
+@enduml
+

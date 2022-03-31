@@ -1,0 +1,68 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-iteration"
+    
+    abstract BaseIterable
+    
+    interface Iterable
+    interface Iterator
+    
+    Iterable <|-- BaseIterable
+    BaseIterable --> NextValue : "creates"
+    abstract class BaseIterable<T>
+    {
+        --(iteration)--
+        #NextValue<T> newNext()
+    }
+    
+    Iterator <|-- BaseIterator
+    abstract class BaseIterator<T>
+    {
+        --(filtering)--
+        +Matcher<T> filter()
+        +BaseIterator<T> filter(Matcher<T> filter)
+        --(iteration)--
+        #T findNext()
+        #T onNext()
+    }
+    
+    Iterable <|-- DeduplicatingIterable
+    class DeduplicatingIterable<Element>
+    {
+        --(constructors)--
+        +DeduplicatingIterable(Iterable<Element>)
+    }
+    
+    class Iterables
+    {
+        --(collection)--
+        +void addAll(Iterable<T>, Collection<? super T>)
+        +boolean contains(Iterable<T>, T value)
+        +boolean containsAny(Iterable<T>, Set<T> values)
+        +boolean isEmpty(Iterable<?>)
+        +Iterable<T> iterable(Factory<NextValue<T>>)
+        +Iterable<T> iterable(T[] values)
+        +int size(Iterable<T>)
+    }
+    
+    class Iterators
+    {
+        --(collection)--
+        +Iterator<T> empty()
+        +Iterator<T> iterator(Supplier<T>)
+        +Iterator<T> singletonIterator(T value)
+    }
+    
+    BaseIterable <|-- Matching
+    abstract class Matching<T>
+    {
+        --(constructors)--
+        #Matching(Matcher<T>)
+        --(collection)--
+        #Iterator<T> values()
+    }
+    
+@enduml
+

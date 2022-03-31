@@ -1,0 +1,65 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-comparison"
+    
+    interface Matcher
+    
+    interface Equality<Value>
+    {
+        --(checks)--
+        +boolean isEqual(Value, Value b)
+    }
+    
+    interface Matcher
+    Matcher <|-- Filter
+    interface Filter<Value>
+    {
+        --(filtering)--
+        +boolean accepts(Value)
+        +Filter<T> all()
+        +Filter<Value> and(Predicate<? super Value>)
+        +Filter<Value> exclude(Predicate<Value>)
+        +Filter<T> filter(Predicate<T>)
+        +Filter<Value> include(Predicate<Value>)
+        +Filter<T> none()
+        +Filter<Value> not()
+        +Filter<Value> or(Predicate<? super Value>)
+    }
+    
+    Filtered "1" --> "*" Filter : "has"
+    interface Filtered<T>
+    {
+        --(collection)--
+        +List<Filter<T>> filters()
+    }
+    
+    interface Matchable
+    interface Predicate<Value>
+    Predicate <|-- Matcher
+    Matchable <|-- Matcher
+    interface Matcher<Value>
+    {
+        --
+        +boolean matches(Value)
+        --(matching)--
+        +Matcher<T> matchAll()
+        +Matcher<T> matchNothing()
+        +Matcher<String> matching(Pattern)
+        +Matcher<T> named(String name)
+    }
+    
+    Matcher <|-- MatcherSet
+    class MatcherSet<T>
+    {
+        --(matching)--
+        +MatcherSet<T> add(Matcher<T>)
+        +Matcher<T> allMatch()
+        +Matcher<T> anyMatches()
+        +MatcherSet<T> copy()
+        +Matcher<T> noneMatches()
+    }
+    
+@enduml
+
