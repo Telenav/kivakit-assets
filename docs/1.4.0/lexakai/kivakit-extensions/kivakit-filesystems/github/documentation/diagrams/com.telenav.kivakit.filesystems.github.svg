@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="748.9583px" preserveAspectRatio="none" style="width:1642px;height:748px;background:#333333;" version="1.1" viewBox="0 0 1642 748" width="1642.7083px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="404.1667" x="612.2396" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="381.25" x="623.6979" y="30.5583">com.telenav.kivakit.filesystems.github</text><!--MD5=[30477847556b38d58b2aae9e988ea4d5]
+cluster GitHubTree--><polygon fill="#333333" points="1453.6458,52.6611,1539.0625,52.6611,1546.3542,79.8828,1625.5208,79.8828,1625.5208,214.1195,1453.6458,214.1195,1453.6458,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="1453.6458" x2="1546.3542" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="72.9167" x="1460.9375" y="69.9544">GitHubTree</text><!--MD5=[54ab4765a16c502cd75e8d668bf3232f]
+class GitHubTree.EntryType--><rect codeLine="14" fill="#282828" height="87.5448" id="GitHubTree.EntryType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="102.0833" x="1498.4375" y="101.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="102.0833" x="1498.4375" y="101.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="102.0833" x="1498.4375" y="124.6745"/><rect codeLine="14" fill="none" height="87.5448" id="GitHubTree.EntryType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="102.0833" x="1498.4375" y="101.6195"/><ellipse cx="1513.0208" cy="117.3136" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M1516.0767,122.0011 L1510.4004,122.0011 L1510.4004,112.8886 L1516.0767,112.8886 L1516.0767,114.4755 L1512.2009,114.4755 L1512.2009,116.4408 L1515.7104,116.4408 L1515.7104,118.0278 L1512.2009,118.0278 L1512.2009,120.4142 L1516.0767,120.4142 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="1529.6875" y="122.0378">EntryType</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1499.4792" x2="1599.4792" y1="133.0078" y2="133.0078"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="21.875" x="1507.8125" y="151.3774">FILE</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="43.75" x="1507.8125" y="171.1222">FOLDER</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1499.4792" x2="1599.4792" y1="180.8309" y2="180.8309"/><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="6" fill="#282828" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="222.3958" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="222.3958" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="222.3958" y="144.4661"/><rect codeLine="6" fill="none" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="222.3958" y="121.4111"/><ellipse cx="236.9792" cy="137.1053" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M236.5723,133.8074 L235.7239,137.5366 L237.4268,137.5366 Z M235.4736,132.1594 L237.677,132.1594 L240.1367,141.272 L238.3362,141.272 L237.7747,139.0198 L235.3638,139.0198 L234.8145,141.272 L233.0139,141.272 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="253.6458" y="141.8294">BaseComponent</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="223.4375" x2="365.1042" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="223.4375" x2="365.1042" y1="161.1328" y2="161.1328"/><!--MD5=[8b5151cbe93a9a6942e91a66bba84fb0]
+class BaseWritableResource--><rect codeLine="7" fill="#282828" height="48.055" id="BaseWritableResource" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="179.1667" x="1016.1458" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="179.1667" x="1016.1458" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="179.1667" x="1016.1458" y="144.4661"/><rect codeLine="7" fill="none" height="48.055" id="BaseWritableResource" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="179.1667" x="1016.1458" y="121.4111"/><ellipse cx="1030.7292" cy="137.1053" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M1030.3223,133.8074 L1029.4739,137.5366 L1031.1768,137.5366 Z M1029.2236,132.1594 L1031.427,132.1594 L1033.8867,141.272 L1032.0862,141.272 L1031.5247,139.0198 L1029.1138,139.0198 L1028.5645,141.272 L1026.7639,141.272 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="141.6667" x="1047.3958" y="141.8294">BaseWritableResource</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1017.1875" x2="1194.2708" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1017.1875" x2="1194.2708" y1="161.1328" y2="161.1328"/><!--MD5=[9bc23c05e4b2fc73e019bd17cec96ec4]
+class FileSystemService--><rect codeLine="9" fill="#282828" height="48.055" id="FileSystemService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="152.0833" x="801.5625" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="152.0833" x="801.5625" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="152.0833" x="801.5625" y="144.4661"/><rect codeLine="9" fill="none" height="48.055" id="FileSystemService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="152.0833" x="801.5625" y="121.4111"/><ellipse cx="816.1458" cy="137.1053" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M813.5498,134.2672 L813.5498,132.6803 L818.9758,132.6803 L818.9758,134.2672 L817.1631,134.2672 L817.1631,140.2059 L818.9758,140.2059 L818.9758,141.7928 L813.5498,141.7928 L813.5498,140.2059 L815.3625,140.2059 L815.3625,134.2672 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="114.5833" x="832.8125" y="141.8294">FileSystemService</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="802.6042" x2="952.6042" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="802.6042" x2="952.6042" y1="161.1328" y2="161.1328"/><!--MD5=[186cc809c4fefc21e9383dda7a09b230]
+class FileSystemObjectService--><rect codeLine="10" fill="#282828" height="48.055" id="FileSystemObjectService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="193.75" x="1231.7708" y="121.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="193.75" x="1231.7708" y="121.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="193.75" x="1231.7708" y="144.4661"/><rect codeLine="10" fill="none" height="48.055" id="FileSystemObjectService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="193.75" x="1231.7708" y="121.4111"/><ellipse cx="1246.3542" cy="137.1053" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1243.7581,134.2672 L1243.7581,132.6803 L1249.1842,132.6803 L1249.1842,134.2672 L1247.3714,134.2672 L1247.3714,140.2059 L1249.1842,140.2059 L1249.1842,141.7928 L1243.7581,141.7928 L1243.7581,140.2059 L1245.5709,140.2059 L1245.5709,134.2672 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="156.25" x="1263.0208" y="141.8294">FileSystemObjectService</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1232.8125" x2="1424.4792" y1="152.7995" y2="152.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1232.8125" x2="1424.4792" y1="161.1328" y2="161.1328"/><!--MD5=[3f7923c5962403cc19ad9d36647dd0a5]
+class FileService--><rect codeLine="11" fill="#282828" height="48.055" id="FileService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="105.2083" x="615.625" y="366.7236"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="105.2083" x="615.625" y="366.7236"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="105.2083" x="615.625" y="389.7786"/><rect codeLine="11" fill="none" height="48.055" id="FileService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="105.2083" x="615.625" y="366.7236"/><ellipse cx="630.2083" cy="382.4178" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M627.6123,379.5797 L627.6123,377.9928 L633.0383,377.9928 L633.0383,379.5797 L631.2256,379.5797 L631.2256,385.5184 L633.0383,385.5184 L633.0383,387.1053 L627.6123,387.1053 L627.6123,385.5184 L629.425,385.5184 L629.425,379.5797 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="67.7083" x="646.875" y="387.1419">FileService</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="616.6667" x2="719.7917" y1="398.112" y2="398.112"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="616.6667" x2="719.7917" y1="406.4453" y2="406.4453"/><!--MD5=[d3568316a19508714d03e72c4319f868]
+class FolderService--><rect codeLine="12" fill="#282828" height="48.055" id="FolderService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="122.9167" x="1265.1042" y="366.7236"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="122.9167" x="1265.1042" y="366.7236"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="122.9167" x="1265.1042" y="389.7786"/><rect codeLine="12" fill="none" height="48.055" id="FolderService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="122.9167" x="1265.1042" y="366.7236"/><ellipse cx="1279.6875" cy="382.4178" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1277.0915,379.5797 L1277.0915,377.9928 L1282.5175,377.9928 L1282.5175,379.5797 L1280.7048,379.5797 L1280.7048,385.5184 L1282.5175,385.5184 L1282.5175,387.1053 L1277.0915,387.1053 L1277.0915,385.5184 L1278.9042,385.5184 L1278.9042,379.5797 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="85.4167" x="1296.3542" y="387.1419">FolderService</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1266.1458" x2="1386.9792" y1="398.112" y2="398.112"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1266.1458" x2="1386.9792" y1="406.4453" y2="406.4453"/><!--MD5=[000680bfeb404e9eab6bae19fa06625a]
+class GitHubFileSystemObject--><rect codeLine="33" fill="#282828" height="218.514" id="GitHubFileSystemObject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="193.75" x="1034.8958" y="281.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="193.75" x="1034.8958" y="281.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="193.75" x="1034.8958" y="304.362"/><rect codeLine="33" fill="none" height="218.514" id="GitHubFileSystemObject" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="193.75" x="1034.8958" y="281.307"/><ellipse cx="1049.4792" cy="297.0011" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M1049.0723,293.7032 L1048.2239,297.4325 L1049.9268,297.4325 Z M1047.9736,292.0553 L1050.177,292.0553 L1052.6367,301.1678 L1050.8362,301.1678 L1050.2747,298.9156 L1047.8638,298.9156 L1047.3145,301.1678 L1045.5139,301.1678 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="156.25" x="1066.1458" y="301.7253">GitHubFileSystemObject</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1035.9375" x2="1227.6042" y1="312.6953" y2="312.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1035.9375" x2="1227.6042" y1="321.0286" y2="321.0286"/><polygon fill="#FFFF44" points="1046.3542,327.2786,1050.5208,331.4453,1046.3542,335.612,1042.1875,331.4453" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="111.4583" x="1057.8125" y="339.3982">GHTreeEntry entry()</text><polygon fill="#FFFF44" points="1046.3542,347.0235,1050.5208,351.1902,1046.3542,355.3569,1042.1875,351.1902" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="1057.8125" y="359.1431">GitHubTree tree()</text><ellipse cx="1046.3542" cy="395.8883" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="118.75" x="1057.8125" y="402.7995">FilePath relativePath()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1035.9375" x2="1096.3542" y1="378.7242" y2="378.7242"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="1099.4792" y="382.5338">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1167.1875" x2="1227.6042" y1="378.7242" y2="378.7242"/><ellipse cx="1046.3542" cy="439.5447" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="1057.8125" y="446.4559">boolean accepts(String path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1035.9375" x2="1102.6042" y1="422.3806" y2="422.3806"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="52.0833" x="1105.7292" y="426.1902">(filtering)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1160.9375" x2="1227.6042" y1="422.3806" y2="422.3806"/><ellipse cx="1046.3542" cy="483.2011" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="1057.8125" y="490.1123">String name()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1035.9375" x2="1103.6458" y1="466.037" y2="466.037"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="1106.7708" y="469.8466">(naming)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1159.8958" x2="1227.6042" y1="466.037" y2="466.037"/><!--MD5=[277fb4dd8c7c1079051e49e62cfebf19]
+class GitHubFile--><rect codeLine="22" fill="#282828" height="146.7794" id="GitHubFile" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="227.0833" x="764.0625" y="595.3695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="227.0833" x="764.0625" y="595.3695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="227.0833" x="764.0625" y="618.4245"/><rect codeLine="22" fill="none" height="146.7794" id="GitHubFile" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="227.0833" x="764.0625" y="595.3695"/><ellipse cx="836.4583" cy="611.0636" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M838.3687,615.4887 Q837.9415,615.7084 837.4715,615.8183 Q837.0015,615.9281 836.4827,615.9281 Q834.6395,615.9281 833.669,614.7135 Q832.6986,613.4989 832.6986,611.204 Q832.6986,608.903 833.669,607.6884 Q834.6395,606.4738 836.4827,606.4738 Q837.0015,606.4738 837.4776,606.5837 Q837.9537,606.6935 838.3687,606.9132 L838.3687,608.9152 Q837.9049,608.488 837.4685,608.2896 Q837.0321,608.0912 836.5682,608.0912 Q835.5794,608.0912 835.0759,608.8755 Q834.5723,609.6598 834.5723,611.204 Q834.5723,612.7421 835.0759,613.5264 Q835.5794,614.3107 836.5682,614.3107 Q837.0321,614.3107 837.4685,614.1123 Q837.9049,613.914 838.3687,613.4867 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="67.7083" x="859.375" y="615.7878">GitHubFile</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="765.1042" x2="990.1042" y1="626.7578" y2="626.7578"/><ellipse cx="775.5208" cy="662.1277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="786.9792" y="669.0389">GitHubFile(FilePath)</text><ellipse cx="775.5208" cy="681.8726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="786.9792" y="688.7838">GitHubFile(String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="765.1042" x2="833.8542" y1="644.9636" y2="644.9636"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="836.9792" y="648.7732">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="921.3542" x2="990.1042" y1="644.9636" y2="644.9636"/><ellipse cx="775.5208" cy="725.529" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="194.7917" x="786.9792" y="732.4402">boolean renameTo(GitHubFile that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="765.1042" x2="842.1875" y1="708.3649" y2="708.3649"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="845.3125" y="712.1745">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="913.0208" x2="990.1042" y1="708.3649" y2="708.3649"/><!--MD5=[08047e8a385e53355b8afa5100abd0da]
+class GitHubFileSystemService--><rect codeLine="49" fill="#282828" height="103.123" id="GitHubFileSystemService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="240.625" x="757.2917" y="339.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="240.625" x="757.2917" y="339.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="240.625" x="757.2917" y="362.1745"/><rect codeLine="49" fill="none" height="103.123" id="GitHubFileSystemService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="240.625" x="757.2917" y="339.1195"/><ellipse cx="791.5625" cy="354.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M793.4729,359.2387 Q793.0457,359.4584 792.5757,359.5683 Q792.1057,359.6781 791.5869,359.6781 Q789.7437,359.6781 788.7732,358.4635 Q787.8027,357.2489 787.8027,354.954 Q787.8027,352.653 788.7732,351.4384 Q789.7437,350.2238 791.5869,350.2238 Q792.1057,350.2238 792.5818,350.3337 Q793.0579,350.4435 793.4729,350.6632 L793.4729,352.6652 Q793.009,352.238 792.5726,352.0396 Q792.1362,351.8412 791.6724,351.8412 Q790.6836,351.8412 790.1801,352.6255 Q789.6765,353.4098 789.6765,354.954 Q789.6765,356.4921 790.1801,357.2764 Q790.6836,358.0607 791.6724,358.0607 Q792.1362,358.0607 792.5726,357.8623 Q793.009,357.664 793.4729,357.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="159.375" x="812.6042" y="359.5378">GitHubFileSystemService</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="758.3333" x2="996.875" y1="370.5078" y2="370.5078"/><ellipse cx="768.75" cy="405.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="175" x="780.2083" y="412.7889">^GitHubFile fileService(FilePath)</text><ellipse cx="768.75" cy="425.6226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="780.2083" y="432.5338">^GitHubFolder folderService(FilePath)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="758.3333" x2="842.1875" y1="388.7136" y2="388.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="845.3125" y="392.5232">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="913.0208" x2="996.875" y1="388.7136" y2="388.7136"/><!--MD5=[4398e84e7fb1ef54be48f4e00332d9bd]
+class GitHubFolder--><rect codeLine="58" fill="#282828" height="103.123" id="GitHubFolder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="157.2917" x="1053.125" y="617.2445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="157.2917" x="1053.125" y="617.2445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="157.2917" x="1053.125" y="640.2995"/><rect codeLine="58" fill="none" height="103.123" id="GitHubFolder" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="157.2917" x="1053.125" y="617.2445"/><ellipse cx="1083.1771" cy="632.9386" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1085.0875,637.3637 Q1084.6602,637.5834 1084.1903,637.6933 Q1083.7203,637.8031 1083.2015,637.8031 Q1081.3582,637.8031 1080.3878,636.5885 Q1079.4173,635.3739 1079.4173,633.079 Q1079.4173,630.778 1080.3878,629.5634 Q1081.3582,628.3488 1083.2015,628.3488 Q1083.7203,628.3488 1084.1964,628.4587 Q1084.6724,628.5685 1085.0875,628.7882 L1085.0875,630.7902 Q1084.6236,630.363 1084.1872,630.1646 Q1083.7508,629.9662 1083.2869,629.9662 Q1082.2982,629.9662 1081.7946,630.7505 Q1081.2911,631.5348 1081.2911,633.079 Q1081.2911,634.6171 1081.7946,635.4014 Q1082.2982,636.1857 1083.2869,636.1857 Q1083.7508,636.1857 1084.1872,635.9873 Q1084.6236,635.789 1085.0875,635.3617 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="85.4167" x="1103.2813" y="637.6628">GitHubFolder</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1054.1667" x2="1209.375" y1="648.6328" y2="648.6328"/><ellipse cx="1064.5833" cy="684.0027" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="1076.0417" y="690.9139">GitHubFolder(FilePath)</text><ellipse cx="1064.5833" cy="703.7476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="115.625" x="1076.0417" y="710.6588">GitHubFolder(String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1054.1667" x2="1088.0208" y1="666.8386" y2="666.8386"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1091.1458" y="670.6482">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1175.5208" x2="1209.375" y1="666.8386" y2="666.8386"/><!--MD5=[2a7a36922ab4c18897358015c4a3bae8]
+class GitHubTree--><rect codeLine="66" fill="#282828" height="238.2589" id="GitHubTree" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="569.7917" x="9.375" y="271.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="569.7917" x="9.375" y="271.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="569.7917" x="9.375" y="294.4661"/><rect codeLine="66" fill="none" height="238.2589" id="GitHubTree" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="569.7917" x="9.375" y="271.4111"/><ellipse cx="250.5208" cy="287.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M252.4312,291.5304 Q252.004,291.7501 251.534,291.8599 Q251.064,291.9698 250.5452,291.9698 Q248.702,291.9698 247.7315,290.7552 Q246.7611,289.5406 246.7611,287.2457 Q246.7611,284.9447 247.7315,283.7301 Q248.702,282.5155 250.5452,282.5155 Q251.064,282.5155 251.5401,282.6253 Q252.0162,282.7352 252.4312,282.9549 L252.4312,284.9569 Q251.9674,284.5296 251.531,284.3313 Q251.0946,284.1329 250.6307,284.1329 Q249.6419,284.1329 249.1384,284.9172 Q248.6348,285.7015 248.6348,287.2457 Q248.6348,288.7838 249.1384,289.5681 Q249.6419,290.3524 250.6307,290.3524 Q251.0946,290.3524 251.531,290.154 Q251.9674,289.9556 252.4312,289.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="72.9167" x="273.4375" y="291.8294">GitHubTree</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="578.125" y1="302.7995" y2="302.7995"/><polygon fill="#FFFF44" points="20.8333,332.961,25,337.1277,20.8333,341.2944,16.6667,337.1277" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="223.9583" x="32.2917" y="345.0806">GitHubTree(String, String, String, String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="250.5208" y1="321.0052" y2="321.0052"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="253.6458" y="324.8149">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="338.0208" x2="578.125" y1="321.0052" y2="321.0052"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="578.125" y1="354.7892" y2="354.7892"/><ellipse cx="20.8333" cy="366.2476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="172.9167" x="32.2917" y="373.1588">GHTreeEntry entry(String path)</text><ellipse cx="20.8333" cy="385.9924" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="537.5" x="32.2917" y="392.9036">GitHubTree tree(Listener, String username, String accessToken, String repository, String branch)</text><ellipse cx="20.8333" cy="429.6488" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="159.375" x="32.2917" y="436.5601">List&lt;GHTreeEntry&gt; entries()</text><ellipse cx="20.8333" cy="449.3937" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="389.5833" x="32.2917" y="456.3049">List&lt;GHTreeEntry&gt; entries(String path, EntryType, boolean recursive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="259.8958" y1="412.4847" y2="412.4847"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="263.0208" y="416.2944">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="328.6458" x2="578.125" y1="412.4847" y2="412.4847"/><ellipse cx="20.8333" cy="493.0501" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="59.375" x="32.2917" y="499.9613">void load()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="274.4792" y1="475.886" y2="475.886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="277.6042" y="479.6956">(read)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="314.0625" x2="578.125" y1="475.886" y2="475.886"/><!--MD5=[d84c6308abbe6dd1f082b59be48daa30]
+reverse link GitHubFileSystemObject to GitHubFile--><path codeLine="20" d="M1091.0833,519.057 C1082.6667,535.2549 1072.6979,550.7965 1060.9375,564.1195 C1041.7083,585.9111 1016.7396,604.1715 991.4479,618.9736 " fill="none" id="GitHubFileSystemObject-backto-GitHubFile" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1084.5313,515.859,1100.0938,500.2132,1097.6875,522.1507,1084.5313,515.859" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[843a9da9af7157eae18adbb047e7682b]
+reverse link FileService to GitHubFile--><path codeLine="21" d="M690.5104,432.984 C703.6667,456.2445 721.1979,485.4528 739.0625,509.9528 C760.2188,538.9632 785.6146,569.0153 808.8333,595.0153 " fill="none" id="FileService-backto-GitHubFile" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="684.1042,436.4736,680.3854,414.7236,696.8646,429.4007,684.1042,436.4736" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d43582949f75fd13a23e185695f66fe3]
+reverse link BaseWritableResource to GitHubFileSystemObject--><path codeLine="31" d="M1110.4688,190.6403 C1113.1875,216.0361 1116.7292,249.1299 1120.1458,281.0257 " fill="none" id="BaseWritableResource-backto-GitHubFileSystemObject" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1103.1979,191.2236,1108.2292,169.734,1117.6979,189.6715,1103.1979,191.2236" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c66e4ce2c8088411b8f2cc8ad26f2175]
+reverse link FileSystemObjectService to GitHubFileSystemObject--><path codeLine="32" d="M1296.5521,186.057 C1275.5729,211.9736 1247.0833,247.182 1219.6875,281.0257 " fill="none" id="FileSystemObjectService-backto-GitHubFileSystemObject" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1290.9896,181.3382,1309.7708,169.734,1302.3333,190.5153,1290.9896,181.3382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3eb7da915d025645303b411266fc08a5]
+reverse link FileSystemService to GitHubFileSystemService--><path codeLine="46" d="M877.6042,190.859 C877.6042,232.682 877.6042,295.2653 877.6042,339.0049 " fill="none" id="FileSystemService-backto-GitHubFileSystemService" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="870.3125,190.5674,877.6042,169.734,884.8958,190.5674,870.3125,190.5674" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b7b8bbf6f8e712f23a52f9752a595ea4]
+link GitHubFileSystemService to GitHubFile--><path codeLine="47" d="M877.6042,442.359 C877.6042,483.6403 877.6042,542.6611 877.6042,589.9424 " fill="none" id="GitHubFileSystemService-to-GitHubFile" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="877.6042,595.359,881.7708,585.984,877.6042,590.1507,873.4375,585.984,877.6042,595.359" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="881.7708" y="557.4544">provides</text><!--MD5=[6d859555a68f66576c13a5b3eea46f56]
+link GitHubFileSystemService to GitHubFolder--><path codeLine="48" d="M924.2188,442.359 C968.7813,490.7445 1035.75,563.484 1081.4896,613.1507 " fill="none" id="GitHubFileSystemService-to-GitHubFolder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="1085.0208,616.9945,1081.7472,607.2716,1081.4974,613.1588,1075.6101,612.9091,1085.0208,616.9945" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="1040.1042" y="557.4544">provides</text><!--MD5=[3d3e0c661d85f772d7aac491a3b79105]
+reverse link GitHubFileSystemObject to GitHubFolder--><path codeLine="56" d="M1131.7708,521.432 C1131.7708,555.432 1131.7708,590.0986 1131.7708,617.1611 " fill="none" id="GitHubFileSystemObject-backto-GitHubFolder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1124.4792,521.2549,1131.7708,500.4215,1139.0625,521.2549,1124.4792,521.2549" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[39fb9ccacf699faeebd84c91e366a5c3]
+reverse link FolderService to GitHubFolder--><path codeLine="57" d="M1299.3333,432.557 C1283.9479,455.432 1264.2813,484.4215 1246.3542,509.9528 C1220.9688,546.1195 1191.6875,586.4215 1169.0833,617.2445 " fill="none" id="FolderService-backto-GitHubFolder" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1293.4479,428.234,1311.1042,414.984,1305.5625,436.3486,1293.4479,428.234" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[3951738c6b3de0d4a77519f9e6ed0265]
+reverse link BaseComponent to GitHubTree--><path codeLine="65" d="M294.2708,190.609 C294.2708,213.4215 294.2708,242.4528 294.2708,271.2549 " fill="none" id="BaseComponent-backto-GitHubTree" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="286.9792,190.5674,294.2708,169.734,301.5625,190.5674,286.9792,190.5674" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ec96dbd6c55fd0f8aff73497fe534437]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.filesystems.github"
+    
+    abstract BaseComponent
+    abstract BaseWritableResource
+    
+    interface FileSystemService
+    interface FileSystemObjectService
+    interface FileService
+    interface FolderService
+    
+    enum GitHubTree.EntryType
+    {
+        FILE
+        FOLDER
+    }
+    
+    GitHubFileSystemObject <|- - GitHubFile
+    FileService <|- - GitHubFile
+    class GitHubFile
+    {
+        - -(constructors)- -
+        +GitHubFile(FilePath)
+        +GitHubFile(String)
+        - -(filesystem)- -
+        +boolean renameTo(GitHubFile that)
+    }
+    
+    BaseWritableResource <|- - GitHubFileSystemObject
+    FileSystemObjectService <|- - GitHubFileSystemObject
+    abstract class GitHubFileSystemObject
+    {
+        - -
+        #GHTreeEntry entry()
+        #GitHubTree tree()
+        - -(filesystem)- -
+        +FilePath relativePath()
+        - -(filtering)- -
+        +boolean accepts(String path)
+        - -(naming)- -
+        +String name()
+    }
+    
+    FileSystemService <|- - GitHubFileSystemService
+    GitHubFileSystemService - -> GitHubFile : "provides"
+    GitHubFileSystemService - -> GitHubFolder : "provides"
+    class GitHubFileSystemService
+    {
+        - -(filesystem)- -
+        +^GitHubFile fileService(FilePath)
+        +^GitHubFolder folderService(FilePath)
+    }
+    
+    GitHubFileSystemObject <|- - GitHubFolder
+    FolderService <|- - GitHubFolder
+    class GitHubFolder
+    {
+        - -(constructors)- -
+        +GitHubFolder(FilePath)
+        +GitHubFolder(String)
+    }
+    
+    BaseComponent <|- - GitHubTree
+    class GitHubTree
+    {
+        - -(constructors)- -
+        #GitHubTree(String, String, String, String)
+        - -
+        +GHTreeEntry entry(String path)
+        +GitHubTree tree(Listener, String username, String accessToken, String repository, String branch)
+        - -(collection)- -
+        +List<GHTreeEntry> entries()
+        +List<GHTreeEntry> entries(String path, EntryType, boolean recursive)
+        - -(read)- -
+        +void load()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.filesystems.github"
+    
+    abstract BaseComponent
+    abstract BaseWritableResource
+    
+    interface FileSystemService
+    interface FileSystemObjectService
+    interface FileService
+    interface FolderService
+    
+    enum GitHubTree.EntryType
+    {
+        FILE
+        FOLDER
+    }
+    
+    GitHubFileSystemObject <|- - GitHubFile
+    FileService <|- - GitHubFile
+    class GitHubFile
+    {
+        - -(constructors)- -
+        +GitHubFile(FilePath)
+        +GitHubFile(String)
+        - -(filesystem)- -
+        +boolean renameTo(GitHubFile that)
+    }
+    
+    BaseWritableResource <|- - GitHubFileSystemObject
+    FileSystemObjectService <|- - GitHubFileSystemObject
+    abstract class GitHubFileSystemObject
+    {
+        - -
+        #GHTreeEntry entry()
+        #GitHubTree tree()
+        - -(filesystem)- -
+        +FilePath relativePath()
+        - -(filtering)- -
+        +boolean accepts(String path)
+        - -(naming)- -
+        +String name()
+    }
+    
+    FileSystemService <|- - GitHubFileSystemService
+    GitHubFileSystemService - -> GitHubFile : "provides"
+    GitHubFileSystemService - -> GitHubFolder : "provides"
+    class GitHubFileSystemService
+    {
+        - -(filesystem)- -
+        +^GitHubFile fileService(FilePath)
+        +^GitHubFolder folderService(FilePath)
+    }
+    
+    GitHubFileSystemObject <|- - GitHubFolder
+    FolderService <|- - GitHubFolder
+    class GitHubFolder
+    {
+        - -(constructors)- -
+        +GitHubFolder(FilePath)
+        +GitHubFolder(String)
+    }
+    
+    BaseComponent <|- - GitHubTree
+    class GitHubTree
+    {
+        - -(constructors)- -
+        #GitHubTree(String, String, String, String)
+        - -
+        +GHTreeEntry entry(String path)
+        +GitHubTree tree(Listener, String username, String accessToken, String repository, String branch)
+        - -(collection)- -
+        +List<GHTreeEntry> entries()
+        +List<GHTreeEntry> entries(String path, EntryType, boolean recursive)
+        - -(read)- -
+        +void load()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

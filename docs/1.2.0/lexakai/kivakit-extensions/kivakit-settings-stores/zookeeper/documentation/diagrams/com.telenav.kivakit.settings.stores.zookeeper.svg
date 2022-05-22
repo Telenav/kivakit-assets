@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="692.7083px" preserveAspectRatio="none" style="width:1287px;height:692px;background:#333333;" version="1.1" viewBox="0 0 1287 692" width="1287.5px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="478.125" x="397.3958" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="455.2083" x="408.8542" y="30.5583">com.telenav.kivakit.settings.stores.zookeeper</text><!--MD5=[fd2236ae37cf75a91a001c6dfa8a15ad]
+cluster ZookeeperConnection--><polygon fill="#333333" points="16.6667,52.6611,171.875,52.6611,179.1667,79.8828,354.1667,79.8828,354.1667,542.2445,16.6667,542.2445,16.6667,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="16.6667" x2="179.1667" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="142.7083" x="23.9583" y="69.9544">ZookeeperConnection</text><!--MD5=[992e12e2f8b6e3829d70de325c79e587]
+class ZookeeperConnection.ListenerMethod--><rect codeLine="12" fill="#282828" height="67.7999" id="ZookeeperConnection.ListenerMethod" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="139.5833" x="61.4583" y="101.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="139.5833" x="61.4583" y="101.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="139.5833" x="61.4583" y="124.6745"/><rect codeLine="12" fill="none" height="67.7999" id="ZookeeperConnection.ListenerMethod" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="139.5833" x="61.4583" y="101.6195"/><ellipse cx="76.5104" cy="117.3136" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M73.9144,114.4755 L73.9144,112.8886 L79.3404,112.8886 L79.3404,114.4755 L77.5277,114.4755 L77.5277,120.4142 L79.3404,120.4142 L79.3404,122.0011 L73.9144,122.0011 L73.9144,120.4142 L75.7271,120.4142 L75.7271,114.4755 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="101.0417" x="93.2813" y="122.0378">ListenerMethod</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="62.5" x2="200" y1="133.0078" y2="133.0078"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="62.5" x2="200" y1="141.3411" y2="141.3411"/><ellipse cx="72.9167" cy="152.7995" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="84.375" y="159.7107">void on(StringPath)</text><!--MD5=[a0ea52626c995c6c012207998a58c5a3]
+class ZookeeperConnection.Settings--><rect codeLine="18" fill="#282828" height="48.055" id="ZookeeperConnection.Settings" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="90.625" x="238.0208" y="111.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="90.625" x="238.0208" y="111.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="90.625" x="238.0208" y="134.5703"/><rect codeLine="18" fill="none" height="48.055" id="ZookeeperConnection.Settings" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="90.625" x="238.0208" y="111.5153"/><ellipse cx="252.6042" cy="127.2095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M254.5146,131.6345 Q254.0873,131.8542 253.6174,131.9641 Q253.1474,132.074 252.6286,132.074 Q250.7853,132.074 249.8149,130.8594 Q248.8444,129.6448 248.8444,127.3499 Q248.8444,125.0488 249.8149,123.8342 Q250.7853,122.6196 252.6286,122.6196 Q253.1474,122.6196 253.6235,122.7295 Q254.0995,122.8394 254.5146,123.0591 L254.5146,125.061 Q254.0507,124.6338 253.6143,124.4354 Q253.1779,124.2371 252.714,124.2371 Q251.7253,124.2371 251.2217,125.0214 Q250.7182,125.8057 250.7182,127.3499 Q250.7182,128.8879 251.2217,129.6722 Q251.7253,130.4565 252.714,130.4565 Q253.1779,130.4565 253.6143,130.2582 Q254.0507,130.0598 254.5146,129.6326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="53.125" x="269.2708" y="131.9336">Settings</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="239.0625" x2="327.6042" y1="142.9036" y2="142.9036"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="239.0625" x2="327.6042" y1="151.237" y2="151.237"/><!--MD5=[b175932b4856ea4169933d26c442873c]
+class ZookeeperConnection.State--><rect codeLine="22" fill="#282828" height="87.5448" id="ZookeeperConnection.State" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="107.2917" x="77.6042" y="429.7445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="107.2917" x="77.6042" y="429.7445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="107.2917" x="77.6042" y="452.7995"/><rect codeLine="22" fill="none" height="87.5448" id="ZookeeperConnection.State" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="107.2917" x="77.6042" y="429.7445"/><ellipse cx="109.0625" cy="445.4386" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M112.1183,450.1261 L106.4421,450.1261 L106.4421,441.0136 L112.1183,441.0136 L112.1183,442.6005 L108.2426,442.6005 L108.2426,444.5658 L111.7521,444.5658 L111.7521,446.1528 L108.2426,446.1528 L108.2426,448.5392 L112.1183,448.5392 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="32.2917" x="129.4792" y="450.1628">State</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="78.6458" x2="183.8542" y1="461.1328" y2="461.1328"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="86.9792" y="479.5024">CONNECTED</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="88.5417" x="86.9792" y="499.2472">DISCONNECTED</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="78.6458" x2="183.8542" y1="508.9559" y2="508.9559"/><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="6" fill="#282828" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="442.7083" y="111.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="442.7083" y="111.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="442.7083" y="134.5703"/><rect codeLine="6" fill="none" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="442.7083" y="111.5153"/><ellipse cx="457.2917" cy="127.2095" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M456.8848,123.9115 L456.0364,127.6408 L457.7393,127.6408 Z M455.7861,122.2636 L457.9895,122.2636 L460.4492,131.3761 L458.6487,131.3761 L458.0872,129.1239 L455.6763,129.1239 L455.127,131.3761 L453.3264,131.3761 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="473.9583" y="131.9336">BaseComponent</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="443.75" x2="585.4167" y1="142.9036" y2="142.9036"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="443.75" x2="585.4167" y1="151.237" y2="151.237"/><!--MD5=[9e09a659a8ed84857eefee4d072426ec]
+class BaseSettingsStore--><rect codeLine="7" fill="#282828" height="48.055" id="BaseSettingsStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="154.1667" x="822.9167" y="111.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="154.1667" x="822.9167" y="111.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="154.1667" x="822.9167" y="134.5703"/><rect codeLine="7" fill="none" height="48.055" id="BaseSettingsStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="154.1667" x="822.9167" y="111.5153"/><ellipse cx="837.5" cy="127.2095" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M837.0931,123.9115 L836.2447,127.6408 L837.9476,127.6408 Z M835.9945,122.2636 L838.1978,122.2636 L840.6576,131.3761 L838.857,131.3761 L838.2955,129.1239 L835.8846,129.1239 L835.3353,131.3761 L833.5347,131.3761 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="116.6667" x="854.1667" y="131.9336">BaseSettingsStore</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="823.9583" x2="976.0417" y1="142.9036" y2="142.9036"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="823.9583" x2="976.0417" y1="151.237" y2="151.237"/><!--MD5=[ee26c0637ba501317cb828d395875584]
+class Watcher--><rect codeLine="9" fill="#282828" height="48.055" id="Watcher" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="88.5417" x="623.4375" y="111.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="88.5417" x="623.4375" y="111.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="88.5417" x="623.4375" y="134.5703"/><rect codeLine="9" fill="none" height="48.055" id="Watcher" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="88.5417" x="623.4375" y="111.5153"/><ellipse cx="638.0208" cy="127.2095" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M635.4248,124.3713 L635.4248,122.7844 L640.8508,122.7844 L640.8508,124.3713 L639.0381,124.3713 L639.0381,130.3101 L640.8508,130.3101 L640.8508,131.897 L635.4248,131.897 L635.4248,130.3101 L637.2375,130.3101 L637.2375,124.3713 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="51.0417" x="654.6875" y="131.9336">Watcher</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="624.4792" x2="710.9375" y1="142.9036" y2="142.9036"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="624.4792" x2="710.9375" y1="151.237" y2="151.237"/><!--MD5=[22357fb200e24ac79a14b25026da9c99]
+class ZookeeperChangeListener--><rect codeLine="28" fill="#282828" height="127.0345" id="ZookeeperChangeListener" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="266.6667" x="1013.5417" y="71.932"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="266.6667" x="1013.5417" y="71.932"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="266.6667" x="1013.5417" y="94.987"/><rect codeLine="28" fill="none" height="127.0345" id="ZookeeperChangeListener" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="266.6667" x="1013.5417" y="71.932"/><ellipse cx="1054.8438" cy="87.6261" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1052.2477,84.788 L1052.2477,83.2011 L1057.6737,83.2011 L1057.6737,84.788 L1055.861,84.788 L1055.861,90.7267 L1057.6737,90.7267 L1057.6737,92.3136 L1052.2477,92.3136 L1052.2477,90.7267 L1054.0605,90.7267 L1054.0605,84.788 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="169.7917" x="1077.4479" y="92.3503">ZookeeperChangeListener</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1014.5833" x2="1279.1667" y1="103.3203" y2="103.3203"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1014.5833" x2="1279.1667" y1="111.6536" y2="111.6536"/><ellipse cx="1025" cy="123.112" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="234.375" x="1036.4583" y="130.0232">void onNodeChildrenChanged(StringPath)</text><ellipse cx="1025" cy="142.8569" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="1036.4583" y="149.7681">void onNodeCreated(StringPath)</text><ellipse cx="1025" cy="162.6017" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="211.4583" x="1036.4583" y="169.5129">void onNodeDataChanged(StringPath)</text><ellipse cx="1025" cy="182.3466" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="178.125" x="1036.4583" y="189.2578">void onNodeDeleted(StringPath)</text><!--MD5=[93674cc8b57f051d9dda2348e95f5772]
+class ZookeeperConnection--><rect codeLine="39" fill="#282828" height="424.2961" id="ZookeeperConnection" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="398.9583" x="423.4375" y="261.5153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="398.9583" x="423.4375" y="261.5153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="398.9583" x="423.4375" y="284.5703"/><rect codeLine="39" fill="none" height="424.2961" id="ZookeeperConnection" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="398.9583" x="423.4375" y="261.5153"/><ellipse cx="544.2708" cy="277.2095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M546.1812,281.6345 Q545.754,281.8542 545.284,281.9641 Q544.814,282.074 544.2952,282.074 Q542.452,282.074 541.4815,280.8594 Q540.5111,279.6448 540.5111,277.3499 Q540.5111,275.0488 541.4815,273.8342 Q542.452,272.6196 544.2952,272.6196 Q544.814,272.6196 545.2901,272.7295 Q545.7662,272.8394 546.1812,273.0591 L546.1812,275.061 Q545.7174,274.6338 545.281,274.4354 Q544.8446,274.2371 544.3807,274.2371 Q543.3919,274.2371 542.8884,275.0214 Q542.3848,275.8057 542.3848,277.3499 Q542.3848,278.8879 542.8884,279.6722 Q543.3919,280.4565 544.3807,280.4565 Q544.8446,280.4565 545.281,280.2582 Q545.7174,280.0598 546.1812,279.6326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="142.7083" x="567.1875" y="281.9336">ZookeeperConnection</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="424.4792" x2="821.3542" y1="292.9036" y2="292.9036"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="424.4792" x2="821.3542" y1="301.237" y2="301.237"/><ellipse cx="434.8958" cy="312.6953" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="183.3333" x="446.3542" y="319.6065">CreateMode defaultCreateMode()</text><ellipse cx="434.8958" cy="332.4402" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="446.3542" y="339.3514">void watch(StringPath)</text><ellipse cx="434.8958" cy="352.1851" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="93.75" x="446.3542" y="359.0963">void watchRoot()</text><ellipse cx="434.8958" cy="371.9299" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="446.3542" y="378.8411">ZooKeeper zookeeper()</text><ellipse cx="434.8958" cy="415.5863" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="290.625" x="446.3542" y="422.4976">void addChangeListener(ZookeeperChangeListener)</text><ellipse cx="434.8958" cy="435.3312" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="167.7083" x="446.3542" y="442.2424">StringList children(StringPath)</text><ellipse cx="434.8958" cy="455.0761" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="446.3542" y="461.9873">Map&lt;StringPath,Watcher&gt; watchers()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="424.4792" x2="588.5417" y1="398.4222" y2="398.4222"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="591.6667" y="402.2319">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="657.2917" x2="821.3542" y1="398.4222" y2="398.4222"/><ellipse cx="434.8958" cy="498.7325" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="446.3542" y="505.6437">boolean delete(StringPath)</text><ellipse cx="434.8958" cy="518.4774" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="446.3542" y="525.3886">boolean exists(StringPath)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="424.4792" x2="587.5" y1="481.5684" y2="481.5684"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="590.625" y="485.378">(filesystem)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="658.3333" x2="821.3542" y1="481.5684" y2="481.5684"/><ellipse cx="434.8958" cy="562.1338" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="366.6667" x="446.3542" y="569.045">StringPath create(StringPath, byte[] data, List&lt;ACL&gt;, CreateMode)</text><ellipse cx="434.8958" cy="581.8787" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="446.3542" y="588.7899">StringPath root()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="424.4792" x2="603.125" y1="544.9697" y2="544.9697"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="606.25" y="548.7793">(path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="642.7083" x2="821.3542" y1="544.9697" y2="544.9697"/><ellipse cx="434.8958" cy="625.5351" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="446.3542" y="632.4463">byte[] read(StringPath)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="424.4792" x2="603.125" y1="608.371" y2="608.371"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="606.25" y="612.1806">(read)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="642.7083" x2="821.3542" y1="608.371" y2="608.371"/><ellipse cx="434.8958" cy="669.1915" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="206.25" x="446.3542" y="676.1027">boolean write(StringPath, byte[] data)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="424.4792" x2="602.0833" y1="652.0274" y2="652.0274"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="35.4167" x="605.2083" y="655.837">(write)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="643.75" x2="821.3542" y1="652.0274" y2="652.0274"/><!--MD5=[10c1deb6cba48e04797e6034ac1f605d]
+class ZookeeperSettingsStore--><rect codeLine="64" fill="#282828" height="321.405" id="ZookeeperSettingsStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="318.75" x="922.9167" y="312.557"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="318.75" x="922.9167" y="312.557"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="318.75" x="922.9167" y="335.612"/><rect codeLine="64" fill="none" height="321.405" id="ZookeeperSettingsStore" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="318.75" x="922.9167" y="312.557"/><ellipse cx="997.3958" cy="328.2511" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M999.3062,332.6762 Q998.879,332.8959 998.409,333.0058 Q997.939,333.1156 997.4202,333.1156 Q995.577,333.1156 994.6065,331.901 Q993.6361,330.6864 993.6361,328.3915 Q993.6361,326.0905 994.6065,324.8759 Q995.577,323.6613 997.4202,323.6613 Q997.939,323.6613 998.4151,323.7712 Q998.8912,323.881 999.3062,324.1007 L999.3062,326.1027 Q998.8424,325.6755 998.406,325.4771 Q997.9696,325.2787 997.5057,325.2787 Q996.5169,325.2787 996.0134,326.063 Q995.5098,326.8473 995.5098,328.3915 Q995.5098,329.9296 996.0134,330.7139 Q996.5169,331.4982 997.5057,331.4982 Q997.9696,331.4982 998.406,331.2998 Q998.8424,331.1015 999.3062,330.6742 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="155.2083" x="1020.3125" y="332.9753">ZookeeperSettingsStore</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="923.9583" x2="1240.625" y1="343.9453" y2="343.9453"/><ellipse cx="934.375" cy="379.3152" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="141.6667" x="945.8333" y="386.2264">ZookeeperSettingsStore()</text><ellipse cx="934.375" cy="399.0601" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="945.8333" y="405.9713">ZookeeperSettingsStore(CreateMode)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="923.9583" x2="1038.5417" y1="362.1511" y2="362.1511"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1041.6667" y="365.9607">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1126.0417" x2="1240.625" y1="362.1511" y2="362.1511"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="923.9583" x2="1240.625" y1="415.6799" y2="415.6799"/><polygon fill="#FFFF44" points="934.375,421.9299,938.5417,426.0966,934.375,430.2633,930.2083,426.0966" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="945.8333" y="434.0495">byte[] onSerialize(Object)</text><polygon fill="#FFFF44" points="934.375,441.6748,938.5417,445.8415,934.375,450.0081,930.2083,445.8415" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="281.25" x="945.8333" y="453.7944">void onSettingsDeleted(StringPath, SettingsObject)</text><polygon fill="#FFFF44" points="934.375,461.4197,938.5417,465.5863,934.375,469.753,930.2083,465.5863" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="286.4583" x="945.8333" y="473.5392">void onSettingsUpdated(StringPath, SettingsObject)</text><polygon fill="#FFFF44" points="934.375,505.0761,938.5417,509.2428,934.375,513.4094,930.2083,509.2428" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="240.625" x="945.8333" y="517.1956">T onDeserialize(byte[] data, Class&lt;?&gt; type)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="923.9583" x2="1028.125" y1="493.1203" y2="493.1203"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="1031.25" y="496.9299">(extension points)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1136.4583" x2="1240.625" y1="493.1203" y2="493.1203"/><ellipse cx="934.375" cy="553.9408" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="945.8333" y="560.8521">StringPath root()</text><ellipse cx="934.375" cy="573.6857" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="176.0417" x="945.8333" y="580.5969">StringPath unflatten(StringPath)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="923.9583" x2="1062.5" y1="536.7767" y2="536.7767"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="1065.625" y="540.5863">(path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1102.0833" x2="1240.625" y1="536.7767" y2="536.7767"/><ellipse cx="934.375" cy="617.3421" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="219.7917" x="945.8333" y="624.2533">SettingsObject readSettings(StringPath)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="923.9583" x2="1062.5" y1="600.178" y2="600.178"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="1065.625" y="603.9876">(read)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1102.0833" x2="1240.625" y1="600.178" y2="600.178"/><!--MD5=[d72279c966e8db18e76a8f1c74976d93]
+reverse link BaseComponent to ZookeeperConnection--><path codeLine="37" d="M528.5104,179.7132 C535.6458,201.8278 544.9167,230.557 554.8438,261.3695 " fill="none" id="BaseComponent-backto-ZookeeperConnection" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="521.4792,181.6715,522.0313,159.609,535.3646,177.1924,521.4792,181.6715" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8672ba4d6c8d3ded9b213a2af88a86d1]
+reverse link Watcher to ZookeeperConnection--><path codeLine="38" d="M661.8542,180.4007 C658.9167,202.432 655.125,230.8799 651.0625,261.3695 " fill="none" id="Watcher-backto-ZookeeperConnection" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="654.6458,179.2965,664.625,159.609,669.1042,181.2236,654.6458,179.2965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[623e56f24df2f75d4062a8530a1eac0a]
+reverse link BaseSettingsStore to ZookeeperSettingsStore--><path codeLine="62" d="M922.5521,178.0674 C941.0208,212.1195 968.4167,262.5986 995.3229,312.182 " fill="none" id="BaseSettingsStore-backto-ZookeeperSettingsStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="916.0521,181.3903,912.5313,159.609,928.875,174.4424,916.0521,181.3903" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[1a63d0f00f644b32efce73ab4db6e4b1]
+reverse link ZookeeperChangeListener to ZookeeperSettingsStore--><path codeLine="63" d="M1130.8438,219.9111 C1125.4271,248.057 1119.1979,280.4736 1113.0417,312.5049 " fill="none" id="ZookeeperChangeListener-backto-ZookeeperSettingsStore" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1123.7083,218.3903,1134.8021,199.307,1138.0313,221.1403,1123.7083,218.3903" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5e24c0b829de37ce1a6de4a3e3c922f6]
+link ZookeeperConnection.ListenerMethod to ZookeeperConnection.Settings--><!--MD5=[86168b3df0244bb2aad3ca7024289fc8]
+link ZookeeperConnection.ListenerMethod to ZookeeperConnection.State--><!--MD5=[796db0abcf9c3c53afb4083710702960]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.settings.stores.zookeeper"
+    
+    abstract BaseComponent
+    abstract BaseSettingsStore
+    
+    interface Watcher
+    interface ZookeeperChangeListener
+    
+    interface ZookeeperConnection.ListenerMethod
+    {
+        - -
+        +void on(StringPath)
+    }
+    
+    class ZookeeperConnection.Settings
+    {
+    }
+    
+    enum ZookeeperConnection.State
+    {
+        CONNECTED
+        DISCONNECTED
+    }
+    
+    interface ZookeeperChangeListener
+    {
+        - -
+        +void onNodeChildrenChanged(StringPath)
+        +void onNodeCreated(StringPath)
+        +void onNodeDataChanged(StringPath)
+        +void onNodeDeleted(StringPath)
+    }
+    
+    BaseComponent <|- - ZookeeperConnection
+    Watcher <|- - ZookeeperConnection
+    class ZookeeperConnection
+    {
+        - -
+        +CreateMode defaultCreateMode()
+        +void watch(StringPath)
+        +void watchRoot()
+        +ZooKeeper zookeeper()
+        - -(collection)- -
+        +void addChangeListener(ZookeeperChangeListener)
+        +StringList children(StringPath)
+        +Map<StringPath,Watcher> watchers()
+        - -(filesystem)- -
+        +boolean delete(StringPath)
+        +boolean exists(StringPath)
+        - -(path)- -
+        +StringPath create(StringPath, byte[] data, List<ACL>, CreateMode)
+        +StringPath root()
+        - -(read)- -
+        +byte[] read(StringPath)
+        - -(write)- -
+        +boolean write(StringPath, byte[] data)
+    }
+    
+    BaseSettingsStore <|- - ZookeeperSettingsStore
+    ZookeeperChangeListener <|- - ZookeeperSettingsStore
+    class ZookeeperSettingsStore
+    {
+        - -(constructors)- -
+        +ZookeeperSettingsStore()
+        +ZookeeperSettingsStore(CreateMode)
+        - -
+        #byte[] onSerialize(Object)
+        #void onSettingsDeleted(StringPath, SettingsObject)
+        #void onSettingsUpdated(StringPath, SettingsObject)
+        - -(extension points)- -
+        #T onDeserialize(byte[] data, Class<?> type)
+        - -(path)- -
+        +StringPath root()
+        +StringPath unflatten(StringPath)
+        - -(read)- -
+        +SettingsObject readSettings(StringPath)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.settings.stores.zookeeper"
+    
+    abstract BaseComponent
+    abstract BaseSettingsStore
+    
+    interface Watcher
+    interface ZookeeperChangeListener
+    
+    interface ZookeeperConnection.ListenerMethod
+    {
+        - -
+        +void on(StringPath)
+    }
+    
+    class ZookeeperConnection.Settings
+    {
+    }
+    
+    enum ZookeeperConnection.State
+    {
+        CONNECTED
+        DISCONNECTED
+    }
+    
+    interface ZookeeperChangeListener
+    {
+        - -
+        +void onNodeChildrenChanged(StringPath)
+        +void onNodeCreated(StringPath)
+        +void onNodeDataChanged(StringPath)
+        +void onNodeDeleted(StringPath)
+    }
+    
+    BaseComponent <|- - ZookeeperConnection
+    Watcher <|- - ZookeeperConnection
+    class ZookeeperConnection
+    {
+        - -
+        +CreateMode defaultCreateMode()
+        +void watch(StringPath)
+        +void watchRoot()
+        +ZooKeeper zookeeper()
+        - -(collection)- -
+        +void addChangeListener(ZookeeperChangeListener)
+        +StringList children(StringPath)
+        +Map<StringPath,Watcher> watchers()
+        - -(filesystem)- -
+        +boolean delete(StringPath)
+        +boolean exists(StringPath)
+        - -(path)- -
+        +StringPath create(StringPath, byte[] data, List<ACL>, CreateMode)
+        +StringPath root()
+        - -(read)- -
+        +byte[] read(StringPath)
+        - -(write)- -
+        +boolean write(StringPath, byte[] data)
+    }
+    
+    BaseSettingsStore <|- - ZookeeperSettingsStore
+    ZookeeperChangeListener <|- - ZookeeperSettingsStore
+    class ZookeeperSettingsStore
+    {
+        - -(constructors)- -
+        +ZookeeperSettingsStore()
+        +ZookeeperSettingsStore(CreateMode)
+        - -
+        #byte[] onSerialize(Object)
+        #void onSettingsDeleted(StringPath, SettingsObject)
+        #void onSettingsUpdated(StringPath, SettingsObject)
+        - -(extension points)- -
+        #T onDeserialize(byte[] data, Class<?> type)
+        - -(path)- -
+        +StringPath root()
+        +StringPath unflatten(StringPath)
+        - -(read)- -
+        +SettingsObject readSettings(StringPath)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

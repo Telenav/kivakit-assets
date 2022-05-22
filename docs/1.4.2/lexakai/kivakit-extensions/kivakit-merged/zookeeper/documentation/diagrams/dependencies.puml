@@ -1,0 +1,13 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-merged-zookeeper"
+    
+    artifact kivakit_merged_zookeeper
+    artifact zookeeper_jute
+    artifact zookeeper
+    kivakit_merged_zookeeper --> zookeeper
+    kivakit_merged_zookeeper --> zookeeper_jute
+    
+@enduml

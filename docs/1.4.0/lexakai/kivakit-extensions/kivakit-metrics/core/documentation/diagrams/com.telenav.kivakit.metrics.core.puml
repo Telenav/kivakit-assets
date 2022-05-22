@@ -1,0 +1,61 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core"
+    
+    interface Metric
+    
+    interface Addable<T>
+    interface Metric
+    Addable <|-- AggregateMetric
+    Metric <|-- AggregateMetric
+    interface AggregateMetric<T>
+    {
+    }
+    
+    Metric <|-- BaseMetric
+    abstract class BaseMetric<T>
+    {
+        --(constructors)--
+        +BaseMetric()
+        +BaseMetric(BaseMetric<T>)
+        --
+        +BaseMetric<T> description(String description)
+        +MetricType type()
+        +BaseMetric<T> type(MetricType)
+        +BaseMetric<T> unit(String unit)
+        --(naming)--
+        +BaseMetric<T> name(String name)
+    }
+    
+    interface CreatedAt
+    interface Named
+    interface Quantizable
+    Named <|-- Metric
+    CreatedAt <|-- Metric
+    Quantizable <|-- Metric
+    interface Metric<T>
+    {
+        --
+        +String description()
+        +T measurement()
+        +MetricType type()
+        +String unit()
+    }
+    
+    enum Metric.MetricType
+    {
+        COUNT
+        LEVEL
+        OBSERVATION
+    }
+    
+    interface MetricsReporter
+    {
+        --
+        +void report(Metric<?>)
+    }
+    
+@enduml
+

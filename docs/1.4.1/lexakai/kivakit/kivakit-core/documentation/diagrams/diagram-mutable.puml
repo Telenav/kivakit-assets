@@ -1,0 +1,19 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-mutable"
+    
+    class ConcurrentMutableValue<T>
+    {
+        --(constructors)--
+        +ConcurrentMutableValue()
+        +ConcurrentMutableValue(T)
+        --
+        +T get()
+        +void set(T value)
+        +void update(Function<T,T> updater)
+    }
+    
+@enduml
+

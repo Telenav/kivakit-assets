@@ -1,0 +1,190 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramBits
+    class DiagramBits
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramBroadcaster
+    class DiagramBroadcaster
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramCollections
+    class DiagramCollections
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramContext
+    class DiagramContext
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramCount
+    class DiagramCount
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramEnsure
+    class DiagramEnsure
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramFailureReporter
+    class DiagramFailureReporter
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramIdentifier
+    class DiagramIdentifier
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramIo
+    class DiagramIo
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramIteration
+    class DiagramIteration
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramLanguage
+    class DiagramLanguage
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramListener
+    class DiagramListener
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramListenerType
+    class DiagramListenerType
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramLocale
+    class DiagramLocale
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramLogging
+    class DiagramLogging
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramLogs
+    class DiagramLogs
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramMessageType
+    class DiagramMessageType
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramMessaging
+    class DiagramMessaging
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramModule
+    class DiagramModule
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramMutable
+    class DiagramMutable
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramObject
+    class DiagramObject
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramOs
+    class DiagramOs
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPath
+    class DiagramPath
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPrimitive
+    class DiagramPrimitive
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramProgress
+    class DiagramProgress
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramProject
+    class DiagramProject
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramReflection
+    class DiagramReflection
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramRegistry
+    class DiagramRegistry
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramRepeater
+    class DiagramRepeater
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramString
+    class DiagramString
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramTest
+    class DiagramTest
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramThread
+    class DiagramThread
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramTime
+    class DiagramTime
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramType
+    class DiagramType
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramValue
+    class DiagramValue
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramVm
+    class DiagramVm
+    {
+    }
+    
+@enduml
+

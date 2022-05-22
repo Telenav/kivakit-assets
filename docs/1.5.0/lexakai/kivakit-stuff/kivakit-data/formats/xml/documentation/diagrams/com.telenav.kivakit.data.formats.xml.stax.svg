@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="900px" preserveAspectRatio="none" style="width:1208px;height:900px;background:#333333;" version="1.1" viewBox="0 0 1208 900" width="1208.3333px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="441.6667" x="376.0417" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="418.75" x="387.5" y="30.5583">com.telenav.kivakit.data.formats.xml.stax</text><!--MD5=[ddbfbc396dfdfebf8f13ad7d83bf874e]
+cluster StaxReader--><polygon fill="#333333" points="572.9167,52.6611,656.25,52.6611,663.5417,79.8828,946.875,79.8828,946.875,631.307,572.9167,631.307,572.9167,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="572.9167" x2="663.5417" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="70.8333" x="580.2083" y="69.9544">StaxReader</text><!--MD5=[ffe72f81e020e1c1243f5da6dd7f8679]
+class StaxReader.Matcher--><rect codeLine="25" fill="#282828" height="83.3781" id="StaxReader.Matcher" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="176.0417" x="745.3125" y="113.5986"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="176.0417" x="745.3125" y="113.5986"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="176.0417" x="745.3125" y="136.6536"/><rect codeLine="25" fill="none" height="83.3781" id="StaxReader.Matcher" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="176.0417" x="745.3125" y="113.5986"/><ellipse cx="800.5208" cy="129.2928" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M797.9248,126.4547 L797.9248,124.8678 L803.3508,124.8678 L803.3508,126.4547 L801.5381,126.4547 L801.5381,132.3934 L803.3508,132.3934 L803.3508,133.9803 L797.9248,133.9803 L797.9248,132.3934 L799.7375,132.3934 L799.7375,126.4547 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="51.0417" x="823.4375" y="134.0169">Matcher</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="746.3542" x2="920.3125" y1="144.987" y2="144.987"/><ellipse cx="756.7708" cy="180.3569" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="768.2292" y="187.2681">Match matcher(XMLEvent)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="746.3542" x2="800" y1="163.1927" y2="163.1927"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="60.4167" x="803.125" y="167.0024">(matching)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="866.6667" x2="920.3125" y1="163.1927" y2="163.1927"/><!--MD5=[22ab31f40484bc72d1ce4ed46bfaadd9]
+class StaxReader.BooleanMatcher--><rect codeLine="14" fill="#282828" height="48.055" id="StaxReader.BooleanMatcher" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="140.625" x="690.1042" y="558.3903"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="140.625" x="690.1042" y="558.3903"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="140.625" x="690.1042" y="581.4453"/><rect codeLine="14" fill="none" height="48.055" id="StaxReader.BooleanMatcher" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="140.625" x="690.1042" y="558.3903"/><ellipse cx="704.6875" cy="574.0845" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M702.0915,571.2463 L702.0915,569.6594 L707.5175,569.6594 L707.5175,571.2463 L705.7048,571.2463 L705.7048,577.1851 L707.5175,577.1851 L707.5175,578.772 L702.0915,578.772 L702.0915,577.1851 L703.9042,577.1851 L703.9042,571.2463 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="103.125" x="721.3542" y="578.8086">BooleanMatcher</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="691.1458" x2="829.6875" y1="589.7786" y2="589.7786"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="691.1458" x2="829.6875" y1="598.112" y2="598.112"/><!--MD5=[c6204dcc1db1d33e2a9e32fc52effb38]
+class StaxReader.Match--><rect codeLine="18" fill="#282828" height="107.2896" id="StaxReader.Match" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="90.625" x="618.2292" y="101.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="90.625" x="618.2292" y="101.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="90.625" x="618.2292" y="124.6745"/><rect codeLine="18" fill="none" height="107.2896" id="StaxReader.Match" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="90.625" x="618.2292" y="101.6195"/><ellipse cx="639.375" cy="117.3136" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M642.4308,122.0011 L636.7546,122.0011 L636.7546,112.8886 L642.4308,112.8886 L642.4308,114.4755 L638.5551,114.4755 L638.5551,116.4408 L642.0646,116.4408 L642.0646,118.0278 L638.5551,118.0278 L638.5551,120.4142 L642.4308,120.4142 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="38.5417" x="657.5" y="122.0378">Match</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="619.2708" x2="707.8125" y1="133.0078" y2="133.0078"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="40.625" x="627.6042" y="151.3774">FOUND</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="71.875" x="627.6042" y="171.1222">NOT_FOUND</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="29.1667" x="627.6042" y="190.8671">STOP</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="619.2708" x2="707.8125" y1="200.5758" y2="200.5758"/><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="6" fill="#282828" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="7.2917" y="131.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="7.2917" y="131.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="7.2917" y="154.362"/><rect codeLine="6" fill="none" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="7.2917" y="131.307"/><ellipse cx="21.875" cy="147.0011" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M21.4681,143.7032 L20.6197,147.4325 L22.3226,147.4325 Z M20.3695,142.0553 L22.5728,142.0553 L25.0326,151.1678 L23.232,151.1678 L22.6705,148.9156 L20.2596,148.9156 L19.7103,151.1678 L17.9097,151.1678 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="38.5417" y="151.7253">BaseComponent</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="150" y1="162.6953" y2="162.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="150" y1="171.0286" y2="171.0286"/><!--MD5=[84d116d8586097e088223e800c641fac]
+class Closeable--><rect codeLine="8" fill="#282828" height="48.055" id="Closeable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="101.0417" x="188.0208" y="131.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="101.0417" x="188.0208" y="131.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="101.0417" x="188.0208" y="154.362"/><rect codeLine="8" fill="none" height="48.055" id="Closeable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="101.0417" x="188.0208" y="131.307"/><ellipse cx="202.6042" cy="147.0011" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M200.0081,144.163 L200.0081,142.5761 L205.4342,142.5761 L205.4342,144.163 L203.6214,144.163 L203.6214,150.1017 L205.4342,150.1017 L205.4342,151.6886 L200.0081,151.6886 L200.0081,150.1017 L201.8209,150.1017 L201.8209,144.163 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="63.5417" x="219.2708" y="151.7253">Closeable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="189.0625" x2="288.0208" y1="162.6953" y2="162.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="189.0625" x2="288.0208" y1="171.0286" y2="171.0286"/><!--MD5=[6dcb81fb99b9b38bec08f1806407e920]
+class BooleanFunction--><rect codeLine="10" fill="#282828" height="48.055" id="BooleanFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="218.75" x="326.0417" y="131.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="218.75" x="326.0417" y="131.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="218.75" x="326.0417" y="154.362"/><rect codeLine="10" fill="none" height="48.055" id="BooleanFunction" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="218.75" x="326.0417" y="131.307"/><ellipse cx="340.625" cy="147.0011" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M338.029,144.163 L338.029,142.5761 L343.455,142.5761 L343.455,144.163 L341.6423,144.163 L341.6423,150.1017 L343.455,150.1017 L343.455,151.6886 L338.029,151.6886 L338.029,150.1017 L339.8417,150.1017 L339.8417,144.163 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="108.3333" x="357.2917" y="151.7253">BooleanFunction</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="70.8333" x="477.0833" y="128.182"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="62.5" x="481.25" y="144.4336">XMLEvent</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="327.0833" x2="543.75" y1="162.6953" y2="162.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="327.0833" x2="543.75" y1="171.0286" y2="171.0286"/><!--MD5=[664e7fd9bbb7ad1ead0372d36a483f47]
+class StringPath--><rect fill="#282828" height="48.055" id="StringPath" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="104.1667" x="1034.375" y="131.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="104.1667" x="1034.375" y="131.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="104.1667" x="1034.375" y="154.362"/><rect fill="none" height="48.055" id="StringPath" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="104.1667" x="1034.375" y="131.307"/><ellipse cx="1048.9583" cy="147.0011" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1050.8687,151.4262 Q1050.4415,151.6459 1049.9715,151.7558 Q1049.5015,151.8656 1048.9827,151.8656 Q1047.1395,151.8656 1046.169,150.651 Q1045.1986,149.4364 1045.1986,147.1415 Q1045.1986,144.8405 1046.169,143.6259 Q1047.1395,142.4113 1048.9827,142.4113 Q1049.5015,142.4113 1049.9776,142.5212 Q1050.4537,142.631 1050.8687,142.8507 L1050.8687,144.8527 Q1050.4049,144.4255 1049.9685,144.2271 Q1049.5321,144.0287 1049.0682,144.0287 Q1048.0794,144.0287 1047.5759,144.813 Q1047.0723,145.5973 1047.0723,147.1415 Q1047.0723,148.6796 1047.5759,149.4639 Q1048.0794,150.2482 1049.0682,150.2482 Q1049.5321,150.2482 1049.9685,150.0498 Q1050.4049,149.8515 1050.8687,149.4242 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="66.6667" x="1065.625" y="151.7253">StringPath</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1035.4167" x2="1137.5" y1="162.6953" y2="162.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1035.4167" x2="1137.5" y1="171.0286" y2="171.0286"/><!--MD5=[3fe1d6bda31b590b7c5282726233b987]
+class StaxPath--><rect codeLine="32" fill="#282828" height="190.4358" id="StaxPath" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="971.875" y="487.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="971.875" y="487.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="229.1667" x="971.875" y="510.0911"/><rect codeLine="32" fill="none" height="190.4358" id="StaxPath" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="229.1667" x="971.875" y="487.0361"/><ellipse cx="1051.5625" cy="502.7303" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1053.4729,507.1554 Q1053.0457,507.3751 1052.5757,507.4849 Q1052.1057,507.5948 1051.5869,507.5948 Q1049.7437,507.5948 1048.7732,506.3802 Q1047.8027,505.1656 1047.8027,502.8707 Q1047.8027,500.5697 1048.7732,499.3551 Q1049.7437,498.1405 1051.5869,498.1405 Q1052.1057,498.1405 1052.5818,498.2503 Q1053.0579,498.3602 1053.4729,498.5799 L1053.4729,500.5819 Q1053.009,500.1546 1052.5726,499.9563 Q1052.1362,499.7579 1051.6724,499.7579 Q1050.6836,499.7579 1050.1801,500.5422 Q1049.6765,501.3265 1049.6765,502.8707 Q1049.6765,504.4088 1050.1801,505.1931 Q1050.6836,505.9774 1051.6724,505.9774 Q1052.1362,505.9774 1052.5726,505.779 Q1053.009,505.5806 1053.4729,505.1534 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="55.2083" x="1074.4792" y="507.4544">StaxPath</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="972.9167" x2="1200" y1="518.4245" y2="518.4245"/><ellipse cx="983.3333" cy="553.7944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="56.25" x="994.7917" y="560.7056">StaxPath()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="972.9167" x2="1042.7083" y1="536.6302" y2="536.6302"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1045.8333" y="540.4399">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1130.2083" x2="1200" y1="536.6302" y2="536.6302"/><ellipse cx="983.3333" cy="597.4508" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="994.7917" y="604.362">boolean isAt(StaxPath)</text><ellipse cx="983.3333" cy="617.1956" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="994.7917" y="624.1069">boolean isInside(StaxPath)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="972.9167" x2="1059.8958" y1="580.2867" y2="580.2867"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="1063.0208" y="584.0963">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1113.0208" x2="1200" y1="580.2867" y2="580.2867"/><ellipse cx="983.3333" cy="660.8521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="196.875" x="994.7917" y="667.7633">StaxPath parseXmlPath(String path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="972.9167" x2="1066.6667" y1="643.6879" y2="643.6879"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="1069.7917" y="647.4976">(path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1106.25" x2="1200" y1="643.6879" y2="643.6879"/><!--MD5=[b19bd31f9b71a1e2605ef3c4e1ac0904]
+class StaxReader--><rect codeLine="45" fill="#282828" height="621.7448" id="StaxReader" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="281.25" x="17.7083" y="271.4111"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="281.25" x="17.7083" y="271.4111"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="281.25" x="17.7083" y="294.4661"/><rect codeLine="45" fill="none" height="621.7448" id="StaxReader" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="281.25" x="17.7083" y="271.4111"/><ellipse cx="115.625" cy="287.1053" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M117.5354,291.5304 Q117.1082,291.7501 116.6382,291.8599 Q116.1682,291.9698 115.6494,291.9698 Q113.8062,291.9698 112.8357,290.7552 Q111.8652,289.5406 111.8652,287.2457 Q111.8652,284.9447 112.8357,283.7301 Q113.8062,282.5155 115.6494,282.5155 Q116.1682,282.5155 116.6443,282.6253 Q117.1204,282.7352 117.5354,282.9549 L117.5354,284.9569 Q117.0715,284.5296 116.6351,284.3313 Q116.1987,284.1329 115.7349,284.1329 Q114.7461,284.1329 114.2426,284.9172 Q113.739,285.7015 113.739,287.2457 Q113.739,288.7838 114.2426,289.5681 Q114.7461,290.3524 115.7349,290.3524 Q116.1987,290.3524 116.6351,290.154 Q117.0715,289.9556 117.5354,289.5284 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="70.8333" x="138.5417" y="291.8294">StaxReader</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="18.75" x2="297.9167" y1="302.7995" y2="302.7995"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="18.75" x2="297.9167" y1="311.1328" y2="311.1328"/><ellipse cx="29.1667" cy="322.5911" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="40.625" y="329.5024">String enclosedText()</text><ellipse cx="29.1667" cy="366.2476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="40.625" y="373.1588">boolean hasNext()</text><ellipse cx="29.1667" cy="385.9924" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="40.625" y="392.9036">boolean isAt(StaxPath)</text><ellipse cx="29.1667" cy="405.7373" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="139.5833" x="40.625" y="412.6485">boolean isAtCharacters()</text><ellipse cx="29.1667" cy="425.4822" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="40.625" y="432.3934">boolean isAtCloseTag()</text><ellipse cx="29.1667" cy="445.2271" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="40.625" y="452.1383">boolean isAtEnd()</text><ellipse cx="29.1667" cy="464.9719" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="40.625" y="471.8831">boolean isAtOpenCloseTag()</text><ellipse cx="29.1667" cy="484.7168" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="40.625" y="491.628">boolean isAtOpenTag()</text><ellipse cx="29.1667" cy="504.4617" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="40.625" y="511.3729">boolean isAtOpenTag(String tagName)</text><ellipse cx="29.1667" cy="524.2065" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="40.625" y="531.1178">boolean isAtOrInside(StaxPath)</text><ellipse cx="29.1667" cy="543.9514" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="40.625" y="550.8626">boolean isInside(StaxPath)</text><ellipse cx="29.1667" cy="563.6963" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="40.625" y="570.6075">boolean isOutside(StaxPath)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="18.75" x2="131.7708" y1="349.0835" y2="349.0835"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="134.8958" y="352.8931">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="184.8958" x2="297.9167" y1="349.0835" y2="349.0835"/><ellipse cx="29.1667" cy="607.3527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="160.4167" x="40.625" y="614.2639">XMLEvent findNext(StaxPath)</text><ellipse cx="29.1667" cy="627.0976" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="89.5833" x="40.625" y="634.0088">XMLEvent next()</text><ellipse cx="29.1667" cy="646.8424" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="248.9583" x="40.625" y="653.7537">XMLEvent nextAtOrInside(StaxPath, Matcher)</text><ellipse cx="29.1667" cy="666.5873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="136.4583" x="40.625" y="673.4985">Attribute nextAttribute()</text><ellipse cx="29.1667" cy="686.3322" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="159.375" x="40.625" y="693.2434">Characters nextCharacters()</text><ellipse cx="29.1667" cy="706.0771" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="153.125" x="40.625" y="712.9883">EndElement nextCloseTag()</text><ellipse cx="29.1667" cy="725.8219" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="40.625" y="732.7332">XMLEvent nextMatching(Matcher)</text><ellipse cx="29.1667" cy="745.5668" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="40.625" y="752.478">StartElement nextOpenTag()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="18.75" x2="127.6042" y1="590.1886" y2="590.1886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="55.2083" x="130.7292" y="593.9982">(iteration)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="189.0625" x2="297.9167" y1="590.1886" y2="590.1886"/><ellipse cx="29.1667" cy="789.2232" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="40.625" y="796.1344">XMLEvent at()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="18.75" x2="120.8333" y1="772.0591" y2="772.0591"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="123.9583" y="775.8687">(messaging)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="195.8333" x2="297.9167" y1="772.0591" y2="772.0591"/><ellipse cx="29.1667" cy="832.8796" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="40.625" y="839.7909">StaxPath path()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="18.75" x2="138.5417" y1="815.7155" y2="815.7155"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="141.6667" y="819.5251">(path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="178.125" x2="297.9167" y1="815.7155" y2="815.7155"/><ellipse cx="29.1667" cy="876.5361" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="40.625" y="883.4473">StaxReader open(Resource)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="18.75" x2="138.5417" y1="859.3719" y2="859.3719"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="141.6667" y="863.1816">(read)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="178.125" x2="297.9167" y1="859.3719" y2="859.3719"/><!--MD5=[37a27d3aa3310d61f2137994f62d9661]
+reverse link BooleanFunction to StaxReader.BooleanMatcher--><path codeLine="12" d="M465.9167,196.1924 C532.6354,283.4424 689.8125,488.9736 742.6979,558.1299 " fill="none" id="BooleanFunction-backto-StaxReader.BooleanMatcher" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="459.9792,200.432,453.125,179.4632,471.5729,191.5778,459.9792,200.432" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[c8d86093cae2a6e893eda18f180adb5f]
+reverse link StaxReader.Matcher to StaxReader.BooleanMatcher--><path codeLine="13" d="M822.7813,217.7965 C806.3542,313.5361 775.4167,493.9111 764.4167,557.9945 " fill="none" id="StaxReader.Matcher-backto-StaxReader.BooleanMatcher" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="815.6354,216.359,826.3438,197.057,830.0104,218.8278,815.6354,216.359" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[505d5d121c6cc5d98f607e1bd38cce41]
+reverse link StringPath to StaxPath--><path codeLine="31" d="M1086.4583,200.484 C1086.4583,267.7861 1086.4583,397.5465 1086.4583,486.7445 " fill="none" id="StringPath-backto-StaxPath" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1079.1667,200.2965,1086.4583,179.4632,1093.75,200.2965,1079.1667,200.2965" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[fb20e06df9d6491ae0036a627e323aa7]
+reverse link BaseComponent to StaxReader--><path codeLine="43" d="M87.3021,199.9945 C90.9167,219.3799 95.5,244.0153 100.6042,271.4111 " fill="none" id="BaseComponent-backto-StaxReader" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="80.125,201.2757,83.4792,179.4632,94.4583,198.609,80.125,201.2757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[8dab8c52589c2bdce38b1dde4d67bd39]
+reverse link Closeable to StaxReader--><path codeLine="44" d="M230.3021,199.9945 C226.6354,219.3799 221.9896,244.0153 216.8229,271.4111 " fill="none" id="Closeable-backto-StaxReader" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="223.1458,198.5778,234.1771,179.4632,237.4688,201.2861,223.1458,198.5778" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[4137ebb2bd11a9552bcdc997d4ccd5df]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.xml.stax"
+    
+    abstract BaseComponent
+    
+    interface Closeable
+    
+    interface BooleanFunction<XMLEvent>
+    interface StaxReader.Matcher
+    BooleanFunction <|- - StaxReader.BooleanMatcher
+    StaxReader.Matcher <|- - StaxReader.BooleanMatcher
+    interface StaxReader.BooleanMatcher
+    {
+    }
+    
+    enum StaxReader.Match
+    {
+        FOUND
+        NOT_FOUND
+        STOP
+    }
+    
+    interface StaxReader.Matcher
+    {
+        - -(matching)- -
+        +Match matcher(XMLEvent)
+    }
+    
+    StringPath <|- - StaxPath
+    class StaxPath
+    {
+        - -(constructors)- -
+        +StaxPath()
+        - -(checks)- -
+        +boolean isAt(StaxPath)
+        +boolean isInside(StaxPath)
+        - -(path)- -
+        +StaxPath parseXmlPath(String path)
+    }
+    
+    BaseComponent <|- - StaxReader
+    Closeable <|- - StaxReader
+    class StaxReader
+    {
+        - -
+        +String enclosedText()
+        - -(checks)- -
+        +boolean hasNext()
+        +boolean isAt(StaxPath)
+        +boolean isAtCharacters()
+        +boolean isAtCloseTag()
+        +boolean isAtEnd()
+        +boolean isAtOpenCloseTag()
+        +boolean isAtOpenTag()
+        +boolean isAtOpenTag(String tagName)
+        +boolean isAtOrInside(StaxPath)
+        +boolean isInside(StaxPath)
+        +boolean isOutside(StaxPath)
+        - -(iteration)- -
+        +XMLEvent findNext(StaxPath)
+        +XMLEvent next()
+        +XMLEvent nextAtOrInside(StaxPath, Matcher)
+        +Attribute nextAttribute()
+        +Characters nextCharacters()
+        +EndElement nextCloseTag()
+        +XMLEvent nextMatching(Matcher)
+        +StartElement nextOpenTag()
+        - -(messaging)- -
+        +XMLEvent at()
+        - -(path)- -
+        +StaxPath path()
+        - -(read)- -
+        +StaxReader open(Resource)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.data.formats.xml.stax"
+    
+    abstract BaseComponent
+    
+    interface Closeable
+    
+    interface BooleanFunction<XMLEvent>
+    interface StaxReader.Matcher
+    BooleanFunction <|- - StaxReader.BooleanMatcher
+    StaxReader.Matcher <|- - StaxReader.BooleanMatcher
+    interface StaxReader.BooleanMatcher
+    {
+    }
+    
+    enum StaxReader.Match
+    {
+        FOUND
+        NOT_FOUND
+        STOP
+    }
+    
+    interface StaxReader.Matcher
+    {
+        - -(matching)- -
+        +Match matcher(XMLEvent)
+    }
+    
+    StringPath <|- - StaxPath
+    class StaxPath
+    {
+        - -(constructors)- -
+        +StaxPath()
+        - -(checks)- -
+        +boolean isAt(StaxPath)
+        +boolean isInside(StaxPath)
+        - -(path)- -
+        +StaxPath parseXmlPath(String path)
+    }
+    
+    BaseComponent <|- - StaxReader
+    Closeable <|- - StaxReader
+    class StaxReader
+    {
+        - -
+        +String enclosedText()
+        - -(checks)- -
+        +boolean hasNext()
+        +boolean isAt(StaxPath)
+        +boolean isAtCharacters()
+        +boolean isAtCloseTag()
+        +boolean isAtEnd()
+        +boolean isAtOpenCloseTag()
+        +boolean isAtOpenTag()
+        +boolean isAtOpenTag(String tagName)
+        +boolean isAtOrInside(StaxPath)
+        +boolean isInside(StaxPath)
+        +boolean isOutside(StaxPath)
+        - -(iteration)- -
+        +XMLEvent findNext(StaxPath)
+        +XMLEvent next()
+        +XMLEvent nextAtOrInside(StaxPath, Matcher)
+        +Attribute nextAttribute()
+        +Characters nextCharacters()
+        +EndElement nextCloseTag()
+        +XMLEvent nextMatching(Matcher)
+        +StartElement nextOpenTag()
+        - -(messaging)- -
+        +XMLEvent at()
+        - -(path)- -
+        +StaxPath path()
+        - -(read)- -
+        +StaxReader open(Resource)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

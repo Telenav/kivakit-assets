@@ -1,0 +1,17 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.function"
+    
+    interface Predicate<Value>
+    Predicate <|-- BooleanFunction
+    interface BooleanFunction<Value>
+    {
+        --(checks)--
+        +boolean isFalse(Value)
+        +boolean isTrue(Value)
+    }
+    
+@enduml
+

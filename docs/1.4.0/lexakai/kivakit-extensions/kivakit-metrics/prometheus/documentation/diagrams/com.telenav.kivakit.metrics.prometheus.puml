@@ -1,0 +1,28 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.prometheus"
+    
+    abstract BaseComponent
+    abstract BaseServletJettyPlugin
+    
+    interface MetricsReporter
+    
+    BaseServletJettyPlugin <|-- PrometheusJettyPlugin
+    class PrometheusJettyPlugin
+    {
+        --(constructors)--
+        +PrometheusJettyPlugin()
+    }
+    
+    BaseComponent <|-- PrometheusMetricsReporter
+    MetricsReporter <|-- PrometheusMetricsReporter
+    class PrometheusMetricsReporter
+    {
+        --(constructors)--
+        +PrometheusMetricsReporter(Listener)
+    }
+    
+@enduml
+

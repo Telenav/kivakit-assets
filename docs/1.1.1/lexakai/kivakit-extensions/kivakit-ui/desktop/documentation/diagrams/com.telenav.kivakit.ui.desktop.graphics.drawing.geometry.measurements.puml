@@ -1,0 +1,67 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing.geometry.measurements"
+    
+    DrawingLength <|-- DrawingHeight
+    class DrawingHeight
+    {
+        --(constructors)--
+        #DrawingHeight(Coordinated, double)
+        --
+        +DrawingHeight height(Coordinated coordinates, double units)
+        +DrawingHeight pixels(double units)
+        --(conversion)--
+        +DrawingPoint asPoint()
+    }
+    
+    DrawingObject <|-- DrawingLength
+    class DrawingLength
+    {
+        --(constructors)--
+        #DrawingLength(Coordinated, double)
+        --
+        +DrawingLength length(Coordinated coordinates, double units)
+        +DrawingLength pixels(double pixels)
+        +double units()
+        --(checks)--
+        +boolean isNonZero()
+        +boolean isZero()
+        --(conversion)--
+        +DrawingHeight asHeight()
+        +DrawingWidth asWidth()
+        +DrawingLength toCoordinates(Coordinated that)
+        --(factory)--
+        #DrawingLength newInstance(double units)
+        --(functional)--
+        +DrawingLength rounded()
+        +DrawingLength scaledBy(Percent)
+        +DrawingLength scaledBy(double scaleFactor)
+    }
+    
+    class DrawingSlope
+    {
+        --(constructors)--
+        #DrawingSlope(double)
+        --(angle)--
+        +DrawingSlope degrees(double degrees)
+        +double degrees()
+        +double radians()
+        +DrawingSlope radians(double radians)
+    }
+    
+    DrawingLength <|-- DrawingWidth
+    class DrawingWidth
+    {
+        --(constructors)--
+        #DrawingWidth(Coordinated, double)
+        --
+        +DrawingWidth pixels(double pixels)
+        +DrawingWidth width(Coordinated coordinates, double units)
+        --(conversion)--
+        +DrawingPoint asPoint()
+    }
+    
+@enduml
+

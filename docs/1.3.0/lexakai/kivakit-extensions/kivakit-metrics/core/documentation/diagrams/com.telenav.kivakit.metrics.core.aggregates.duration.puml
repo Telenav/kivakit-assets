@@ -1,0 +1,31 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.aggregates.duration"
+    
+    AverageMetric <|-- AverageDurationMetric
+    class AverageDurationMetric
+    {
+        --(constructors)--
+        +AverageDurationMetric()
+        --(time)--
+        +AverageDurationMetric description(String description)
+    }
+    
+    MaximumMetric <|-- MaximumDurationMetric
+    class MaximumDurationMetric
+    {
+        --(constructors)--
+        +MaximumDurationMetric()
+    }
+    
+    MinimumMetric <|-- MinimumDurationMetric
+    class MinimumDurationMetric
+    {
+        --(constructors)--
+        +MinimumDurationMetric()
+    }
+    
+@enduml
+

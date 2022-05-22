@@ -1,0 +1,18 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.collections.list"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- StringListConverter
+    class StringListConverter
+    {
+        --(constructors)--
+        +StringListConverter(Listener)
+        +StringListConverter(Listener, String)
+    }
+    
+@enduml
+

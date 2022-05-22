@@ -1,0 +1,15 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.file.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramLogsFile
+    class DiagramLogsFile
+    {
+    }
+    
+@enduml
+

@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.examples.lambda.requests"
+    
+    abstract BaseMicroservletResponse
+    abstract BaseMicroservletRequest
+    
+    BaseMicroservletRequest <|-- DivisionRequest
+    class DivisionRequest
+    {
+        --(constructors)--
+        +DivisionRequest()
+        +DivisionRequest(int, int)
+    }
+    
+    BaseMicroservletResponse <|-- DivisionRequest.DivisionResponse
+    class DivisionRequest.DivisionResponse
+    {
+        --(constructors)--
+        +DivisionResponse()
+    }
+    
+@enduml
+

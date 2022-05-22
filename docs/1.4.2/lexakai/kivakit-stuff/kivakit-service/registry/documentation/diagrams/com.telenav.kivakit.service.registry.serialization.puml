@@ -1,0 +1,25 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.service.registry.serialization"
+    
+    abstract BaseRepeater
+    
+    interface GsonFactorySource
+    
+    BaseRepeater <|-- ServiceRegistryGsonFactorySource
+    GsonFactorySource <|-- ServiceRegistryGsonFactorySource
+    class ServiceRegistryGsonFactorySource
+    {
+    }
+    
+    JerseyJsonSerializer <|-- ServiceRegistryJerseySerializer
+    class ServiceRegistryJerseySerializer<T>
+    {
+        --(constructors)--
+        +ServiceRegistryJerseySerializer(Listener)
+    }
+    
+@enduml
+

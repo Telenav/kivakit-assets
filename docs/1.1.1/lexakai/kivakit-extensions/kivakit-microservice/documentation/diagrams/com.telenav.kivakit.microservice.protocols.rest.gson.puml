@@ -1,0 +1,32 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest.gson"
+    
+    interface ComponentMixin
+    
+    GsonFactory <|-- MicroserviceGsonFactory
+    ComponentMixin <|-- MicroserviceGsonFactory
+    class MicroserviceGsonFactory
+    {
+        --(collection)--
+        #void onAddSerializers(GsonBuilder)
+    }
+    
+    interface MicroserviceGsonFactorySource
+    {
+        --
+        +Gson gson()
+        --(factory)--
+        +GsonFactory gsonFactory()
+    }
+    
+    interface MicroserviceGsonObjectSource
+    {
+        --
+        +Object gsonObject()
+    }
+    
+@enduml
+

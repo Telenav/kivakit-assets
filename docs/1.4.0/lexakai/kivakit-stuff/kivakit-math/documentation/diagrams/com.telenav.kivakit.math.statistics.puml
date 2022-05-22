@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.math.statistics"
+    
+    Average <|-- StandardDeviation
+    class StandardDeviation
+    {
+        --(constructors)--
+        +StandardDeviation()
+        --
+        +double standardDeviation()
+    }
+    
+    class SuccessRate
+    {
+        --
+        +void attempt()
+        --(status)--
+        +void success()
+        +Percent successRate()
+    }
+    
+@enduml
+

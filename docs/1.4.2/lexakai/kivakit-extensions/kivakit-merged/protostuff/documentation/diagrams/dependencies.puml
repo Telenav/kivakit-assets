@@ -1,0 +1,17 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-merged-protostuff"
+    
+    artifact protostuff_api
+    artifact protostuff_collectionschema
+    artifact protostuff_core
+    artifact protostuff_runtime
+    artifact kivakit_merged_protostuff
+    kivakit_merged_protostuff --> protostuff_core
+    kivakit_merged_protostuff --> protostuff_runtime
+    protostuff_core --> protostuff_api
+    protostuff_runtime --> protostuff_collectionschema
+    
+@enduml

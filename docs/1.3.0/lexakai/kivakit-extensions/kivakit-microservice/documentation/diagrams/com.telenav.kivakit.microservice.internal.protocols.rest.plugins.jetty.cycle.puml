@@ -1,0 +1,76 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.cycle"
+    
+    abstract BaseComponent
+    
+    interface ProblemReportingTrait
+    
+    BaseComponent <|-- JettyMicroserviceResponse
+    JettyMicroserviceResponse o-- JettyMicroservletRequestCycle
+    JettyMicroserviceResponse o-- MicroservletErrorResponse
+    class JettyMicroserviceResponse
+    {
+        --(constructors)--
+        +JettyMicroserviceResponse(JettyMicroservletRequestCycle, HttpServletResponse)
+        --(conversion)--
+        +String toJson(Object response)
+        --(identity)--
+        +Version version()
+        --(messaging)--
+        +Problem problem(int status, String text, Object... arguments)
+        +Problem problem(int status, Throwable exception, String text, Object... arguments)
+        --(status)--
+        +MicroservletErrorResponse errors()
+        +void status(int status)
+        +int status()
+        --(write)--
+        +void writeObject(MicroservletResponse)
+    }
+    
+    BaseComponent <|-- JettyMicroservletRequest
+    ProblemReportingTrait <|-- JettyMicroservletRequest
+    JettyMicroservletRequest o-- JettyMicroservletRequestCycle
+    class JettyMicroservletRequest
+    {
+        --(constructors)--
+        +JettyMicroservletRequest(JettyMicroservletRequestCycle, HttpServletRequest)
+        --
+        +T fromJson(String json, Class<T> type)
+        --(checks)--
+        +boolean hasBody()
+        --(collection)--
+        +PropertyMap parameters()
+        +PropertyMap parameters(FilePath)
+        --(filesystem)--
+        +FilePath path()
+        --(identity)--
+        +Version version()
+        --(read)--
+        +T readObject(Class<T> requestType)
+    }
+    
+    BaseComponent <|-- JettyMicroservletRequestCycle
+    ProblemReportingTrait <|-- JettyMicroservletRequestCycle
+    JettyMicroservletRequestCycle o-- JettyMicroservletRequest
+    JettyMicroservletRequestCycle o-- JettyMicroserviceResponse
+    class JettyMicroservletRequestCycle
+    {
+        --(constructors)--
+        +JettyMicroservletRequestCycle(MicroserviceRestService, HttpServletRequest, HttpServletResponse)
+        --
+        +void attach(Microservlet<?,?>)
+        +void attach(JettyMicroservletRequestCycle)
+        +JettyMicroservletRequestCycle cycle()
+        +void detach()
+        +Gson gson()
+        +JettyMicroservletRequest request()
+        +Microservlet<?,?> servlet()
+        --(service)--
+        +MicroserviceRestService application()
+    }
+    
+@enduml
+

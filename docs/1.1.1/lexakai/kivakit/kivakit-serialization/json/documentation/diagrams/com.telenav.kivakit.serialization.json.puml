@@ -1,0 +1,63 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.json"
+    
+    interface Factory
+    interface GsonSerializer
+    
+    Factory <|-- GsonFactory
+    GsonFactory --> GsonBuilder : "creates"
+    abstract class GsonFactory
+    {
+        --
+        +void prettyPrinting(boolean pretty)
+        #StringConverterGsonSerializer<T> serializer(StringConverter<T>)
+        --(building)--
+        +GsonBuilder builder()
+        --(collection)--
+        +void addSerializer(GsonBuilder, Class<T> type, GsonSerializer<T>)
+        +GsonFactory addSerializers(GsonBuilder)
+        #void onAddSerializers(GsonBuilder)
+        --(lifecycle)--
+        +GsonFactory initialize(GsonBuilder)
+        #void onInitialize(GsonBuilder)
+    }
+    
+    Project <|-- GsonSerializationProject
+    class GsonSerializationProject
+    {
+        --(constructors)--
+        #GsonSerializationProject()
+        --(serialization)--
+        +GsonSerializationProject get()
+    }
+    
+    interface JsonDeserializer<T>
+    interface JsonSerializer<T>
+    JsonSerializer <|-- GsonSerializer
+    JsonDeserializer <|-- GsonSerializer
+    interface GsonSerializer<T>
+    {
+    }
+    
+    GsonSerializer <|-- PrimitiveGsonSerializer
+    abstract class PrimitiveGsonSerializer<T, Primitive>
+    {
+        --(constructors)--
+        #PrimitiveGsonSerializer(Class<Primitive>)
+        --(conversion)--
+        #T toObject(Primitive scalar)
+        #Primitive toPrimitive(T object)
+    }
+    
+    GsonSerializer <|-- StringConverterGsonSerializer
+    class StringConverterGsonSerializer<T>
+    {
+        --(constructors)--
+        +StringConverterGsonSerializer(StringConverter<T>)
+    }
+    
+@enduml
+

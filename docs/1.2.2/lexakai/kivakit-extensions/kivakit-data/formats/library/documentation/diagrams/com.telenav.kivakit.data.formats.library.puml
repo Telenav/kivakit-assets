@@ -1,0 +1,26 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.library"
+    
+    enum DataFormat
+    {
+        CSV
+        Database
+        Graph
+        PBF
+        XML
+    }
+    
+    Project <|-- DataFormatProject
+    class DataFormatProject
+    {
+        --(constructors)--
+        #DataFormatProject()
+        --
+        +DataFormatProject get()
+    }
+    
+@enduml
+

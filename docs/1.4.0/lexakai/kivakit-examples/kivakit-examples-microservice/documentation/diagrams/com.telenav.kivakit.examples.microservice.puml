@@ -1,0 +1,29 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.examples.microservice"
+    
+    Microservice <|-- DivisionMicroservice
+    class DivisionMicroservice
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+    Application <|-- DivisionRestClient
+    class DivisionRestClient
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+    MicroserviceRestService <|-- DivisionRestService
+    class DivisionRestService
+    {
+        --(constructors)--
+        +DivisionRestService(Microservice<?>)
+    }
+    
+@enduml
+

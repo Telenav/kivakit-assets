@@ -1,0 +1,54 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing.geometry"
+    
+    interface Coordinated
+    interface CoordinateSystem
+    
+    CoordinateSystem <|-- DrawingCoordinateSystem
+    class DrawingCoordinateSystem
+    {
+        --(constructors)--
+        #DrawingCoordinateSystem(DrawingCoordinateSystem)
+        #DrawingCoordinateSystem(String)
+        --
+        +DrawingCoordinateSystem drawingCoordinateSystem(String name)
+        +void extent(double dx, double dy)
+        +DrawingCoordinateSystem origin(double x, double y)
+        --(filesystem)--
+        +DrawingCoordinateSystem copy()
+        --(functional)--
+        +DrawingCoordinateSystem unbounded()
+        +DrawingCoordinateSystem withExtent(double dx, double dy)
+        +DrawingCoordinateSystem withName(String name)
+        +DrawingCoordinateSystem withOrigin(double x, double y)
+    }
+    
+    Coordinated <|-- DrawingObject
+    abstract class DrawingObject
+    {
+        --(constructors)--
+        #DrawingObject(Coordinated)
+        --
+        +void coordinates(Coordinated coordinates)
+        +boolean inSameCoordinateSystem(DrawingObject that)
+        +DrawingPoint point(double x, double y)
+        +DrawingRectangle rectangle(double x, double y, double dx, double dy)
+        #DrawingHeight height(double units)
+        #DrawingLength length(double units)
+        #DrawingWidth width(double units)
+        --(collection)--
+        #DrawingSize size(double dx, double dy)
+        --(conversion)--
+        +DrawingRectangle toCoordinates(DrawingRectangle that)
+        +DrawingWidth toCoordinates(DrawingWidth that)
+        +DrawingHeight toCoordinates(DrawingHeight that)
+        +DrawingSize toCoordinates(DrawingSize that)
+        +DrawingPoint toCoordinates(DrawingPoint that)
+        +DrawingLength toCoordinates(DrawingLength that)
+    }
+    
+@enduml
+

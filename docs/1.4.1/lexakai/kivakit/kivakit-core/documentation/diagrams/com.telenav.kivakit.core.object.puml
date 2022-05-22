@@ -1,0 +1,48 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.object"
+    
+    interface Clearable
+    interface Iterable
+    
+    Clearable <|-- Lazy
+    class Lazy<Value>
+    {
+        --(constructors)--
+        #Lazy(Factory<Value>)
+        --
+        +Value get()
+        +boolean has()
+        +Lazy<V> of(Factory<V>)
+        --(collection)--
+        +void clear()
+    }
+    
+    class LazyMap<Key, Value>
+    {
+        --(constructors)--
+        #LazyMap(MapFactory<Key, Value>)
+        --
+        +Value get(Key)
+        --(collection)--
+        +void clear()
+        +LazyMap<Key,Value> of(MapFactory<Key,Value>)
+        +void remove(Key)
+    }
+    
+    Iterable <|-- Pair
+    class Pair<T>
+    {
+        --(constructors)--
+        +Pair(T, T)
+        --
+        +T a()
+        +T b()
+        --(checks)--
+        +boolean isIdentity()
+    }
+    
+@enduml
+

@@ -1,0 +1,94 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.ui.desktop.graphics.drawing"
+    
+    interface Coordinated
+    interface Named
+    Named <|-- CoordinateSystem
+    Coordinated <|-- CoordinateSystem
+    interface CoordinateSystem
+    {
+        --
+        +DrawingHeight height(double height)
+        +double height()
+        +DrawingLength length(double units)
+        +DrawingPoint origin()
+        +DrawingPoint point(double x, double y)
+        +DrawingPoint point(Point2D)
+        +DrawingRectangle rectangle(double x, double y, double width, double height)
+        +DrawingWidth width(double width)
+        +double width()
+        +double x()
+        +double y()
+        --(checks)--
+        +boolean isBounded()
+        --(collection)--
+        +DrawingSize extent()
+        +DrawingSize size(DrawingWidth, DrawingHeight)
+        +DrawingSize size(double width, double height)
+        --(conversion)--
+        +DrawingWidth toCoordinates(Coordinated, DrawingWidth)
+        +DrawingRectangle toCoordinates(Coordinated that, DrawingRectangle)
+        +DrawingHeight toCoordinates(Coordinated that, DrawingHeight)
+        +DrawingLength toCoordinates(Coordinated that, DrawingLength distance)
+        +DrawingPoint toCoordinates(Coordinated, DrawingPoint coordinate)
+        +DrawingSize toCoordinates(Coordinated that, DrawingSize)
+    }
+    
+    interface Coordinated
+    {
+        --
+        +CoordinateSystem coordinates()
+    }
+    
+    interface Drawable
+    {
+        --
+        +Shape draw(DrawingSurface)
+        +Shape shape()
+        +Style style()
+        +DrawingPoint withLocation()
+        --(filesystem)--
+        +Drawable copy()
+        --(functional)--
+        +Drawable scaledBy(double scaleFactor)
+        +Drawable scaledBy(Percent scaleFactor)
+        +Drawable withColors(Style)
+        +Drawable withDrawColor(Color)
+        +Drawable withDrawStroke(Stroke)
+        +Drawable withDrawStrokeWidth(DrawingWidth)
+        +Drawable withFillColor(Color)
+        +Drawable withFillStroke(Stroke)
+        +Drawable withFillStrokeWidth(DrawingWidth)
+        +Drawable withLocation(DrawingPoint at)
+        +Drawable withStyle(Style)
+        +Drawable withTextColor(Color)
+    }
+    
+    interface CoordinateSystem
+    CoordinateSystem <|-- DrawingSurface
+    interface DrawingSurface
+    {
+        --
+        +Shape drawBox(Style, DrawingRectangle area)
+        +Shape drawBox(Style, DrawingPoint at, DrawingWidth, DrawingHeight)
+        +Shape drawBox(Style, DrawingPoint at, DrawingSize)
+        +Shape drawDot(Style, DrawingPoint at, DrawingLength radius)
+        +Shape drawImage(DrawingPoint at, Image, Composite)
+        +Shape drawImage(DrawingPoint at, Image)
+        +Shape drawLine(Style, DrawingPoint from, DrawingPoint to)
+        +void drawText(Style, DrawingPoint at, String text)
+        +DrawingRectangle drawingArea()
+        +Shape textShape(Style, DrawingPoint at, String text)
+        --(collection)--
+        +DrawingSize textSize(Style, String text)
+        --(functional)--
+        +Shape drawRoundedBox(Style, DrawingPoint at, DrawingSize, DrawingLength cornerWidth, DrawingLength cornerHeight)
+        --(path)--
+        +Shape drawPath(Style, Path2D)
+    }
+    
+@enduml
+

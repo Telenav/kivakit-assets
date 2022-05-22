@@ -1,0 +1,25 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client.project"
+    
+    Project <|-- LogsClientProject
+    class LogsClientProject
+    {
+        --(constructors)--
+        #LogsClientProject()
+        --
+        +LogsClientProject get()
+    }
+    
+    class LogsClientTheme
+    {
+        --
+        +void configure(JFrame, ClientLogPanel, Image icon)
+        --(lifecycle)--
+        +void initialize()
+    }
+    
+@enduml
+

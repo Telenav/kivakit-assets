@@ -1,0 +1,28 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.openapi"
+    
+    abstract BaseMicroservletResponse
+    abstract BaseMicroservletRequest
+    
+    interface GsonFactorySource
+    interface MicroserviceGsonObjectSource
+    
+    BaseMicroservletResponse <|-- OpenApiJsonRequest.JettyOpenApiResponse
+    GsonFactorySource <|-- OpenApiJsonRequest.JettyOpenApiResponse
+    MicroserviceGsonObjectSource <|-- OpenApiJsonRequest.JettyOpenApiResponse
+    class OpenApiJsonRequest.JettyOpenApiResponse
+    {
+        --(constructors)--
+        +JettyOpenApiResponse(Listener)
+    }
+    
+    BaseMicroservletRequest <|-- OpenApiJsonRequest
+    class OpenApiJsonRequest
+    {
+    }
+    
+@enduml
+

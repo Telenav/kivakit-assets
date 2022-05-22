@@ -1,0 +1,22 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.examples.lambda"
+    
+    MicroserviceLambdaService <|-- DivisionLambdaService
+    class DivisionLambdaService
+    {
+        --(constructors)--
+        +DivisionLambdaService(Microservice<?>)
+    }
+    
+    Microservice <|-- DivisionMicroservice
+    class DivisionMicroservice
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

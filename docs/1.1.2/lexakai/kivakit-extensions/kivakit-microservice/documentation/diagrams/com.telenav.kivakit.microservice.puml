@@ -1,0 +1,71 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice"
+    
+    interface Startable
+    interface Stoppable
+    
+    Application <|-- Microservice
+    Startable <|-- Microservice
+    Stoppable <|-- Microservice
+    Microservice --> MicroserviceMetadata : "has"
+    Microservice --> MicroserviceSettings : "has"
+    abstract class Microservice
+    {
+        --(constructors)--
+        +Microservice(Project)
+        --
+        +MicroserviceSettings settings()
+        +WebApplication webApplication()
+        #void onMountJettyPlugins(JettyServer)
+        --(extension points)--
+        +MicroserviceWebApplication onCreateWebApplication()
+        --(filesystem)--
+        #ResourceFolder openApiAssetsFolder()
+        #ResourceFolder staticAssetsFolder()
+        --(lifecycle)--
+        +void onInitialize()
+        --(metadata)--
+        +MicroserviceMetadata metadata()
+        --(service)--
+        +MicroserviceGrpcService grpcService()
+        +MicroserviceGrpcService onNewGrpcService()
+        +MicroserviceRestService onNewRestService()
+        +MicroserviceRestService restService()
+    }
+    
+    class MicroserviceMetadata
+    {
+        --(constructors)--
+        #MicroserviceMetadata(MicroserviceMetadata)
+        +MicroserviceMetadata()
+        --
+        +String description()
+        --(functional)--
+        +MicroserviceMetadata withDescription(String description)
+        +MicroserviceMetadata withName(String name)
+        +MicroserviceMetadata withVersion(Version)
+        --(identity)--
+        +Version version()
+        --(naming)--
+        +String name()
+    }
+    
+    Project <|-- MicroserviceProject
+    class MicroserviceProject
+    {
+    }
+    
+    class MicroserviceSettings
+    {
+        --(network)--
+        +int grpcPort()
+        +MicroserviceSettings grpcPort(int grpcPort)
+        +int port()
+        +MicroserviceSettings port(int port)
+    }
+    
+@enduml
+

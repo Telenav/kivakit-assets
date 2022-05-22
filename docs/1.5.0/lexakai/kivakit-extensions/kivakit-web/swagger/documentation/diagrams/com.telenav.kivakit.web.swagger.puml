@@ -1,0 +1,44 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.swagger"
+    
+    abstract BaseAssetsJettyPlugin
+    abstract BaseServletJettyPlugin
+    
+    HttpServlet <|-- SwaggerJettyPlugin.IndexServlet
+    class SwaggerJettyPlugin.IndexServlet
+    {
+    }
+    
+    BaseAssetsJettyPlugin <|-- SwaggerJettyPlugin
+    class SwaggerJettyPlugin
+    {
+        --(constructors)--
+        +SwaggerJettyPlugin(ResourceFolder<?>, int)
+    }
+    
+    BaseServletJettyPlugin <|-- SwaggerOpenApiJettyPlugin
+    class SwaggerOpenApiJettyPlugin
+    {
+        --(constructors)--
+        +SwaggerOpenApiJettyPlugin(Application)
+    }
+    
+    AssetsJettyPlugin <|-- SwaggerWebAppJettyPlugin
+    class SwaggerWebAppJettyPlugin
+    {
+        --(constructors)--
+        +SwaggerWebAppJettyPlugin()
+    }
+    
+    BaseAssetsJettyPlugin <|-- SwaggerWebJarJettyPlugin
+    class SwaggerWebJarJettyPlugin
+    {
+        --(constructors)--
+        +SwaggerWebJarJettyPlugin()
+    }
+    
+@enduml
+

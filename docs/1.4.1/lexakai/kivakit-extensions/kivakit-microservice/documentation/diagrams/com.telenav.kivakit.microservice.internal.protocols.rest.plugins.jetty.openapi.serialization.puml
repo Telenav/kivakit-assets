@@ -1,0 +1,35 @@
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.openapi.serialization"
+    
+    interface JsonSerializer
+    
+    JsonSerializer <|-- ArraySerializer
+    class ArraySerializer<T>
+    {
+    }
+    
+    JsonSerializer <|-- ListSerializer
+    class ListSerializer<T>
+    {
+    }
+    
+    JsonSerializer <|-- MapSerializer
+    class MapSerializer<Key, Value>
+    {
+    }
+    
+    JsonSerializer <|-- SetSerializer
+    class SetSerializer<T>
+    {
+    }
+    
+    JsonSerializer <|-- StringSerializer
+    class StringSerializer
+    {
+    }
+    
+@enduml
+
