@@ -1,18 +1,18 @@
 <a href="https://www.kivakit.org">
-<img src="https://www.kivakit.org/images/web-32.png" srcset="https://www.kivakit.org/images/web-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/iconsweb-32.png" srcset="https://telenav.github.io/telenav-assets/images/iconsweb-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openkivakit">
-<img src="https://www.kivakit.org/images/twitter-32.png" srcset="https://www.kivakit.org/images/twitter-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/iconstwitter-32.png" srcset="https://telenav.github.io/telenav-assets/images/iconstwitter-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://kivakit.zulipchat.com">
-<img src="https://www.kivakit.org/images/zulip-32.png" srcset="https://www.kivakit.org/images/zulip-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/iconszulip-32.png" srcset="https://telenav.github.io/telenav-assets/images/iconszulip-32-2x.png 2x"/>
 </a>
 
 <p></p>
 
-<img src="https://www.kivakit.org/images/kivakit-background.png" srcset="https://www.kivakit.org/images/kivakit-background-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/iconskivakit-background.png" srcset="https://telenav.github.io/telenav-assets/images/iconskivakit-background-2x.png 2x"/>
 
 # kivakit-data &nbsp; ![](graphics/logos/kivakit/kivakit-64.png)
 
