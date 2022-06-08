@@ -1,0 +1,73 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.resource.serialization"
+    
+    enum ObjectMetadata
+    {
+        INSTANCE
+        TYPE
+        VERSION
+    }
+    
+    interface RepeaterMixin
+    RepeaterMixin <|-- ObjectReader
+    interface ObjectReader
+    {
+        --
+        +ProgressReporter reporter()
+        --(read)--
+        +SerializableObject<T> read(InputStream, StringPath, Class<T> type, ObjectMetadata...)
+        +SerializableObject<T> read(Resource, Class<T> type, ObjectMetadata...)
+        +SerializableObject<T> read(Resource, ObjectMetadata...)
+        +SerializableObject<T> read(InputStream, StringPath, ObjectMetadata...)
+    }
+    
+    interface ObjectReader
+    interface ObjectWriter
+    ObjectReader <|-- ObjectSerializer
+    ObjectWriter <|-- ObjectSerializer
+    interface ObjectSerializer
+    {
+    }
+    
+    class ObjectSerializers
+    {
+        --
+        +ObjectSerializer serializer(Extension)
+        --(collection)--
+        +ObjectSerializers add(Extension, ObjectSerializer)
+        +ObjectList<ObjectSerializer> serializers()
+    }
+    
+    interface RepeaterMixin
+    interface TryTrait
+    RepeaterMixin <|-- ObjectWriter
+    TryTrait <|-- ObjectWriter
+    interface ObjectWriter
+    {
+        --
+        +ProgressReporter reporter()
+        --(write)--
+        +void write(WritableResource, SerializableObject<T>, ObjectMetadata...)
+        +void write(OutputStream, StringPath, T object, ObjectMetadata...)
+        +void write(OutputStream, StringPath, SerializableObject<T>, ObjectMetadata...)
+    }
+    
+    VersionedObject <|-- SerializableObject
+    class SerializableObject<T>
+    {
+        --(constructors)--
+        +SerializableObject(T)
+        +SerializableObject(T, Version)
+        +SerializableObject(T, Version, InstanceIdentifier)
+        +SerializableObject(VersionedObject<T>)
+        +SerializableObject(VersionedObject<T>, InstanceIdentifier)
+        --(identity)--
+        +InstanceIdentifier instance()
+    }
+    
+@enduml
+

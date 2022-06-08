@@ -1,0 +1,42 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-time"
+    
+    interface Comparable<LengthOfTime<?>>
+    interface QuantumComparable
+    interface Stringable
+    interface TimeMeasurement
+    QuantumComparable <|-- LengthOfTime
+    Comparable <|-- LengthOfTime
+    Stringable <|-- LengthOfTime
+    TimeMeasurement <|-- LengthOfTime
+    interface LengthOfTime<Duration>
+    {
+        --
+        +void repeat(Callback<Timer> onTimer)
+        --(thread)--
+        +WakeState await(Awaitable)
+        +void sleep()
+        +boolean wait(Object monitor)
+        +void waitThen(Callback<Timer> onTimer)
+        --(time)--
+        +java.time.Duration asJavaDuration()
+        +Duration difference(Duration that)
+        +Duration dividedBy(long value)
+        +Duration dividedBy(double value)
+        +Duration minus(LengthOfTime<?> that)
+        +Duration modulus(Duration that)
+        +Duration nearest(Duration unit)
+        +Duration newDuration(Nanoseconds)
+        +Duration plus(LengthOfTime<?> that)
+        +Duration roundDown(Duration unit)
+        +Duration roundUp(Duration unit)
+        +Duration times(int factor)
+        +Duration times(double factor)
+    }
+    
+@enduml
+

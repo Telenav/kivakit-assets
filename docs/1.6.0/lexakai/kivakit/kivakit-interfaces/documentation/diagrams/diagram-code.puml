@@ -1,0 +1,32 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-code"
+    
+    interface Callback<Value>
+    {
+        --
+        +void callback(Value)
+        +void onCallback(Value)
+    }
+    
+    interface FilteredLoopBody<Value>
+    {
+        --(collection)--
+        +void forCount(Value minimum, Value exclusiveMaximum, long count)
+        --(iteration)--
+        +FilterAction at(Value at)
+    }
+    
+    interface LoopBody<Value>
+    {
+        --
+        +void at(Value at)
+        +void forEachExclusive(Value minimum, Value exclusiveMaximum)
+        +void forEachInclusive(Value minimum, Value inclusiveMaximum)
+    }
+    
+@enduml
+

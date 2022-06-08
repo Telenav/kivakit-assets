@@ -1,0 +1,36 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client.view"
+    
+    KivaKitPanel <|-- ClientLogPanel
+    class ClientLogPanel
+    {
+        --(constructors)--
+        +ClientLogPanel(ClientLogFrame, ClientLog, Maximum)
+        --
+        +ConnectionPanel connectionPanel()
+        +Connector connector()
+        +ClientLog log()
+        +void say(Duration stayFor, String message, Object... arguments)
+        +void say(String message, Object... arguments)
+        +SessionPanel sessionPanel()
+        +TablePanel tablePanel()
+        +void updateTitle()
+        #JSplitPane splitPane(JPanel one, JPanel two)
+        #JPanel splitPanePanel()
+        --(collection)--
+        +void addAll(List<LogEntry> toAdd)
+        +void clear()
+        --(search)--
+        +SearchPanel searchPanel()
+        --(status)--
+        +StatusPanel statusPanel()
+        --(write)--
+        +OutputPanel consolePanel()
+    }
+    
+@enduml
+

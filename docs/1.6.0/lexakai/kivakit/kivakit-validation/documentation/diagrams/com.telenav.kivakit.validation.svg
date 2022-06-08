@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1269.7917px" preserveAspectRatio="none" style="width:1001px;height:1269px;background:#333333;" version="1.1" viewBox="0 0 1001 1269" width="1001.0417px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="319.7917" x="333.3333" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="296.875" x="344.7917" y="30.5583">com.telenav.kivakit.validation</text><!--MD5=[ca2d93c45117619035e2f39704bd7f41]
+class Validator--><rect codeLine="81" fill="#282828" height="87.5448" id="Validator" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="176.0417" x="346.875" y="341.7236"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="176.0417" x="346.875" y="341.7236"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="176.0417" x="346.875" y="364.7786"/><rect codeLine="81" fill="none" height="87.5448" id="Validator" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="176.0417" x="346.875" y="341.7236"/><ellipse cx="398.4375" cy="357.4178" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M395.8415,354.5797 L395.8415,352.9928 L401.2675,352.9928 L401.2675,354.5797 L399.4548,354.5797 L399.4548,360.5184 L401.2675,360.5184 L401.2675,362.1053 L395.8415,362.1053 L395.8415,360.5184 L397.6542,360.5184 L397.6542,354.5797 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="58.3333" x="421.3542" y="362.1419">Validator</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="347.9167" x2="521.875" y1="373.112" y2="373.112"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="347.9167" x2="521.875" y1="381.4453" y2="381.4453"/><ellipse cx="358.3333" cy="392.9036" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="369.7917" y="399.8149">boolean validate(Listener)</text><ellipse cx="358.3333" cy="412.6485" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="369.7917" y="419.5597">boolean validate()</text><!--MD5=[05f231054ff7d80edd2cc8c2d33cfbb5]
+class BaseValidator--><rect codeLine="10" fill="#282828" height="696.5576" id="BaseValidator" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="513.5417" x="9.375" y="566.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="513.5417" x="9.375" y="566.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="513.5417" x="9.375" y="589.2578"/><rect codeLine="10" fill="none" height="696.5576" id="BaseValidator" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="513.5417" x="9.375" y="566.2028"/><ellipse cx="214.5833" cy="581.897" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M214.1764,578.599 L213.328,582.3283 L215.0309,582.3283 Z M213.0778,576.9511 L215.2812,576.9511 L217.7409,586.0636 L215.9403,586.0636 L215.3788,583.8114 L212.9679,583.8114 L212.4186,586.0636 L210.6181,586.0636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="237.5" y="586.6211">BaseValidator</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="521.875" y1="597.5911" y2="597.5911"/><ellipse cx="20.8333" cy="632.961" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="83.3333" x="32.2917" y="639.8722">BaseValidator()</text><ellipse cx="20.8333" cy="652.7059" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="133.3333" x="32.2917" y="659.6171">BaseValidator(Validator)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="222.3958" y1="615.7969" y2="615.7969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="225.5208" y="619.6065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="309.8958" x2="521.875" y1="615.7969" y2="615.7969"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="521.875" y1="669.3258" y2="669.3258"/><polygon fill="#FFFF44" points="20.8333,675.5758,25,679.7424,20.8333,683.9091,16.6667,679.7424" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="279.1667" x="32.2917" y="687.6953">Glitch glitch(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,695.3206,25,699.4873,20.8333,703.654,16.6667,699.4873" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="377.0833" x="32.2917" y="707.4402">Glitch glitchIf(boolean invalid, String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,715.0655,25,719.2322,20.8333,723.3988,16.6667,719.2322" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="328.125" x="32.2917" y="727.1851">OperationHalted halt(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,734.8104,25,738.9771,20.8333,743.1437,16.6667,738.9771" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="93.75" x="32.2917" y="746.9299">void onValidate()</text><polygon fill="#FFFF44" points="20.8333,754.5553,25,758.7219,20.8333,762.8886,16.6667,758.7219" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="32.2917" y="766.6748">boolean validate(Validator)</text><polygon fill="#FFFF44" points="20.8333,774.3001,25,778.4668,20.8333,782.6335,16.6667,778.4668" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="247.9167" x="32.2917" y="786.4197">boolean validate(Validatable, ValidationType)</text><polygon fill="#FFFF44" points="20.8333,794.045,25,798.2117,20.8333,802.3783,16.6667,798.2117" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="147.9167" x="32.2917" y="806.1646">boolean validationReport()</text><polygon fill="#FFFF44" points="20.8333,813.7899,25,817.9565,20.8333,822.1232,16.6667,817.9565" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="135.4167" x="32.2917" y="825.9094">String validationTarget()</text><ellipse cx="20.8333" cy="862.6546" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="32.2917" y="869.5658">boolean isInvalid()</text><ellipse cx="20.8333" cy="882.3995" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="32.2917" y="889.3107">boolean isValid()</text><polygon fill="#FFFF44" points="20.8333,896.936,25,901.1027,20.8333,905.2694,16.6667,901.1027" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="32.2917" y="909.0556">boolean isEmpty(String value)</text><polygon fill="#FFFF44" points="20.8333,916.6809,25,920.8476,20.8333,925.0142,16.6667,920.8476" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="32.2917" y="928.8005">boolean isEmpty(Collection&lt;?&gt;)</text><polygon fill="#FFFF44" points="20.8333,936.4258,25,940.5924,20.8333,944.7591,16.6667,940.5924" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="32.2917" y="948.5453">boolean isZero(Count)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="239.5833" y1="845.4905" y2="845.4905"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="242.7083" y="849.3001">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="292.7083" x2="521.875" y1="845.4905" y2="845.4905"/><polygon fill="#FFFF44" points="20.8333,980.0822,25,984.2489,20.8333,988.4155,16.6667,984.2489" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="301.0417" x="32.2917" y="992.2017">Glitch addGlitch(String message, Object... parameters)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="231.7708" y1="968.1264" y2="968.1264"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="234.8958" y="971.936">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="300.5208" x2="521.875" y1="968.1264" y2="968.1264"/><polygon fill="#FFFF44" points="20.8333,1023.7386,25,1027.9053,20.8333,1032.0719,16.6667,1027.9053" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="328.125" x="32.2917" y="1035.8582">Problem addProblem(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1043.4835,25,1047.6501,20.8333,1051.8168,16.6667,1047.6501" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="323.9583" x="32.2917" y="1055.603">Quibble addQuibble(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1063.2284,25,1067.395,20.8333,1071.5617,16.6667,1067.395" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="328.125" x="32.2917" y="1075.3479">Warning addWarning(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1082.9732,25,1087.1399,20.8333,1091.3066,16.6667,1087.1399" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="308.3333" x="32.2917" y="1095.0928">Problem problem(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1102.7181,25,1106.8848,20.8333,1111.0514,16.6667,1106.8848" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="406.25" x="32.2917" y="1114.8376">Problem problemIf(boolean invalid, String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1122.463,25,1126.6296,20.8333,1130.7963,16.6667,1126.6296" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="481.25" x="32.2917" y="1134.5825">void problemIfNotInRangeExclusive(int value, String name, int minimum, int maximum)</text><polygon fill="#FFFF44" points="20.8333,1142.2078,25,1146.3745,20.8333,1150.5412,16.6667,1146.3745" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="478.125" x="32.2917" y="1154.3274">void problemIfNotInRangeInclusive(int value, String name, int minimum, int maximum)</text><polygon fill="#FFFF44" points="20.8333,1161.9527,25,1166.1194,20.8333,1170.2861,16.6667,1166.1194" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="380.2083" x="32.2917" y="1174.0723">Problem problemIfNull(Object, String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1181.6976,25,1185.8643,20.8333,1190.0309,16.6667,1185.8643" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="301.0417" x="32.2917" y="1193.8171">Quibble quibble(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1201.4425,25,1205.6091,20.8333,1209.7758,16.6667,1205.6091" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="398.9583" x="32.2917" y="1213.562">Quibble quibbleIf(boolean invalid, String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1221.1873,25,1225.354,20.8333,1229.5207,16.6667,1225.354" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="306.25" x="32.2917" y="1233.3069">Warning warning(String message, Object... parameters)</text><polygon fill="#FFFF44" points="20.8333,1240.9322,25,1245.0989,20.8333,1249.2655,16.6667,1245.0989" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="404.1667" x="32.2917" y="1253.0518">Warning warningIf(boolean invalid, String message, Object... parameters)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="228.6458" y1="1011.7828" y2="1011.7828"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="231.7708" y="1015.5924">(messaging)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="303.6458" x2="521.875" y1="1011.7828" y2="1011.7828"/><!--MD5=[7aca7191f476af6561cf4f43a12cda50]
+class Validatable--><rect codeLine="49" fill="#282828" height="150.946" id="Validatable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="225" x="356.7708" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="225" x="356.7708" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="225" x="356.7708" y="76.7578"/><rect codeLine="49" fill="none" height="150.946" id="Validatable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="225" x="356.7708" y="53.7028"/><ellipse cx="426.0417" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M423.4456,66.5588 L423.4456,64.9719 L428.8717,64.9719 L428.8717,66.5588 L427.0589,66.5588 L427.0589,72.4976 L428.8717,72.4976 L428.8717,74.0845 L423.4456,74.0845 L423.4456,72.4976 L425.2584,72.4976 L425.2584,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="71.875" x="448.9583" y="74.1211">Validatable</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="357.8125" x2="580.7292" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="357.8125" x2="580.7292" y1="93.4245" y2="93.4245"/><ellipse cx="368.2292" cy="104.8828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="110.4167" x="379.6875" y="111.794">Validator validator()</text><ellipse cx="368.2292" cy="124.6277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="379.6875" y="131.5389">Validator validator(ValidationType)</text><ellipse cx="368.2292" cy="168.2841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="379.6875" y="175.1953">boolean isValid()</text><ellipse cx="368.2292" cy="188.029" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="137.5" x="379.6875" y="194.9402">boolean isValid(Listener)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="357.8125" x2="442.7083" y1="151.12" y2="151.12"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="445.8333" y="154.9296">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="495.8333" x2="580.7292" y1="151.12" y2="151.12"/><!--MD5=[e189c8cf021e3ef41b3e7fdc85e0da8d]
+class ValidationType--><rect codeLine="69" fill="#282828" height="190.4358" id="ValidationType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="252.0833" x="559.8958" y="290.1611"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="252.0833" x="559.8958" y="290.1611"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="252.0833" x="559.8958" y="313.2161"/><rect codeLine="69" fill="none" height="190.4358" id="ValidationType" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="252.0833" x="559.8958" y="290.1611"/><ellipse cx="630.2083" cy="305.8553" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M632.1187,310.2804 Q631.6915,310.5001 631.2215,310.6099 Q630.7515,310.7198 630.2327,310.7198 Q628.3895,310.7198 627.419,309.5052 Q626.4486,308.2906 626.4486,305.9957 Q626.4486,303.6947 627.419,302.4801 Q628.3895,301.2655 630.2327,301.2655 Q630.7515,301.2655 631.2276,301.3753 Q631.7037,301.4852 632.1187,301.7049 L632.1187,303.7069 Q631.6549,303.2796 631.2185,303.0813 Q630.7821,302.8829 630.3182,302.8829 Q629.3294,302.8829 628.8259,303.6672 Q628.3223,304.4515 628.3223,305.9957 Q628.3223,307.5338 628.8259,308.3181 Q629.3294,309.1024 630.3182,309.1024 Q630.7821,309.1024 631.2185,308.904 Q631.6549,308.7056 632.1187,308.2784 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="96.875" x="653.125" y="310.5794">ValidationType</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="560.9375" x2="810.9375" y1="321.5495" y2="321.5495"/><ellipse cx="571.3542" cy="356.9194" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="123.9583" x="582.8125" y="363.8306">ValidationType(String)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="560.9375" x2="642.1875" y1="339.7552" y2="339.7552"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="645.3125" y="343.5649">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="729.6875" x2="810.9375" y1="339.7552" y2="339.7552"/><ellipse cx="571.3542" cy="400.5758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="219.7917" x="582.8125" y="407.487">boolean shouldValidate(Class&lt;?&gt; type)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="560.9375" x2="659.375" y1="383.4117" y2="383.4117"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="662.5" y="387.2213">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="712.5" x2="810.9375" y1="383.4117" y2="383.4117"/><ellipse cx="571.3542" cy="444.2322" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="582.8125" y="451.1434">ValidationType exclude(Class&lt;?&gt; type)</text><ellipse cx="571.3542" cy="463.9771" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="215.625" x="582.8125" y="470.8883">ValidationType include(Class&lt;?&gt; type)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="560.9375" x2="656.7708" y1="427.0681" y2="427.0681"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="52.0833" x="659.8958" y="430.8777">(filtering)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="715.1042" x2="810.9375" y1="427.0681" y2="427.0681"/><!--MD5=[9e73bfaa3c25f394d984cea82f5b1710]
+class MessageList--><rect fill="#282828" height="48.055" id="MessageList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="117.7083" x="862.5" y="105.2653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="117.7083" x="862.5" y="105.2653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="117.7083" x="862.5" y="128.3203"/><rect fill="none" height="48.055" id="MessageList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="117.7083" x="862.5" y="105.2653"/><ellipse cx="877.0833" cy="120.9595" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M878.9937,125.3845 Q878.5665,125.6042 878.0965,125.7141 Q877.6265,125.824 877.1077,125.824 Q875.2645,125.824 874.294,124.6094 Q873.3236,123.3948 873.3236,121.0999 Q873.3236,118.7988 874.294,117.5842 Q875.2645,116.3696 877.1077,116.3696 Q877.6265,116.3696 878.1026,116.4795 Q878.5787,116.5894 878.9937,116.8091 L878.9937,118.811 Q878.5299,118.3838 878.0935,118.1854 Q877.6571,117.9871 877.1932,117.9871 Q876.2044,117.9871 875.7009,118.7714 Q875.1973,119.5557 875.1973,121.0999 Q875.1973,122.6379 875.7009,123.4222 Q876.2044,124.2065 877.1932,124.2065 Q877.6571,124.2065 878.0935,124.0082 Q878.5299,123.8098 878.9937,123.3826 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="80.2083" x="893.75" y="125.6836">MessageList</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="863.5417" x2="979.1667" y1="136.6536" y2="136.6536"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="863.5417" x2="979.1667" y1="144.987" y2="144.987"/><!--MD5=[24a4a8af1ca62ea5c9f99a032f7ec96c]
+class ValidationIssues--><rect codeLine="60" fill="#282828" height="127.0345" id="ValidationIssues" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="144.7917" x="848.9583" y="321.932"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="144.7917" x="848.9583" y="321.932"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="144.7917" x="848.9583" y="344.987"/><rect codeLine="60" fill="none" height="127.0345" id="ValidationIssues" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="144.7917" x="848.9583" y="321.932"/><ellipse cx="863.5417" cy="337.6261" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M865.4521,342.0512 Q865.0248,342.2709 864.5549,342.3808 Q864.0849,342.4906 863.5661,342.4906 Q861.7228,342.4906 860.7524,341.276 Q859.7819,340.0614 859.7819,337.7665 Q859.7819,335.4655 860.7524,334.2509 Q861.7228,333.0363 863.5661,333.0363 Q864.0849,333.0363 864.561,333.1462 Q865.037,333.256 865.4521,333.4757 L865.4521,335.4777 Q864.9882,335.0505 864.5518,334.8521 Q864.1154,334.6537 863.6515,334.6537 Q862.6628,334.6537 862.1592,335.438 Q861.6557,336.2223 861.6557,337.7665 Q861.6557,339.3046 862.1592,340.0889 Q862.6628,340.8732 863.6515,340.8732 Q864.1154,340.8732 864.5518,340.6748 Q864.9882,340.4765 865.4521,340.0492 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="107.2917" x="880.2083" y="342.3503">ValidationIssues</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="850" x2="992.7083" y1="353.3203" y2="353.3203"/><ellipse cx="860.4167" cy="388.6902" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="871.875" y="395.6014">ValidationIssues()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="850" x2="877.6042" y1="371.5261" y2="371.5261"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="880.7292" y="375.3357">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="965.1042" x2="992.7083" y1="371.5261" y2="371.5261"/><ellipse cx="860.4167" cy="432.3466" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="871.875" y="439.2578">boolean isValid()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="850" x2="894.7917" y1="415.1825" y2="415.1825"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="897.9167" y="418.9921">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="947.9167" x2="992.7083" y1="415.1825" y2="415.1825"/><!--MD5=[53f6a92bd21ca2f2960392a061f3a1c6]
+class Name--><rect fill="#282828" height="48.055" id="Name" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="73.9583" x="648.9583" y="105.2653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="73.9583" x="648.9583" y="105.2653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="73.9583" x="648.9583" y="128.3203"/><rect fill="none" height="48.055" id="Name" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="73.9583" x="648.9583" y="105.2653"/><ellipse cx="663.5417" cy="120.9595" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M665.4521,125.3845 Q665.0248,125.6042 664.5549,125.7141 Q664.0849,125.824 663.5661,125.824 Q661.7228,125.824 660.7524,124.6094 Q659.7819,123.3948 659.7819,121.0999 Q659.7819,118.7988 660.7524,117.5842 Q661.7228,116.3696 663.5661,116.3696 Q664.0849,116.3696 664.561,116.4795 Q665.037,116.5894 665.4521,116.8091 L665.4521,118.811 Q664.9882,118.3838 664.5518,118.1854 Q664.1154,117.9871 663.6515,117.9871 Q662.6628,117.9871 662.1592,118.7714 Q661.6557,119.5557 661.6557,121.0999 Q661.6557,122.6379 662.1592,123.4222 Q662.6628,124.2065 663.6515,124.2065 Q664.1154,124.2065 664.5518,124.0082 Q664.9882,123.8098 665.4521,123.3826 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="36.4583" x="680.2083" y="125.6836">Name</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="650" x2="721.875" y1="136.6536" y2="136.6536"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="650" x2="721.875" y1="144.987" y2="144.987"/><!--MD5=[085076096658226fe7d3ac7a26d9b629]
+class Listener--><rect fill="#282828" height="48.055" id="Listener" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="559.8958" y="890.682"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="559.8958" y="890.682"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="559.8958" y="913.737"/><rect fill="none" height="48.055" id="Listener" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="559.8958" y="890.682"/><ellipse cx="574.4792" cy="906.3761" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M576.3896,910.8012 Q575.9623,911.0209 575.4924,911.1308 Q575.0224,911.2406 574.5036,911.2406 Q572.6603,911.2406 571.6899,910.026 Q570.7194,908.8114 570.7194,906.5165 Q570.7194,904.2155 571.6899,903.0009 Q572.6603,901.7863 574.5036,901.7863 Q575.0224,901.7863 575.4985,901.8962 Q575.9745,902.006 576.3896,902.2257 L576.3896,904.2277 Q575.9257,903.8005 575.4893,903.6021 Q575.0529,903.4037 574.589,903.4037 Q573.6003,903.4037 573.0967,904.188 Q572.5932,904.9723 572.5932,906.5165 Q572.5932,908.0546 573.0967,908.8389 Q573.6003,909.6232 574.589,909.6232 Q575.0529,909.6232 575.4893,909.4248 Q575.9257,909.2265 576.3896,908.7992 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="52.0833" x="591.1458" y="911.1003">Listener</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="560.9375" x2="648.4375" y1="922.0703" y2="922.0703"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="560.9375" x2="648.4375" y1="930.4036" y2="930.4036"/><!--MD5=[e505d90ef0a21d40c7cc09ef07004810]
+reverse link Validator to BaseValidator--><path codeLine="9" d="M414.625,449.8278 C404.5833,481.2028 391.5833,521.807 377.4583,565.9215 " fill="none" id="Validator-backto-BaseValidator" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="407.7917,447.2653,421.0833,429.6507,421.6771,451.7132,407.7917,447.2653" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[5286de40ef18c16052a0840424fc70af]
+link Validatable to ValidationType--><path codeLine="47" d="M525.5521,204.9632 C539.5313,222.8799 554.6979,241.7757 569.2708,258.9111 C576.8646,267.8382 584.875,276.984 593.0104,286.0778 " fill="none" id="Validatable-to-ValidationType" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="596.5,289.9632,593.3441,280.2014,593.0232,286.0853,587.1394,285.7643,596.5,289.9632" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="100" x="573.4375" y="252.2461">how to validate</text><!--MD5=[380b4cf3b671cd3d33754c63337b199b]
+link Validatable to Validator--><path codeLine="48" d="M447.25,204.9215 C444.8333,215.2861 442.6875,225.859 441.1458,235.9945 C436.0833,269.2445 434.5625,307.1299 434.2813,336.307 " fill="none" id="Validatable-to-Validator" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="434.2396,341.6403,438.4865,332.3014,434.2842,336.4322,430.1534,332.2299,434.2396,341.6403" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="445.3125" y="252.2461">provides</text><!--MD5=[d24bd195ffc9beacd38282729e88db93]
+reverse link MessageList to ValidationIssues--><path codeLine="59" d="M921.3542,174.3799 C921.3542,215.0986 921.3542,276.0153 921.3542,321.7757 " fill="none" id="MessageList-backto-ValidationIssues" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="914.0625,174.0986,921.3542,153.2653,928.6458,174.0986,914.0625,174.0986" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[80b6f68465663b0ce1e2f1852d999f24]
+reverse link Name to ValidationType--><path codeLine="68" d="M685.9375,174.4736 C685.9375,206.2861 685.9375,250.3903 685.9375,289.9632 " fill="none" id="Name-backto-ValidationType" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="678.6458,174.0986,685.9375,153.2653,693.2292,174.0986,678.6458,174.0986" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d0c9d07c0ac17b1db423a05956f2e27f]
+link Validator to Listener--><path codeLine="80" d="M466.1458,429.359 C490.2396,464.4528 522.5104,516.2965 541.1458,566.2028 C583.5208,679.6611 598.3333,824.8695 602.8854,885.2757 " fill="none" id="Validator-to-Listener" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="603.2708,890.5049,606.757,880.8561,602.8987,885.3099,598.445,881.4516,603.2708,890.5049" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="64.5833" x="532.8125" y="528.2878">reports to</text><!--MD5=[b4c3b3b2601a81cc0f31aaa03cac7c72]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.validation"
+    
+    interface Validator
+    
+    Validator <|- - BaseValidator
+    abstract class BaseValidator
+    {
+        - -(constructors)- -
+        +BaseValidator()
+        +BaseValidator(Validator)
+        - -
+        #Glitch glitch(String message, Object... parameters)
+        #Glitch glitchIf(boolean invalid, String message, Object... parameters)
+        #OperationHalted halt(String message, Object... parameters)
+        #void onValidate()
+        #boolean validate(Validator)
+        #boolean validate(Validatable, ValidationType)
+        #boolean validationReport()
+        #String validationTarget()
+        - -(checks)- -
+        +boolean isInvalid()
+        +boolean isValid()
+        #boolean isEmpty(String value)
+        #boolean isEmpty(Collection<?>)
+        #boolean isZero(Count)
+        - -(collection)- -
+        #Glitch addGlitch(String message, Object... parameters)
+        - -(messaging)- -
+        #Problem addProblem(String message, Object... parameters)
+        #Quibble addQuibble(String message, Object... parameters)
+        #Warning addWarning(String message, Object... parameters)
+        #Problem problem(String message, Object... parameters)
+        #Problem problemIf(boolean invalid, String message, Object... parameters)
+        #void problemIfNotInRangeExclusive(int value, String name, int minimum, int maximum)
+        #void problemIfNotInRangeInclusive(int value, String name, int minimum, int maximum)
+        #Problem problemIfNull(Object, String message, Object... parameters)
+        #Quibble quibble(String message, Object... parameters)
+        #Quibble quibbleIf(boolean invalid, String message, Object... parameters)
+        #Warning warning(String message, Object... parameters)
+        #Warning warningIf(boolean invalid, String message, Object... parameters)
+    }
+    
+    Validatable - -> ValidationType : "how to validate"
+    Validatable - -> Validator : "provides"
+    interface Validatable
+    {
+        - -
+        +Validator validator()
+        +Validator validator(ValidationType)
+        - -(checks)- -
+        +boolean isValid()
+        +boolean isValid(Listener)
+    }
+    
+    MessageList <|- - ValidationIssues
+    class ValidationIssues
+    {
+        - -(constructors)- -
+        +ValidationIssues()
+        - -(checks)- -
+        +boolean isValid()
+    }
+    
+    Name <|- - ValidationType
+    class ValidationType
+    {
+        - -(constructors)- -
+        +ValidationType(String)
+        - -(checks)- -
+        +boolean shouldValidate(Class<?> type)
+        - -(filtering)- -
+        +ValidationType exclude(Class<?> type)
+        +ValidationType include(Class<?> type)
+    }
+    
+    Validator - -> Listener : "reports to"
+    interface Validator
+    {
+        - -
+        +boolean validate(Listener)
+        +boolean validate()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.validation"
+    
+    interface Validator
+    
+    Validator <|- - BaseValidator
+    abstract class BaseValidator
+    {
+        - -(constructors)- -
+        +BaseValidator()
+        +BaseValidator(Validator)
+        - -
+        #Glitch glitch(String message, Object... parameters)
+        #Glitch glitchIf(boolean invalid, String message, Object... parameters)
+        #OperationHalted halt(String message, Object... parameters)
+        #void onValidate()
+        #boolean validate(Validator)
+        #boolean validate(Validatable, ValidationType)
+        #boolean validationReport()
+        #String validationTarget()
+        - -(checks)- -
+        +boolean isInvalid()
+        +boolean isValid()
+        #boolean isEmpty(String value)
+        #boolean isEmpty(Collection<?>)
+        #boolean isZero(Count)
+        - -(collection)- -
+        #Glitch addGlitch(String message, Object... parameters)
+        - -(messaging)- -
+        #Problem addProblem(String message, Object... parameters)
+        #Quibble addQuibble(String message, Object... parameters)
+        #Warning addWarning(String message, Object... parameters)
+        #Problem problem(String message, Object... parameters)
+        #Problem problemIf(boolean invalid, String message, Object... parameters)
+        #void problemIfNotInRangeExclusive(int value, String name, int minimum, int maximum)
+        #void problemIfNotInRangeInclusive(int value, String name, int minimum, int maximum)
+        #Problem problemIfNull(Object, String message, Object... parameters)
+        #Quibble quibble(String message, Object... parameters)
+        #Quibble quibbleIf(boolean invalid, String message, Object... parameters)
+        #Warning warning(String message, Object... parameters)
+        #Warning warningIf(boolean invalid, String message, Object... parameters)
+    }
+    
+    Validatable - -> ValidationType : "how to validate"
+    Validatable - -> Validator : "provides"
+    interface Validatable
+    {
+        - -
+        +Validator validator()
+        +Validator validator(ValidationType)
+        - -(checks)- -
+        +boolean isValid()
+        +boolean isValid(Listener)
+    }
+    
+    MessageList <|- - ValidationIssues
+    class ValidationIssues
+    {
+        - -(constructors)- -
+        +ValidationIssues()
+        - -(checks)- -
+        +boolean isValid()
+    }
+    
+    Name <|- - ValidationType
+    class ValidationType
+    {
+        - -(constructors)- -
+        +ValidationType(String)
+        - -(checks)- -
+        +boolean shouldValidate(Class<?> type)
+        - -(filtering)- -
+        +ValidationType exclude(Class<?> type)
+        +ValidationType include(Class<?> type)
+    }
+    
+    Validator - -> Listener : "reports to"
+    interface Validator
+    {
+        - -
+        +boolean validate(Listener)
+        +boolean validate()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

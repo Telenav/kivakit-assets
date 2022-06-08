@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.examples.application"
+    
+    Application <|-- ApplicationExample
+    class ApplicationExample
+    {
+        --
+        +void main(String[] arguments)
+    }
+    
+@enduml
+

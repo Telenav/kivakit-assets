@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="910.4167px" preserveAspectRatio="none" style="width:1541px;height:910px;background:#333333;" version="1.1" viewBox="0 0 1541 910" width="1541.6667px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="491.6667" x="517.7083" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="468.75" x="529.1667" y="30.5583">com.telenav.kivakit.microservice.protocols.rest</text><!--MD5=[bc110c19b85c110c4e31e9985b51c2a8]
+cluster MicroserviceRestService--><polygon fill="#333333" points="1339.5833,52.6611,1505.2083,52.6611,1512.5,79.8828,1523.9583,79.8828,1523.9583,253.7028,1339.5833,253.7028,1339.5833,52.6611" style="stroke:#333333;stroke-width:2.0833333333333335;"/><line style="stroke:#333333;stroke-width:2.0833333333333335;" x1="1339.5833" x2="1512.5" y1="79.8828" y2="79.8828"/><text fill="#C8AC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="153.125" x="1346.875" y="69.9544">MicroserviceRestService</text><!--MD5=[284834fb6598fda8b1d3f06d527e1fc0]
+class MicroserviceRestService.HttpMethod--><rect codeLine="13" fill="#282828" height="127.0345" id="MicroserviceRestService.HttpMethod" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="114.5833" x="1384.375" y="101.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="114.5833" x="1384.375" y="101.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="114.5833" x="1384.375" y="124.6745"/><rect codeLine="13" fill="none" height="127.0345" id="MicroserviceRestService.HttpMethod" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="114.5833" x="1384.375" y="101.6195"/><ellipse cx="1398.9583" cy="117.3136" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M1402.0142,122.0011 L1396.3379,122.0011 L1396.3379,112.8886 L1402.0142,112.8886 L1402.0142,114.4755 L1398.1384,114.4755 L1398.1384,116.4408 L1401.6479,116.4408 L1401.6479,118.0278 L1398.1384,118.0278 L1398.1384,120.4142 L1402.0142,120.4142 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="77.0833" x="1415.625" y="122.0378">HttpMethod</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1385.4167" x2="1497.9167" y1="133.0078" y2="133.0078"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="40.625" x="1393.75" y="151.3774">DELETE</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="21.875" x="1393.75" y="171.1222">GET</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="1393.75" y="190.8671">NONE</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="29.1667" x="1393.75" y="210.612">POST</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1385.4167" x2="1497.9167" y1="220.3206" y2="220.3206"/><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="7" fill="#282828" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="310.4167" y="141.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="310.4167" y="141.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="310.4167" y="164.2578"/><rect codeLine="7" fill="none" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="310.4167" y="141.2028"/><ellipse cx="325" cy="156.897" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M324.5931,153.599 L323.7447,157.3283 L325.4476,157.3283 Z M323.4945,151.9511 L325.6978,151.9511 L328.1576,161.0636 L326.357,161.0636 L325.7955,158.8114 L323.3846,158.8114 L322.8353,161.0636 L321.0347,161.0636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="341.6667" y="161.6211">BaseComponent</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="311.4583" x2="453.125" y1="172.5911" y2="172.5911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="311.4583" x2="453.125" y1="180.9245" y2="180.9245"/><!--MD5=[7a4729d26b999f6a4650b01106c103c5]
+class Comparable--><rect codeLine="9" fill="#282828" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="1038.0208" y="141.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="1038.0208" y="141.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="1038.0208" y="164.2578"/><rect codeLine="9" fill="none" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="1038.0208" y="141.2028"/><ellipse cx="1052.6042" cy="156.897" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1050.0081,154.0588 L1050.0081,152.4719 L1055.4342,152.4719 L1055.4342,154.0588 L1053.6214,154.0588 L1053.6214,159.9976 L1055.4342,159.9976 L1055.4342,161.5845 L1050.0081,161.5845 L1050.0081,159.9976 L1051.8209,159.9976 L1051.8209,154.0588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="1069.2708" y="161.6211">Comparable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1039.0625" x2="1152.6042" y1="172.5911" y2="172.5911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1039.0625" x2="1152.6042" y1="180.9245" y2="180.9245"/><!--MD5=[c6dd7699ff04048cb9365e543f81bf42]
+class Initializable--><rect codeLine="10" fill="#282828" height="48.055" id="Initializable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="113.5417" x="653.6458" y="141.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="113.5417" x="653.6458" y="141.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="113.5417" x="653.6458" y="164.2578"/><rect codeLine="10" fill="none" height="48.055" id="Initializable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="113.5417" x="653.6458" y="141.2028"/><ellipse cx="668.2292" cy="156.897" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M665.6331,154.0588 L665.6331,152.4719 L671.0592,152.4719 L671.0592,154.0588 L669.2464,154.0588 L669.2464,159.9976 L671.0592,159.9976 L671.0592,161.5845 L665.6331,161.5845 L665.6331,159.9976 L667.4459,159.9976 L667.4459,154.0588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="76.0417" x="684.8958" y="161.6211">Initializable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="654.6875" x2="766.1458" y1="172.5911" y2="172.5911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="654.6875" x2="766.1458" y1="180.9245" y2="180.9245"/><!--MD5=[34eb2c3cd1bd084029c026d450c2586e]
+class RegistryTrait--><rect codeLine="11" fill="#282828" height="48.055" id="RegistryTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="120.8333" x="1190.625" y="141.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="120.8333" x="1190.625" y="141.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="120.8333" x="1190.625" y="164.2578"/><rect codeLine="11" fill="none" height="48.055" id="RegistryTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="120.8333" x="1190.625" y="141.2028"/><ellipse cx="1205.2083" cy="156.897" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1202.6123,154.0588 L1202.6123,152.4719 L1208.0383,152.4719 L1208.0383,154.0588 L1206.2256,154.0588 L1206.2256,159.9976 L1208.0383,159.9976 L1208.0383,161.5845 L1202.6123,161.5845 L1202.6123,159.9976 L1204.425,159.9976 L1204.425,154.0588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="83.3333" x="1221.875" y="161.6211">RegistryTrait</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1191.6667" x2="1310.4167" y1="172.5911" y2="172.5911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1191.6667" x2="1310.4167" y1="180.9245" y2="180.9245"/><!--MD5=[31742c9489f00c3dc96e7dc7f001ce35]
+class MicroserviceRestClient--><rect codeLine="22" fill="#282828" height="194.6025" id="MicroserviceRestClient" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="427.0833" x="7.2917" y="443.2861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="427.0833" x="7.2917" y="443.2861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="427.0833" x="7.2917" y="466.3411"/><rect codeLine="22" fill="none" height="194.6025" id="MicroserviceRestClient" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="427.0833" x="7.2917" y="443.2861"/><ellipse cx="140.1042" cy="458.9803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M142.0146,463.4054 Q141.5873,463.6251 141.1174,463.7349 Q140.6474,463.8448 140.1286,463.8448 Q138.2853,463.8448 137.3149,462.6302 Q136.3444,461.4156 136.3444,459.1207 Q136.3444,456.8197 137.3149,455.6051 Q138.2853,454.3905 140.1286,454.3905 Q140.6474,454.3905 141.1235,454.5003 Q141.5995,454.6102 142.0146,454.8299 L142.0146,456.8319 Q141.5507,456.4046 141.1143,456.2063 Q140.6779,456.0079 140.214,456.0079 Q139.2253,456.0079 138.7217,456.7922 Q138.2182,457.5765 138.2182,459.1207 Q138.2182,460.6588 138.7217,461.4431 Q139.2253,462.2274 140.214,462.2274 Q140.6779,462.2274 141.1143,462.029 Q141.5507,461.8306 142.0146,461.4034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="146.875" x="163.0208" y="463.7044">MicroserviceRestClient</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="433.3333" y1="474.6745" y2="474.6745"/><ellipse cx="18.75" cy="510.0444" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="301.0417" x="30.2083" y="516.9556">MicroserviceRestClient(ObjectSerializer, Port, Version)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="177.0833" y1="492.8802" y2="492.8802"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="180.2083" y="496.6899">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="264.5833" x2="433.3333" y1="492.8802" y2="492.8802"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="433.3333" y1="526.6642" y2="526.6642"/><ellipse cx="18.75" cy="538.1226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="336.4583" x="30.2083" y="545.0338">Response get(String path, Class&lt;Response&gt; responseType)</text><ellipse cx="18.75" cy="557.8674" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="343.75" x="30.2083" y="564.7786">Response post(String path, Class&lt;Response&gt; responseType)</text><ellipse cx="18.75" cy="577.6123" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="394.7917" x="30.2083" y="584.5235">Response post(String path, Class&lt;Response&gt; responseType, Request)</text><ellipse cx="18.75" cy="621.2687" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="95.8333" x="30.2083" y="628.1799">Version version()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="192.7083" y1="604.1046" y2="604.1046"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="195.8333" y="607.9142">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="248.9583" x2="433.3333" y1="604.1046" y2="604.1046"/><!--MD5=[9ba173eb5680e013adbbda04deea3881]
+class Microservlet--><rect fill="#282828" height="48.055" id="Microservlet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="575" y="855.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="575" y="855.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="575" y="878.8411"/><rect fill="none" height="48.055" id="Microservlet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="575" y="855.7861"/><ellipse cx="589.5833" cy="871.4803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M591.4937,875.9054 Q591.0665,876.1251 590.5965,876.2349 Q590.1265,876.3448 589.6077,876.3448 Q587.7645,876.3448 586.794,875.1302 Q585.8236,873.9156 585.8236,871.6207 Q585.8236,869.3197 586.794,868.1051 Q587.7645,866.8905 589.6077,866.8905 Q590.1265,866.8905 590.6026,867.0003 Q591.0787,867.1102 591.4937,867.3299 L591.4937,869.3319 Q591.0299,868.9046 590.5935,868.7063 Q590.1571,868.5079 589.6932,868.5079 Q588.7044,868.5079 588.2009,869.2922 Q587.6973,870.0765 587.6973,871.6207 Q587.6973,873.1588 588.2009,873.9431 Q588.7044,874.7274 589.6932,874.7274 Q590.1571,874.7274 590.5935,874.529 Q591.0299,874.3306 591.4937,873.9034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="79.1667" x="606.25" y="876.2044">Microservlet</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="576.0417" x2="690.625" y1="887.1745" y2="887.1745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="576.0417" x2="690.625" y1="895.5078" y2="895.5078"/><!--MD5=[60c8673840bbc06a352ed6794d648ce5]
+class Microservice--><rect fill="#282828" height="48.055" id="Microservice" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="117.7083" x="728.6458" y="855.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="117.7083" x="728.6458" y="855.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="117.7083" x="728.6458" y="878.8411"/><rect fill="none" height="48.055" id="Microservice" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="117.7083" x="728.6458" y="855.7861"/><ellipse cx="743.2292" cy="871.4803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M745.1396,875.9054 Q744.7123,876.1251 744.2424,876.2349 Q743.7724,876.3448 743.2536,876.3448 Q741.4103,876.3448 740.4399,875.1302 Q739.4694,873.9156 739.4694,871.6207 Q739.4694,869.3197 740.4399,868.1051 Q741.4103,866.8905 743.2536,866.8905 Q743.7724,866.8905 744.2485,867.0003 Q744.7245,867.1102 745.1396,867.3299 L745.1396,869.3319 Q744.6757,868.9046 744.2393,868.7063 Q743.8029,868.5079 743.339,868.5079 Q742.3503,868.5079 741.8467,869.2922 Q741.3432,870.0765 741.3432,871.6207 Q741.3432,873.1588 741.8467,873.9431 Q742.3503,874.7274 743.339,874.7274 Q743.8029,874.7274 744.2393,874.529 Q744.6757,874.3306 745.1396,873.9034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="80.2083" x="759.8958" y="876.2044">Microservice</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="729.6875" x2="845.3125" y1="887.1745" y2="887.1745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="729.6875" x2="845.3125" y1="895.5078" y2="895.5078"/><!--MD5=[2649162c8d25150751a2cf5d2bdb2082]
+class MicroserviceRestService--><rect codeLine="38" fill="#282828" height="459.6191" id="MicroserviceRestService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="478.125" x="471.3542" y="310.9945"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="478.125" x="471.3542" y="310.9945"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="478.125" x="471.3542" y="334.0495"/><rect codeLine="38" fill="none" height="459.6191" id="MicroserviceRestService" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="478.125" x="471.3542" y="310.9945"/><ellipse cx="626.5625" cy="326.6886" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M626.1556,323.3907 L625.3072,327.12 L627.0101,327.12 Z M625.057,321.7428 L627.2603,321.7428 L629.7201,330.8553 L627.9195,330.8553 L627.358,328.6031 L624.9471,328.6031 L624.3978,330.8553 L622.5972,330.8553 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="153.125" x="649.4792" y="331.4128">MicroserviceRestService</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="472.3958" x2="948.4375" y1="342.3828" y2="342.3828"/><ellipse cx="482.8125" cy="377.7527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="237.5" x="494.2708" y="384.6639">MicroserviceRestService(Microservice&lt;?&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="472.3958" x2="666.6667" y1="360.5886" y2="360.5886"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="669.7917" y="364.3982">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="754.1667" x2="948.4375" y1="360.5886" y2="360.5886"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="472.3958" x2="948.4375" y1="394.3726" y2="394.3726"/><ellipse cx="482.8125" cy="405.8309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="178.125" x="494.2708" y="412.7421">Microservice&lt;?&gt; microservice()</text><ellipse cx="482.8125" cy="425.5758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="427.0833" x="494.2708" y="432.487">void mount(Version, String path, HttpMethod, Class&lt;Request&gt; requestType)</text><ellipse cx="482.8125" cy="445.3206" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="295.8333" x="494.2708" y="452.2319">void mount(MicroservletRestPath, Microservlet&lt;?,?&gt;)</text><ellipse cx="482.8125" cy="465.0655" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="378.125" x="494.2708" y="471.9767">void mount(String path, HttpMethod, Class&lt;Request&gt; requestType)</text><ellipse cx="482.8125" cy="484.8104" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="243.75" x="494.2708" y="491.7216">void mountAllOn(MicroservletMountTarget)</text><ellipse cx="482.8125" cy="504.5553" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="358.3333" x="494.2708" y="511.4665">void onRequestStatistics(MicroservletRequestHandlingStatistics)</text><ellipse cx="482.8125" cy="524.3001" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="293.75" x="494.2708" y="531.2113">void onRequested(MicroservletRequest, HttpMethod)</text><ellipse cx="482.8125" cy="544.045" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="297.9167" x="494.2708" y="550.9562">void onRequesting(MicroservletRequest, HttpMethod)</text><ellipse cx="482.8125" cy="563.7899" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="494.2708" y="570.7011">ObjectSerializer serializer()</text><ellipse cx="482.8125" cy="607.4463" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="378.125" x="494.2708" y="614.3575">void mountApi(Version, Resource jar, String commandLine, int port)</text><ellipse cx="482.8125" cy="627.1912" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="445.8333" x="494.2708" y="634.1024">void mountApi(Version, String path, Resource jar, String commandLine, int port)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="472.3958" x2="641.1458" y1="590.2822" y2="590.2822"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="644.2708" y="594.0918">(command line parsing)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="779.6875" x2="948.4375" y1="590.2822" y2="590.2822"/><ellipse cx="482.8125" cy="670.8476" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="494.2708" y="677.7588">Info openApiInfo()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="472.3958" x2="672.9167" y1="653.6835" y2="653.6835"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="676.0417" y="657.4931">(messaging)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="747.9167" x2="948.4375" y1="653.6835" y2="653.6835"/><polygon fill="#FFFF44" points="482.8125,709.2957,486.9792,713.4623,482.8125,717.629,478.6458,713.4623" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="197.9167" x="494.2708" y="721.4152">Version pathToVersion(String path)</text><polygon fill="#FFFF44" points="482.8125,729.0405,486.9792,733.2072,482.8125,737.3739,478.6458,733.2072" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="494.2708" y="741.1601">String rootPath()</text><polygon fill="#FFFF44" points="482.8125,748.7854,486.9792,752.9521,482.8125,757.1187,478.6458,752.9521" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="167.7083" x="494.2708" y="760.9049">String versionToPath(Version)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="472.3958" x2="690.625" y1="697.3399" y2="697.3399"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="693.75" y="701.1495">(path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="730.2083" x2="948.4375" y1="697.3399" y2="697.3399"/><!--MD5=[575a29e9683500fbb117e54560ae6f98]
+class MicroservletRestPath--><rect codeLine="65" fill="#282828" height="356.7281" id="MicroservletRestPath" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="376.0417" x="985.9375" y="362.557"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="376.0417" x="985.9375" y="362.557"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="376.0417" x="985.9375" y="385.612"/><rect codeLine="65" fill="none" height="356.7281" id="MicroservletRestPath" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="376.0417" x="985.9375" y="362.557"/><ellipse cx="1098.9583" cy="378.2511" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1100.8687,382.6762 Q1100.4415,382.8959 1099.9715,383.0058 Q1099.5015,383.1156 1098.9827,383.1156 Q1097.1395,383.1156 1096.169,381.901 Q1095.1986,380.6864 1095.1986,378.3915 Q1095.1986,376.0905 1096.169,374.8759 Q1097.1395,373.6613 1098.9827,373.6613 Q1099.5015,373.6613 1099.9776,373.7712 Q1100.4537,373.881 1100.8687,374.1007 L1100.8687,376.1027 Q1100.4049,375.6755 1099.9685,375.4771 Q1099.5321,375.2787 1099.0682,375.2787 Q1098.0794,375.2787 1097.5759,376.063 Q1097.0723,376.8473 1097.0723,378.3915 Q1097.0723,379.9296 1097.5759,380.7139 Q1098.0794,381.4982 1099.0682,381.4982 Q1099.5321,381.4982 1099.9685,381.2998 Q1100.4049,381.1015 1100.8687,380.6742 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="135.4167" x="1121.875" y="382.9753">MicroservletRestPath</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="986.9792" x2="1360.9375" y1="393.9453" y2="393.9453"/><ellipse cx="997.3958" cy="429.3152" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="239.5833" x="1008.8542" y="436.2264">MicroservletRestPath(FilePath, HttpMethod)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="986.9792" x2="1130.2083" y1="412.1511" y2="412.1511"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1133.3333" y="415.9607">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1217.7083" x2="1360.9375" y1="412.1511" y2="412.1511"/><ellipse cx="997.3958" cy="472.9716" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="1008.8542" y="479.8828">boolean isNonEmpty()</text><ellipse cx="997.3958" cy="492.7165" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="63.5417" x="1008.8542" y="499.6277">String key()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="986.9792" x2="1139.5833" y1="455.8075" y2="455.8075"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1142.7083" y="459.6171">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1208.3333" x2="1360.9375" y1="455.8075" y2="455.8075"/><ellipse cx="997.3958" cy="536.3729" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="95.8333" x="1008.8542" y="543.2841">Version version()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="986.9792" x2="1145.8333" y1="519.2088" y2="519.2088"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="1148.9583" y="523.0184">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1202.0833" x2="1360.9375" y1="519.2088" y2="519.2088"/><ellipse cx="997.3958" cy="580.0293" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="141.6667" x="1008.8542" y="586.9405">HttpMethod httpMethod()</text><ellipse cx="997.3958" cy="599.7742" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="1008.8542" y="606.6854">HttpMethod method()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="986.9792" x2="1144.2708" y1="562.8652" y2="562.8652"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="1147.3958" y="566.6748">(network)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1203.6458" x2="1360.9375" y1="562.8652" y2="562.8652"/><ellipse cx="997.3958" cy="643.4306" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="343.75" x="1008.8542" y="650.3418">MicroservletRestPath parse(Listener, String path, HttpMethod)</text><ellipse cx="997.3958" cy="663.1755" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="79.1667" x="1008.8542" y="670.0867">FilePath path()</text><ellipse cx="997.3958" cy="682.9203" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="1008.8542" y="689.8315">FilePath resolvedPath()</text><ellipse cx="997.3958" cy="702.6652" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="192.7083" x="1008.8542" y="709.5764">MicroservletRestPath withoutLast()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="986.9792" x2="1154.1667" y1="626.2665" y2="626.2665"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="33.3333" x="1157.2917" y="630.0761">(path)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1193.75" x2="1360.9375" y1="626.2665" y2="626.2665"/><!--MD5=[72e1677041eaf5e1dab2853f8ad57136]
+reverse link BaseComponent to MicroserviceRestClient--><path codeLine="21" d="M363.9583,208.5986 C339.4896,265.1924 295.4479,367.0674 262.6563,442.9111 " fill="none" id="BaseComponent-backto-MicroserviceRestClient" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="357.3542,205.5049,372.3125,189.2861,370.7396,211.2965,357.3542,205.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cd8b3e23e8fa87f02a91e1d8afee49a6]
+reverse link BaseComponent to MicroserviceRestService--><path codeLine="34" d="M416.5313,205.1715 C440.0417,231.932 473.3958,269.8903 509.25,310.6924 " fill="none" id="BaseComponent-backto-MicroserviceRestService" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="410.8438,209.7445,402.5729,189.2861,421.8021,200.1195,410.8438,209.7445" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[18e46609bb001c610b7b1baa7e8c8e15]
+reverse link Initializable to MicroserviceRestService--><path codeLine="35" d="M710.4167,210.2653 C710.4167,236.6403 710.4167,272.4215 710.4167,310.6924 " fill="none" id="Initializable-backto-MicroserviceRestService" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="703.125,210.1195,710.4167,189.2861,717.7083,210.1195,703.125,210.1195" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[62833e4072fccc3bc926b127b3cc173c]
+link MicroserviceRestService to Microservlet--><path codeLine="36" d="M658.0417,770.6924 C650.8021,802.3382 644.3125,830.6924 639.8021,850.4111 " fill="none" id="MicroserviceRestService-to-Microservlet" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="638.5833,855.734,644.7355,847.5242,639.7447,850.6568,636.612,845.666,638.5833,855.734" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="50" x="654.1667" y="817.8711">mounts</text><!--MD5=[6085286210113c873e363a59f2f7bfbf]
+reverse link MicroserviceRestService to Microservice--><path codeLine="37" d="M762.7917,770.6924 C770.7083,805.307 777.7292,836.0049 782.25,855.734 " fill="none" id="MicroserviceRestService-backto-Microservice" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#333333" points="762.7917,770.6924,760.1233,777.714,765.5786,782.8777,768.2469,775.8561,762.7917,770.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[708005283d6d6dbc06bf23a12b9fce31]
+reverse link RegistryTrait to MicroservletRestPath--><path codeLine="63" d="M1242.0625,209.7236 C1234.2083,247.7653 1222.2604,305.6403 1210.5521,362.3486 " fill="none" id="RegistryTrait-backto-MicroservletRestPath" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1234.9271,208.2132,1246.2813,189.2861,1249.2083,211.1611,1234.9271,208.2132" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[32cd6fdcc4cadce2f3eebe99b39dbce3]
+reverse link Comparable to MicroservletRestPath--><path codeLine="64" d="M1104.9375,209.7236 C1112.8958,247.7653 1125,305.6403 1136.8646,362.3486 " fill="none" id="Comparable-backto-MicroservletRestPath" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1097.7917,211.1611,1100.6563,189.2861,1112.0625,208.182,1097.7917,211.1611" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[32fb81333c89e676a79218998b439781]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest"
+    
+    abstract BaseComponent
+    
+    interface Comparable
+    interface Initializable
+    interface RegistryTrait
+    
+    enum MicroserviceRestService.HttpMethod
+    {
+        DELETE
+        GET
+        NONE
+        POST
+    }
+    
+    BaseComponent <|- - MicroserviceRestClient
+    class MicroserviceRestClient
+    {
+        - -(constructors)- -
+        +MicroserviceRestClient(ObjectSerializer, Port, Version)
+        - -
+        +Response get(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType, Request)
+        - -(identity)- -
+        +Version version()
+    }
+    
+    BaseComponent <|- - MicroserviceRestService
+    Initializable <|- - MicroserviceRestService
+    MicroserviceRestService - -> Microservlet : "mounts"
+    MicroserviceRestService o- - Microservice
+    abstract class MicroserviceRestService
+    {
+        - -(constructors)- -
+        +MicroserviceRestService(Microservice<?>)
+        - -
+        +Microservice<?> microservice()
+        +void mount(Version, String path, HttpMethod, Class<Request> requestType)
+        +void mount(MicroservletRestPath, Microservlet<?,?>)
+        +void mount(String path, HttpMethod, Class<Request> requestType)
+        +void mountAllOn(MicroservletMountTarget)
+        +void onRequestStatistics(MicroservletRequestHandlingStatistics)
+        +void onRequested(MicroservletRequest, HttpMethod)
+        +void onRequesting(MicroservletRequest, HttpMethod)
+        +ObjectSerializer serializer()
+        - -(command line parsing)- -
+        +void mountApi(Version, Resource jar, String commandLine, int port)
+        +void mountApi(Version, String path, Resource jar, String commandLine, int port)
+        - -(messaging)- -
+        +Info openApiInfo()
+        - -(path)- -
+        #Version pathToVersion(String path)
+        #String rootPath()
+        #String versionToPath(Version)
+    }
+    
+    RegistryTrait <|- - MicroservletRestPath
+    Comparable <|- - MicroservletRestPath
+    class MicroservletRestPath
+    {
+        - -(constructors)- -
+        +MicroservletRestPath(FilePath, HttpMethod)
+        - -(collection)- -
+        +boolean isNonEmpty()
+        +String key()
+        - -(identity)- -
+        +Version version()
+        - -(network)- -
+        +HttpMethod httpMethod()
+        +HttpMethod method()
+        - -(path)- -
+        +MicroservletRestPath parse(Listener, String path, HttpMethod)
+        +FilePath path()
+        +FilePath resolvedPath()
+        +MicroservletRestPath withoutLast()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.microservice.protocols.rest"
+    
+    abstract BaseComponent
+    
+    interface Comparable
+    interface Initializable
+    interface RegistryTrait
+    
+    enum MicroserviceRestService.HttpMethod
+    {
+        DELETE
+        GET
+        NONE
+        POST
+    }
+    
+    BaseComponent <|- - MicroserviceRestClient
+    class MicroserviceRestClient
+    {
+        - -(constructors)- -
+        +MicroserviceRestClient(ObjectSerializer, Port, Version)
+        - -
+        +Response get(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType, Request)
+        - -(identity)- -
+        +Version version()
+    }
+    
+    BaseComponent <|- - MicroserviceRestService
+    Initializable <|- - MicroserviceRestService
+    MicroserviceRestService - -> Microservlet : "mounts"
+    MicroserviceRestService o- - Microservice
+    abstract class MicroserviceRestService
+    {
+        - -(constructors)- -
+        +MicroserviceRestService(Microservice<?>)
+        - -
+        +Microservice<?> microservice()
+        +void mount(Version, String path, HttpMethod, Class<Request> requestType)
+        +void mount(MicroservletRestPath, Microservlet<?,?>)
+        +void mount(String path, HttpMethod, Class<Request> requestType)
+        +void mountAllOn(MicroservletMountTarget)
+        +void onRequestStatistics(MicroservletRequestHandlingStatistics)
+        +void onRequested(MicroservletRequest, HttpMethod)
+        +void onRequesting(MicroservletRequest, HttpMethod)
+        +ObjectSerializer serializer()
+        - -(command line parsing)- -
+        +void mountApi(Version, Resource jar, String commandLine, int port)
+        +void mountApi(Version, String path, Resource jar, String commandLine, int port)
+        - -(messaging)- -
+        +Info openApiInfo()
+        - -(path)- -
+        #Version pathToVersion(String path)
+        #String rootPath()
+        #String versionToPath(Version)
+    }
+    
+    RegistryTrait <|- - MicroservletRestPath
+    Comparable <|- - MicroservletRestPath
+    class MicroservletRestPath
+    {
+        - -(constructors)- -
+        +MicroservletRestPath(FilePath, HttpMethod)
+        - -(collection)- -
+        +boolean isNonEmpty()
+        +String key()
+        - -(identity)- -
+        +Version version()
+        - -(network)- -
+        +HttpMethod httpMethod()
+        +HttpMethod method()
+        - -(path)- -
+        +MicroservletRestPath parse(Listener, String path, HttpMethod)
+        +FilePath path()
+        +FilePath resolvedPath()
+        +MicroservletRestPath withoutLast()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

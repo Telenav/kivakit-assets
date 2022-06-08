@@ -1,0 +1,19 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty"
+    
+    abstract BaseFilterJettyPlugin
+    
+    BaseFilterJettyPlugin <|-- MicroservletJettyPlugin
+    MicroservletJettyPlugin o-- JettyMicroservletFilterHolder
+    class MicroservletJettyPlugin
+    {
+        --(constructors)--
+        +MicroservletJettyPlugin(MicroserviceRestService)
+    }
+    
+@enduml
+

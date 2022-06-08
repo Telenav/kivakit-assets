@@ -1,0 +1,48 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.jetty"
+    
+    abstract BaseComponent
+    
+    interface Named
+    interface Startable
+    interface Stoppable
+    
+    BaseComponent <|-- BaseJettyRequestHandler
+    Named <|-- BaseJettyRequestHandler
+    abstract class BaseJettyRequestHandler
+    {
+        --(constructors)--
+        +BaseJettyRequestHandler(String)
+        --(path)--
+        #String path()
+        #void path(String path)
+    }
+    
+    BaseComponent <|-- JettyServer
+    Startable <|-- JettyServer
+    Stoppable <|-- JettyServer
+    class JettyServer
+    {
+        --(constructors)--
+        +JettyServer(String)
+        --
+        +void configureLogging()
+        +JettyServer mount(String path, BaseServletJettyPlugin)
+        +JettyServer mount(String path, BaseFilterJettyPlugin)
+        +JettyServer mount(String path, BaseAssetsJettyPlugin)
+        --(lifecycle)--
+        +boolean start()
+        --(network)--
+        +JettyServer port(int port)
+        --(path)--
+        +String resolvePath(String path)
+        --(thread)--
+        +void waitForTermination()
+    }
+    
+@enduml
+

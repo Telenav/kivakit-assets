@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-mixins"
+    
+    artifact kivakit_interfaces
+    artifact kivakit_mixins
+    artifact lexakai_annotations
+    artifact annotations
+    kivakit_interfaces --> annotations
+    kivakit_interfaces --> lexakai_annotations
+    kivakit_mixins --> kivakit_interfaces
+    
+@enduml

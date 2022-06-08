@@ -1,0 +1,43 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.server"
+    
+    abstract BaseTextLog
+    
+    interface ComponentMixin
+    
+    BaseTextLog <|-- ServerLog
+    ComponentMixin <|-- ServerLog
+    class ServerLog
+    {
+        --(constructors)--
+        +ServerLog()
+        --
+        +ServerLog get()
+        --(messaging)--
+        +ServerLog listen(ProgressReporter)
+        --(network)--
+        +int port()
+        --(thread)--
+        +void synchronizeSessions(SerializationSession, ProgressReporter)
+    }
+    
+    KryoTypes <|-- ServerLogKryoTypes
+    class ServerLogKryoTypes
+    {
+        --(constructors)--
+        +ServerLogKryoTypes()
+    }
+    
+    Project <|-- ServerLogProject
+    class ServerLogProject
+    {
+        --(constructors)--
+        +ServerLogProject()
+    }
+    
+@enduml
+

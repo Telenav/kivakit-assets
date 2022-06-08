@@ -1,0 +1,50 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-numeric"
+    
+    interface Maximizable<Value>
+    {
+        --(math)--
+        +Value maximum()
+        +Value maximum(Value)
+    }
+    
+    interface Minimizable<Value>
+    {
+        --(math)--
+        +Value minimum()
+        +Value minimum(Value)
+    }
+    
+    interface DoubleQuantizable
+    interface Stringable
+    DoubleQuantizable <|-- Quantizable
+    Stringable <|-- Quantizable
+    interface Quantizable
+    {
+        --
+        +long quantum()
+        --(checks)--
+        +boolean isNonZero()
+        +boolean isZero()
+        --(conversion)--
+        +String asCommaSeparatedString()
+        +String asSimpleString()
+        +String asString(Stringable.Format)
+    }
+    
+    interface Quantizable
+    Quantizable <|-- Sized
+    interface Sized
+    {
+        --(collection)--
+        +boolean isEmpty()
+        +boolean isNonEmpty()
+        +int size()
+    }
+    
+@enduml
+

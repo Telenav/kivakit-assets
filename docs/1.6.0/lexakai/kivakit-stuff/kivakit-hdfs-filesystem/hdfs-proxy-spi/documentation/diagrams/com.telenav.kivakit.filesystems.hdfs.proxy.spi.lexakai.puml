@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.filesystems.hdfs.proxy.spi.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramHdfsSpi
+    class DiagramHdfsSpi
+    {
+    }
+    
+@enduml
+

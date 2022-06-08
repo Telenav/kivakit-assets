@@ -1,0 +1,19 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.email"
+    
+    abstract BaseTextLog
+    
+    BaseTextLog <|-- EmailLog
+    EmailLog o-- EmailAddress : "from"
+    EmailLog o-- EmailSender
+    EmailLog "1" o-- "*" EmailAddress : "to"
+    class EmailLog
+    {
+    }
+    
+@enduml
+

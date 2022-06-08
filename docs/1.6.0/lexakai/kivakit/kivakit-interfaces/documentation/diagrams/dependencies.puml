@@ -1,0 +1,14 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-interfaces"
+    
+    artifact kivakit_interfaces
+    artifact lexakai_annotations
+    artifact annotations
+    kivakit_interfaces --> annotations
+    kivakit_interfaces --> lexakai_annotations
+    
+@enduml
