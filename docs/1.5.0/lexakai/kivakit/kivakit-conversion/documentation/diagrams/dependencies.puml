@@ -4,7 +4,7 @@
     
     title "kivakit-conversion"
     
-    artifact cactus_build_metadata
+    artifact cactus_metadata
     artifact kivakit_conversion
     artifact kivakit_core
     artifact kivakit_interfaces
@@ -15,7 +15,7 @@
     artifact annotations
     junit --> hamcrest_core
     kivakit_conversion --> kivakit_core
-    kivakit_core --> cactus_build_metadata
+    kivakit_core --> cactus_metadata
     kivakit_core --> junit
     kivakit_core --> kivakit_interfaces
     kivakit_core --> kivakit_mixins

@@ -23,7 +23,7 @@
     artifact listenablefuture
     artifact j2objc_annotations
     artifact protobuf_java
-    artifact cactus_build_metadata
+    artifact cactus_metadata
     artifact kivakit_application
     artifact kivakit_collections
     artifact kivakit_commandline
@@ -169,7 +169,7 @@
     kivakit_commandline --> kivakit_core
     kivakit_commandline --> kivakit_validation
     kivakit_component --> kivakit_settings
-    kivakit_core --> cactus_build_metadata
+    kivakit_core --> cactus_metadata
     kivakit_core --> junit
     kivakit_core --> kivakit_interfaces
     kivakit_core --> kivakit_mixins

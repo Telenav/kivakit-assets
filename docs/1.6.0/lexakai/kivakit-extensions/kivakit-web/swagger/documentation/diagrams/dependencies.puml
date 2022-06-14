@@ -14,7 +14,7 @@
     artifact jackson_jaxrs_json_provider
     artifact jackson_module_jaxb_annotations
     artifact gson
-    artifact cactus_build_metadata
+    artifact cactus_metadata
     artifact kivakit_collections
     artifact kivakit_commandline
     artifact kivakit_component
@@ -113,7 +113,7 @@
     kivakit_commandline --> kivakit_validation
     kivakit_component --> kivakit_settings
     kivakit_conversion --> kivakit_core
-    kivakit_core --> cactus_build_metadata
+    kivakit_core --> cactus_metadata
     kivakit_core --> kivakit_interfaces
     kivakit_core --> kivakit_mixins
     kivakit_internal_testing --> annotations

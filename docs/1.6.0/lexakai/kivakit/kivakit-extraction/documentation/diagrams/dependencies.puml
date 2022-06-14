@@ -5,7 +5,7 @@
     
     title "kivakit-extraction"
     
-    artifact cactus_build_metadata
+    artifact cactus_metadata
     artifact kivakit_core
     artifact kivakit_extraction
     artifact kivakit_interfaces
@@ -16,7 +16,7 @@
     artifact hamcrest_core
     artifact annotations
     junit --> hamcrest_core
-    kivakit_core --> cactus_build_metadata
+    kivakit_core --> cactus_metadata
     kivakit_core --> kivakit_interfaces
     kivakit_core --> kivakit_mixins
     kivakit_extraction --> kivakit_core

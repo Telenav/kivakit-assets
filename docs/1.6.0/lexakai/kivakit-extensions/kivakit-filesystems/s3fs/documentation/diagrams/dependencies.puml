@@ -6,7 +6,7 @@
     title "kivakit-filesystems-s3fs"
     
     artifact gson
-    artifact cactus_build_metadata
+    artifact cactus_metadata
     artifact kivakit_collections
     artifact kivakit_commandline
     artifact kivakit_conversion
@@ -68,7 +68,7 @@
     json_utils --> third_party_jackson_core
     junit --> hamcrest_core
     kivakit_commandline --> kivakit_validation
-    kivakit_core --> cactus_build_metadata
+    kivakit_core --> cactus_metadata
     kivakit_core --> kivakit_interfaces
     kivakit_core --> kivakit_mixins
     kivakit_filesystems_s3fs --> kivakit_internal_testing

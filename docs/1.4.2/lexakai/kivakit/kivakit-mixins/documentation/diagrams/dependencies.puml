@@ -4,7 +4,7 @@
     
     title "kivakit-mixins"
     
-    artifact cactus_build_metadata
+    artifact cactus_metadata
     artifact kivakit_interfaces
     artifact kivakit_mixins
     artifact lexakai_annotations
@@ -16,6 +16,6 @@
     kivakit_interfaces --> lexakai_annotations
     kivakit_mixins --> junit
     kivakit_mixins --> kivakit_interfaces
-    lexakai_annotations --> cactus_build_metadata
+    lexakai_annotations --> cactus_metadata
     
 @enduml
