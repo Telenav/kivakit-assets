@@ -1,1 +1,0 @@
-moduleSearchIndex = [{"l":"kivakit.examples.application"},{"l":"kivakit.examples.lambda"},{"l":"kivakit.examples.microservice"},{"l":"kivakit.examples.settings"}];updateSearchResults();

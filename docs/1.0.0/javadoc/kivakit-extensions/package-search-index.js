@@ -1,1 +1,0 @@
-packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.telenav.kivakit.examples.application"},{"l":"com.telenav.kivakit.examples.configuration.lookup"},{"l":"com.telenav.kivakit.examples.configuration.settings.simple"}];updateSearchResults();
