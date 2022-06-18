@@ -12,7 +12,7 @@
         +boolean isReceiving()
         --(messaging)--
         +void onReceive(Transmittable message)
-        +M receive(M message)
+        +MessageType receive(MessageType)
     }
     
     interface Transmittable
@@ -28,7 +28,7 @@
         +T withoutTransmitting(Code<T>)
         --(messaging)--
         +void onTransmit(Transmittable message)
-        +M transmit(M message)
+        +MessageType transmit(MessageType)
     }
     
 @enduml

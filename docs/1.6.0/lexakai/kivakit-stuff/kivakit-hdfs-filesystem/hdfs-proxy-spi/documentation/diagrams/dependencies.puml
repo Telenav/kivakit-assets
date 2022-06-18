@@ -1,0 +1,22 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "kivakit-filesystems-hdfs-proxy-spi"
+    
+    artifact cactus_metadata
+    artifact kivakit_core
+    artifact kivakit_filesystems_hdfs_proxy_spi
+    artifact kivakit_interfaces
+    artifact kivakit_mixins
+    artifact lexakai_annotations
+    artifact annotations
+    kivakit_core --> cactus_metadata
+    kivakit_core --> kivakit_interfaces
+    kivakit_core --> kivakit_mixins
+    kivakit_filesystems_hdfs_proxy_spi --> kivakit_core
+    kivakit_interfaces --> annotations
+    kivakit_interfaces --> lexakai_annotations
+    
+@enduml

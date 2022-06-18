@@ -111,9 +111,9 @@
         --(lifecycle)--
         +Result<T> run(Code<T>)
         --(status)--
-        +Result<T> failure(Throwable, String message, Object... arguments)
-        +Result<T> failure(String message, Object... arguments)
+        +Result<T> failure(String text, Object... arguments)
         +Result<T> failure(Message)
+        +Result<T> failure(Throwable, String text, Object... arguments)
         +Result<T> success(T value)
         +Result<T> success(Maybe<T> value)
     }

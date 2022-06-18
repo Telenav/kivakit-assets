@@ -76,12 +76,12 @@
         +Glitch glitch(Frequency maximumFrequency, String text, Object... arguments)
         +Glitch glitch(String text, Object... arguments)
         +void ifDebug(Runnable code)
-        +T illegalState(Throwable, String text, Object... arguments)
         +T illegalState(String message, Object... arguments)
+        +T illegalState(Throwable cause, String text, Object... arguments)
         --(checks)--
         +boolean isDebugOn()
         --(command line parsing)--
-        +T illegalArgument(String message, Object... arguments)
+        +T illegalArgument(String text, Object... arguments)
         --(functional)--
         +OperationHalted halted(String text, Object... arguments)
         +OperationHalted halted(Throwable cause, String text, Object... arguments)
