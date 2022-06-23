@@ -20,7 +20,7 @@ This project contains documentation assets for KivaKit.
 
 ![](https://telenav.github.io/telenav-assets/images/separators/horizontal-line.png)
 
-### Projects &nbsp; ![](graphics/icons/gears/gears-32.png)
+### Projects &nbsp; ![](https://telenav.github.io/telenav-assets/images/icons/gears-32.png)
 
 - [**docs**](docs) - Javadoc and Lexakai documentation for all versions of KivaKit
 
