@@ -16,7 +16,7 @@
 <img src="https://telenav.github.io/telenav-assets/images/icons/blog-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/blog-32-2x.png 2x"/>
 </a>
 
-![](https://telenav.github.io/telenav-assets/images/kivakit-background.png)
+![](https://telenav.github.io/telenav-assets/images/backgrounds/kivakit-background.png)
 
 [//]: # (end-user-text)
 
