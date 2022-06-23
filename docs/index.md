@@ -1,26 +1,26 @@
 [//]: # (start-user-text)
 
 <a href="https://github.com/Telenav/kivakit">
-<img src="https://telenav.github.io/telenav-assets/images/github-32.png" srcset="https://telenav.github.io/telenav-assets/images/github-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/logos/github/github-32.png" srcset="https://telenav.github.io/telenav-assets/images/logos/github/github-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://twitter.com/openkivakit">
-<img src="https://telenav.github.io/telenav-assets/images/twitter-32.png" srcset="https://telenav.github.io/telenav-assets/images/twitter-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/logos/twitter/twitter-32.png" srcset="https://telenav.github.io/telenav-assets/images/logos/twitter/twitter-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://kivakit.zulipchat.com">
-<img src="https://telenav.github.io/telenav-assets/images/zulip-32.png" srcset="https://telenav.github.io/telenav-assets/images/zulip-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/logos/zulip/zulip-32.png" srcset="https://telenav.github.io/telenav-assets/images/logos/zulip/zulip-32-2x.png 2x"/>
 </a>
 &nbsp;
 <a href="https://state-of-the-art.org">
-<img src="https://telenav.github.io/telenav-assets/images/blog-32.png" srcset="https://telenav.github.io/telenav-assets/images/blog-32-2x.png 2x"/>
+<img src="https://telenav.github.io/telenav-assets/images/icons/blog-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/blog-32-2x.png 2x"/>
 </a>
 
 ![](https://telenav.github.io/telenav-assets/images/kivakit-background.png)
 
 [//]: # (end-user-text)
 
-# KivaKit &nbsp;&nbsp;<img src="https://telenav.github.io/telenav-assets/images/kivakit-64.png" srcset="https://telenav.github.io/telenav-assets/images/kivakit-64-2x.png 2x"/>
+# KivaKit &nbsp;&nbsp;<img src="https://telenav.github.io/telenav-assets/images/logos/kivakit/kivakit-64.png" srcset="https://telenav.github.io/telenav-assets/images/logos/kivakit/kivakit-64-2x.png 2x"/>
 
 KivaKit is a set of integrated Java mini-frameworks that makes Java development faster and easier.
 
