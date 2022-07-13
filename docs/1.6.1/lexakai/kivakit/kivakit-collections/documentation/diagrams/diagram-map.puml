@@ -1,0 +1,79 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Maps"
+    
+    abstract BaseMap
+    abstract BaseIndexedMap
+    
+    interface Indexable
+    
+    BaseMap <|-- BaseIndexedMap
+    Indexable <|-- BaseIndexedMap
+    class BaseIndexedMap<Key, Value>
+    {
+        --(constructors)--
+        +BaseIndexedMap(Maximum)
+        --(collection)--
+        +int indexOf(Value)
+        +void sort(Comparator<Value>)
+    }
+    
+    BaseIndexedMap <|-- IndexedNameMap
+    class IndexedNameMap<T>
+    {
+        --(constructors)--
+        +IndexedNameMap()
+        +IndexedNameMap(Maximum)
+        --(collection)--
+        +void put(T value)
+        --(naming)--
+        +T forName(String name)
+    }
+    
+    BaseMap <|-- MultiMap
+    class MultiMap<Key, Value>
+    {
+        --(constructors)--
+        +MultiMap()
+        +MultiMap(Map<Key, ObjectList<Value>>)
+        +MultiMap(Maximum, Maximum)
+        +MultiMap(Maximum, Maximum, Map<Key, ObjectList<Value>>)
+        --(collection)--
+        +void add(Key, Value)
+        +void addAll(Key, Collection<? extends Value>)
+        +void addAll(Collection<? extends Key> keys, Value)
+        +boolean addIfNotNull(Key, Value)
+        +ObjectList<Value> flatValues()
+        +ObjectList<Value> list(Key)
+        +Count maximumListSize()
+        +void sort(Comparator<? super Value>)
+        +int totalValues()
+    }
+    
+    class ReferenceCountMap<Key>
+    {
+        --
+        +void dereference(Key object)
+        +void reference(Key)
+        --(checks)--
+        +boolean isReferenced(Key object)
+        --(collection)--
+        +void count(Key object, Count)
+        +Count count(Key object)
+    }
+    
+    BaseMap <|-- TwoWayMap
+    class TwoWayMap<Key, Value>
+    {
+        --(constructors)--
+        +TwoWayMap()
+        +TwoWayMap(Maximum)
+        --(collection)--
+        +Key key(Value)
+    }
+    
+@enduml
+

@@ -1,0 +1,54 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.collections"
+    
+    class Collections
+    {
+        --
+        +Set<T> toSet(Collection<T>)
+        --(collection)--
+        +boolean containsReference(Collection<T> list, T reference)
+        +T first(Collection<T>)
+        +void repeatedAdd(Collection<T>, T value, int times)
+        +List<T> sorted(Collection<T>)
+        +List<T> toList(Collection<T>)
+    }
+    
+    class Lists
+    {
+        --(collection)--
+        +ArrayList<T> arrayList(T... objects)
+    }
+    
+    class Maps
+    {
+        --(filesystem)--
+        +Map<Key,Value> copy(Factory<Map<Key,Value>>, Map<Key,Value>)
+        +Map<Key,Value> deepCopy(Map<Key,Value>, Function<Value,Value> clone)
+        +Map<Key,Value> deepCopy(Factory<Map<Key,Value>>, Map<Key,Value>, Function<Value,Value> clone)
+    }
+    
+    class Sets
+    {
+        --
+        +Set<T> identitySet()
+        +Set<T> matching(Set<T> values, Matcher<T>)
+        +Set<T> nonNull(Set<T>)
+        +Set<T> of(T... list)
+        +Set<T> union(Set<T> a, Set<T> b)
+        --(collection)--
+        +Set<T> empty()
+        +T first(Set<T>)
+        +Set<T> fromIterable(Iterable<T>)
+        +HashSet<T> hashset(Collection<T>)
+        +HashSet<T> hashset(T... values)
+        --(filesystem)--
+        +Set<Value> copy(Factory<Set<Value>>, Set<Value>)
+        +Set<Value> deepCopy(Factory<Set<Value>>, Set<Value>, Function<Value,Value> clone)
+    }
+    
+@enduml
+

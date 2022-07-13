@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.filesystems.s3fs.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramS3
+    class DiagramS3
+    {
+    }
+    
+@enduml
+

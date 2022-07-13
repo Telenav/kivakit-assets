@@ -1,0 +1,154 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.numeric"
+    
+    interface Arithmetic<Value>
+    {
+        --(math)--
+        +Value dividedBy(Value)
+        +Value minus(Value)
+        +Value plus(Value)
+        +Value times(Value)
+    }
+    
+    interface CastTrait
+    {
+        --
+        +T cast(long value, Class<T> type)
+        +T cast(Castable number, Class<T> type)
+        --(math)--
+        +long maximum(Class<T> type)
+        +long minimum(Class<T> type)
+    }
+    
+    interface CastTrait
+    CastTrait <|-- Castable
+    interface Castable
+    {
+        --(conversion)--
+        +T as(Class<T> type)
+        +byte asByte()
+        +char asChar()
+        +double asDouble()
+        +float asFloat()
+        +int asInt()
+        +long asLong()
+        +short asShort()
+    }
+    
+    interface DoubleQuantizable
+    {
+        --(primitive)--
+        +double doubleQuantum()
+    }
+    
+    interface Arithmetic
+    interface Castable
+    interface MapFactory<Long,Value>
+    interface Maximizable
+    interface Minimizable
+    interface NextValue
+    interface QuantumComparable
+    Arithmetic <|-- IntegerNumeric
+    Maximizable <|-- IntegerNumeric
+    Minimizable <|-- IntegerNumeric
+    NextValue <|-- IntegerNumeric
+    QuantumComparable <|-- IntegerNumeric
+    Castable <|-- IntegerNumeric
+    MapFactory <|-- IntegerNumeric
+    interface IntegerNumeric<Value>
+    {
+        --(functional)--
+        +Value decremented()
+        +Value incremented()
+    }
+    
+    interface Maximizable<Value>
+    {
+        --(math)--
+        +Value maximum()
+        +Value maximum(Value)
+    }
+    
+    interface Minimizable<Value>
+    {
+        --(math)--
+        +Value minimum()
+        +Value minimum(Value)
+    }
+    
+    interface DoubleQuantizable
+    interface Stringable
+    DoubleQuantizable <|-- Quantizable
+    Stringable <|-- Quantizable
+    interface Quantizable
+    {
+        --
+        +long quantum()
+        --(checks)--
+        +boolean isNonZero()
+        +boolean isZero()
+        --(conversion)--
+        +String asCommaSeparatedString()
+        +String asSimpleString()
+        +String asString(Stringable.Format)
+    }
+    
+    interface Quantizable
+    Quantizable <|-- QuantumComparable
+    interface QuantumComparable<Value>
+    {
+        --(checks)--
+        +boolean isApproximately(Quantizable that, Quantizable within)
+        +boolean isGreaterThan(Quantizable that)
+        +boolean isGreaterThanOrEqualTo(Quantizable that)
+        +boolean isLessThan(Quantizable that)
+        +boolean isLessThanOrEqualTo(Quantizable that)
+    }
+    
+    interface CastTrait
+    CastTrait <|-- RandomNumeric
+    interface RandomNumeric
+    {
+        --
+        +T random(Class<T> type)
+        +T random(Class<T> type, Matcher<T> filter)
+        +boolean randomBoolean()
+        +T randomExclusive(long minimum, long maximum, Class<T> type)
+        +T randomExclusive(long minimum, long maximum, Class<T> type, Matcher<T>)
+        +float randomFloat()
+        +T randomInclusive(long minimum, long maximum, Class<T> type)
+        +T randomInclusive(long minimum, long maximum, Class<T> type, Matcher<T> filter)
+        --(collection)--
+        +int randomIndex(int maximum)
+        --(primitive)--
+        +byte randomByte()
+        +byte randomByteExclusive(byte minimum, byte maximum)
+        +byte randomByteInclusive(byte minimum, byte maximum)
+        +char randomChar()
+        +char randomCharExclusive(char minimum, char maximum)
+        +char randomCharInclusive(char minimum, char maximum)
+        +double randomDouble()
+        +double randomDouble(double minimum, double maximum)
+        +double randomDoubleZeroToOne()
+        +int randomInt()
+        +int randomInt(int minimum, int maximum)
+        +int randomIntExclusive(int minimum, int maximum)
+        +int randomIntInclusive(int minimum, int maximum)
+        +long randomLong()
+        +long randomLongExclusive(long minimum, long maximum)
+        +long randomLongInclusive(long minimum, long maximum)
+        +short randomShort()
+        +short randomShortExclusive(short minimum, short maximum)
+        +short randomShortInclusive(short minimum, short maximum)
+        +double randomUnsignedDouble()
+        +double randomUnsignedDouble(double maximum)
+        +int randomUnsignedInt()
+        +long randomUnsignedLong()
+    }
+    
+@enduml
+

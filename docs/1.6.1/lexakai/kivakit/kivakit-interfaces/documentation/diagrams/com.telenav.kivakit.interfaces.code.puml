@@ -1,0 +1,56 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.code"
+    
+    interface Callback<Value>
+    {
+        --
+        +void callback(Value)
+        +void onCallback(Value)
+    }
+    
+    interface Code<Value>
+    {
+        --
+        +Code<T> of(Code<T>)
+        +Code<T> of(Runnable code)
+        --(lifecycle)--
+        +Value run()
+    }
+    
+    enum FilteredLoopBody.FilterAction
+    {
+        ACCEPT
+        REJECT
+    }
+    
+    interface FilteredLoopBody<Value>
+    {
+        --(collection)--
+        +void forCount(Value minimum, Value exclusiveMaximum, long count)
+        --(iteration)--
+        +FilterAction at(Value at)
+    }
+    
+    interface LoopBody<Value>
+    {
+        --
+        +void at(Value at)
+        +void forEachExclusive(Value minimum, Value exclusiveMaximum)
+        +void forEachInclusive(Value minimum, Value inclusiveMaximum)
+    }
+    
+    interface TripwireTrait
+    {
+        --
+        +boolean tripwireTripEvery(int every)
+        +void tripwireTripped(int count)
+        --(lifecycle)--
+        +void tripwireReset()
+    }
+    
+@enduml
+

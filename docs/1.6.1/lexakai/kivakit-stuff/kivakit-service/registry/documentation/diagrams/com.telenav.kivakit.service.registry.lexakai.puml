@@ -1,0 +1,21 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.service.registry.lexakai"
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramRegistry
+    interface DiagramRegistry
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramRest
+    interface DiagramRest
+    {
+    }
+    
+@enduml
+

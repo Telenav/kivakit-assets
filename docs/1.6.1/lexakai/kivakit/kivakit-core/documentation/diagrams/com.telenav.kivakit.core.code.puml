@@ -1,0 +1,36 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.code"
+    
+    interface RepeaterMixin
+    RepeaterMixin <|-- UncheckedCode
+    interface UncheckedCode<Value>
+    {
+        --
+        +UncheckedCode<T> of(UncheckedCode<T>)
+        +Value orDefault(Value defaultValue)
+        +Value orDefault(Value defaultValue, String message, Object... arguments)
+        +Value orDefault(Source<Value> defaultValue)
+        +Value orDefault(Listener, Value defaultValue, String message, Object... arguments)
+        +Value orNull()
+        --(lifecycle)--
+        +Value run()
+    }
+    
+    interface RepeaterMixin
+    RepeaterMixin <|-- UncheckedVoidCode
+    interface UncheckedVoidCode
+    {
+        --
+        +UncheckedVoidCode of(UncheckedVoidCode)
+        --(iteration)--
+        +void loop(Listener, Duration pause)
+        --(lifecycle)--
+        +void run()
+    }
+    
+@enduml
+

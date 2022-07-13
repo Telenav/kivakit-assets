@@ -1,0 +1,86 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest"
+    
+    abstract BaseComponent
+    
+    interface Comparable
+    interface Initializable
+    interface RegistryTrait
+    
+    enum MicroserviceRestService.HttpMethod
+    {
+        DELETE
+        GET
+        NONE
+        POST
+    }
+    
+    BaseComponent <|-- MicroserviceRestClient
+    class MicroserviceRestClient
+    {
+        --(constructors)--
+        +MicroserviceRestClient(ObjectSerializer, Port, Version)
+        --
+        +Response get(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType, Request)
+        --(identity)--
+        +Version version()
+    }
+    
+    BaseComponent <|-- MicroserviceRestService
+    Initializable <|-- MicroserviceRestService
+    MicroserviceRestService --> Microservlet : "mounts"
+    MicroserviceRestService o-- Microservice
+    abstract class MicroserviceRestService
+    {
+        --(constructors)--
+        +MicroserviceRestService(Microservice<?>)
+        --
+        +Microservice<?> microservice()
+        +void mount(Version, String path, HttpMethod, Class<Request> requestType)
+        +void mount(MicroservletRestPath, Microservlet<?,?>)
+        +void mount(String path, HttpMethod, Class<Request> requestType)
+        +void mountAllOn(MicroservletMountTarget)
+        +void onRequestStatistics(MicroservletRequestHandlingStatistics)
+        +void onRequested(MicroservletRequest, HttpMethod)
+        +void onRequesting(MicroservletRequest, HttpMethod)
+        +ObjectSerializer serializer()
+        --(command line parsing)--
+        +void mountApi(Version, Resource jar, String commandLine, int port)
+        +void mountApi(Version, String path, Resource jar, String commandLine, int port)
+        --(messaging)--
+        +Info openApiInfo()
+        --(path)--
+        #Version pathToVersion(String path)
+        #String rootPath()
+        #String versionToPath(Version)
+    }
+    
+    RegistryTrait <|-- MicroservletRestPath
+    Comparable <|-- MicroservletRestPath
+    class MicroservletRestPath
+    {
+        --(constructors)--
+        +MicroservletRestPath(FilePath, HttpMethod)
+        --(collection)--
+        +boolean isNonEmpty()
+        +String key()
+        --(identity)--
+        +Version version()
+        --(network)--
+        +HttpMethod httpMethod()
+        +HttpMethod method()
+        --(path)--
+        +MicroservletRestPath parse(Listener, String path, HttpMethod)
+        +FilePath path()
+        +FilePath resolvedPath()
+        +MicroservletRestPath withoutLast()
+    }
+    
+@enduml
+
