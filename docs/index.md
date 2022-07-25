@@ -22,11 +22,9 @@
 
 # KivaKit &nbsp;&nbsp;<img src="https://telenav.github.io/telenav-assets/images/logos/kivakit/kivakit-64.png" srcset="https://telenav.github.io/telenav-assets/images/logos/kivakit/kivakit-64-2x.png 2x"/>
 
-KivaKit is a set of integrated Java mini-frameworks that makes Java development faster and easier.
+KivaKit is a new vision for Java coding that makes development faster and easier.
 
-<br/>
-
-<img src="https://telenav.github.io/telenav-assets/images/diagrams/mini-frameworks.svg" width="600"/>  
+[**Read the KivaKit Manifesto**]()  
 
 <br/>
 
@@ -40,11 +38,18 @@ KivaKit is a set of integrated Java mini-frameworks that makes Java development 
 
 &nbsp; &nbsp; &nbsp; &nbsp; &mdash; Antoine de Saint-Exup&eacute;ry
 
-> *The mission of KivaKit is to accelerate the development of Java software through the use of integrated, modular, object-oriented design.*
+> The mission of KivaKit is to provide a new vision for the development of Java  
+> software by providing a design system that takes code reuse to a new level.
 
-KivaKit extends the JDK to provide quick and easy solutions to common everyday software problems. It does this by providing new abstractions and APIs, and by simplifying existing APIs.
+KivaKit is more than an application framework. It's a new way to think about Java coding. 
 
-KivaKit is composed of a number of nested sub-projects that are Java 11+ modules. These modules address different areas of concern in developing Java applications. The resources below will help you to get started.
+KivaKit uses several key patterns to make coding easier, more consistent and more modular:
+
+ - Consistent object composition and behavior
+ - Components that are easy to build, discover and use
+ - Components that unify major JDK functionality
+
+The resources below will help you to get started.
 
 <img src="https://telenav.github.io/telenav-assets/images/separators/horizontal-line-128.png" srcset="https://telenav.github.io/telenav-assets/images/separators/horizontal-line-128-2x.png 2x"/>
 
