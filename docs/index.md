@@ -24,7 +24,7 @@
 
 KivaKit is a new vision for Java coding that makes development faster and easier.
 
-[**Read the KivaKit Manifesto**]()  
+[**The KivaKit Manifesto**](https://medium.com/@jonathanlocke/kivakit-a-new-vision-for-java-66e7f6b18ae6)  
 
 <br/>
 
