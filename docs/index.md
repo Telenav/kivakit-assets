@@ -75,8 +75,8 @@ The resources below will help you to get started.
 | *Documentation*         | [README.md](https://github.com/Telenav/kivakit)                                                                                                                                      |
 | *Related&nbsp;Projects* | [kivakit-examples](https://github.com/Telenav/kivakit-examples), [kivakit-extensions](https://github.com/Telenav/kivakit), [kivakit-stuff](https://github.com/Telenav/kivakit-stuff) |
 | *Javadoc&nbsp;Coverage* | <img src="https://telenav.github.io/telenav-assets/images/meters/meter-90-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-90-96-2x.png 2x"/>            |
-| *Build Setup*           | [Step-by-step build setup instructions](https://github.com/Telenav/kivakit/blob/release/current/documentation/initial-setup-instructions.md)                                         |
-| *GitHub*                | [GitHub project home page](https://github.com/Telenav/kivakit)                                                                                                                       |
+| *Building*              | [Step-by-step Instructions](https://github.com/Telenav/telenav-build/blob/release/current/documentation/building.md)                                                                 |
+| *GitHub*                | [Telenav/kivakit](https://github.com/Telenav/kivakit)                                                                                                                                |
 | *Code*                  | `git clone https://github.com/Telenav/kivakit.git`                                                                                                                                   |
 | *Project&nbsp;Lead*     | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com)                                                                                              |
 | *Administrator*         | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com)                                                                                              |
