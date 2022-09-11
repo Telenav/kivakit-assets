@@ -1,0 +1,103 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.language.reflection.property"
+    
+    interface Named
+    interface Comparable
+    interface PropertyFilter
+    
+    annotation KivaKitExcludeProperty
+    
+    annotation KivaKitIncludeProperty
+    
+    annotation KivaKitOptionalProperty
+    
+    Named <|-- Property
+    Comparable <|-- Property
+    class Property
+    {
+        --(constructors)--
+        +Property(String, Getter, Setter)
+        --
+        +Field field()
+        +Object get(Object)
+        +void getter(Getter)
+        +Getter getter()
+        +Member member()
+        +Method method()
+        +void setter(Setter)
+        +Setter setter()
+        +Type<?> type()
+        --(checks)--
+        +boolean isNull(Object)
+        +boolean isOptional()
+        --(messaging)--
+        +ReflectionProblem clear(Object)
+        +ReflectionProblem set(Object, Source<T>)
+    }
+    
+    interface PropertyFilter
+    {
+        --(filtering)--
+        +PropertyFilter beansProperties(PropertyMembers... included)
+        +boolean includeAsGetter(Method)
+        +boolean includeAsSetter(Method)
+        +boolean includeField(Field)
+        +PropertyFilter kivakitProperties(PropertyMembers... included)
+        --(naming)--
+        +String nameForField(Field)
+        +String nameForMethod(Method)
+    }
+    
+    PropertyFilter <|-- PropertyFilterSet
+    PropertyFilterSet o-- PropertyNamingConvention
+    PropertyFilterSet "1" o-- "*" PropertyMembers
+    class PropertyFilterSet
+    {
+        --(constructors)--
+        +PropertyFilterSet(PropertyNamingConvention, PropertyMembers)
+        --(checks)--
+        #boolean isGetter(Method)
+        #boolean isIncluded(Field)
+        #boolean isIncluded(Method)
+        #boolean isKivaKitExcluded(Method)
+        #boolean isKivaKitExcluded(Field)
+        #boolean isKivaKitIncluded(Field)
+        #boolean isKivaKitIncluded(Method)
+        #boolean isSetter(Method)
+        --(filtering)--
+        +Set<PropertyMembers> included()
+    }
+    
+    enum PropertyMembers
+    {
+        CONVERTED_FIELDS_AND_METHODS
+        INCLUDED_FIELDS
+        INCLUDED_FIELDS_AND_METHODS
+        NON_PUBLIC_METHODS
+        PUBLIC_METHODS
+    }
+    
+    enum PropertyNamingConvention
+    {
+        JAVA_BEANS
+        KIVAKIT
+    }
+    
+    enum PropertyPurpose
+    {
+        CONVERSION
+        FORMATTING
+    }
+    
+    interface PropertyValues
+    {
+        --
+        +Object valueFor(Property)
+    }
+    
+@enduml
+

@@ -1,0 +1,26 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramJetty
+    class DiagramJetty
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramMicroservice
+    class DiagramMicroservice
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramMicroservlet
+    class DiagramMicroservlet
+    {
+    }
+    
+@enduml
+

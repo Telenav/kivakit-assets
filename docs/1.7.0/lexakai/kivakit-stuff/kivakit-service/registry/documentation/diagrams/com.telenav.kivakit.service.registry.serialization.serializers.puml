@@ -1,0 +1,23 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.service.registry.serialization.serializers"
+    
+    PrimitiveGsonSerializer <|-- ApplicationIdentifierGsonSerializer
+    class ApplicationIdentifierGsonSerializer
+    {
+        --(constructors)--
+        +ApplicationIdentifierGsonSerializer()
+    }
+    
+    PrimitiveGsonSerializer <|-- ServiceTypeGsonSerializer
+    class ServiceTypeGsonSerializer
+    {
+        --(constructors)--
+        +ServiceTypeGsonSerializer()
+    }
+    
+@enduml
+

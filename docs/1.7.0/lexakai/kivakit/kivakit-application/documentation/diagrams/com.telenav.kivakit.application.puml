@@ -1,0 +1,104 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.application"
+    
+    abstract BaseComponent
+    
+    interface Named
+    interface ApplicationMetadata
+    
+    BaseComponent <|-- Application
+    Named <|-- Application
+    ApplicationMetadata <|-- Application
+    Application --> CommandLine : "parses arguments into"
+    Application --> Application.Identifier : "identified by"
+    Application o-- CommandLine
+    Application "1" o-- "*" Project : "initializes and uses"
+    abstract class Application
+    {
+        --(constructors)--
+        #Application()
+        --
+        +Application get()
+        +Set<Project> projects()
+        +void ready()
+        #boolean ignoreDeployments()
+        #ObjectSet<StartUp.Option> startupOptions()
+        --(building)--
+        +Build build()
+        --(collection)--
+        +Application addProject(Class<? extends Project>)
+        +PropertyMap localizedProperties(Locale)
+        +PropertyMap properties()
+        --(command line parsing)--
+        +T argument(int index, ArgumentParser<T>)
+        +T argument(ArgumentParser<T>)
+        +ArgumentList argumentList()
+        +ObjectList<T> arguments(ArgumentParser<T>)
+        +CommandLine commandLine()
+        +T get(SwitchParser<T>, T defaultValue)
+        +T get(SwitchParser<T>)
+        +boolean has(SwitchParser<T>)
+        #List<ArgumentParser<?>> argumentParsers()
+        #ObjectSet<SwitchParser<?>> switchParsers()
+        --(factory)--
+        #Project newProject()
+        --(identity)--
+        +Identifier identifier()
+        +Version version()
+        --(lifecycle)--
+        +void exit(String message, Object... arguments)
+        +Result<ApplicationExit> run(Class<T> applicationType, String[] arguments)
+        +Result<ApplicationExit> run(Listener, Class<T> applicationType, String[] arguments)
+        +Result<ApplicationExit> run(String[] arguments)
+        #void onRun()
+        #void onSerializationInitialize()
+        --(lookup)--
+        #void onRegisterObjectSerializers()
+        --(messaging)--
+        +String startupInformation(String title)
+        --(thread)--
+        +void waitForReady()
+    }
+    
+    class ApplicationExit
+    {
+        --
+        +Exception exception()
+        --(lifecycle)--
+        +ExitCode code()
+    }
+    
+    enum ExitCode
+    {
+        FAILED
+        SUCCEEDED
+    }
+    
+    class Application.Identifier
+    {
+        --(constructors)--
+        #Identifier()
+        +Identifier(String)
+    }
+    
+    Application <|-- Server
+    abstract class Server
+    {
+    }
+    
+    enum Application.State
+    {
+        CONSTRUCTING
+        INITIALIZING
+        READY
+        RUNNING
+        STOPPED
+        STOPPING
+    }
+    
+@enduml
+

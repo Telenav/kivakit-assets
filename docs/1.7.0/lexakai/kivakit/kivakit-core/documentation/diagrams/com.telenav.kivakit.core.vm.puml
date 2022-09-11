@@ -1,0 +1,150 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.vm"
+    
+    abstract BaseRepeater
+    
+    interface Comparable
+    
+    interface JavaTrait
+    {
+        --
+        +String format(String message, Object... arguments)
+        +JavaVirtualMachine javaVirtualMachine()
+        +void println(String message, Object... arguments)
+        +String systemProperty(String key, String defaultValue)
+        +String systemProperty(String key)
+        --(checks)--
+        +boolean isSystemPropertyTrue(String key)
+    }
+    
+    BaseRepeater <|-- JavaVirtualMachine
+    JavaVirtualMachine o-- Instrumentation
+    JavaVirtualMachine o-- JavaVirtualMachineHealth
+    class JavaVirtualMachine
+    {
+        --
+        +void agentmain(String arguments, Instrumentation)
+        +boolean assertionsEnabled()
+        +void dumpHeap(Path)
+        +JavaVirtualMachineHealth health()
+        +boolean instrument()
+        +void instrumentation(Instrumentation)
+        +void invalidateProperties()
+        +JavaVirtualMachine local()
+        +void main(String[] args)
+        +void premain(String arguments, Instrumentation)
+        +ThreadSnapshot threadSnapshot()
+        --(checks)--
+        +boolean isInstrumented()
+        --(collection)--
+        +Count processors()
+        +VariableMap<String> properties()
+        +VariableMap<String> variables()
+        --(primitive)--
+        +Bytes freeMemory()
+        +Bytes maximumMemory()
+        +Bytes sizeOf(Object)
+        +Bytes sizeOfObjectGraph(Object, String prefix, Bytes minimumSizeToDebugTrace)
+        +Bytes sizeOfObjectGraph(Object)
+        +Bytes sizeOfPrimitive(Object value)
+        +Bytes sizeOfPrimitiveType(Class<?> type)
+        +Bytes totalMemory()
+        +Bytes traceSizeChange(Listener, String operation, Object root, Bytes minimumDebugTraceSize, Runnable)
+        +Bytes usedMemory()
+    }
+    
+    class JavaVirtualMachineHealth
+    {
+        --
+        +double cpuUse()
+        +void logEntry(LogEntry)
+        +double memoryUse()
+        +ThreadSnapshot threadSnapshot()
+        +JavaVirtualMachineHealth update()
+        --(collection)--
+        +Count count(String messageType)
+        +Count processors()
+        --(primitive)--
+        +Bytes freeMemory()
+        +Bytes maximumMemory()
+        +Map<String,Integer> messageType()
+        +Bytes totalMemory()
+        +Bytes usedMemory()
+        --(time)--
+        +Duration elapsed()
+        +Duration elapsedCpuTime()
+        +Duration upTime()
+    }
+    
+    annotation JavaVirtualMachine.KivaKitExcludeFromSizeOf
+    
+    annotation JavaVirtualMachine.KivaKitExcludeFromSizeOfDebugTracing
+    
+    annotation JavaVirtualMachine.KivaKitNonCyclicObjectGraph
+    
+    enum ShutdownHook.Order
+    {
+        FIRST
+        LAST
+        MIDDLE
+    }
+    
+    class Properties
+    {
+        --
+        +String property(String key)
+        +String property(String key, String defaultValue)
+        --(checks)--
+        +boolean isPropertyFalse(String key)
+        +boolean isPropertyTrue(String key)
+        --(collection)--
+        +VariableMap<String> projectProperties(Class<?> projectRoot)
+    }
+    
+    Comparable <|-- ShutdownHook
+    class ShutdownHook
+    {
+        --(lookup)--
+        +void register(String name, Duration maximumWait, Runnable code)
+        +void register(String name, Runnable code)
+        +void register(String name, Order, Duration maximumWait, Runnable code)
+        +void register(String name, Order, Runnable code)
+    }
+    
+    ThreadSnapshot "1" o-- "*" ThreadStatus
+    class ThreadSnapshot
+    {
+        --(constructors)--
+        +ThreadSnapshot()
+        --
+        +ThreadSnapshot update()
+        --(collection)--
+        +List<ThreadStatus> snapshot()
+        --(time)--
+        +Time capturedAt()
+        +Duration cpuTime()
+        +Duration cpuTime(Thread)
+        +Duration totalCpuTime()
+    }
+    
+    class ThreadStatus
+    {
+        --
+        +Thread.State state()
+        --(checks)--
+        +boolean isDaemon()
+        +boolean isKivaKit()
+        --(identity)--
+        +long identifier()
+        --(naming)--
+        +String name()
+        --(time)--
+        +Duration cpuTime()
+    }
+    
+@enduml
+

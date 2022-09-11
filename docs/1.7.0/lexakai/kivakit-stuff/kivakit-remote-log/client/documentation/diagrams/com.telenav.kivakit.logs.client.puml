@@ -1,0 +1,42 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client"
+    
+    abstract BaseLog
+    
+    BaseLog <|-- ClientLog
+    class ClientLog
+    {
+        --(constructors)--
+        +ClientLog()
+        --
+        +void show(String title, Image icon)
+        --(lifecycle)--
+        +void exit()
+        --(math)--
+        +Maximum maximumEntries()
+    }
+    
+    JFrame <|-- ClientLogFrame
+    class ClientLogFrame
+    {
+        --(constructors)--
+        +ClientLogFrame(ClientLog, Maximum, String, Image, ExitMode)
+        --
+        +void title(String title)
+        --(collection)--
+        +void add(LogEntry)
+        +void clear()
+    }
+    
+    enum ClientLogFrame.ExitMode
+    {
+        CONTINUE_ON_CLOSE
+        EXIT_ON_CLOSE
+    }
+    
+@enduml
+

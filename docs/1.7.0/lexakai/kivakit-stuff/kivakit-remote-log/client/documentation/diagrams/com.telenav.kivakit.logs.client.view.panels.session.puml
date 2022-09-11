@@ -1,0 +1,22 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client.view.panels.session"
+    
+    KivaKitPanel <|-- SessionPanel
+    class SessionPanel
+    {
+        --(constructors)--
+        +SessionPanel(ClientLogPanel)
+        --
+        +Session currentSession()
+        --(factory)--
+        +void newSession(Session)
+        --(read)--
+        +void loadSessions()
+    }
+    
+@enduml
+

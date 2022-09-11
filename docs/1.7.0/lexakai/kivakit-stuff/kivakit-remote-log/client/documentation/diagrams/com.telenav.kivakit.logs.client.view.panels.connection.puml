@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client.view.panels.connection"
+    
+    KivaKitPanel <|-- ConnectionPanel
+    class ConnectionPanel
+    {
+        --(constructors)--
+        +ConnectionPanel(Connector)
+    }
+    
+@enduml
+

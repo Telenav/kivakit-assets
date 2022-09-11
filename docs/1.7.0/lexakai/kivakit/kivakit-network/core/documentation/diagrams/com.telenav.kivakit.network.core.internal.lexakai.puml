@@ -1,0 +1,26 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.network.core.internal.lexakai"
+    
+    interface UmlDiagramIdentifier
+    
+    UmlDiagramIdentifier <|-- DiagramAuthentication
+    class DiagramAuthentication
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramNetworkLocation
+    class DiagramNetworkLocation
+    {
+    }
+    
+    UmlDiagramIdentifier <|-- DiagramPort
+    class DiagramPort
+    {
+    }
+    
+@enduml
+

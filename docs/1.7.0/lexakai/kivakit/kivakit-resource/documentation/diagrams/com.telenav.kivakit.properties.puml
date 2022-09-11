@@ -1,0 +1,36 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.properties"
+    
+    VariableMap <|-- PropertyMap
+    class PropertyMap
+    {
+        --(constructors)--
+        +PropertyMap()
+        --
+        +T get(String key, StringConverter<T>, T defaultValue)
+        +T get(String key, StringConverter<T>)
+        --(collection)--
+        +void add(Object, PropertyFilter)
+        +PropertyMap comment(String key, String comment)
+        +PropertyMap create()
+        +PropertyMap expandedWith(VariableMap<String> that)
+        +PropertyMap load(Listener, InputStream)
+        +PropertyMap load(Listener, ResourceFolder<?>, String resourcePath)
+        +PropertyMap load(Listener, Resource)
+        +PropertyMap localized(Listener, PackagePath, Locale)
+        +PropertyMap propertyMap(VariableMap<String> variables)
+        --(conversion)--
+        +File asFile(String key)
+        +Folder asFolder(String key)
+        +String asJson()
+        --(write)--
+        +void save(String heading, WritableResource)
+        +void save(WritableResource)
+    }
+    
+@enduml
+
