@@ -1,0 +1,117 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.io"
+    
+    interface ByteSized
+    
+    OutputStream <|-- ByteSizedOutputStream
+    ByteSized <|-- ByteSizedOutputStream
+    class ByteSizedOutputStream
+    {
+        --(constructors)--
+        +ByteSizedOutputStream(OutputStream)
+    }
+    
+    enum IO.CopyStyle
+    {
+        BUFFERED
+        UNBUFFERED
+    }
+    
+    enum StringInputStream.EncodingErrorBehavior
+    {
+        OMIT
+        REPLACE
+        THROW
+    }
+    
+    class IO
+    {
+        --
+        +void skip(InputStream, long offset)
+        +String string(InputStream)
+        +String string(Reader in)
+        --(filesystem)--
+        +boolean copy(InputStream, OutputStream)
+        +boolean copy(InputStream, OutputStream, CopyStyle)
+        --(io)--
+        +void close(ZipFile)
+        +void close(AutoCloseable)
+        +void close(OutputStream)
+        +void close(Writer)
+        +void close(InputStream)
+        +void close(Reader)
+        +boolean copyAndClose(InputStream, OutputStream)
+        +void flush(Writer out)
+        +boolean flush(OutputStream)
+        --(read)--
+        +BufferedInputStream buffer(InputStream)
+        +int readByte(InputStream)
+        +byte[] readBytes(InputStream)
+        --(write)--
+        +BufferedOutputStream buffer(OutputStream)
+    }
+    
+    InputStream <|-- LimitedInputStream
+    class LimitedInputStream
+    {
+        --(constructors)--
+        +LimitedInputStream(InputStream, Bytes)
+    }
+    
+    Reader <|-- LookAheadReader
+    class LookAheadReader
+    {
+        --(constructors)--
+        +LookAheadReader(Reader)
+        --
+        +int current()
+        +int lineNumber()
+        +int lookAhead()
+        --(iteration)--
+        +boolean hasNext()
+        +void next()
+        --(lifecycle)--
+        +boolean atEndOfLine()
+    }
+    
+    class Nio
+    {
+        --(filesystem)--
+        +List<Path> filesAndFolders(Listener, Path)
+        +FileSystem filesystem(Listener, URI)
+        +FileSystem filesystem(Listener, URI, Map<String,String> variables)
+        --(io)--
+        +void close(FileSystem)
+    }
+    
+    InputStream <|-- StringInputStream
+    class StringInputStream
+    {
+        --(constructors)--
+        +StringInputStream(CharSequence)
+        +StringInputStream(CharSequence, Charset)
+        +StringInputStream(CharSequence, Charset, int)
+        +StringInputStream(CharSequence, Charset, int, EncodingErrorBehavior)
+        --(read)--
+        +StringInputStream rewind()
+    }
+    
+    class StringReader
+    {
+        --(constructors)--
+        +StringReader(InputStream)
+        +StringReader(InputStream, Charset)
+        +StringReader(InputStream, String)
+        +StringReader(Reader)
+        --(io)--
+        +void close()
+        --(read)--
+        +String readString(ProgressReporter)
+    }
+    
+@enduml
+

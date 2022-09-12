@@ -1,0 +1,30 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.io"
+    
+    interface AutoCloseable
+    AutoCloseable <|-- Closeable
+    interface Closeable
+    {
+    }
+    
+    interface Flushable<T>
+    {
+        --(io)--
+        +void flush(T maximumWaitTime)
+        +void flush()
+        --(time)--
+        +T maximumWaitTime()
+    }
+    
+    interface Openable
+    {
+        --
+        +void open()
+    }
+    
+@enduml
+

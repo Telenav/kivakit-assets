@@ -1,0 +1,20 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.collections.map"
+    
+    class VariableMapConverter
+    {
+        --(constructors)--
+        +VariableMapConverter(Listener, VariableMap<String>)
+        --
+        +T get(String key, StringConverter<T>, T defaultValue)
+        +T get(String key, Class<? extends StringConverter<T>> converterType)
+        +T get(String key, StringConverter<T>)
+        +T get(String key, Class<? extends StringConverter<T>> converterType, T defaultValue)
+    }
+    
+@enduml
+

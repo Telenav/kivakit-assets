@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client.view.panels.tool"
+    
+    KivaKitPanel <|-- ToolPanel
+    class ToolPanel
+    {
+        --(constructors)--
+        +ToolPanel(ClientLogPanel)
+    }
+    
+@enduml
+

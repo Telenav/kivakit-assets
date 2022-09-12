@@ -1,0 +1,63 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Switch Parsing"
+    
+    interface Named
+    
+    enum Quantifier
+    {
+        ONE_OR_MORE
+        OPTIONAL
+        REQUIRED
+        TWO_OR_MORE
+        ZERO_OR_MORE
+    }
+    
+    Argument <|-- Switch
+    Named <|-- Switch
+    Switch --> SwitchParser : "gets value with"
+    class Switch
+    {
+        --(constructors)--
+        +Switch(String, String)
+        --(command line parsing)--
+        +T get(SwitchParser<T>)
+    }
+    
+    SwitchList "1" o-- "*" Switch
+    -class SwitchList
+    {
+        --(collection)--
+        +void add(Switch _switch)
+        --(command line parsing)--
+        +T get(SwitchParser<T>)
+    }
+    
+    SwitchParser --> SwitchParser.Builder : "creates"
+    SwitchParser --> T : "gets"
+    SwitchParser "1" --> "*" T : "gets"
+    SwitchParser "1" --> "*" T : "gets"
+    SwitchParser o-- StringConverter : "converts values with"
+    SwitchParser o-- T : "default value"
+    SwitchParser o-- Quantifier
+    class SwitchParser<T>
+    {
+        --
+        +T defaultValue()
+        +T get(Switch _switch)
+        +String help()
+        +ObjectSet<T> set(Switch _switch, String delimiter)
+        --(checks)--
+        +boolean isRequired()
+        --(collection)--
+        +ObjectList<T> list(Switch _switch)
+        +Set<T> validValues()
+        --(command line parsing)--
+        +Builder<T> builder(Class<T> type)
+    }
+    
+@enduml
+
