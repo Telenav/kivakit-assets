@@ -558,7 +558,7 @@ function d3_voronoi_tessellate(vertices, callback) {
         if (he.ystar > next.ystar ||
           (he.ystar == next.ystar &&
           site.x > next.vertex.x)) {
-          continue;
+
         } else {
           break;
         }

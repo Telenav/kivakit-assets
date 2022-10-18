@@ -530,7 +530,7 @@ function d3_dispatch_event() {
   };
 
   return dispatch;
-};
+}
 
 d3.format = function(specifier) {
   var match = d3_format_re.exec(specifier),
@@ -2267,7 +2267,7 @@ function d3_transform(m) {
   this.rotate = Math.atan2(m.b, m.a) * d3_transformDegrees;
   this.scale = [kx, ky || 0];
   this.skew = ky ? kz / ky * d3_transformDegrees : 0;
-};
+}
 
 d3_transform.prototype.toString = function() {
   return "translate(" + this.translate
@@ -2398,7 +2398,7 @@ function d3_scale_linear(domain, range, interpolate, clamp) {
   };
 
   return rescale();
-};
+}
 
 function d3_scale_linearRebind(scale, linear) {
   scale.range = d3.rebind(scale, linear.range);
@@ -2531,7 +2531,7 @@ function d3_scale_log(linear, log) {
   };
 
   return d3_scale_linearRebind(scale, linear);
-};
+}
 
 var d3_scale_logFormat = d3.format(".0e");
 
@@ -2597,7 +2597,7 @@ function d3_scale_pow(linear, exponent) {
   };
 
   return d3_scale_linearRebind(scale, linear);
-};
+}
 
 function d3_scale_powPow(e) {
   return function(x) {
@@ -2683,7 +2683,7 @@ function d3_scale_ordinal(domain, ranger) {
   };
 
   return scale.domain(domain);
-};
+}
 /*
  * This product includes color specifications and designs developed by Cynthia
  * Brewer (http://colorbrewer.org/). See lib/colorbrewer for more information.
@@ -2780,7 +2780,7 @@ function d3_scale_quantile(domain, range) {
   };
 
   return rescale();
-};
+}
 d3.scale.quantize = function() {
   return d3_scale_quantize(0, 1, [0, 1]);
 };
@@ -2816,7 +2816,7 @@ function d3_scale_quantize(x0, x1, range) {
   };
 
   return rescale();
-};
+}
 d3.svg = {};
 d3.svg.arc = function() {
   var innerRadius = d3_svg_arcInnerRadius,
@@ -3636,7 +3636,7 @@ function d3_svg_mousePoint(container, e) {
   }
   point = point.matrixTransform(container.getScreenCTM().inverse());
   return [point.x, point.y];
-};
+}
 d3.svg.touches = function(container, touches) {
   if (arguments.length < 2) touches = d3.event.touches;
 
