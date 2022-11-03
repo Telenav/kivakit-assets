@@ -1,0 +1,51 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.filesystem.java"
+    
+    abstract BaseWritableResource
+    
+    interface FileSystemService
+    interface FileSystemObjectService
+    interface FileService
+    interface ComponentMixin
+    interface TryTrait
+    interface FolderService
+    
+    JavaFileSystemObject <|-- JavaFile
+    FileService <|-- JavaFile
+    TryTrait <|-- JavaFile
+    class JavaFile
+    {
+        --(constructors)--
+        +JavaFile(FilePath)
+    }
+    
+    BaseWritableResource <|-- JavaFileSystemObject
+    FileSystemObjectService <|-- JavaFileSystemObject
+    class JavaFileSystemObject
+    {
+        --(constructors)--
+        +JavaFileSystemObject(FilePath)
+        --(path)--
+        +Path javaPath()
+    }
+    
+    FileSystemService <|-- JavaFileSystemService
+    ComponentMixin <|-- JavaFileSystemService
+    class JavaFileSystemService
+    {
+    }
+    
+    JavaFileSystemObject <|-- JavaFolder
+    FolderService <|-- JavaFolder
+    class JavaFolder
+    {
+        --(constructors)--
+        +JavaFolder(FilePath)
+    }
+    
+@enduml
+

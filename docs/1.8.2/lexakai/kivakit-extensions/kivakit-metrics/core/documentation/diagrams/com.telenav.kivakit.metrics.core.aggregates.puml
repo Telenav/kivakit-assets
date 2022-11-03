@@ -1,0 +1,58 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.aggregates"
+    
+    abstract BaseMetric
+    
+    interface AggregateMetric
+    
+    BaseMetric <|-- AggregateMetric
+    AggregateMetric <|-- AggregateMetric
+    abstract class AggregateMetric<T>
+    {
+        --(constructors)--
+        #AggregateMetric(Mapper<Double, T>)
+        --
+        #double compute()
+        #double total()
+        --(collection)--
+        #int sampleCount()
+        --(math)--
+        +boolean subtract(T metric)
+        #double maximumSample()
+        #double minimumSample()
+    }
+    
+    AggregateMetric <|-- AverageMetric
+    class AverageMetric<T>
+    {
+        --(constructors)--
+        +AverageMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|-- MaximumMetric
+    class MaximumMetric<T>
+    {
+        --(constructors)--
+        +MaximumMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|-- MinimumMetric
+    class MinimumMetric<T>
+    {
+        --(constructors)--
+        +MinimumMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|-- TotalMetric
+    class TotalMetric<T>
+    {
+        --(constructors)--
+        +TotalMetric(Mapper<Double, T>)
+    }
+    
+@enduml
+

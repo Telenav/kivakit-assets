@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.web"
+    
+    WebApplication <|-- WicketWebApplication
+    abstract class WicketWebApplication
+    {
+        --(constructors)--
+        #WicketWebApplication(Microservice<?>)
+    }
+    
+@enduml
+
