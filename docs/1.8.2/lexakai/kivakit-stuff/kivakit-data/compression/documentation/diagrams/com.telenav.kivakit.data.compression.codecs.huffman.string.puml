@@ -1,0 +1,47 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.compression.codecs.huffman.string"
+    
+    abstract BaseStringConverter
+    
+    interface StringCodec
+    
+    BaseStringConverter <|-- HuffmanStringCodec.Converter
+    class HuffmanStringCodec.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    StringCodec <|-- HuffmanStringCodec
+    class HuffmanStringCodec
+    {
+        --(constructors)--
+        #HuffmanStringCodec()
+        --
+        +HuffmanStringCodec stringCodec(Symbols<String>, Maximum bits)
+        +HuffmanStringCodec stringCodec(Symbols<String>)
+        +HuffmanStringCodec stringCodec(PropertyMap frequencies)
+        --(collection)--
+        +PropertyMap asProperties()
+    }
+    
+    class StringFrequencies
+    {
+        --(constructors)--
+        +StringFrequencies(CountMap<String>, Maximum)
+        +StringFrequencies(Maximum)
+        --
+        +Symbols<String> symbols(Minimum occurrences)
+        +Symbols<String> symbols()
+        +StringFrequencies top(Maximum count)
+        --(collection)--
+        +StringFrequencies add(String)
+        +CountMap<String> frequencies()
+    }
+    
+@enduml
+

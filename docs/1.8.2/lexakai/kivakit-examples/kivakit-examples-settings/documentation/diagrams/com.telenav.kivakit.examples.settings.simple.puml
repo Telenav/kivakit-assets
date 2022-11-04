@@ -1,0 +1,46 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.examples.settings.simple"
+    
+    abstract BaseComponent
+    
+    interface Named
+    interface SettingsTrait
+    
+    BaseComponent <|-- SettingsRegistryExample
+    SettingsTrait <|-- SettingsRegistryExample
+    class SettingsRegistryExample
+    {
+        --
+        +void main(String[] arguments)
+        --(lifecycle)--
+        +void run()
+    }
+    
+    BaseComponent <|-- Spaceship
+    SettingsTrait <|-- Spaceship
+    class Spaceship
+    {
+        --
+        +void launch()
+    }
+    
+    Named <|-- SpaceshipSettings
+    class SpaceshipSettings
+    {
+        --
+        +void airConditioning(boolean airConditioning)
+        +boolean airConditioning()
+        +boolean cruiseControl()
+        +void cruiseControl(boolean cruiseControl)
+        +void missileLaunchers(int missileLaunchers)
+        +int missileLaunchers()
+        --(naming)--
+        +void name(String name)
+    }
+    
+@enduml
+

@@ -1,0 +1,20 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.logs.client.view.panels.search"
+    
+    KivaKitPanel <|-- SearchPanel
+    class SearchPanel
+    {
+        --(constructors)--
+        +SearchPanel(ClientLogPanel)
+        --(collection)--
+        +void clear()
+        --(search)--
+        +void updateSearchDropDowns(List<LogEntry> entries)
+    }
+    
+@enduml
+

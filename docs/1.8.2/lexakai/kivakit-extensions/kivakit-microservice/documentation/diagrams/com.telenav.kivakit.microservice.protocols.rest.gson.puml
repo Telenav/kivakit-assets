@@ -1,0 +1,15 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest.gson"
+    
+    interface MicroserviceGsonObjectSource
+    {
+        --
+        +Object gsonObject()
+    }
+    
+@enduml
+
