@@ -1,0 +1,15 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.wicket.library"
+    
+    class Components
+    {
+        --
+        +void autoUpdateComponent(Component, Frequency, Consumer<AjaxRequestTarget> afterUpdate)
+    }
+    
+@enduml
+

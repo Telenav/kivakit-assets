@@ -1,0 +1,41 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.lambda"
+    
+    abstract BaseComponent
+    
+    interface Initializable
+    interface ComponentMixin
+    interface RequestStreamHandler
+    interface RegistryTrait
+    
+    RegistryTrait <|-- LambdaFunction
+    class LambdaFunction
+    {
+        --(constructors)--
+        +LambdaFunction(Context)
+        +LambdaFunction(String, Version)
+    }
+    
+    RequestStreamHandler <|-- LambdaRequestHandler
+    ComponentMixin <|-- LambdaRequestHandler
+    class LambdaRequestHandler
+    {
+    }
+    
+    BaseComponent <|-- MicroserviceLambdaService
+    Initializable <|-- MicroserviceLambdaService
+    class MicroserviceLambdaService
+    {
+        --(constructors)--
+        +MicroserviceLambdaService(Microservice<?>)
+        --(messaging)--
+        +void mountLambdaRequestHandler(String lambdaName, String lambdaVersion, Class<? extends MicroservletRequest> requestType)
+        +void mountLambdaRequestHandler(String lambdaName, Version lambdaVersion, Class<? extends MicroservletRequest> requestType)
+    }
+    
+@enduml
+
