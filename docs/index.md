@@ -55,7 +55,7 @@ The resources below will help you to get started.
 
 ### Quick Start <a name = "quick-start"></a>&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/rocket-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/rocket-32-2x.png 2x"/>
 
-[**About KivaKit**](https://github.com/Telenav/kivakit/tree/releases/README.md#about)  
+[**About KivaKit**](https://github.com/Telenav/kivakit/tree/main/README.md#about)  
 [**Tutorial Articles**](https://state-of-the-art.org/)  
 [**Documentation**](https://github.com/Telenav/kivakit/tree/releases/README.md#readme)  
 [**Example Code**](https://github.com/Telenav/kivakit-examples)  
