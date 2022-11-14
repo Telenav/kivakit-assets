@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.telenav.kivakit.math.statistics","l":"StandardDeviation"},{"p":"com.telenav.kivakit.math.statistics","l":"SuccessRate"},{"p":"com.telenav.kivakit.math.trigonometry","l":"Trigonometry"}];updateSearchResults();
