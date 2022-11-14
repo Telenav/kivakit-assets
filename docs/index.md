@@ -55,9 +55,9 @@ The resources below will help you to get started.
 
 ### Quick Start <a name = "quick-start"></a>&nbsp; <img src="https://telenav.github.io/telenav-assets/images/icons/rocket-32.png" srcset="https://telenav.github.io/telenav-assets/images/icons/rocket-32-2x.png 2x"/>
 
-[**About KivaKit**](https://github.com/Telenav/kivakit/tree/release/current/README.md#about)  
+[**About KivaKit**](https://github.com/Telenav/kivakit/tree/main/README.md#about)  
 [**Tutorial Articles**](https://state-of-the-art.org/)  
-[**Documentation**](https://github.com/Telenav/kivakit/tree/release/current/README.md#readme)  
+[**Documentation**](https://github.com/Telenav/kivakit/tree/releases/README.md#readme)  
 [**Example Code**](https://github.com/Telenav/kivakit-examples)  
 [**Published Releases**](https://repo1.maven.org/maven2/com/telenav/kivakit/)
 
@@ -75,7 +75,7 @@ The resources below will help you to get started.
 | *Documentation*         | [README.md](https://github.com/Telenav/kivakit)                                                                                                                                                                                                             |
 | *Related&nbsp;Projects* | [kivakit-examples](https://github.com/Telenav/kivakit-examples), [kivakit-extensions](https://github.com/Telenav/kivakit), [kivakit-filesystems](https://github.com/Telenav/kivakit-filesystems), [kivakit-stuff](https://github.com/Telenav/kivakit-stuff) |
 | *Javadoc&nbsp;Coverage* | <img src="https://telenav.github.io/telenav-assets/images/meters/meter-90-96.png" srcset="https://telenav.github.io/telenav-assets/images/meters/meter-90-96-2x.png 2x"/>                                                                                   |
-| *Building*              | [Step-by-step Instructions](https://github.com/Telenav/telenav-build/blob/release/current/documentation/building.md)                                                                                                                                        |
+| *Building*              | [Step-by-step Instructions](https://github.com/Telenav/telenav-build/blob/releases/documentation/building.md)                                                                                                                                               |
 | *GitHub*                | [Telenav/kivakit](https://github.com/Telenav/kivakit)                                                                                                                                                                                                       |
 | *Code*                  | `git clone https://github.com/Telenav/kivakit.git`                                                                                                                                                                                                          |
 | *Project&nbsp;Lead*     | Jonathan Locke (Luo, Shibo) <br/> [jonathanl@telenav.com](mailto:jonathanl@telenav.com)                                                                                                                                                                     |
