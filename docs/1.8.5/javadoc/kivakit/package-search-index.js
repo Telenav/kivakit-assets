@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"m":"kivakit.serialization.kryo.testing","l":"com.telenav.kivakit.serialization.kryo.test"}];updateSearchResults();
