@@ -1,0 +1,29 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-module"
+    
+    interface ResourcePathed
+    
+    ResourcePathed <|-- ClasspathResource
+    class ClasspathResource
+    {
+        --
+        +ClasspathResource classpathResource(Listener, Resource)
+        +PackageReference packageReference()
+        --(filesystem)--
+        +ClasspathResourceFolder parent()
+        --(path)--
+        +Path javaPath()
+        +ResourcePath resourcePath()
+        --(primitive)--
+        +Bytes size()
+        --(time)--
+        +Time created()
+        +Time lastModified()
+    }
+    
+@enduml
+
