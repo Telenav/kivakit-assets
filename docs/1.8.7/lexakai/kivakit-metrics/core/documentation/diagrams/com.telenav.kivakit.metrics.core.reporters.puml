@@ -1,0 +1,21 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.reporters"
+    
+    interface MetricsReporter
+    
+    MetricsReporter <|-- ConsoleMetricsReporter
+    class ConsoleMetricsReporter
+    {
+    }
+    
+    MetricsReporter <|-- NullMetricsReporter
+    class NullMetricsReporter
+    {
+    }
+    
+@enduml
+

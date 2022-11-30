@@ -1,0 +1,63 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.primitive.collections.internal.lexakai"
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveArray
+    interface DiagramPrimitiveArray
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveArrayArray
+    interface DiagramPrimitiveArrayArray
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveArrayBitIo
+    interface DiagramPrimitiveArrayBitIo
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveCollection
+    interface DiagramPrimitiveCollection
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveList
+    interface DiagramPrimitiveList
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveMap
+    interface DiagramPrimitiveMap
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveMultiMap
+    interface DiagramPrimitiveMultiMap
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveSet
+    interface DiagramPrimitiveSet
+    {
+    }
+    
+    interface UmlDiagramIdentifier
+    UmlDiagramIdentifier <|-- DiagramPrimitiveSplitArray
+    interface DiagramPrimitiveSplitArray
+    {
+    }
+    
+@enduml
+
