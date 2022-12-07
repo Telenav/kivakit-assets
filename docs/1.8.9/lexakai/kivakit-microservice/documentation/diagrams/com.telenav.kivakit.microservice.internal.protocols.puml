@@ -1,0 +1,15 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols"
+    
+    interface MicroservletMountTarget
+    {
+        --
+        +void mount(String path, Class<? extends MicroservletRequestHandler> requestHandlerType)
+    }
+    
+@enduml
+

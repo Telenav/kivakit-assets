@@ -1,0 +1,171 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest.http"
+    
+    abstract BaseComponent
+    
+    interface Comparable
+    interface Initializable
+    interface RegistryTrait
+    
+    Problem <|-- HttpProblem
+    class HttpProblem
+    {
+        --(constructors)--
+        +HttpProblem(HttpStatus, String, Object)
+        +HttpProblem(HttpStatus, Throwable, String, Object)
+        --(status)--
+        +HttpStatus httpStatus()
+    }
+    
+    BaseComponent <|-- RestClient
+    class RestClient
+    {
+        --(constructors)--
+        +RestClient(ObjectSerializer, Port, Version)
+        --
+        +Response get(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType, Request)
+        --(identity)--
+        +Version serverVersion()
+    }
+    
+    RegistryTrait <|-- RestPath
+    Comparable <|-- RestPath
+    class RestPath
+    {
+        --(constructors)--
+        +RestPath(FilePath, HttpMethod)
+        --(collection)--
+        +boolean isNonEmpty()
+        +String key()
+        --(identity)--
+        +Version version()
+        --(network)--
+        +HttpMethod httpMethod()
+        --(path)--
+        +RestPath parseRestPath(Listener, String path, HttpMethod)
+        +FilePath path()
+        +FilePath resolvedPath()
+        +RestPath withoutLast()
+    }
+    
+    interface Restful
+    Restful <|-- RestProblemReportingTrait
+    interface RestProblemReportingTrait
+    {
+        --
+        +void okay(String text, Object... arguments)
+        --(messaging)--
+        +Problem problem(HttpStatus, String text, Object... arguments)
+        +Problem problem(HttpStatus, Throwable exception, String text, Object... arguments)
+    }
+    
+    interface Restful
+    Restful <|-- RestRequest
+    interface RestRequest
+    {
+        --(checks)--
+        +boolean hasBody()
+        --(collection)--
+        +PropertyMap parameters()
+        +PropertyMap parameters(FilePath)
+        --(filesystem)--
+        +FilePath path()
+        --(network)--
+        +HttpServletRequest httpServletRequest()
+        --(read)--
+        +ServletInputStream open()
+        +T readRequest(Class<T> requestType)
+    }
+    
+    interface RestRequestCycle
+    {
+        --
+        +Gson gson()
+        +Microservlet<?,?> microservlet()
+        +RestRequest restRequest()
+        +RestResponse restResponse()
+        --(service)--
+        +RestService restService()
+    }
+    
+    class RestRequestThread
+    {
+        --
+        +RestRequestCycle requestCycle()
+        +void requestThreadAttach(RestRequestCycle)
+        +void requestThreadDetach()
+    }
+    
+    interface RestProblemReportingTrait
+    RestProblemReportingTrait <|-- RestResponse
+    interface RestResponse
+    {
+        --(collection)--
+        +void addHeader(String header, String value)
+        --(network)--
+        +HttpServletResponse httpServletResponse()
+        --(status)--
+        +MicroservletErrorResponse errors()
+        +void httpStatus(HttpStatus)
+        +HttpStatus httpStatus()
+        --(write)--
+        +void writeResponse(MicroservletResponse)
+    }
+    
+    BaseComponent <|-- RestService
+    Initializable <|-- RestService
+    RestService --> Microservlet : "mounts"
+    RestService o-- Microservice
+    abstract class RestService
+    {
+        --(constructors)--
+        #RestService(Microservice<?>)
+        --
+        +Microservice<?> microservice()
+        +void mount(RestPath, Microservlet<?,?>)
+        +void mount(Version, String path, HttpMethod, Class<Request> requestType)
+        +void mount(String path, HttpMethod, Class<Request> requestType)
+        +void mountAllOn(MicroservletMountTarget)
+        +void onRequestPerformance(MicroservletPerformance)
+        +void onRequested(MicroservletRequest, HttpMethod)
+        +void onRequesting(MicroservletRequest, HttpMethod)
+        +ObjectSerializer serializer()
+        --(command line parsing)--
+        +void mountApi(Version, Resource jar, String commandLine, int port)
+        +void mountApi(Version, String path, Resource jar, String commandLine, int port)
+        --(lifecycle)--
+        +void onInitialize(JettyServer)
+        --(messaging)--
+        +Info openApiInfo()
+        --(path)--
+        #Version pathToVersion(String path)
+        #String rootPath()
+        #String versionToPath(Version)
+    }
+    
+    interface Component
+    Component <|-- Restful
+    interface Restful
+    {
+        --
+        +T fromJson(String json, Class<T> type)
+        +Microservice<?> microservice()
+        +RestRequest restRequest()
+        +RestRequestCycle restRequestCycle()
+        +RestResponse restResponse()
+        --(conversion)--
+        +String toJson(Object response)
+        --(identity)--
+        +Version version()
+        --(service)--
+        +RestService restService()
+    }
+    
+@enduml
+

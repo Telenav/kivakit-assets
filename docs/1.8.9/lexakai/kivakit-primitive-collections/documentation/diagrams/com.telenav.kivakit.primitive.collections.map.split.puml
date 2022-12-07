@@ -1,0 +1,79 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.primitive.collections.map.split"
+    
+    interface PrimitiveScalarMap
+    
+    SplitPrimitiveMap <|-- SplitIntToIntMap
+    PrimitiveScalarMap <|-- SplitIntToIntMap
+    class SplitIntToIntMap
+    {
+        --(constructors)--
+        +SplitIntToIntMap(String)
+        --
+        +void entries(IntToIntMap.EntryVisitor)
+        +int get(int key)
+        --(collection)--
+        +boolean containsKey(int key)
+        +IntIterator keys()
+        +void put(int key, int value)
+        +boolean remove(int key)
+        +IntIterator values()
+    }
+    
+    SplitPrimitiveMap <|-- SplitLongToByteMap
+    PrimitiveScalarMap <|-- SplitLongToByteMap
+    class SplitLongToByteMap
+    {
+        --(constructors)--
+        +SplitLongToByteMap(String)
+        --
+        +void entries(LongToByteMap.EntryVisitor)
+        +byte get(long key)
+        --(collection)--
+        +boolean containsKey(long key)
+        +LongIterator keys()
+        +void put(long key, byte value)
+        +boolean remove(long key)
+        +ByteIterator values()
+    }
+    
+    SplitPrimitiveMap <|-- SplitLongToIntMap
+    PrimitiveScalarMap <|-- SplitLongToIntMap
+    class SplitLongToIntMap
+    {
+        --(constructors)--
+        +SplitLongToIntMap(String)
+        --
+        +void entries(LongToIntMap.EntryVisitor)
+        +int get(long key)
+        --(collection)--
+        +boolean containsKey(long key)
+        +LongIterator keys()
+        +void put(long key, int value)
+        +boolean remove(long key)
+        +IntIterator values()
+    }
+    
+    SplitPrimitiveMap <|-- SplitLongToLongMap
+    PrimitiveScalarMap <|-- SplitLongToLongMap
+    class SplitLongToLongMap
+    {
+        --(constructors)--
+        +SplitLongToLongMap(String)
+        --
+        +void entries(LongToLongMap.EntryVisitor)
+        +long get(long key)
+        --(collection)--
+        +boolean containsKey(long key)
+        +LongIterator keys()
+        +void put(long key, long value)
+        +boolean remove(long key)
+        +LongIterator values()
+    }
+    
+@enduml
+

@@ -1,0 +1,23 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core"
+    
+    Project <|-- KivaKit
+    class KivaKit
+    {
+        --
+        +void globalLogger(Logger)
+        +Logger globalLogger()
+        --(filesystem)--
+        +StringPath kivakitCacheFolderPath()
+        +StringPath kivakitHomeFolderPath()
+        --(messaging)--
+        +Listener globalListener()
+        +void globalListener(Listener)
+    }
+    
+@enduml
+
