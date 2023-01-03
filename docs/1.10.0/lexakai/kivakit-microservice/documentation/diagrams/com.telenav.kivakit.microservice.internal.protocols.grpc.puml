@@ -1,0 +1,38 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.grpc"
+    
+    abstract BaseComponent
+    
+    interface ComponentMixin
+    
+    MicroservletResponderGrpc.MicroservletResponderImplBase <|-- MicroservletGrpcResponder
+    ComponentMixin <|-- MicroservletGrpcResponder
+    class MicroservletGrpcResponder
+    {
+        --(constructors)--
+        +MicroservletGrpcResponder()
+        --
+        +void mount(String path, Class<? extends MicroservletRequestHandler> requestHandlerType)
+        +Set<Class<?>> requestTypes()
+        --(collection)--
+        +ObjectList<Class<?>> responseTypes()
+    }
+    
+    BaseComponent <|-- MicroservletGrpcSchemas
+    class MicroservletGrpcSchemas
+    {
+        --(constructors)--
+        +MicroservletGrpcSchemas(Listener)
+        --
+        +Object deserialize(Class<?> type, ByteString)
+        +Schema<?> schemaFor(Class<?> type)
+        --(primitive)--
+        +ByteString serialize(Class<?> type, Object)
+    }
+    
+@enduml
+

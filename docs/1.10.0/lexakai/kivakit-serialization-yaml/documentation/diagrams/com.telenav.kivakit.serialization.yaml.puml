@@ -1,0 +1,27 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.yaml"
+    
+    abstract BaseKivaKitProject
+    
+    interface ObjectSerializer
+    interface TryTrait
+    interface RegistryTrait
+    
+    ObjectSerializer <|-- YamlObjectSerializer
+    RegistryTrait <|-- YamlObjectSerializer
+    TryTrait <|-- YamlObjectSerializer
+    class YamlObjectSerializer
+    {
+    }
+    
+    BaseKivaKitProject <|-- YamlSerializationProject
+    class YamlSerializationProject
+    {
+    }
+    
+@enduml
+

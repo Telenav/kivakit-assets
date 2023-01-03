@@ -1,0 +1,39 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.aggregates.bytes"
+    
+    AverageMetric <|-- AverageBytesMetric
+    class AverageBytesMetric
+    {
+        --(constructors)--
+        +AverageBytesMetric()
+    }
+    
+    MaximumMetric <|-- MaximumBytesMetric
+    class MaximumBytesMetric
+    {
+        --(constructors)--
+        +MaximumBytesMetric()
+        --(primitive)--
+        +MaximumBytesMetric description(String description)
+    }
+    
+    MinimumMetric <|-- MinimumBytesMetric
+    class MinimumBytesMetric
+    {
+        --(constructors)--
+        +MinimumBytesMetric()
+    }
+    
+    TotalMetric <|-- TotalBytesMetric
+    class TotalBytesMetric
+    {
+        --(constructors)--
+        +TotalBytesMetric()
+    }
+    
+@enduml
+

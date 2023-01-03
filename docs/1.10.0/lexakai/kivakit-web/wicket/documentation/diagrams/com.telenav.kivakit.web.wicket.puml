@@ -1,0 +1,27 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.wicket"
+    
+    abstract BaseFilterJettyPlugin
+    
+    FilterHolder <|-- JettyWicketFilterHolder
+    class JettyWicketFilterHolder
+    {
+        --(constructors)--
+        +JettyWicketFilterHolder(Class<? extends WebApplication>)
+        +JettyWicketFilterHolder(WebApplication)
+    }
+    
+    BaseFilterJettyPlugin <|-- WicketJettyPlugin
+    class WicketJettyPlugin
+    {
+        --(constructors)--
+        +WicketJettyPlugin(Class<? extends WebApplication>)
+        +WicketJettyPlugin(WebApplication)
+    }
+    
+@enduml
+
