@@ -102,6 +102,7 @@
         +Port ftp()
         +Port hazelcast(int port)
         +Port hazelcast()
+        +Host host(String name)
         +SwitchParser.Builder<Host> hostSwitchParser(Listener, String name, String description)
         +Port http(int port)
         +Port http()
@@ -205,6 +206,7 @@
         --(network)--
         +NetworkPath networkPath(Listener, Port, String path)
         +NetworkPath networkPath(Listener, URI)
+        +NetworkPath networkPath(Port, String path)
         +SwitchParser.Builder<NetworkPath> networkPathSwitchParser(Listener, String name, String description)
         +NetworkPath parseNetworkPath(Listener, String text)
         +Port port()
@@ -242,6 +244,7 @@
         +boolean isHttp()
         +Port parsePort(Listener, String port)
         +NetworkPath path(Listener, String path)
+        +NetworkPath path(String path)
         +Port port(URI)
         +int portNumber()
         +SwitchParser.Builder<Port> portSwitchParser(Listener, String name, String description)

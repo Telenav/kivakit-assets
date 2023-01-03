@@ -5,6 +5,15 @@
     
     title "com.telenav.kivakit.network.http.secure"
     
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- SecureHttpNetworkLocation.Converter
+    class SecureHttpNetworkLocation.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
     HttpGetResource <|-- SecureHttpGetResource
     class SecureHttpGetResource
     {
@@ -21,6 +30,10 @@
         --(constructors)--
         +SecureHttpNetworkLocation(NetworkPath)
         +SecureHttpNetworkLocation(URI)
+        --(network)--
+        +SecureHttpNetworkLocation parseSecureHttpNetworkLocation(Listener, String path)
+        +SecureHttpNetworkLocation secureHttpNetworkLocation(String path)
+        +SecureHttpNetworkLocation secureHttpNetworkLocation(NetworkPath)
     }
     
     HttpPostResource <|-- SecureHttpPostResource

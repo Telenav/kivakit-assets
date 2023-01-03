@@ -88,6 +88,7 @@
         --(network)--
         +NetworkPath networkPath(Listener, Port, String path)
         +NetworkPath networkPath(Listener, URI)
+        +NetworkPath networkPath(Port, String path)
         +SwitchParser.Builder<NetworkPath> networkPathSwitchParser(Listener, String name, String description)
         +NetworkPath parseNetworkPath(Listener, String text)
         +Port port()
