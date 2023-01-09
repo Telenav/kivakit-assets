@@ -1,0 +1,48 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.network.http.secure"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- SecureHttpNetworkLocation.Converter
+    class SecureHttpNetworkLocation.Converter
+    {
+        --(constructors)--
+        +Converter(Listener)
+    }
+    
+    HttpGetResource <|-- SecureHttpGetResource
+    class SecureHttpGetResource
+    {
+        --(constructors)--
+        +SecureHttpGetResource(SecureHttpNetworkLocation)
+        +SecureHttpGetResource(SecureHttpNetworkLocation, NetworkAccessConstraints)
+    }
+    
+    HttpNetworkLocation <|-- SecureHttpNetworkLocation
+    SecureHttpNetworkLocation --> SecureHttpGetResource : "creates"
+    SecureHttpNetworkLocation --> SecureHttpPostResource : "creates"
+    class SecureHttpNetworkLocation
+    {
+        --(constructors)--
+        +SecureHttpNetworkLocation(NetworkPath)
+        +SecureHttpNetworkLocation(URI)
+        --(network)--
+        +SecureHttpNetworkLocation parseSecureHttpNetworkLocation(Listener, String path)
+        +SecureHttpNetworkLocation secureHttpNetworkLocation(String path)
+        +SecureHttpNetworkLocation secureHttpNetworkLocation(NetworkPath)
+    }
+    
+    HttpPostResource <|-- SecureHttpPostResource
+    class SecureHttpPostResource
+    {
+        --(constructors)--
+        +SecureHttpPostResource(NetworkLocation, NetworkAccessConstraints)
+        +SecureHttpPostResource(SecureHttpNetworkLocation)
+    }
+    
+@enduml
+

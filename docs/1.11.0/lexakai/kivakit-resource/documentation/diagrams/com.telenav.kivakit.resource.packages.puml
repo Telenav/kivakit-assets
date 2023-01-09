@@ -1,0 +1,124 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.resource.packages"
+    
+    abstract BaseRepeater
+    abstract BaseReadableResource
+    
+    interface ResourceFolder
+    interface ResourcePathed
+    interface ResourceResolver
+    interface ResourceFolderResolver
+    
+    class Classpath
+    {
+        --
+        +Classpath classpath()
+        --(collection)--
+        +ObjectList<ClasspathResourceFolder> allResourceFolders(Listener)
+        +ObjectList<ClasspathResource> allResources(Listener)
+        +ObjectList<ClasspathResourceFolder> nestedResourceFolders(Listener, PackageReference under)
+        +ObjectList<ClasspathResource> nestedResources(Listener, PackageReference under)
+        +ObjectList<ClasspathResourceFolder> resourceFoldersIn(Listener, PackageReference in)
+        +ObjectList<ClasspathResource> resourcesIn(Listener, PackageReference in)
+    }
+    
+    ResourcePathed <|-- ClasspathResource
+    class ClasspathResource
+    {
+        --
+        +ClasspathResource classpathResource(Listener, Resource)
+        +PackageReference packageReference()
+        --(filesystem)--
+        +ClasspathResourceFolder parent()
+        --(path)--
+        +Path javaPath()
+        +ResourcePath resourcePath()
+        --(primitive)--
+        +Bytes size()
+        --(time)--
+        +Time created()
+        +Time lastModified()
+    }
+    
+    class ClasspathResourceFolder
+    {
+        --
+        +PackageReference packageReference()
+        --(collection)--
+        +ObjectList<ClasspathResource> resources()
+        --(filesystem)--
+        +ClasspathResourceFolder classpathResourceFolder(Listener, Resource)
+        --(network)--
+        +URI classpathRoot()
+        --(path)--
+        +PackagePath packagePath()
+    }
+    
+    BaseRepeater <|-- Package
+    ResourceFolder <|-- Package
+    class Package
+    {
+        --
+        +Package child(String name)
+        +PackageReference reference()
+        --(collection)--
+        +PropertyMap localizedProperties(Listener, Locale, LocaleLanguage languageName)
+        --(parsing)--
+        +Package parsePackage(Listener, Class<?> packageType, String path)
+        --(path)--
+        +Package packageForPath(Listener, PackagePath)
+    }
+    
+    ResourcePath <|-- PackagePath
+    class PackagePath
+    {
+        --(conversion)--
+        +Package asPackage(Listener)
+        +PackageReference asPackageReference()
+        --(path)--
+        +boolean isPackagePath(String path)
+        +PackagePath packagePath(StringPath)
+        +PackagePath parsePackagePath(Listener, String path)
+    }
+    
+    BaseReadableResource <|-- PackageResource
+    class PackageResource
+    {
+        --(constructors)--
+        #PackageResource(Listener, ClasspathResource)
+        --
+        +PackageReference packageReference()
+        +PackageResource packageResource(Listener, StringPath resourcePath)
+        +PackageResource packageResource(Listener, PackagePath, ResourcePathed child)
+        +PackageResource packageResource(Listener, StringPath packagePath, StringPath child)
+        --(path)--
+        +ResourcePath classpathPath()
+        +PackagePath packagePath()
+    }
+    
+    ResourceFolderResolver <|-- PackageResourceFolderResolver
+    class PackageResourceFolderResolver
+    {
+    }
+    
+    ResourceResolver <|-- PackageResourceResolver
+    class PackageResourceResolver
+    {
+    }
+    
+    interface Repeater
+    Repeater <|-- PackageTrait
+    interface PackageTrait
+    {
+        --
+        +Package packageFor(Class<?> type)
+        +Package packageForThis()
+        +PackageResource packageResource(String relativePath)
+    }
+    
+@enduml
+

@@ -1,0 +1,41 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.aggregates.count"
+    
+    AverageMetric <|-- AverageCountMetric
+    class AverageCountMetric
+    {
+        --(constructors)--
+        +AverageCountMetric()
+        --(collection)--
+        +AverageCountMetric description(String description)
+    }
+    
+    MaximumMetric <|-- MaximumCountMetric
+    class MaximumCountMetric
+    {
+        --(constructors)--
+        +MaximumCountMetric()
+        --(collection)--
+        +MaximumCountMetric description(String description)
+    }
+    
+    MinimumMetric <|-- MinimumCountMetric
+    class MinimumCountMetric
+    {
+        --(constructors)--
+        +MinimumCountMetric()
+    }
+    
+    TotalMetric <|-- TotalCountMetric
+    class TotalCountMetric
+    {
+        --(constructors)--
+        +TotalCountMetric()
+    }
+    
+@enduml
+
