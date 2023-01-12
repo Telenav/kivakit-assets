@@ -1,0 +1,26 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.properties"
+    
+    abstract BaseKivaKitProject
+    
+    interface ObjectSerializer
+    
+    ObjectSerializer <|-- PropertiesObjectSerializer
+    class PropertiesObjectSerializer
+    {
+        --(constructors)--
+        +PropertiesObjectSerializer()
+        +PropertiesObjectSerializer(ProgressReporter)
+    }
+    
+    BaseKivaKitProject <|-- PropertiesSerializationProject
+    class PropertiesSerializationProject
+    {
+    }
+    
+@enduml
+

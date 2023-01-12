@@ -1,0 +1,49 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.web.jetty.resources"
+    
+    abstract BaseAssetsJettyPlugin
+    abstract BaseJettyRequestHandler
+    
+    BaseAssetsJettyPlugin <|-- AssetsJettyPlugin
+    class AssetsJettyPlugin
+    {
+        --(constructors)--
+        +AssetsJettyPlugin(ResourceFolder<?>)
+        +AssetsJettyPlugin(String, ResourceFolder<?>)
+    }
+    
+    BaseJettyRequestHandler <|-- BaseAssetsJettyPlugin
+    abstract class BaseAssetsJettyPlugin
+    {
+        --(constructors)--
+        #BaseAssetsJettyPlugin(String)
+        --
+        +ServletHolder holder()
+    }
+    
+    BaseJettyRequestHandler <|-- BaseFilterJettyPlugin
+    abstract class BaseFilterJettyPlugin
+    {
+        --(constructors)--
+        #BaseFilterJettyPlugin(String)
+        --
+        +EnumSet<DispatcherType> dispatchers()
+        --(filtering)--
+        +FilterHolder holder()
+    }
+    
+    BaseJettyRequestHandler <|-- BaseServletJettyPlugin
+    abstract class BaseServletJettyPlugin
+    {
+        --(constructors)--
+        #BaseServletJettyPlugin(String)
+        --
+        +ServletHolder holder()
+    }
+    
+@enduml
+
