@@ -1,0 +1,85 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.filesystems.github"
+    
+    abstract BaseComponent
+    abstract BaseWritableResource
+    
+    interface FileSystemService
+    interface FileSystemObjectService
+    interface FileService
+    interface EnsureTrait
+    interface FolderService
+    
+    enum GitHubTree.EntryType
+    {
+        FILE
+        FOLDER
+    }
+    
+    GitHubFileSystemObject <|-- GitHubFile
+    FileService <|-- GitHubFile
+    class GitHubFile
+    {
+        --(constructors)--
+        +GitHubFile(FilePath)
+        +GitHubFile(String)
+        --(filesystem)--
+        +boolean renameTo(GitHubFile that)
+    }
+    
+    BaseWritableResource <|-- GitHubFileSystemObject
+    FileSystemObjectService <|-- GitHubFileSystemObject
+    EnsureTrait <|-- GitHubFileSystemObject
+    abstract class GitHubFileSystemObject
+    {
+        --
+        #GHTreeEntry entry()
+        #GitHubTree tree()
+        --(filesystem)--
+        +FilePath relativePath()
+        --(filtering)--
+        +boolean accepts(String path)
+        --(naming)--
+        +String name()
+    }
+    
+    FileSystemService <|-- GitHubFileSystemService
+    GitHubFileSystemService --> GitHubFile : "provides"
+    GitHubFileSystemService --> GitHubFolder : "provides"
+    class GitHubFileSystemService
+    {
+        --(filesystem)--
+        +^GitHubFile fileService(FilePath)
+        +^GitHubFolder folderService(FilePath)
+    }
+    
+    GitHubFileSystemObject <|-- GitHubFolder
+    FolderService <|-- GitHubFolder
+    class GitHubFolder
+    {
+        --(constructors)--
+        +GitHubFolder(FilePath)
+        +GitHubFolder(String)
+    }
+    
+    BaseComponent <|-- GitHubTree
+    class GitHubTree
+    {
+        --(constructors)--
+        #GitHubTree(String, String, String, String)
+        --
+        +GHTreeEntry entry(String path)
+        +GitHubTree tree(Listener, String username, String accessToken, String repository, String branch)
+        --(collection)--
+        +List<GHTreeEntry> entries()
+        +List<GHTreeEntry> entries(String path, EntryType, boolean recursive)
+        --(read)--
+        +void load()
+    }
+    
+@enduml
+

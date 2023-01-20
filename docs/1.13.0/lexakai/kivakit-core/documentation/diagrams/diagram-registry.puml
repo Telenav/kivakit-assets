@@ -1,0 +1,44 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-registry"
+    
+    interface Named
+    interface RegistryTrait
+    
+    class InstanceIdentifier
+    {
+        --(constructors)--
+        #InstanceIdentifier(Enum<?>)
+        #InstanceIdentifier(String)
+        --(checks)--
+        +boolean isSingleton()
+        --(identity)--
+        +Enum<?> enumIdentifier()
+        +InstanceIdentifier instanceIdentifier(Enum<?> enumValue)
+        +InstanceIdentifier instanceIdentifier(String)
+        +InstanceIdentifier instanceIdentifierForEnumName(Listener, String enumValueName)
+        +InstanceIdentifier singleton()
+        +String stringIdentifier()
+        --(naming)--
+        +String name()
+    }
+    
+    RegistryTrait <|-- Registry
+    Named <|-- Registry
+    Registry --> InstanceIdentifier : "locates instances with"
+    class Registry
+    {
+        --(constructors)--
+        +Registry(String)
+        --
+        +Registry globalRegistry()
+        +Registry registryFor(Object)
+        --(collection)--
+        +StringList asStringList()
+    }
+    
+@enduml
+

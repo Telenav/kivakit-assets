@@ -1,0 +1,83 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-listener-type"
+    
+    abstract BaseRepeater
+    
+    interface Listener
+    interface MessageCounter
+    
+    interface Filtered
+    interface Listener
+    Listener <|-- Logger
+    Filtered <|-- Logger
+    interface Logger
+    {
+        --
+        +LoggerCodeContext codeContext()
+        +void log(Message)
+        --(collection)--
+        +void addFilter(Filter<LogEntry>)
+    }
+    
+    BaseRepeater <|-- MessageChecker
+    class MessageChecker
+    {
+        --
+        +boolean check()
+        --(messaging)--
+        +MessageChecker check(Runnable code)
+        +MessageChecker expect(Class<? extends Message> messageClass)
+        +MessageChecker expect(Class<? extends Message> messageClass, int count)
+    }
+    
+    interface Listener
+    Listener <|-- MessageCounter
+    interface MessageCounter
+    {
+        --
+        +boolean failed()
+        +boolean failed(Class<? extends Message> type)
+        +void ifFailedThrow()
+        --(checks)--
+        +boolean hasProblems()
+        --(collection)--
+        +Count count(Message.Status type)
+        +Count count(Class<? extends Message> type)
+        +Count countWorseThanOrEqualTo(Class<? extends Message> type)
+        +Count countWorseThanOrEqualTo(Message.Status)
+        +Count problems()
+        +StringList statistics(Message.Status... statuses)
+        +StringList statistics(Class<? extends Message>... types)
+        --(status)--
+        +boolean succeeded()
+    }
+    
+    ObjectList <|-- MessageList
+    MessageCounter <|-- MessageList
+    class MessageList
+    {
+        --(constructors)--
+        +MessageList()
+        +MessageList(Matcher<Message>)
+        +MessageList(Maximum, Matcher<Message>)
+        --(collection)--
+        +StringList formatted()
+        --(messaging)--
+        +void broadcastTo(Listener)
+        +T captureMessages(UncheckedCode<T>, String message, Object... arguments)
+        +MessageList captureMessages(Broadcaster, Runnable code)
+        +MessageList emptyMessageList()
+        +MessageList messagesOfType(Class<? extends Message> type)
+    }
+    
+    Listener <|-- ThrowingListener
+    class ThrowingListener
+    {
+    }
+    
+@enduml
+

@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.identifier"
+    
+    LongValuedConverter <|-- IdentifierConverter
+    class IdentifierConverter
+    {
+        --(constructors)--
+        +IdentifierConverter()
+        +IdentifierConverter(Listener)
+    }
+    
+    LongValuedConverter <|-- IntegerIdentifierConverter
+    class IntegerIdentifierConverter
+    {
+        --(constructors)--
+        +IntegerIdentifierConverter()
+        +IntegerIdentifierConverter(Listener)
+    }
+    
+@enduml
+
