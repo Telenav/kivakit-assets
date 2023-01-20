@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="575px" preserveAspectRatio="none" style="width:1061px;height:575px;background:#333333;" version="1.1" viewBox="0 0 1061 575" width="1061.4583px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="460.4167" x="293.4896" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="437.5" x="304.9479" y="30.5583">com.telenav.kivakit.metrics.core.aggregates</text><!--MD5=[887968466078cea60bdf44ba6cf44807]
+class BaseMetric--><rect codeLine="7" fill="#282828" height="48.055" id="BaseMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="107.2917" x="484.375" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="107.2917" x="484.375" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="107.2917" x="484.375" y="76.7578"/><rect codeLine="7" fill="none" height="48.055" id="BaseMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="107.2917" x="484.375" y="53.7028"/><ellipse cx="498.9583" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M498.5514,66.099 L497.703,69.8283 L499.4059,69.8283 Z M497.4528,64.4511 L499.6562,64.4511 L502.1159,73.5636 L500.3153,73.5636 L499.7538,71.3114 L497.3429,71.3114 L496.7936,73.5636 L494.9931,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="69.7917" x="515.625" y="74.1211">BaseMetric</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="485.4167" x2="590.625" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="485.4167" x2="590.625" y1="93.4245" y2="93.4245"/><!--MD5=[8274f1db3abdfa5bc218b40756a92ab1]
+class AggregateMetric--><rect codeLine="13" fill="#282828" height="258.0037" id="AggregateMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="246.875" x="414.5833" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="246.875" x="414.5833" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="246.875" x="414.5833" y="187.1745"/><rect codeLine="13" fill="none" height="258.0037" id="AggregateMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="246.875" x="414.5833" y="164.1195"/><ellipse cx="468.2292" cy="179.8136" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M467.8223,176.5157 L466.9739,180.245 L468.6768,180.245 Z M466.7236,174.8678 L468.927,174.8678 L471.3867,183.9803 L469.5862,183.9803 L469.0247,181.7281 L466.6138,181.7281 L466.0645,183.9803 L464.2639,183.9803 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="491.1458" y="184.5378">AggregateMetric</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="647.9167" y="160.9945"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="652.0833" y="177.2461">T</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="415.625" x2="660.4167" y1="195.5078" y2="195.5078"/><polygon fill="#FFFF44" points="426.0417,225.6694,430.2083,229.836,426.0417,234.0027,421.875,229.836" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="437.5" y="237.7889">AggregateMetric(Mapper&lt;Double, T&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="415.625" x2="494.2708" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="497.3958" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="581.7708" x2="660.4167" y1="213.7136" y2="213.7136"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="415.625" x2="660.4167" y1="247.4976" y2="247.4976"/><polygon fill="#FFFF44" points="426.0417,253.7476,430.2083,257.9142,426.0417,262.0809,421.875,257.9142" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="437.5" y="265.8671">double compute()</text><polygon fill="#FFFF44" points="426.0417,273.4924,430.2083,277.6591,426.0417,281.8258,421.875,277.6591" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="437.5" y="285.612">double total()</text><polygon fill="#FFFF44" points="426.0417,317.1488,430.2083,321.3155,426.0417,325.4822,421.875,321.3155" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="437.5" y="329.2684">int sampleCount()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="415.625" x2="503.6458" y1="305.1931" y2="305.1931"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="506.7708" y="309.0027">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="572.3958" x2="660.4167" y1="305.1931" y2="305.1931"/><ellipse cx="426.0417" cy="366.0136" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="437.5" y="372.9248">boolean subtract(T metric)</text><polygon fill="#FFFF44" points="426.0417,380.5501,430.2083,384.7168,426.0417,388.8835,421.875,384.7168" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="437.5" y="392.6697">double maximumSample()</text><polygon fill="#FFFF44" points="426.0417,400.295,430.2083,404.4617,426.0417,408.6283,421.875,404.4617" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="141.6667" x="437.5" y="412.4146">double minimumSample()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="415.625" x2="516.6667" y1="348.8495" y2="348.8495"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="519.7917" y="352.6591">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="559.375" x2="660.4167" y1="348.8495" y2="348.8495"/><!--MD5=[9ea888d75e80367b4e012e8d413b218f]
+class AverageMetric--><rect codeLine="29" fill="#282828" height="83.3781" id="AverageMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="234.375" x="7.2917" y="484.9528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="234.375" x="7.2917" y="484.9528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="234.375" x="7.2917" y="508.0078"/><rect codeLine="29" fill="none" height="83.3781" id="AverageMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="234.375" x="7.2917" y="484.9528"/><ellipse cx="61.9792" cy="500.647" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M63.8896,505.072 Q63.4623,505.2917 62.9924,505.4016 Q62.5224,505.5115 62.0036,505.5115 Q60.1603,505.5115 59.1899,504.2969 Q58.2194,503.0823 58.2194,500.7874 Q58.2194,498.4863 59.1899,497.2717 Q60.1603,496.0571 62.0036,496.0571 Q62.5224,496.0571 62.9985,496.167 Q63.4745,496.2769 63.8896,496.4966 L63.8896,498.4985 Q63.4257,498.0713 62.9893,497.8729 Q62.5529,497.6746 62.089,497.6746 Q61.1003,497.6746 60.5967,498.4589 Q60.0932,499.2432 60.0932,500.7874 Q60.0932,502.3254 60.5967,503.1097 Q61.1003,503.894 62.089,503.894 Q62.5529,503.894 62.9893,503.6957 Q63.4257,503.4973 63.8896,503.0701 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="91.6667" x="84.8958" y="505.3711">AverageMetric</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="228.125" y="481.8278"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="232.2917" y="498.0794">T</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="8.3333" x2="240.625" y1="516.3411" y2="516.3411"/><ellipse cx="18.75" cy="551.711" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="202.0833" x="30.2083" y="558.6222">AverageMetric(Mapper&lt;Double, T&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="80.7292" y1="534.5469" y2="534.5469"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="83.8542" y="538.3565">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="168.2292" x2="240.625" y1="534.5469" y2="534.5469"/><!--MD5=[1a2dfd357f05ea0e256679025aaf8043]
+class MaximumMetric--><rect codeLine="36" fill="#282828" height="83.3781" id="MaximumMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="242.7083" x="278.125" y="484.9528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="242.7083" x="278.125" y="484.9528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="242.7083" x="278.125" y="508.0078"/><rect codeLine="36" fill="none" height="83.3781" id="MaximumMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="242.7083" x="278.125" y="484.9528"/><ellipse cx="331.25" cy="500.647" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M333.1604,505.072 Q332.7332,505.2917 332.2632,505.4016 Q331.7932,505.5115 331.2744,505.5115 Q329.4312,505.5115 328.4607,504.2969 Q327.4902,503.0823 327.4902,500.7874 Q327.4902,498.4863 328.4607,497.2717 Q329.4312,496.0571 331.2744,496.0571 Q331.7932,496.0571 332.2693,496.167 Q332.7454,496.2769 333.1604,496.4966 L333.1604,498.4985 Q332.6965,498.0713 332.2601,497.8729 Q331.8237,497.6746 331.3599,497.6746 Q330.3711,497.6746 329.8676,498.4589 Q329.364,499.2432 329.364,500.7874 Q329.364,502.3254 329.8676,503.1097 Q330.3711,503.894 331.3599,503.894 Q331.8237,503.894 332.2601,503.6957 Q332.6965,503.4973 333.1604,503.0701 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="103.125" x="354.1667" y="505.3711">MaximumMetric</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="507.2917" y="481.8278"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="511.4583" y="498.0794">T</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="279.1667" x2="519.7917" y1="516.3411" y2="516.3411"/><ellipse cx="289.5833" cy="551.711" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="301.0417" y="558.6222">MaximumMetric(Mapper&lt;Double, T&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="279.1667" x2="355.7292" y1="534.5469" y2="534.5469"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="358.8542" y="538.3565">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="443.2292" x2="519.7917" y1="534.5469" y2="534.5469"/><!--MD5=[4f8b516d6f8b8c80d6ad59bf5839334f]
+class MinimumMetric--><rect codeLine="43" fill="#282828" height="83.3781" id="MinimumMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="239.5833" x="557.8125" y="484.9528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="239.5833" x="557.8125" y="484.9528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="239.5833" x="557.8125" y="508.0078"/><rect codeLine="43" fill="none" height="83.3781" id="MinimumMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="239.5833" x="557.8125" y="484.9528"/><ellipse cx="610.4167" cy="500.647" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M612.3271,505.072 Q611.8998,505.2917 611.4299,505.4016 Q610.9599,505.5115 610.4411,505.5115 Q608.5978,505.5115 607.6274,504.2969 Q606.6569,503.0823 606.6569,500.7874 Q606.6569,498.4863 607.6274,497.2717 Q608.5978,496.0571 610.4411,496.0571 Q610.9599,496.0571 611.436,496.167 Q611.912,496.2769 612.3271,496.4966 L612.3271,498.4985 Q611.8632,498.0713 611.4268,497.8729 Q610.9904,497.6746 610.5265,497.6746 Q609.5378,497.6746 609.0342,498.4589 Q608.5307,499.2432 608.5307,500.7874 Q608.5307,502.3254 609.0342,503.1097 Q609.5378,503.894 610.5265,503.894 Q610.9904,503.894 611.4268,503.6957 Q611.8632,503.4973 612.3271,503.0701 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="101.0417" x="633.3333" y="505.3711">MinimumMetric</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="783.8542" y="481.8278"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="788.0208" y="498.0794">T</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="558.8542" x2="796.3542" y1="516.3411" y2="516.3411"/><ellipse cx="569.2708" cy="551.711" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="580.7292" y="558.6222">MinimumMetric(Mapper&lt;Double, T&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="558.8542" x2="633.8542" y1="534.5469" y2="534.5469"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="636.9792" y="538.3565">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="721.3542" x2="796.3542" y1="534.5469" y2="534.5469"/><!--MD5=[5b9d1f421624f16eff0ff6a24dfb2877]
+class TotalMetric--><rect codeLine="50" fill="#282828" height="83.3781" id="TotalMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="216.6667" x="833.8542" y="484.9528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="216.6667" x="833.8542" y="484.9528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="216.6667" x="833.8542" y="508.0078"/><rect codeLine="50" fill="none" height="83.3781" id="TotalMetric" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="216.6667" x="833.8542" y="484.9528"/><ellipse cx="889.0625" cy="500.647" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M890.9729,505.072 Q890.5457,505.2917 890.0757,505.4016 Q889.6057,505.5115 889.0869,505.5115 Q887.2437,505.5115 886.2732,504.2969 Q885.3027,503.0823 885.3027,500.7874 Q885.3027,498.4863 886.2732,497.2717 Q887.2437,496.0571 889.0869,496.0571 Q889.6057,496.0571 890.0818,496.167 Q890.5579,496.2769 890.9729,496.4966 L890.9729,498.4985 Q890.509,498.0713 890.0726,497.8729 Q889.6362,497.6746 889.1724,497.6746 Q888.1836,497.6746 887.6801,498.4589 Q887.1765,499.2432 887.1765,500.7874 Q887.1765,502.3254 887.6801,503.1097 Q888.1836,503.894 889.1724,503.894 Q889.6362,503.894 890.0726,503.6957 Q890.509,503.4973 890.9729,503.0701 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="72.9167" x="911.9792" y="505.3711">TotalMetric</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="1036.9792" y="481.8278"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="1041.1458" y="498.0794">T</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="834.8958" x2="1049.4792" y1="516.3411" y2="516.3411"/><ellipse cx="845.3125" cy="551.711" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="184.375" x="856.7708" y="558.6222">TotalMetric(Mapper&lt;Double, T&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="834.8958" x2="898.4375" y1="534.5469" y2="534.5469"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="901.5625" y="538.3565">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="985.9375" x2="1049.4792" y1="534.5469" y2="534.5469"/><!--MD5=[0a801614e19dd68a8fb1c3c9908bf59b]
+reverse link BaseMetric to AggregateMetric--><path codeLine="11" d="M538.0208,124.0674 C538.0208,136.0778 538.0208,149.6507 538.0208,163.7445 " fill="none" id="BaseMetric-backto-AggregateMetric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="530.7292,124.3695,538.0208,103.5361,545.3125,124.3695,530.7292,124.3695" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[9e34fe8ac4601dcea47ab19c2e4ba4dc]
+reverse link AggregateMetric to AggregateMetric--><path codeLine="12" d="M682.1979,264.1195 C691.9792,270.8382 697.9167,280.557 697.9167,293.2861 C697.9167,313.4007 683.0833,326.0049 661.7188,331.109 " fill="none" id="AggregateMetric-backto-AggregateMetric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="679.5208,270.9007,663.1667,256.0778,685.1979,257.4736,679.5208,270.9007" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[f5277d59527e5b22aa6e9eaa0345f340]
+reverse link AggregateMetric to AverageMetric--><path codeLine="28" d="M394.8646,374.3799 C328.4271,411.5361 252.2813,454.109 197.7604,484.5986 " fill="none" id="AggregateMetric-backto-AverageMetric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="391.1042,368.1299,412.8438,364.3278,398.2292,380.859,391.1042,368.1299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[a40717c10a08ce21dbaf5f8f8bfec54c]
+reverse link AggregateMetric to MaximumMetric--><path codeLine="35" d="M449.8438,441.5153 C440.4479,457.1924 431.5521,472.0361 423.9375,484.7549 " fill="none" id="AggregateMetric-backto-MaximumMetric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="443.2813,438.2757,460.2396,424.1507,455.7917,445.7757,443.2813,438.2757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[371ae6b5b08190aa8ad228ad0a751d8c]
+reverse link AggregateMetric to MinimumMetric--><path codeLine="42" d="M626.8646,441.5153 C636.3333,457.1924 645.2813,472.0361 652.9688,484.7549 " fill="none" id="AggregateMetric-backto-MinimumMetric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="620.9063,445.7549,616.3854,424.1507,633.3958,438.2236,620.9063,445.7549" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[37a359c478542341f9f781a35792a35f]
+reverse link AggregateMetric to TotalMetric--><path codeLine="49" d="M680.9063,376.0778 C745.0417,412.7757 817.9063,454.4736 870.3646,484.484 " fill="none" id="AggregateMetric-backto-TotalMetric" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="677.5833,382.5778,663.125,365.9111,684.8229,369.9215,677.5833,382.5778" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[9a0a72e90bdd67131e547594ab086971]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.aggregates"
+    
+    abstract BaseMetric
+    
+    interface AggregateMetric
+    
+    BaseMetric <|- - AggregateMetric
+    AggregateMetric <|- - AggregateMetric
+    abstract class AggregateMetric<T>
+    {
+        - -(constructors)- -
+        #AggregateMetric(Mapper<Double, T>)
+        - -
+        #double compute()
+        #double total()
+        - -(collection)- -
+        #int sampleCount()
+        - -(math)- -
+        +boolean subtract(T metric)
+        #double maximumSample()
+        #double minimumSample()
+    }
+    
+    AggregateMetric <|- - AverageMetric
+    class AverageMetric<T>
+    {
+        - -(constructors)- -
+        +AverageMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|- - MaximumMetric
+    class MaximumMetric<T>
+    {
+        - -(constructors)- -
+        +MaximumMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|- - MinimumMetric
+    class MinimumMetric<T>
+    {
+        - -(constructors)- -
+        +MinimumMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|- - TotalMetric
+    class TotalMetric<T>
+    {
+        - -(constructors)- -
+        +TotalMetric(Mapper<Double, T>)
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.metrics.core.aggregates"
+    
+    abstract BaseMetric
+    
+    interface AggregateMetric
+    
+    BaseMetric <|- - AggregateMetric
+    AggregateMetric <|- - AggregateMetric
+    abstract class AggregateMetric<T>
+    {
+        - -(constructors)- -
+        #AggregateMetric(Mapper<Double, T>)
+        - -
+        #double compute()
+        #double total()
+        - -(collection)- -
+        #int sampleCount()
+        - -(math)- -
+        +boolean subtract(T metric)
+        #double maximumSample()
+        #double minimumSample()
+    }
+    
+    AggregateMetric <|- - AverageMetric
+    class AverageMetric<T>
+    {
+        - -(constructors)- -
+        +AverageMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|- - MaximumMetric
+    class MaximumMetric<T>
+    {
+        - -(constructors)- -
+        +MaximumMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|- - MinimumMetric
+    class MinimumMetric<T>
+    {
+        - -(constructors)- -
+        +MinimumMetric(Mapper<Double, T>)
+    }
+    
+    AggregateMetric <|- - TotalMetric
+    class TotalMetric<T>
+    {
+        - -(constructors)- -
+        +TotalMetric(Mapper<Double, T>)
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
