@@ -1,0 +1,63 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.gson.serializers"
+    
+    abstract BaseGsonSerializer
+    abstract BaseRepeater
+    
+    interface GsonSerializer
+    
+    BaseRepeater <|-- BaseGsonElementSerializer
+    GsonSerializer <|-- BaseGsonElementSerializer
+    abstract class BaseGsonElementSerializer<V>
+    {
+        --(constructors)--
+        +BaseGsonElementSerializer(Class<V>)
+        --
+        +JsonDeserializationContext deserializer()
+        +JsonObject serialize(T object)
+        #T deserialize(JsonElement, String propertyName, Class<T> type)
+        --(conversion)--
+        #JsonElement toJson(V value)
+        #V toValue(JsonElement object)
+        --(serialization)--
+        +JsonSerializationContext serializer()
+    }
+    
+    BaseRepeater <|-- BaseGsonSerializer
+    GsonSerializer <|-- BaseGsonSerializer
+    abstract class BaseGsonSerializer<V, S>
+    {
+        --(constructors)--
+        +BaseGsonSerializer(Class<V>, Class<S>)
+        --(extension points)--
+        #V onDeserialize(S serialized)
+        #S onSerialize(V value)
+    }
+    
+    BaseGsonSerializer <|-- BaseGsonStringSerializer
+    abstract class BaseGsonStringSerializer<V>
+    {
+        --(constructors)--
+        +BaseGsonStringSerializer(Class<V>)
+    }
+    
+    interface JsonDeserializer<V>
+    interface JsonSerializer<V>
+    interface Repeater
+    JsonSerializer <|-- GsonSerializer
+    JsonDeserializer <|-- GsonSerializer
+    Repeater <|-- GsonSerializer
+    interface GsonSerializer<V, S>
+    {
+        --
+        +String identity()
+        +Class<S> serializedType()
+        +Class<V> valueType()
+    }
+    
+@enduml
+

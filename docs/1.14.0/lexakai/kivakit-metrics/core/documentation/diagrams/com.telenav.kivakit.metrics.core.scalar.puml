@@ -1,0 +1,32 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.scalar"
+    
+    abstract BaseMetric
+    
+    BaseMetric <|-- DoubleMetric
+    class DoubleMetric
+    {
+        --(constructors)--
+        +DoubleMetric()
+        +DoubleMetric(BaseMetric<Double>)
+        +DoubleMetric(double)
+        --(primitive)--
+        +DoubleMetric withMeasurement(double quantum)
+    }
+    
+    BaseMetric <|-- DoubleValuedMetric
+    class DoubleValuedMetric<T>
+    {
+        --(constructors)--
+        +DoubleValuedMetric()
+        +DoubleValuedMetric(DoubleValuedMetric<T>)
+        --(primitive)--
+        +DoubleValuedMetric<T> withMeasurement(T measurement)
+    }
+    
+@enduml
+

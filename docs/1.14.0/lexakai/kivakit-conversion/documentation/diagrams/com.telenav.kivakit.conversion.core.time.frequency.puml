@@ -1,0 +1,19 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.time.frequency"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- FrequencyConverter
+    class FrequencyConverter
+    {
+        --(constructors)--
+        +FrequencyConverter()
+        +FrequencyConverter(Listener)
+    }
+    
+@enduml
+

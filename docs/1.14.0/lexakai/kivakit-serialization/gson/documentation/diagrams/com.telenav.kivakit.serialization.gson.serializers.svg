@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="747.9167px" preserveAspectRatio="none" style="width:686px;height:747px;background:#333333;" version="1.1" viewBox="0 0 686 747" width="686.4583px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="506.25" x="82.8125" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="483.3333" x="94.2708" y="30.5583">com.telenav.kivakit.serialization.gson.serializers</text><!--MD5=[1323bfd110e76cc1af35800ac19fa278]
+class BaseGsonSerializer--><rect codeLine="31" fill="#282828" height="146.7794" id="BaseGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="238.5417" x="9.375" y="392.7653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="238.5417" x="9.375" y="392.7653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="238.5417" x="9.375" y="415.8203"/><rect codeLine="31" fill="none" height="146.7794" id="BaseGsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="238.5417" x="9.375" y="392.7653"/><ellipse cx="44.1146" cy="408.4595" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M43.7077,405.1615 L42.8593,408.8908 L44.5622,408.8908 Z M42.609,403.5136 L44.8124,403.5136 L47.2721,412.6261 L45.4716,412.6261 L44.9101,410.3739 L42.4992,410.3739 L41.9499,412.6261 L40.1493,412.6261 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="122.9167" x="65.2604" y="413.1836">BaseGsonSerializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="31.25" x="219.7917" y="389.6403"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="22.9167" x="223.9583" y="405.8919">V, S</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="246.875" y1="424.1536" y2="424.1536"/><ellipse cx="20.8333" cy="459.5235" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="202.0833" x="32.2917" y="466.4347">BaseGsonSerializer(Class&lt;V&gt;, Class</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" text-decoration="line-through" textLength="4.1667" x="234.375" y="466.4347">)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="84.8958" y1="442.3594" y2="442.3594"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="88.0208" y="446.169">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="172.3958" x2="246.875" y1="442.3594" y2="442.3594"/><polygon fill="#FFFF44" points="20.8333,497.9716,25,502.1383,20.8333,506.3049,16.6667,502.1383" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="156.25" x="32.2917" y="510.0911">V onDeserialize(S serialized)</text><polygon fill="#FFFF44" points="20.8333,517.7165,25,521.8831,20.8333,526.0498,16.6667,521.8831" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="117.7083" x="32.2917" y="529.836">S onSerialize(V value)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="74.4792" y1="486.0158" y2="486.0158"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="77.6042" y="489.8254">(extension points)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="182.8125" x2="246.875" y1="486.0158" y2="486.0158"/><!--MD5=[762aa3d0df6a9d47bd8e105afbd066b5]
+class BaseRepeater--><rect codeLine="8" fill="#282828" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="152.0833" y="196.932"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="152.0833" y="196.932"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="152.0833" y="219.987"/><rect codeLine="8" fill="none" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="152.0833" y="196.932"/><ellipse cx="166.6667" cy="212.6261" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M166.2598,209.3282 L165.4114,213.0575 L167.1143,213.0575 Z M165.1611,207.6803 L167.3645,207.6803 L169.8242,216.7928 L168.0237,216.7928 L167.4622,214.5406 L165.0513,214.5406 L164.502,216.7928 L162.7014,216.7928 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="183.3333" y="217.3503">BaseRepeater</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="153.125" x2="275" y1="228.3203" y2="228.3203"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="153.125" x2="275" y1="236.6536" y2="236.6536"/><!--MD5=[bf1d930a0a1a598005068bb24aa7fae7]
+class GsonSerializer--><rect codeLine="53" fill="#282828" height="107.2896" id="GsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="163.5417" x="355.2083" y="167.2445"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="163.5417" x="355.2083" y="167.2445"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="163.5417" x="355.2083" y="190.2995"/><rect codeLine="53" fill="none" height="107.2896" id="GsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="163.5417" x="355.2083" y="167.2445"/><ellipse cx="369.7917" cy="182.9386" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M367.1956,180.1005 L367.1956,178.5136 L372.6217,178.5136 L372.6217,180.1005 L370.8089,180.1005 L370.8089,186.0392 L372.6217,186.0392 L372.6217,187.6261 L367.1956,187.6261 L367.1956,186.0392 L369.0084,186.0392 L369.0084,180.1005 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="92.7083" x="386.4583" y="187.6628">GsonSerializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="31.25" x="490.625" y="164.1195"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="22.9167" x="494.7917" y="180.3711">V, S</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="356.25" x2="517.7083" y1="198.6328" y2="198.6328"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="356.25" x2="517.7083" y1="206.9661" y2="206.9661"/><ellipse cx="366.6667" cy="218.4245" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="86.4583" x="378.125" y="225.3357">String identity()</text><ellipse cx="366.6667" cy="238.1694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="30.2083" x="378.125" y="245.0806">Class</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" text-decoration="line-through" textLength="88.5417" x="411.4583" y="245.0806">serializedType()</text><ellipse cx="366.6667" cy="257.9142" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="123.9583" x="378.125" y="264.8254">Class&lt;V&gt; valueType()</text><!--MD5=[4d481b421e52070fd4f114f2b3e16d1c]
+class BaseGsonElementSerializer--><rect codeLine="14" fill="#282828" height="258.0037" id="BaseGsonElementSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="390.625" x="284.375" y="337.0361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="390.625" x="284.375" y="337.0361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="390.625" x="284.375" y="360.0911"/><rect codeLine="14" fill="none" height="258.0037" id="BaseGsonElementSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="390.625" x="284.375" y="337.0361"/><ellipse cx="375.5208" cy="352.7303" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M375.1139,349.4324 L374.2655,353.1616 L375.9684,353.1616 Z M374.0153,347.7844 L376.2187,347.7844 L378.6784,356.897 L376.8778,356.897 L376.3163,354.6448 L373.9054,354.6448 L373.3561,356.897 L371.5556,356.897 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="175" x="398.4375" y="357.4544">BaseGsonElementSerializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="661.4583" y="333.9111"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="665.625" y="350.1628">V</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="285.4167" x2="673.9583" y1="368.4245" y2="368.4245"/><ellipse cx="295.8333" cy="403.7944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="213.5417" x="307.2917" y="410.7056">BaseGsonElementSerializer(Class&lt;V&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="285.4167" x2="435.9375" y1="386.6302" y2="386.6302"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="439.0625" y="390.4399">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="523.4375" x2="673.9583" y1="386.6302" y2="386.6302"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="285.4167" x2="673.9583" y1="420.4142" y2="420.4142"/><ellipse cx="295.8333" cy="431.8726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="227.0833" x="307.2917" y="438.7838">JsonDeserializationContext deserializer()</text><ellipse cx="295.8333" cy="451.6174" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="162.5" x="307.2917" y="458.5286">JsonObject serialize(T object)</text><polygon fill="#FFFF44" points="295.8333,466.154,300,470.3206,295.8333,474.4873,291.6667,470.3206" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="358.3333" x="307.2917" y="478.2735">T deserialize(JsonElement, String propertyName, Class&lt;T&gt; type)</text><polygon fill="#FFFF44" points="295.8333,509.8104,300,513.9771,295.8333,518.1437,291.6667,513.9771" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="307.2917" y="521.9299">JsonElement toJson(V value)</text><polygon fill="#FFFF44" points="295.8333,529.5553,300,533.7219,295.8333,537.8886,291.6667,533.7219" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="307.2917" y="541.6748">V toValue(JsonElement object)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="285.4167" x2="441.1458" y1="497.8546" y2="497.8546"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="444.2708" y="501.6642">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="518.2292" x2="673.9583" y1="497.8546" y2="497.8546"/><ellipse cx="295.8333" cy="578.42" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="198.9583" x="307.2917" y="585.3312">JsonSerializationContext serializer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="285.4167" x2="438.5417" y1="561.2559" y2="561.2559"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="76.0417" x="441.6667" y="565.0655">(serialization)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="520.8333" x2="673.9583" y1="561.2559" y2="561.2559"/><!--MD5=[a5e7f11c05efae20e980bc8b2d906532]
+class BaseGsonStringSerializer--><rect codeLine="41" fill="#282828" height="83.3781" id="BaseGsonStringSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="235.4167" x="10.9375" y="657.8695"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="235.4167" x="10.9375" y="657.8695"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="235.4167" x="10.9375" y="680.9245"/><rect codeLine="41" fill="none" height="83.3781" id="BaseGsonStringSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="235.4167" x="10.9375" y="657.8695"/><ellipse cx="33.4896" cy="673.5636" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M33.0827,670.2657 L32.2343,673.995 L33.9372,673.995 Z M31.984,668.6178 L34.1874,668.6178 L36.6471,677.7303 L34.8466,677.7303 L34.2851,675.4781 L31.8742,675.4781 L31.3249,677.7303 L29.5243,677.7303 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="161.4583" x="51.9271" y="678.2878">BaseGsonStringSerializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="232.8125" y="654.7445"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="236.9792" y="670.9961">V</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="11.9792" x2="245.3125" y1="689.2578" y2="689.2578"/><ellipse cx="22.3958" cy="724.6277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="203.125" x="33.8542" y="731.5389">BaseGsonStringSerializer(Class&lt;V&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="11.9792" x2="84.8958" y1="707.4636" y2="707.4636"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="88.0208" y="711.2732">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="172.3958" x2="245.3125" y1="707.4636" y2="707.4636"/><!--MD5=[c04c9295e01f428445c71975bdd8b5e9]
+class JsonDeserializer--><rect codeLine="47" fill="#282828" height="48.055" id="JsonDeserializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="162.5" x="165.1042" y="56.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="162.5" x="165.1042" y="56.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="162.5" x="165.1042" y="79.8828"/><rect codeLine="47" fill="none" height="48.055" id="JsonDeserializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="162.5" x="165.1042" y="56.8278"/><ellipse cx="179.6875" cy="72.522" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M177.0915,69.6838 L177.0915,68.0969 L182.5175,68.0969 L182.5175,69.6838 L180.7048,69.6838 L180.7048,75.6226 L182.5175,75.6226 L182.5175,77.2095 L177.0915,77.2095 L177.0915,75.6226 L178.9042,75.6226 L178.9042,69.6838 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="196.3542" y="77.2461">JsonDeserializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="314.0625" y="53.7028"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="318.2292" y="69.9544">V</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="166.1458" x2="326.5625" y1="88.2161" y2="88.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="166.1458" x2="326.5625" y1="96.5495" y2="96.5495"/><!--MD5=[0469281133f5120cce6c8ecdd1573efa]
+class JsonSerializer--><rect codeLine="48" fill="#282828" height="48.055" id="JsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="144.7917" x="364.5833" y="56.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="144.7917" x="364.5833" y="56.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="144.7917" x="364.5833" y="79.8828"/><rect codeLine="48" fill="none" height="48.055" id="JsonSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="144.7917" x="364.5833" y="56.8278"/><ellipse cx="379.1667" cy="72.522" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M376.5706,69.6838 L376.5706,68.0969 L381.9967,68.0969 L381.9967,69.6838 L380.1839,69.6838 L380.1839,75.6226 L381.9967,75.6226 L381.9967,77.2095 L376.5706,77.2095 L376.5706,75.6226 L378.3834,75.6226 L378.3834,69.6838 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="395.8333" y="77.2461">JsonSerializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="16.6667" x="495.8333" y="53.7028"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="8.3333" x="500" y="69.9544">V</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="365.625" x2="508.3333" y1="88.2161" y2="88.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="365.625" x2="508.3333" y1="96.5495" y2="96.5495"/><!--MD5=[5ec8c00c13391aeaac8c08bdf7a77295]
+class Repeater--><rect codeLine="49" fill="#282828" height="48.055" id="Repeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="93.75" x="546.3542" y="56.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="93.75" x="546.3542" y="56.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="93.75" x="546.3542" y="79.8828"/><rect codeLine="49" fill="none" height="48.055" id="Repeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="93.75" x="546.3542" y="56.8278"/><ellipse cx="560.9375" cy="72.522" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M558.3415,69.6838 L558.3415,68.0969 L563.7675,68.0969 L563.7675,69.6838 L561.9548,69.6838 L561.9548,75.6226 L563.7675,75.6226 L563.7675,77.2095 L558.3415,77.2095 L558.3415,75.6226 L560.1542,75.6226 L560.1542,69.6838 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="56.25" x="577.6042" y="77.2461">Repeater</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="547.3958" x2="639.0625" y1="88.2161" y2="88.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="547.3958" x2="639.0625" y1="96.5495" y2="96.5495"/><!--MD5=[04d947dc409730f286196ac0e12c3282]
+reverse link BaseRepeater to BaseGsonElementSerializer--><path codeLine="12" d="M255.9896,260.3174 C278.9583,281.359 308.9167,308.7861 339.3854,336.6924 " fill="none" id="BaseRepeater-backto-BaseGsonElementSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="251.1354,265.7653,240.6979,246.3174,260.9792,255.0153,251.1354,265.7653" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[a1eda6177004ea9ba4fbc9a9f929d376]
+reverse link GsonSerializer to BaseGsonElementSerializer--><path codeLine="13" d="M450.1458,296.932 C452.3854,309.682 454.7708,323.234 457.1667,336.9007 " fill="none" id="GsonSerializer-backto-BaseGsonElementSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="442.9896,298.3382,446.5729,276.557,457.3542,295.8174,442.9896,298.3382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e6782ef9e4411794845c647ac7826fc8]
+reverse link BaseRepeater to BaseGsonSerializer--><path codeLine="29" d="M198.5833,266.0049 C186.2188,301.2236 168.625,351.3278 154.1771,392.4632 " fill="none" id="BaseRepeater-backto-BaseGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="191.5625,263.984,205.3542,246.7445,205.3229,268.8174,191.5625,263.984" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[9432e73501b818d744362ffb98419eaa]
+reverse link GsonSerializer to BaseGsonSerializer--><path codeLine="30" d="M336.1979,286.0049 C312.6979,301.984 288.125,319.5674 266.1458,337.0361 C244.6875,354.0882 222.5104,373.7445 202.3854,392.4632 " fill="none" id="GsonSerializer-backto-BaseGsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="332.0625,279.9945,353.4271,274.4424,340.1875,292.109,332.0625,279.9945" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[290fbc6579156da8226ead124c0d2db3]
+reverse link BaseGsonSerializer to BaseGsonStringSerializer--><path codeLine="40" d="M128.6458,562.0882 C128.6458,595.4111 128.6458,631.1195 128.6458,657.6403 " fill="none" id="BaseGsonSerializer-backto-BaseGsonStringSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="121.3542,562.5049,128.6458,541.6715,135.9375,562.5049,121.3542,562.5049" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e6fa6a8128e3ddb1225009fa3215770a]
+reverse link JsonSerializer to GsonSerializer--><path codeLine="50" d="M436.9792,127.4632 C436.9792,140.0465 436.9792,153.7965 436.9792,166.7549 " fill="none" id="JsonSerializer-backto-GsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="429.6875,127.6507,436.9792,106.8174,444.2708,127.6507,429.6875,127.6507" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[23ea91a58894e2368cf21ca113b60d9d]
+reverse link JsonDeserializer to GsonSerializer--><path codeLine="51" d="M296.6979,118.2861 C317.1875,133.1195 341.2708,150.557 363.6563,166.7549 " fill="none" id="JsonDeserializer-backto-GsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="292.5625,124.2861,279.9688,106.1611,301.1146,112.4736,292.5625,124.2861" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[997d6e9fc9517e4d225ad718378bb6cc]
+reverse link Repeater to GsonSerializer--><path codeLine="52" d="M550.1458,119.8903 C533.75,134.3695 514.7708,151.1403 497.0833,166.7549 " fill="none" id="Repeater-backto-GsonSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="545.1042,114.609,565.5417,106.2861,554.75,125.5465,545.1042,114.609" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[275bfef6dceff0db098e9ff84f8c0e48]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.gson.serializers"
+    
+    abstract BaseGsonSerializer
+    abstract BaseRepeater
+    
+    interface GsonSerializer
+    
+    BaseRepeater <|- - BaseGsonElementSerializer
+    GsonSerializer <|- - BaseGsonElementSerializer
+    abstract class BaseGsonElementSerializer<V>
+    {
+        - -(constructors)- -
+        +BaseGsonElementSerializer(Class<V>)
+        - -
+        +JsonDeserializationContext deserializer()
+        +JsonObject serialize(T object)
+        #T deserialize(JsonElement, String propertyName, Class<T> type)
+        - -(conversion)- -
+        #JsonElement toJson(V value)
+        #V toValue(JsonElement object)
+        - -(serialization)- -
+        +JsonSerializationContext serializer()
+    }
+    
+    BaseRepeater <|- - BaseGsonSerializer
+    GsonSerializer <|- - BaseGsonSerializer
+    abstract class BaseGsonSerializer<V, S>
+    {
+        - -(constructors)- -
+        +BaseGsonSerializer(Class<V>, Class<S>)
+        - -(extension points)- -
+        #V onDeserialize(S serialized)
+        #S onSerialize(V value)
+    }
+    
+    BaseGsonSerializer <|- - BaseGsonStringSerializer
+    abstract class BaseGsonStringSerializer<V>
+    {
+        - -(constructors)- -
+        +BaseGsonStringSerializer(Class<V>)
+    }
+    
+    interface JsonDeserializer<V>
+    interface JsonSerializer<V>
+    interface Repeater
+    JsonSerializer <|- - GsonSerializer
+    JsonDeserializer <|- - GsonSerializer
+    Repeater <|- - GsonSerializer
+    interface GsonSerializer<V, S>
+    {
+        - -
+        +String identity()
+        +Class<S> serializedType()
+        +Class<V> valueType()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.serialization.gson.serializers"
+    
+    abstract BaseGsonSerializer
+    abstract BaseRepeater
+    
+    interface GsonSerializer
+    
+    BaseRepeater <|- - BaseGsonElementSerializer
+    GsonSerializer <|- - BaseGsonElementSerializer
+    abstract class BaseGsonElementSerializer<V>
+    {
+        - -(constructors)- -
+        +BaseGsonElementSerializer(Class<V>)
+        - -
+        +JsonDeserializationContext deserializer()
+        +JsonObject serialize(T object)
+        #T deserialize(JsonElement, String propertyName, Class<T> type)
+        - -(conversion)- -
+        #JsonElement toJson(V value)
+        #V toValue(JsonElement object)
+        - -(serialization)- -
+        +JsonSerializationContext serializer()
+    }
+    
+    BaseRepeater <|- - BaseGsonSerializer
+    GsonSerializer <|- - BaseGsonSerializer
+    abstract class BaseGsonSerializer<V, S>
+    {
+        - -(constructors)- -
+        +BaseGsonSerializer(Class<V>, Class<S>)
+        - -(extension points)- -
+        #V onDeserialize(S serialized)
+        #S onSerialize(V value)
+    }
+    
+    BaseGsonSerializer <|- - BaseGsonStringSerializer
+    abstract class BaseGsonStringSerializer<V>
+    {
+        - -(constructors)- -
+        +BaseGsonStringSerializer(Class<V>)
+    }
+    
+    interface JsonDeserializer<V>
+    interface JsonSerializer<V>
+    interface Repeater
+    JsonSerializer <|- - GsonSerializer
+    JsonDeserializer <|- - GsonSerializer
+    Repeater <|- - GsonSerializer
+    interface GsonSerializer<V, S>
+    {
+        - -
+        +String identity()
+        +Class<S> serializedType()
+        +Class<V> valueType()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

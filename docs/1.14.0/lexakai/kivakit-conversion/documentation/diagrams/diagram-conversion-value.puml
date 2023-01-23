@@ -1,0 +1,85 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Converters - Value"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- BytesConverter
+    class BytesConverter
+    {
+        --(constructors)--
+        +BytesConverter()
+        +BytesConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- ConfidenceConverter
+    class ConfidenceConverter
+    {
+        --(constructors)--
+        +ConfidenceConverter()
+        +ConfidenceConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- CountConverter
+    class CountConverter
+    {
+        --(constructors)--
+        +CountConverter()
+        +CountConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- EstimateConverter
+    class EstimateConverter
+    {
+        --(constructors)--
+        +EstimateConverter()
+        +EstimateConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- LevelConverter
+    class LevelConverter
+    {
+        --(constructors)--
+        +LevelConverter()
+        +LevelConverter(Listener)
+        --
+        +void lenient(boolean lenient)
+    }
+    
+    BaseStringConverter <|-- MaximumConverter
+    class MaximumConverter
+    {
+        --(constructors)--
+        +MaximumConverter()
+        +MaximumConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- MinimumConverter
+    class MinimumConverter
+    {
+        --(constructors)--
+        +MinimumConverter()
+        +MinimumConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- PercentConverter
+    class PercentConverter
+    {
+        --(constructors)--
+        +PercentConverter()
+        +PercentConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- VersionConverter
+    class VersionConverter
+    {
+        --(constructors)--
+        +VersionConverter()
+        +VersionConverter(Listener)
+    }
+    
+@enduml
+

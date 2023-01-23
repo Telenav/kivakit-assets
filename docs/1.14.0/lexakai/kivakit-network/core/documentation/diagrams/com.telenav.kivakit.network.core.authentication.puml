@@ -1,0 +1,33 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.network.core.authentication"
+    
+    abstract BaseStringConverter
+    
+    interface Matcher
+    Matcher <|-- Password
+    interface Password
+    {
+    }
+    
+    Name <|-- UserName
+    class UserName
+    {
+        --(constructors)--
+        #UserName(String)
+        --(naming)--
+        +UserName parseUserName(Listener, String text)
+    }
+    
+    BaseStringConverter <|-- UserNameConverter
+    class UserNameConverter
+    {
+        --(constructors)--
+        +UserNameConverter(Listener)
+    }
+    
+@enduml
+
