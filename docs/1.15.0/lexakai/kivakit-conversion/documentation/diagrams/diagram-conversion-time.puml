@@ -1,0 +1,112 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Converters - Time"
+    
+    abstract BaseLocalTimeConverter
+    abstract BaseStringConverter
+    abstract BaseTimeConverter
+    
+    BaseStringConverter <|-- BaseLocalTimeConverter
+    class BaseLocalTimeConverter
+    {
+        --(constructors)--
+        +BaseLocalTimeConverter(Listener, DateTimeFormatter)
+        +BaseLocalTimeConverter(Listener, DateTimeFormatter, ZoneId)
+    }
+    
+    BaseTimeConverter <|-- HttpDateTimeConverter
+    class HttpDateTimeConverter
+    {
+        --(constructors)--
+        +HttpDateTimeConverter()
+        +HttpDateTimeConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- HumanizedKivaKitLocalDateTimeConverter
+    class HumanizedKivaKitLocalDateTimeConverter
+    {
+        --(constructors)--
+        +HumanizedKivaKitLocalDateTimeConverter()
+        +HumanizedKivaKitLocalDateTimeConverter(Listener)
+    }
+    
+    BaseTimeConverter <|-- IsoDateTimeConverter
+    class IsoDateTimeConverter
+    {
+        --(constructors)--
+        +IsoDateTimeConverter()
+        +IsoDateTimeConverter(Listener)
+    }
+    
+    BaseLocalTimeConverter <|-- IsoLocalDateTimeConverter
+    class IsoLocalDateTimeConverter
+    {
+        --(constructors)--
+        +IsoLocalDateTimeConverter()
+        +IsoLocalDateTimeConverter(Listener)
+        +IsoLocalDateTimeConverter(Listener, ZoneId)
+    }
+    
+    BaseLocalTimeConverter <|-- KivaKitLocalDateConverter
+    class KivaKitLocalDateConverter
+    {
+        --(constructors)--
+        +KivaKitLocalDateConverter()
+        +KivaKitLocalDateConverter(Listener)
+        +KivaKitLocalDateConverter(Listener, ZoneId)
+        +KivaKitLocalDateConverter(ZoneId)
+    }
+    
+    BaseLocalTimeConverter <|-- KivaKitLocalDateTimeConverter
+    class KivaKitLocalDateTimeConverter
+    {
+        --(constructors)--
+        +KivaKitLocalDateTimeConverter()
+        +KivaKitLocalDateTimeConverter(Listener)
+        +KivaKitLocalDateTimeConverter(Listener, ZoneId)
+        +KivaKitLocalDateTimeConverter(ZoneId)
+    }
+    
+    BaseLocalTimeConverter <|-- KivaKitLocalDateTimeWithMillisecondsConverter
+    class KivaKitLocalDateTimeWithMillisecondsConverter
+    {
+        --(constructors)--
+        +KivaKitLocalDateTimeWithMillisecondsConverter()
+        +KivaKitLocalDateTimeWithMillisecondsConverter(Listener)
+        +KivaKitLocalDateTimeWithMillisecondsConverter(Listener, ZoneId)
+        +KivaKitLocalDateTimeWithMillisecondsConverter(ZoneId)
+    }
+    
+    BaseLocalTimeConverter <|-- KivaKitLocalDateTimeWithSecondsConverter
+    class KivaKitLocalDateTimeWithSecondsConverter
+    {
+        --(constructors)--
+        +KivaKitLocalDateTimeWithSecondsConverter()
+        +KivaKitLocalDateTimeWithSecondsConverter(Listener)
+        +KivaKitLocalDateTimeWithSecondsConverter(Listener, ZoneId)
+        +KivaKitLocalDateTimeWithSecondsConverter(ZoneId)
+    }
+    
+    BaseLocalTimeConverter <|-- KivaKitLocalTimeConverter
+    class KivaKitLocalTimeConverter
+    {
+        --(constructors)--
+        +KivaKitLocalTimeConverter()
+        +KivaKitLocalTimeConverter(Listener)
+        +KivaKitLocalTimeConverter(Listener, ZoneId)
+        +KivaKitLocalTimeConverter(ZoneId)
+    }
+    
+    BaseTimeConverter <|-- KivaKitUtcTimeConverter
+    class KivaKitUtcTimeConverter
+    {
+        --(constructors)--
+        +KivaKitUtcTimeConverter()
+        +KivaKitUtcTimeConverter(Listener)
+    }
+    
+@enduml
+

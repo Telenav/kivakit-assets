@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.gson.serializers.value"
+    
+    abstract BaseGsonSerializer
+    
+    BaseGsonSerializer <|-- CountGsonSerializer
+    class CountGsonSerializer
+    {
+        --(constructors)--
+        +CountGsonSerializer()
+    }
+    
+    BaseGsonSerializer <|-- ProblemGsonSerializer
+    class ProblemGsonSerializer
+    {
+        --(constructors)--
+        +ProblemGsonSerializer()
+    }
+    
+@enduml
+

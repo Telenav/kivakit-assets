@@ -1,0 +1,20 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.time.local"
+    
+    abstract BaseLocalTimeConverter
+    
+    BaseLocalTimeConverter <|-- IsoLocalDateTimeConverter
+    class IsoLocalDateTimeConverter
+    {
+        --(constructors)--
+        +IsoLocalDateTimeConverter()
+        +IsoLocalDateTimeConverter(Listener)
+        +IsoLocalDateTimeConverter(Listener, ZoneId)
+    }
+    
+@enduml
+

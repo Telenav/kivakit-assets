@@ -1,0 +1,157 @@
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--                                                                                                                 -->
+<!--  © 2011-2021 Telenav, Inc.                                                                                      -->
+<!--  Licensed under Apache License, Version 2.0                                                                     -->
+<!--                                                                                                                 -->
+<!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<!DOCTYPE html>
+<html>
+<!-- Use the Source, Luke -->
+<head>
+    <title>kivakit CodeFlowers</title>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <link href="stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="stylesheets/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rosario:400,700' rel='stylesheet' type='text/css'>
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css"/>
+    <style type="text/css">
+
+        circle.node {
+            cursor: pointer;
+            stroke: #000;
+            stroke-width: .5px;
+        }
+
+        circle.node.directory {
+            stroke: #9ecae1;
+            stroke-width: 2px;
+        }
+
+        circle.node.collapsed {
+            stroke: #555;
+        }
+
+        .nodetext {
+            fill: #252929;
+            font-weight: bold;
+            text-shadow: 0 0 0.2em white;
+        }
+
+        line.link {
+            fill: none;
+            stroke: #9ecae1;
+            stroke-width: 1.5px;
+        }
+
+
+    </style>
+</head>
+<body>
+<div class="content">
+    <div class="container">
+        <br/>
+        <br/>
+        <br/>
+        <div class="heading">kivakit codeflowers &nbsp; <img class="top" src="https://telenav.github.io/telenav-assets/images/logos/kivakit/kivakit-64.png"></div>
+        <br/>
+        <br/>
+        <img src="https://telenav.github.io/telenav-assets/images/separators/horizontal-line.png">
+        <br/>
+        <br/>
+
+        <div class="lead">This page visualizes key kivakit projects in an interactive tree.</div>
+        <p class="lead">Each disc represents a file, with a radius proportional to the number
+            of lines of code.</p>
+        <p class="lead">Try hovering over the nodes to see the line count.</p>
+        <br/>
+        <form class="form-inline">
+            <fieldset>
+                <select id="project" style="width:260px">
+                    <option value='data/kivakit-annotations.json'>Kivakit Annotations</option>
+<option value='data/kivakit-application.json'>Kivakit Application</option>
+<option value='data/kivakit-collections.json'>Kivakit Collections</option>
+<option value='data/kivakit-commandline.json'>Kivakit Commandline</option>
+<option value='data/kivakit-component.json'>Kivakit Component</option>
+<option value='data/kivakit-conversion.json'>Kivakit Conversion</option>
+<option value='data/kivakit-core.json'>Kivakit Core</option>
+<option value='data/kivakit-data-compression.json'>Kivakit Data Compression</option>
+<option value='data/kivakit-data-formats-csv.json'>Kivakit Data Formats Csv</option>
+<option value='data/kivakit-data-formats-library.json'>Kivakit Data Formats Library</option>
+<option value='data/kivakit-data-formats-xml.json'>Kivakit Data Formats Xml</option>
+<option value='data/kivakit-data-formats-yaml.json'>Kivakit Data Formats Yaml</option>
+<option value='data/kivakit-examples-application.json'>Kivakit Examples Application</option>
+<option value='data/kivakit-examples-lambda.json'>Kivakit Examples Lambda</option>
+<option value='data/kivakit-examples-microservice.json'>Kivakit Examples Microservice</option>
+<option value='data/kivakit-examples-settings.json'>Kivakit Examples Settings</option>
+<option value='data/kivakit-extraction.json'>Kivakit Extraction</option>
+<option value='data/kivakit-filesystems-github.json'>Kivakit Filesystems Github</option>
+<option value='data/kivakit-filesystems-java.json'>Kivakit Filesystems Java</option>
+<option value='data/kivakit-filesystems-s3fs.json'>Kivakit Filesystems S3fs</option>
+<option value='data/kivakit-interfaces.json'>Kivakit Interfaces</option>
+<option value='data/kivakit-internal-testing.json'>Kivakit Internal Testing</option>
+<option value='data/kivakit-logs-email.json'>Kivakit Logs Email</option>
+<option value='data/kivakit-logs-file.json'>Kivakit Logs File</option>
+<option value='data/kivakit-math.json'>Kivakit Math</option>
+<option value='data/kivakit-metrics-core.json'>Kivakit Metrics Core</option>
+<option value='data/kivakit-metrics-prometheus.json'>Kivakit Metrics Prometheus</option>
+<option value='data/kivakit-microservice.json'>Kivakit Microservice</option>
+<option value='data/kivakit-mixins.json'>Kivakit Mixins</option>
+<option value='data/kivakit-network-core.json'>Kivakit Network Core</option>
+<option value='data/kivakit-network-email.json'>Kivakit Network Email</option>
+<option value='data/kivakit-network-ftp.json'>Kivakit Network Ftp</option>
+<option value='data/kivakit-network-http.json'>Kivakit Network Http</option>
+<option value='data/kivakit-network-socket.json'>Kivakit Network Socket</option>
+<option value='data/kivakit-primitive-collections.json'>Kivakit Primitive Collections</option>
+<option value='data/kivakit-resource.json'>Kivakit Resource</option>
+<option value='data/kivakit-security.json'>Kivakit Security</option>
+<option value='data/kivakit-serialization-core.json'>Kivakit Serialization Core</option>
+<option value='data/kivakit-serialization-gson.json'>Kivakit Serialization Gson</option>
+<option value='data/kivakit-serialization-kryo.json'>Kivakit Serialization Kryo</option>
+<option value='data/kivakit-serialization-kryo-testing.json'>Kivakit Serialization Kryo Testing</option>
+<option value='data/kivakit-serialization-properties.json'>Kivakit Serialization Properties</option>
+<option value='data/kivakit-serialization-yaml.json'>Kivakit Serialization Yaml</option>
+<option value='data/kivakit-settings.json'>Kivakit Settings</option>
+<option value='data/kivakit-settings-stores-zookeeper.json'>Kivakit Settings Stores Zookeeper</option>
+<option value='data/kivakit-snippets.json'>Kivakit Snippets</option>
+<option value='data/kivakit-testing.json'>Kivakit Testing</option>
+<option value='data/kivakit-ui-desktop.json'>Kivakit Ui Desktop</option>
+<option value='data/kivakit-validation.json'>Kivakit Validation</option>
+<option value='data/kivakit-web-jersey.json'>Kivakit Web Jersey</option>
+<option value='data/kivakit-web-jetty.json'>Kivakit Web Jetty</option>
+<option value='data/kivakit-web-swagger.json'>Kivakit Web Swagger</option>
+<option value='data/kivakit-web-wicket.json'>Kivakit Web Wicket</option>
+                </select>
+            </fieldset>
+        </form>
+        <div id="visualization"></div>
+        <br/>
+        CodeFlower © 2013 <a href="https://github.com/fzaninotto/CodeFlower">Francois Zaninotto</a>. Licensed under <a href="../../../../../kivakit/legal/CODEFLOWER-LICENSE">MIT License.</a>
+        <br/>
+        <br/>
+        <br/>
+    </div>
+</div>
+<script src="javascripts/d3/d3.js" type="text/javascript"></script>
+<script src="javascripts/d3/d3.geom.js" type="text/javascript"></script>
+<script src="javascripts/d3/d3.layout.js" type="text/javascript"></script>
+<script src="javascripts/CodeFlower.js" type="text/javascript"></script>
+<script src="javascripts/dataConverter.js" type="text/javascript"></script>
+<script type="text/javascript">
+    var currentCodeFlower;
+    var createCodeFlower = function (json) {
+        if (currentCodeFlower) currentCodeFlower.cleanup();
+        currentCodeFlower = new CodeFlower("#visualization", 700, 700).update(json);
+    };
+
+    d3.json('data/kivakit-core-kernel.json', createCodeFlower);
+
+    document.getElementById('project').addEventListener('change', function () {
+        d3.json(this.value, createCodeFlower);
+    });
+
+
+</script>
+</body>
+</html>

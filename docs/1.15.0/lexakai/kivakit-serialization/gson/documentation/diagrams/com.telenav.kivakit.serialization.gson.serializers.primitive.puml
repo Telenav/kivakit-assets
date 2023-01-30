@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.gson.serializers.primitive"
+    
+    abstract BaseGsonSerializer
+    
+    BaseGsonSerializer <|-- ByteArrayGsonSerializer
+    class ByteArrayGsonSerializer
+    {
+        --(constructors)--
+        +ByteArrayGsonSerializer()
+    }
+    
+@enduml
+

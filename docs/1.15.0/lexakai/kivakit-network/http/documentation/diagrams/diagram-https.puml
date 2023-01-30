@@ -1,0 +1,39 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Secure HTTP"
+    
+    HttpGetResource <|-- HttpsGetResource
+    class HttpsGetResource
+    {
+        --(constructors)--
+        +HttpsGetResource(HttpsNetworkLocation)
+        +HttpsGetResource(HttpsNetworkLocation, NetworkAccessConstraints)
+    }
+    
+    HttpNetworkLocation <|-- HttpsNetworkLocation
+    HttpsNetworkLocation --> HttpsGetResource : "creates"
+    HttpsNetworkLocation --> HttpsPostResource : "creates"
+    class HttpsNetworkLocation
+    {
+        --(constructors)--
+        +HttpsNetworkLocation(NetworkPath)
+        +HttpsNetworkLocation(URI)
+        --(network)--
+        +HttpsNetworkLocation parseSecureHttpNetworkLocation(Listener, String path)
+        +HttpsNetworkLocation secureHttpNetworkLocation(String path)
+        +HttpsNetworkLocation secureHttpNetworkLocation(NetworkPath)
+    }
+    
+    HttpPostResource <|-- HttpsPostResource
+    class HttpsPostResource
+    {
+        --(constructors)--
+        +HttpsPostResource(HttpsNetworkLocation)
+        +HttpsPostResource(NetworkLocation, NetworkAccessConstraints)
+    }
+    
+@enduml
+

@@ -1,0 +1,25 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.gson.serializers.time"
+    
+    abstract BaseGsonSerializer
+    
+    StringConverterGsonSerializer <|-- KivaKitLocalDateTimeGsonSerializer
+    class KivaKitLocalDateTimeGsonSerializer
+    {
+        --(constructors)--
+        +KivaKitLocalDateTimeGsonSerializer(ZoneId)
+    }
+    
+    BaseGsonSerializer <|-- TimeInMillisecondsGsonSerializer
+    class TimeInMillisecondsGsonSerializer
+    {
+        --(constructors)--
+        +TimeInMillisecondsGsonSerializer()
+    }
+    
+@enduml
+
