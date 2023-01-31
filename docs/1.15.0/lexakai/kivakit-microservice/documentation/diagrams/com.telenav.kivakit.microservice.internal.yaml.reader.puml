@@ -1,0 +1,65 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.yaml.reader"
+    
+    class YamlInput
+    {
+        --(constructors)--
+        +YamlInput(Resource)
+        --
+        +int at()
+        +YamlLine current()
+        +int indentLevel()
+        --(collection)--
+        +Iterable<YamlLine> block()
+        +int size()
+        --(iteration)--
+        +boolean hasNext()
+        +YamlLine next()
+    }
+    
+    class YamlLine
+    {
+        --(constructors)--
+        +YamlLine(String)
+        --
+        +int indentLevel()
+        +String label()
+        +String line()
+        +int lineNumber()
+        +Number number()
+        +int ordinal()
+        +String string()
+        +YamlLineType type()
+        --(checks)--
+        +boolean isBlank()
+        +boolean isComment()
+        +boolean isLabel()
+        +boolean isListElement()
+        +boolean isLiteral()
+        +boolean isNumber()
+        +boolean isScalar()
+        +boolean isString()
+    }
+    
+    enum YamlLineType
+    {
+        BLANK
+        COMMENT
+        LABEL
+        LITERAL
+        SCALAR_NUMBER
+        SCALAR_STRING
+    }
+    
+    class YamlReader
+    {
+        --(read)--
+        +YamlBlock read(Resource)
+    }
+    
+@enduml
+

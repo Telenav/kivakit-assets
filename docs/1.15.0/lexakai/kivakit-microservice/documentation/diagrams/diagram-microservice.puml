@@ -1,0 +1,146 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Microservices"
+    
+    abstract BaseComponent
+    
+    interface Startable
+    interface Named
+    interface Initializable
+    interface Stoppable
+    interface TryTrait
+    
+    Application <|-- Microservice
+    TryTrait <|-- Microservice
+    Startable <|-- Microservice
+    Stoppable <|-- Microservice
+    Microservice --> MicroserviceMetadata : "has"
+    Microservice --> MicroserviceSettings : "has"
+    abstract class Microservice<Member>
+    {
+        --(constructors)--
+        #Microservice()
+        --
+        +MicroserviceCluster<Member> cluster()
+        +MicroserviceClusterMember<Member> leader()
+        +MicroserviceSettings settings()
+        #void onLeave(MicroserviceClusterMember<Member>)
+        #void onMountJettyPlugins(JettyServer)
+        --(checks)--
+        +boolean isClustered()
+        +boolean isLeader()
+        --(extension points)--
+        #MicroserviceClusterMember<Member> onNewMember()
+        --(filesystem)--
+        #ResourceFolder<?> openApiAssetsFolder()
+        #ResourceFolder<?> staticAssetsFolder()
+        --(lifecycle)--
+        #void onJoin(MicroserviceClusterMember<Member>)
+        --(metadata)--
+        +MicroserviceMetadata metadata()
+        --(path)--
+        +String resolvePath(String mountPath)
+        +String rootPath()
+        --(service)--
+        +MicroserviceGrpcService grpcService()
+        +MicroserviceLambdaService lambdaService()
+        +MicroserviceGrpcService onNewGrpcService()
+        +MicroserviceLambdaService onNewLambdaService()
+        +RestService onNewRestService()
+        +RestService restService()
+    }
+    
+    class MicroserviceMetadata
+    {
+        --(constructors)--
+        #MicroserviceMetadata(MicroserviceMetadata)
+        +MicroserviceMetadata()
+        --
+        +String description()
+        --(functional)--
+        +MicroserviceMetadata withDescription(String description)
+        +MicroserviceMetadata withName(String name)
+        +MicroserviceMetadata withVersion(Version)
+        --(identity)--
+        +Version version()
+        --(naming)--
+        +String name()
+    }
+    
+    class MicroserviceSettings
+    {
+        --
+        +MicroserviceSettings server(boolean server)
+        --(checks)--
+        +boolean isServer()
+        --(network)--
+        +int grpcPort()
+        +MicroserviceSettings grpcPort(int grpcPort)
+        +int port()
+        +MicroserviceSettings port(int port)
+    }
+    
+    BaseComponent <|-- Microservlet
+    Named <|-- Microservlet
+    Microservlet --> JettyRestRequestCycle : "attaches"
+    Microservlet --> MicroservletRequest : "references sub-class"
+    Microservlet --> MicroservletResponse : "references sub-class"
+    abstract class Microservlet<Request, Response>
+    {
+        --(constructors)--
+        #Microservlet(Class<? extends Request>, Class<? extends Response>)
+        --
+        +String description()
+        +Class<? extends Request> requestType()
+        +Response respond(MicroservletRequest)
+        +Class<? extends Response> responseType()
+        #String parameter(String key)
+        #T parameterAsObject(String key, Class<Converter<String,T>> converterType)
+        #T parameterAsObject(String key, Converter<String,T>)
+        --(collection)--
+        #PropertyMap parameters()
+        --(extension points)--
+        +Response onRespond(Request)
+        --(primitive)--
+        #int parameterAsInt(String key)
+        #long parameterAsLong(String key)
+    }
+    
+    BaseComponent <|-- RestService
+    Initializable <|-- RestService
+    RestService --> Microservlet : "mounts"
+    RestService o-- Microservice
+    abstract class RestService
+    {
+        --(constructors)--
+        #RestService(Microservice<?>)
+        --
+        +Microservice<?> microservice()
+        +void mount(RestPath, Microservlet<?,?>)
+        +void mount(Version, String path, HttpMethod, Class<Request> requestType)
+        +void mount(String path, HttpMethod, Class<Request> requestType)
+        +void mountAllOn(MicroservletMountTarget)
+        +void onRequestPerformance(MicroservletPerformance)
+        +void onRequested(MicroservletRequest, HttpMethod)
+        +void onRequesting(MicroservletRequest, HttpMethod)
+        +ObjectSerializer serializer()
+        --(collection)--
+        +ObjectList<Class<?>> onOpenApiSchemas()
+        --(command line parsing)--
+        +void mountApi(Version, Resource jar, String commandLine, int port)
+        +void mountApi(Version, String path, Resource jar, String commandLine, int port)
+        --(lifecycle)--
+        +void onInitialize(JettyServer)
+        --(messaging)--
+        +Info openApiInfo()
+        --(path)--
+        #Version pathToVersion(String path)
+        #String rootPath()
+        #String versionToPath(Version)
+    }
+    
+@enduml
+
