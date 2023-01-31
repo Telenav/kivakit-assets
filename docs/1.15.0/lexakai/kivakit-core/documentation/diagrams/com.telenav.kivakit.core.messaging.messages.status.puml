@@ -5,7 +5,7 @@
     
     title "com.telenav.kivakit.core.messaging.messages.status"
     
-    OperationStatusMessage <|-- Alert
+    Problem <|-- Alert
     class Alert
     {
         --(constructors)--
@@ -17,7 +17,7 @@
         +Alert solution(String solution)
     }
     
-    OperationStatusMessage <|-- Announcement
+    Information <|-- Announcement
     class Announcement
     {
         --(constructors)--
@@ -43,7 +43,7 @@
         +FatalProblem(Throwable, String, Object)
     }
     
-    OperationStatusMessage <|-- Glitch
+    Warning <|-- Glitch
     class Glitch
     {
         --(constructors)--
@@ -58,9 +58,10 @@
         --(constructors)--
         +Information()
         +Information(String, Object)
+        +Information(Throwable, String, Object)
     }
     
-    OperationStatusMessage <|-- Narration
+    Information <|-- Narration
     class Narration
     {
         --(constructors)--
@@ -77,7 +78,7 @@
         +Problem(Throwable, String, Object)
     }
     
-    OperationStatusMessage <|-- Quibble
+    Warning <|-- Quibble
     class Quibble
     {
         --(constructors)--
@@ -86,7 +87,7 @@
         +Quibble(Throwable, String, Object)
     }
     
-    OperationStatusMessage <|-- Trace
+    Information <|-- Trace
     class Trace
     {
         --(constructors)--

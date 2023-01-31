@@ -5,7 +5,7 @@
     
     title "com.telenav.kivakit.core.messaging.messages.status.activity"
     
-    OperationStatusMessage <|-- Step
+    Information <|-- Step
     class Step
     {
         --(constructors)--
@@ -14,7 +14,7 @@
         +Step(Throwable, String, Object)
     }
     
-    OperationStatusMessage <|-- StepFailure
+    Problem <|-- StepFailure
     class StepFailure
     {
         --(constructors)--
@@ -23,7 +23,7 @@
         +StepFailure(Throwable, String, Object)
     }
     
-    OperationStatusMessage <|-- StepIncomplete
+    Warning <|-- StepIncomplete
     class StepIncomplete
     {
         --(constructors)--
@@ -32,7 +32,7 @@
         +StepIncomplete(Throwable, String, Object)
     }
     
-    OperationStatusMessage <|-- StepSuccess
+    Information <|-- StepSuccess
     class StepSuccess
     {
         --(constructors)--

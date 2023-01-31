@@ -5,7 +5,7 @@
     
     title "com.telenav.kivakit.core.ensure"
     
-    Ensure --> EnsureProblem : "reports"
+    Ensure --> EnsureFailure : "reports"
     class Ensure
     {
         --
@@ -57,13 +57,13 @@
         +T fail(String message, Object... arguments)
     }
     
-    Problem <|-- EnsureProblem
-    class EnsureProblem
+    FatalProblem <|-- EnsureFailure
+    class EnsureFailure
     {
         --(constructors)--
-        +EnsureProblem()
-        +EnsureProblem(String, Object)
-        +EnsureProblem(Throwable, String, Object)
+        +EnsureFailure()
+        +EnsureFailure(String, Object)
+        +EnsureFailure(Throwable, String, Object)
     }
     
     interface EnsureTrait

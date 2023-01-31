@@ -39,7 +39,7 @@
     507 com/telenav/kivakit/core/collections/set/MultiSet.java
     822 com/telenav/kivakit/core/collections/set/ObjectSet.java
    1694 com/telenav/kivakit/core/ensure/Ensure.java
-     73 com/telenav/kivakit/core/ensure/EnsureProblem.java
+     72 com/telenav/kivakit/core/ensure/EnsureFailure.java
     537 com/telenav/kivakit/core/ensure/EnsureTrait.java
     453 com/telenav/kivakit/core/ensure/Failure.java
     168 com/telenav/kivakit/core/ensure/FailureReporter.java
@@ -110,7 +110,7 @@
     778 com/telenav/kivakit/core/language/reflection/Field.java
     388 com/telenav/kivakit/core/language/reflection/Member.java
     551 com/telenav/kivakit/core/language/reflection/Method.java
-     64 com/telenav/kivakit/core/language/reflection/ReflectionProblem.java
+     63 com/telenav/kivakit/core/language/reflection/ReflectionProblem.java
    1970 com/telenav/kivakit/core/language/reflection/Type.java
     171 com/telenav/kivakit/core/language/reflection/accessors/FieldGetter.java
     164 com/telenav/kivakit/core/language/reflection/accessors/FieldSetter.java
@@ -192,29 +192,29 @@
      67 com/telenav/kivakit/core/messaging/messages/MessageException.java
     114 com/telenav/kivakit/core/messaging/messages/OperationLifecycleMessage.java
     689 com/telenav/kivakit/core/messaging/messages/OperationMessage.java
-    318 com/telenav/kivakit/core/messaging/messages/OperationStatusMessage.java
+    334 com/telenav/kivakit/core/messaging/messages/OperationStatusMessage.java
     179 com/telenav/kivakit/core/messaging/messages/Severity.java
      61 com/telenav/kivakit/core/messaging/messages/Triaged.java
      70 com/telenav/kivakit/core/messaging/messages/lifecycle/OperationFailed.java
     120 com/telenav/kivakit/core/messaging/messages/lifecycle/OperationHalted.java
      68 com/telenav/kivakit/core/messaging/messages/lifecycle/OperationStarted.java
      72 com/telenav/kivakit/core/messaging/messages/lifecycle/OperationSucceeded.java
-    344 com/telenav/kivakit/core/messaging/messages/status/Alert.java
-    300 com/telenav/kivakit/core/messaging/messages/status/Announcement.java
+    343 com/telenav/kivakit/core/messaging/messages/status/Alert.java
+    299 com/telenav/kivakit/core/messaging/messages/status/Announcement.java
     310 com/telenav/kivakit/core/messaging/messages/status/CriticalAlert.java
     324 com/telenav/kivakit/core/messaging/messages/status/FatalProblem.java
-    364 com/telenav/kivakit/core/messaging/messages/status/Glitch.java
-    287 com/telenav/kivakit/core/messaging/messages/status/Information.java
-    282 com/telenav/kivakit/core/messaging/messages/status/Narration.java
-    292 com/telenav/kivakit/core/messaging/messages/status/Problem.java
+    365 com/telenav/kivakit/core/messaging/messages/status/Glitch.java
+    309 com/telenav/kivakit/core/messaging/messages/status/Information.java
+    281 com/telenav/kivakit/core/messaging/messages/status/Narration.java
+    298 com/telenav/kivakit/core/messaging/messages/status/Problem.java
     288 com/telenav/kivakit/core/messaging/messages/status/Quibble.java
-    300 com/telenav/kivakit/core/messaging/messages/status/Trace.java
+    299 com/telenav/kivakit/core/messaging/messages/status/Trace.java
      74 com/telenav/kivakit/core/messaging/messages/status/Unsupported.java
-    310 com/telenav/kivakit/core/messaging/messages/status/Warning.java
-    126 com/telenav/kivakit/core/messaging/messages/status/activity/Step.java
-    100 com/telenav/kivakit/core/messaging/messages/status/activity/StepFailure.java
-    102 com/telenav/kivakit/core/messaging/messages/status/activity/StepIncomplete.java
-     84 com/telenav/kivakit/core/messaging/messages/status/activity/StepSuccess.java
+    320 com/telenav/kivakit/core/messaging/messages/status/Warning.java
+    122 com/telenav/kivakit/core/messaging/messages/status/activity/Step.java
+     97 com/telenav/kivakit/core/messaging/messages/status/activity/StepFailure.java
+    101 com/telenav/kivakit/core/messaging/messages/status/activity/StepIncomplete.java
+     83 com/telenav/kivakit/core/messaging/messages/status/activity/StepSuccess.java
     259 com/telenav/kivakit/core/messaging/repeaters/BaseRepeater.java
     252 com/telenav/kivakit/core/messaging/repeaters/RepeaterMixin.java
     240 com/telenav/kivakit/core/object/Lazy.java
@@ -345,4 +345,4 @@
     551 com/telenav/kivakit/core/vm/ShutdownHook.java
     240 com/telenav/kivakit/core/vm/ThreadSnapshot.java
     134 com/telenav/kivakit/core/vm/ThreadStatus.java
- 134622 total
+ 134662 total

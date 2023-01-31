@@ -8,6 +8,12 @@
     interface Named
     interface Message
     
+    enum OperationStatusMessage.CauseFormatting
+    {
+        DO_NOT_FORMAT_CAUSE
+        FORMAT_CAUSE
+    }
+    
     Level <|-- Importance
     class Importance
     {
@@ -58,7 +64,7 @@
     {
         --(constructors)--
         #OperationStatusMessage()
-        #OperationStatusMessage(Throwable, String, Object)
+        #OperationStatusMessage(CauseFormatting, Throwable, String, Object)
         --
         +String code()
         --(status)--
