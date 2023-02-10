@@ -1,0 +1,92 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.yaml.model"
+    
+    interface Named
+    interface YamlNodeContainer
+    
+    YamlNode <|-- YamlArray
+    YamlNodeContainer <|-- YamlArray
+    class YamlArray
+    {
+        --
+        +YamlNode get(int index)
+        --(collection)--
+        +YamlArray array()
+        +YamlArray array(String name)
+        +YamlArray copy()
+        +Count count()
+        +YamlArray with(YamlNode)
+    }
+    
+    YamlNode <|-- YamlBlock
+    YamlNodeContainer <|-- YamlBlock
+    class YamlBlock
+    {
+        --
+        +YamlBlock block(String name)
+        +YamlBlock block()
+        +YamlNode get(String name)
+        +boolean has(String name)
+        +YamlBlock with(YamlNode)
+        --(collection)--
+        +void addReference(String type)
+        --(filesystem)--
+        +YamlBlock copy()
+    }
+    
+    YamlNode <|-- YamlLiteral
+    class YamlLiteral
+    {
+        --
+        +YamlLiteral literal(String name, String value)
+        --(collection)--
+        +String value()
+    }
+    
+    Named <|-- YamlNode
+    abstract class YamlNode
+    {
+        --(constructors)--
+        #YamlNode(YamlNode)
+        +YamlNode(String)
+        --
+        +void parent(YamlNode parent)
+        +YamlNode parent()
+        --(checks)--
+        +boolean isNamed()
+        +boolean isUnnamed()
+    }
+    
+    interface YamlNodeContainer
+    {
+        --
+        +YamlNode prepending(YamlNode element)
+        --(collection)--
+        +ObjectList<YamlNode> elements()
+        +int size()
+    }
+    
+    YamlNode <|-- YamlScalar
+    class YamlScalar
+    {
+        --
+        +YamlScalar enumValue(String name)
+        +Number number()
+        +YamlScalar scalar(String name, String value)
+        +YamlScalar scalar(String name, Number value)
+        +YamlScalar scalar(String name, Boolean value)
+        +String string()
+        +boolean truth()
+        --(checks)--
+        +boolean isBoolean()
+        +boolean isEnum()
+        +boolean isNumber()
+        +boolean isString()
+    }
+    
+@enduml
+

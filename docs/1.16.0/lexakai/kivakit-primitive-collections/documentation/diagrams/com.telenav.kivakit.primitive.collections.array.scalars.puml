@@ -1,0 +1,147 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.primitive.collections.array.scalars"
+    
+    abstract BaseStringConverter
+    
+    interface ByteList
+    interface CharList
+    interface ShortList
+    interface LongList
+    interface IntList
+    
+    PrimitiveArray <|-- ByteArray
+    ByteList <|-- ByteArray
+    class ByteArray
+    {
+        --(constructors)--
+        #ByteArray()
+        +ByteArray(String)
+        --
+        +int getUnsigned(int index)
+        --(collection)--
+        +boolean add(long value)
+        --(conversion)--
+        +String toBinaryString()
+        +String toHexString()
+    }
+    
+    PrimitiveArray <|-- CharArray
+    CharList <|-- CharArray
+    class CharArray
+    {
+        --(constructors)--
+        +CharArray(String)
+        --
+        +int getUnsigned(int index)
+        --(collection)--
+        +char[] asArray()
+        +void cursor(int cursor)
+        +int cursor()
+        +CharArray subArray(int index, int size)
+    }
+    
+    BaseStringConverter <|-- CharArrayConverter
+    class CharArrayConverter
+    {
+        --(constructors)--
+        +CharArrayConverter(Listener, Separators)
+    }
+    
+    PrimitiveArray <|-- IntArray
+    IntList <|-- IntArray
+    class IntArray
+    {
+        --(constructors)--
+        +IntArray(String)
+        --(collection)--
+        +int[] asArray()
+        +IntArray subArray(int index, int size)
+    }
+    
+    BaseStringConverter <|-- IntArrayConverter
+    class IntArrayConverter
+    {
+        --(constructors)--
+        +IntArrayConverter(Listener, Separators)
+    }
+    
+    PrimitiveArray <|-- LongArray
+    LongList <|-- LongArray
+    class LongArray
+    {
+        --(constructors)--
+        +LongArray(String)
+        --
+        +void setBits(int index, long mask, long value)
+        --(collection)--
+        +long[] asArray()
+        +LongArray subArray(int index, int size)
+    }
+    
+    BaseStringConverter <|-- LongArrayConverter
+    class LongArrayConverter
+    {
+        --(constructors)--
+        +LongArrayConverter(Listener, Separators)
+    }
+    
+    PrimitiveArray <|-- ShortArray
+    ShortList <|-- ShortArray
+    class ShortArray
+    {
+        --(constructors)--
+        +ShortArray(String)
+        --
+        +int getUnsigned(int index)
+        --(collection)--
+        +short[] asArray()
+        +void cursor(int cursor)
+        +int cursor()
+        +ShortArray subArray(int index, int size)
+    }
+    
+    BaseStringConverter <|-- ShortArrayConverter
+    class ShortArrayConverter
+    {
+        --(constructors)--
+        +ShortArrayConverter(Listener, Separators)
+    }
+    
+    PrimitiveSplitArray <|-- SplitByteArray
+    ByteList <|-- SplitByteArray
+    class SplitByteArray
+    {
+        --(constructors)--
+        +SplitByteArray(String)
+    }
+    
+    PrimitiveSplitArray <|-- SplitCharArray
+    CharList <|-- SplitCharArray
+    class SplitCharArray
+    {
+        --(constructors)--
+        +SplitCharArray(String)
+    }
+    
+    PrimitiveSplitArray <|-- SplitIntArray
+    IntList <|-- SplitIntArray
+    class SplitIntArray
+    {
+        --(constructors)--
+        +SplitIntArray(String)
+    }
+    
+    PrimitiveSplitArray <|-- SplitLongArray
+    LongList <|-- SplitLongArray
+    class SplitLongArray
+    {
+        --(constructors)--
+        +SplitLongArray(String)
+    }
+    
+@enduml
+

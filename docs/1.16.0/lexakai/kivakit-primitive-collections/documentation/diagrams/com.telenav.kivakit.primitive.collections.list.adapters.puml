@@ -1,0 +1,16 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.primitive.collections.list.adapters"
+    
+    interface IntList
+    
+    IntList <|-- IntListAdapter
+    class IntListAdapter
+    {
+    }
+    
+@enduml
+

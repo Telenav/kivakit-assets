@@ -1,0 +1,36 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Mixins"
+    
+    interface Mixin
+    Mixin <|-- AttributesMixin
+    interface AttributesMixin<Key, Value>
+    {
+        --
+        +Value attribute(Key)
+        +Value attribute(Key, Value)
+        --(collection)--
+        +HashMap<Key,Value> attributes()
+    }
+    
+    interface Mixin
+    {
+        --
+        +void detach(Class<? extends Mixin> mixinType)
+        +MixinState mixin(Class<? extends Mixin> mixinType, Factory<MixinState> mixinStateFactory)
+        +Object owner(MixinState)
+    }
+    
+    class Mixins
+    {
+        --
+        +void detach(Object, Class<? extends Mixin> mixinType)
+        +State mixin(Object, Class<? extends Mixin> mixinType, Factory<State> mixinStateFactory)
+        +Object owner(State)
+    }
+    
+@enduml
+

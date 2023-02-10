@@ -1,0 +1,83 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.yaml"
+    
+    interface Named
+    
+    class Yaml
+    {
+        --(constructors)--
+        +Yaml(Yaml)
+        --
+        +Yaml with(String text)
+        +Yaml yaml()
+        --(filesystem)--
+        +Yaml copy()
+        --(functional)--
+        +Yaml indented()
+        +Yaml outdented()
+        +Yaml withBlock(String label, Yaml)
+        +Yaml withLabel(String text)
+        +Yaml withLiteral(String key, String value)
+        +Yaml withPrefixed(String prefix, Yaml)
+        +Yaml withScalar(String key, Number value)
+        +Yaml withScalar(String key, String value)
+    }
+    
+    YamlNode <|-- YamlArray
+    class YamlArray
+    {
+        --(collection)--
+        +YamlArray array(String name)
+        +YamlArray copy()
+        +YamlArray with(YamlNode)
+    }
+    
+    YamlNode <|-- YamlBlock
+    class YamlBlock
+    {
+        --
+        +YamlBlock block(String name)
+        +YamlBlock block()
+        +YamlNode get(String name)
+        +boolean has(String name)
+        +YamlBlock with(YamlNode child)
+        --(filesystem)--
+        +YamlBlock copy()
+    }
+    
+    YamlNode <|-- YamlLiteral
+    class YamlLiteral
+    {
+        --
+        +YamlLiteral literal(String name, String value)
+        --(collection)--
+        +String value()
+    }
+    
+    Named <|-- YamlNode
+    abstract class YamlNode
+    {
+        --(constructors)--
+        +YamlNode(String)
+        --(conversion)--
+        #Yaml asYaml()
+    }
+    
+    YamlNode <|-- YamlScalar
+    class YamlScalar
+    {
+        --
+        +Number number()
+        +YamlScalar scalar(String name, String value)
+        +YamlScalar scalar(String name, Number value)
+        +String string()
+        --(checks)--
+        +boolean isNumber()
+    }
+    
+@enduml
+

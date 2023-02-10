@@ -1,0 +1,95 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.yaml.reader"
+    
+    interface TryCatchTrait
+    
+    TryCatchTrait <|-- YamlInput
+    class YamlInput
+    {
+        --(constructors)--
+        +YamlInput(Resource)
+        --
+        +int at()
+        +YamlLine current()
+        +int indentLevel()
+        +YamlLine lookahead()
+        +YamlLine previous()
+        +Resource resource()
+        --(checks)--
+        +boolean hasMore()
+        +boolean isAtStartOfInput()
+        --(collection)--
+        +int size()
+        --(read)--
+        +YamlLine read()
+    }
+    
+    TryCatchTrait <|-- YamlLine
+    class YamlLine
+    {
+        --
+        +YamlLine indentLevel(int indentLevel)
+        +int indentLevel()
+        +String label()
+        +YamlLine label(String label)
+        +YamlLine line(String line)
+        +String line()
+        +YamlLine lineNumber(int lineNumber)
+        +int lineNumber()
+        +YamlLine number(Number)
+        +Number number()
+        +int ordinal()
+        +YamlLine ordinal(int ordinal)
+        +YamlLine outdent(int levels)
+        +YamlLine rawIndentLevel(int rawIndentLevel)
+        +int rawIndentLevel()
+        +String string()
+        +YamlLine string(String)
+        +String text()
+        +YamlLineType type()
+        +YamlLine type(YamlLineType)
+        --(checks)--
+        +boolean isArrayElement()
+        +boolean isBlank()
+        +boolean isComment()
+        +boolean isEnumValue()
+        +boolean isLabel()
+        +boolean isLiteral()
+        +boolean isNumber()
+        +boolean isScalar()
+        +boolean isString()
+        --(collection)--
+        +YamlLine arrayElement(boolean arrayElement)
+    }
+    
+    TryCatchTrait <|-- YamlLineParser
+    class YamlLineParser
+    {
+        --(parsing)--
+        +YamlLine parse(String line)
+    }
+    
+    enum YamlLineType
+    {
+        BLANK
+        BLOCK_LABEL
+        COMMENT
+        ENUM_VALUE
+        LITERAL
+        NUMBER
+        STRING
+    }
+    
+    class YamlReader
+    {
+        --(read)--
+        +YamlNode read(Resource)
+        +YamlNode readYamlAnnotation(Class<?> type, Class<T> annotationType, Function<T,String> toText)
+    }
+    
+@enduml
+

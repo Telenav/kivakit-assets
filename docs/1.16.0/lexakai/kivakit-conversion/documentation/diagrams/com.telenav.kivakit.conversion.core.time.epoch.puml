@@ -1,0 +1,28 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.time.epoch"
+    
+    abstract BaseTwoWayConverter
+    abstract BaseStringConverter
+    
+    BaseTwoWayConverter <|-- EpochLongToTimeConverter
+    class EpochLongToTimeConverter
+    {
+        --(constructors)--
+        +EpochLongToTimeConverter()
+        +EpochLongToTimeConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- EpochTimeConverter
+    class EpochTimeConverter
+    {
+        --(constructors)--
+        +EpochTimeConverter()
+        +EpochTimeConverter(Listener)
+    }
+    
+@enduml
+

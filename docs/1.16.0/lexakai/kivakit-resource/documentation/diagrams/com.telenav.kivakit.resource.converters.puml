@@ -1,0 +1,19 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.resource.converters"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- ResourceIdentifierConverter
+    class ResourceIdentifierConverter
+    {
+        --(constructors)--
+        +ResourceIdentifierConverter()
+        +ResourceIdentifierConverter(Listener)
+    }
+    
+@enduml
+

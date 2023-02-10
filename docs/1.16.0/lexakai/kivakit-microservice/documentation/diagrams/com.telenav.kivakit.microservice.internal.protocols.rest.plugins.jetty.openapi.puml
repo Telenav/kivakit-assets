@@ -1,0 +1,73 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.openapi"
+    
+    abstract BaseComponent
+    abstract BaseMicroservletResponse
+    abstract BaseMicroservletRequest
+    
+    interface Comparable
+    interface MicroserviceYamlSource
+    
+    BaseComponent <|-- OpenApiBuilder
+    OpenApiBuilder --> YamlBlock : "creates"
+    class OpenApiBuilder
+    {
+        --(constructors)--
+        +OpenApiBuilder()
+        --(building)--
+        +YamlBlock buildYaml()
+    }
+    
+    BaseMicroservletRequest <|-- OpenApiJsonRequest
+    class OpenApiJsonRequest
+    {
+    }
+    
+    BaseMicroservletRequest <|-- OpenApiRequest
+    class OpenApiRequest
+    {
+    }
+    
+    BaseMicroservletResponse <|-- OpenApiResponse
+    MicroserviceYamlSource <|-- OpenApiResponse
+    class OpenApiResponse
+    {
+        --(constructors)--
+        +OpenApiResponse(Listener)
+    }
+    
+    Comparable <|-- OpenApiSchema
+    class OpenApiSchema
+    {
+        --
+        +OpenApiSchema schema(Listener, String name, YamlNode)
+        +YamlNode yaml()
+        --(collection)--
+        +ObjectList<OpenApiSchema> schemas(Listener, Class<?> type)
+        --(naming)--
+        +String name()
+    }
+    
+    BaseComponent <|-- OpenApiSchemas
+    class OpenApiSchemas
+    {
+        --(constructors)--
+        +OpenApiSchemas()
+        --
+        +OpenApiSchemas resolveReferences()
+        +OpenApiSchema schema(Class<?> type)
+        +OpenApiSchema schema(String name)
+        --(collection)--
+        +OpenApiSchemas add(ResourceFolder<?>)
+        +OpenApiSchemas add(Class<?> type)
+        +OpenApiSchemas add(OpenApiSchema)
+        +OpenApiSchemas addAll(Collection<OpenApiSchema> schemas)
+        +ObjectList<OpenApiSchema> schemas()
+    }
+    
+@enduml
+

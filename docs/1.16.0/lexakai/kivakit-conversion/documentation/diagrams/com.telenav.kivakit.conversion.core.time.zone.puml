@@ -1,0 +1,19 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.time.zone"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- ZoneIdConverter
+    class ZoneIdConverter
+    {
+        --(constructors)--
+        +ZoneIdConverter()
+        +ZoneIdConverter(Listener)
+    }
+    
+@enduml
+

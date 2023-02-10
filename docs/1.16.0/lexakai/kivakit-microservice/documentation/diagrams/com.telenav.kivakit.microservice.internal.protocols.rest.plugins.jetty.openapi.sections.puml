@@ -1,0 +1,33 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.openapi.sections"
+    
+    abstract BaseComponent
+    
+    class OpenApiComponents
+    {
+        --(constructors)--
+        +OpenApiComponents(OpenApiSchemas)
+        --
+        +YamlBlock yaml()
+    }
+    
+    BaseComponent <|-- OpenApiInfo
+    class OpenApiInfo
+    {
+        --
+        +YamlBlock yaml()
+    }
+    
+    BaseComponent <|-- OpenApiPaths
+    class OpenApiPaths
+    {
+        --
+        +YamlNode yaml()
+    }
+    
+@enduml
+
