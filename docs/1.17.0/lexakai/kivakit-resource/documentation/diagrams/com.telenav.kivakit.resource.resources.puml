@@ -1,0 +1,75 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.resource.resources"
+    
+    abstract BaseReadableResource
+    abstract BaseWritableResource
+    
+    interface AutoCloseable
+    interface ResourceResolver
+    
+    BaseReadableResource <|-- DataResource
+    class DataResource
+    {
+        --(constructors)--
+        +DataResource(ResourcePath, byte[])
+        +DataResource(byte[])
+    }
+    
+    BaseReadableResource <|-- InputResource
+    AutoCloseable <|-- InputResource
+    class InputResource
+    {
+        --(constructors)--
+        +InputResource(InputStream)
+    }
+    
+    BaseWritableResource <|-- NullResource
+    class NullResource
+    {
+        --(constructors)--
+        +NullResource()
+    }
+    
+    BaseWritableResource <|-- OutputResource
+    AutoCloseable <|-- OutputResource
+    class OutputResource
+    {
+        --(constructors)--
+        +OutputResource(OutputStream)
+    }
+    
+    BaseReadableResource <|-- ResourceSection
+    class ResourceSection
+    {
+        --(constructors)--
+        +ResourceSection(Resource, long, long)
+    }
+    
+    ResourceResolver <|-- ResourceSectionResolver
+    class ResourceSectionResolver
+    {
+    }
+    
+    BaseWritableResource <|-- StringOutputResource
+    class StringOutputResource
+    {
+        --
+        +String string()
+    }
+    
+    BaseReadableResource <|-- StringResource
+    class StringResource
+    {
+        --(constructors)--
+        +StringResource(ResourcePath, String)
+        +StringResource(String)
+        --
+        +StringResource transform(Function<String,String> transformation)
+    }
+    
+@enduml
+

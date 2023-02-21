@@ -1,0 +1,100 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.gson"
+    
+    abstract BaseKivaKitProject
+    abstract BaseGsonFactory
+    abstract BaseRepeater
+    
+    interface GsonFactory
+    interface ObjectSerializer
+    interface TryTrait
+    interface RegistryTrait
+    
+    BaseRepeater <|-- BaseGsonFactory
+    GsonFactory <|-- BaseGsonFactory
+    abstract class BaseGsonFactory
+    {
+        --(constructors)--
+        #BaseGsonFactory()
+        --(factory)--
+        +BaseGsonFactory lenient(boolean enable)
+        #BaseGsonFactory onBuild(String token, Registrar)
+    }
+    
+    interface Repeater
+    Repeater <|-- GsonFactory
+    interface GsonFactory
+    {
+        --
+        +Gson gson()
+        --(factory)--
+        +GsonFactory addGsonDeserializer(Class<T> type, JsonDeserializer<T>)
+        +GsonFactory addGsonExclusionStrategy(ExclusionStrategy)
+        +GsonFactory addGsonInstanceCreator(Class<T> type, InstanceCreator<T>)
+        +GsonFactory addGsonTypeAdapter(Class<V> type, TypeAdapter<V>)
+        +GsonFactory addGsonTypeAdapterFactory(TypeAdapterFactory)
+        +GsonFactory addGsonTypeHierarchyAdapter(Class<?> base, Object adapter)
+        +GsonFactory addSerializer(Class<V> valueType, StringConverter<V>)
+        +GsonFactory addSerializer(Class<T> type, JsonSerializer<T>)
+        +GsonFactory addSerializer(StringConverter<V>)
+        +BaseGsonFactory addSerializer(Class<V> valueType, GsonSerializer<V,S>)
+        +GsonFactory addSerializer(GsonSerializer<V,S>)
+        +GsonFactory allowReuse(boolean allowReuse)
+        +GsonFactory dateFormat(String dateFormat)
+        +GsonFactory escapeHtml(boolean enable)
+        +GsonFactory ignoreField(String fieldName)
+        +GsonFactory ignoreType(Class<?> type)
+        +GsonFactory prettyPrinting(boolean enable)
+        +GsonFactory requireExposeAnnotation(boolean require)
+        +GsonFactory serializeNulls(boolean enable)
+        +GsonFactory version(Version)
+    }
+    
+    interface GsonFactorySource
+    {
+        --(factory)--
+        +GsonFactory gsonFactory()
+    }
+    
+    ObjectSerializer <|-- GsonObjectSerializer
+    RegistryTrait <|-- GsonObjectSerializer
+    TryTrait <|-- GsonObjectSerializer
+    class GsonObjectSerializer
+    {
+        --(constructors)--
+        +GsonObjectSerializer()
+        +GsonObjectSerializer(ProgressReporter)
+    }
+    
+    BaseKivaKitProject <|-- GsonSerializationProject
+    class GsonSerializationProject
+    {
+    }
+    
+    BaseGsonFactory.GsonSettings --> GsonBuilder : "creates"
+    class BaseGsonFactory.GsonSettings
+    {
+        --(building)--
+        +GsonBuilder builder()
+        +void onBuild(String token, Registrar)
+    }
+    
+    BaseGsonFactory <|-- KivaKitCoreGsonFactory
+    class KivaKitCoreGsonFactory
+    {
+        --(constructors)--
+        +KivaKitCoreGsonFactory()
+    }
+    
+    interface BaseGsonFactory.Registrar
+    {
+        --(lookup)--
+        +void register(GsonBuilder)
+    }
+    
+@enduml
+

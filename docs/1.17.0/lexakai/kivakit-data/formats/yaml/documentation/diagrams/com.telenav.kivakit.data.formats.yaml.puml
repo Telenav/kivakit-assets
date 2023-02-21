@@ -1,0 +1,27 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.yaml"
+    
+    class YamlFormatter
+    {
+        --(collection)--
+        +StringList asStringList(YamlBlock)
+        +StringList asStringList(YamlNode)
+        +StringList asStringList(YamlArray)
+        +StringList asStringList(YamlScalar)
+        +StringList asStringList(YamlLiteral)
+    }
+    
+    class YamlTreeWalker
+    {
+        --(constructors)--
+        +YamlTreeWalker(YamlNode)
+        --
+        +void walk(Callback<YamlNode>)
+    }
+    
+@enduml
+

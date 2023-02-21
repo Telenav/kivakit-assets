@@ -1,0 +1,35 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.time.duration"
+    
+    abstract BaseStringConverter
+    
+    BaseStringConverter <|-- DurationConverter
+    class DurationConverter
+    {
+        --(constructors)--
+        +DurationConverter()
+        +DurationConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- DurationInMillisecondsConverter
+    class DurationInMillisecondsConverter
+    {
+        --(constructors)--
+        +DurationInMillisecondsConverter()
+        +DurationInMillisecondsConverter(Listener)
+    }
+    
+    BaseStringConverter <|-- DurationInSecondsConverter
+    class DurationInSecondsConverter
+    {
+        --(constructors)--
+        +DurationInSecondsConverter()
+        +DurationInSecondsConverter(Listener)
+    }
+    
+@enduml
+

@@ -1,0 +1,36 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.messaging.filters"
+    
+    interface Filter
+    interface MessageFilter
+    
+    MessageFilter <|-- AllMessages
+    class AllMessages
+    {
+    }
+    
+    MessageFilter <|-- FailureMessages
+    class FailureMessages
+    {
+    }
+    
+    Filter <|-- MessagesOfType
+    class MessagesOfType<MessageType>
+    {
+        --(constructors)--
+        +MessagesOfType(Class<MessageType>)
+    }
+    
+    MessageFilter <|-- MessagesWithSeverityOf
+    class MessagesWithSeverityOf
+    {
+        --(constructors)--
+        +MessagesWithSeverityOf(Severity)
+    }
+    
+@enduml
+

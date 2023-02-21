@@ -1,0 +1,18 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.serialization.gson.serializers.converter"
+    
+    abstract BaseGsonStringSerializer
+    
+    BaseGsonStringSerializer <|-- StringConverterGsonSerializer
+    class StringConverterGsonSerializer<V>
+    {
+        --(constructors)--
+        +StringConverterGsonSerializer(StringConverter<V>)
+    }
+    
+@enduml
+

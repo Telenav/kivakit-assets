@@ -1,0 +1,85 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.xml.stax"
+    
+    abstract BaseComponent
+    
+    interface Closeable
+    
+    interface Function<XMLEvent,Boolean>
+    interface StaxReader.Matcher
+    Function <|-- StaxReader.BooleanMatcher
+    StaxReader.Matcher <|-- StaxReader.BooleanMatcher
+    interface StaxReader.BooleanMatcher
+    {
+    }
+    
+    enum StaxReader.Match
+    {
+        FOUND
+        NOT_FOUND
+        STOP
+    }
+    
+    interface StaxReader.Matcher
+    {
+        --(matching)--
+        +Match matcher(XMLEvent)
+    }
+    
+    StringPath <|-- StaxPath
+    class StaxPath
+    {
+        --(constructors)--
+        #StaxPath()
+        #StaxPath(StaxPath)
+        --(checks)--
+        +boolean isAt(StaxPath)
+        +boolean isInside(StaxPath)
+        --(path)--
+        +StaxPath parseXmlPath(String path)
+        +StaxPath staxPath()
+    }
+    
+    BaseComponent <|-- StaxReader
+    Closeable <|-- StaxReader
+    class StaxReader
+    {
+        --(constructors)--
+        #StaxReader(Resource, XMLEventReader, InputStream)
+        --
+        +String enclosedText()
+        --(checks)--
+        +boolean hasNext()
+        +boolean isAt(StaxPath)
+        +boolean isAtCharacters()
+        +boolean isAtCloseTag()
+        +boolean isAtEnd()
+        +boolean isAtOpenCloseTag()
+        +boolean isAtOpenTag()
+        +boolean isAtOpenTag(String tagName)
+        +boolean isAtOrInside(StaxPath)
+        +boolean isInside(StaxPath)
+        +boolean isOutside(StaxPath)
+        --(iteration)--
+        +XMLEvent findNext(StaxPath)
+        +XMLEvent next()
+        +XMLEvent nextAtOrInside(StaxPath, Matcher)
+        +Attribute nextAttribute()
+        +Characters nextCharacters()
+        +EndElement nextCloseTag()
+        +XMLEvent nextMatching(Matcher)
+        +StartElement nextOpenTag()
+        --(messaging)--
+        +XMLEvent at()
+        --(path)--
+        +StaxPath path()
+        --(read)--
+        +StaxReader openXml(Resource)
+    }
+    
+@enduml
+

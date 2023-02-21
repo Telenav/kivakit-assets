@@ -1,0 +1,17 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.interfaces.object"
+    
+    interface Copyable<T>
+    {
+        --(filesystem)--
+        +T applyToCopy(Function<T,T>)
+        +T copy()
+        +T copy(Callback<T> mutator)
+    }
+    
+@enduml
+

@@ -1,0 +1,120 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.data.formats.yaml.model"
+    
+    interface Named
+    interface YamlNodeContainer
+    
+    YamlNode <|-- YamlArray
+    YamlNodeContainer <|-- YamlArray
+    class YamlArray
+    {
+        --
+        +YamlNode get(int index)
+        --(collection)--
+        +YamlArray copy()
+        +Count count()
+        +boolean isEmpty()
+        +YamlArray with(YamlNode)
+        +YamlArray yamlArray()
+        +YamlArray yamlArray(String name)
+    }
+    
+    YamlNode <|-- YamlBlock
+    YamlNodeContainer <|-- YamlBlock
+    class YamlBlock
+    {
+        --
+        +YamlBlock block(String name)
+        +YamlNode get(String name)
+        +boolean has(String name)
+        +YamlLiteral literal(String name)
+        +YamlScalar scalar(String name)
+        +YamlBlock with(YamlNode)
+        +YamlBlock yamlBlock()
+        +YamlBlock yamlBlock(String name)
+        --(collection)--
+        +void addReference(String type)
+        +YamlArray array(String name)
+        --(filesystem)--
+        +YamlBlock copy()
+    }
+    
+    YamlNode <|-- YamlLiteral
+    class YamlLiteral
+    {
+        --(constructors)--
+        #YamlLiteral(String, String)
+        --
+        +YamlLiteral yamlLiteral(String name, String value)
+        --(collection)--
+        +String value()
+    }
+    
+    Named <|-- YamlNode
+    abstract class YamlNode
+    {
+        --(constructors)--
+        #YamlNode(String)
+        #YamlNode(YamlNode)
+        --
+        +void parent(YamlNode parent)
+        +YamlNode parent()
+        --(checks)--
+        +boolean isNamed()
+        +boolean isUnnamed()
+        --(conversion)--
+        +YamlArray asArray()
+        +YamlBlock asBlock()
+        +YamlLiteral asLiteral()
+        +YamlScalar asScalar()
+    }
+    
+    interface Iterable<YamlNode>
+    Iterable <|-- YamlNodeContainer
+    interface YamlNodeContainer
+    {
+        --
+        +YamlNode prepending(YamlNode element)
+        --(collection)--
+        +ObjectList<YamlNode> elements()
+        +int size()
+    }
+    
+    YamlNode <|-- YamlScalar
+    class YamlScalar
+    {
+        --(constructors)--
+        #YamlScalar(String)
+        #YamlScalar(String, Boolean)
+        #YamlScalar(String, Number)
+        #YamlScalar(String, String)
+        --
+        +Number number()
+        +String string()
+        +boolean truth()
+        +YamlScalar yamlEnumValue(String name)
+        +YamlScalar yamlScalar(String value)
+        +YamlScalar yamlScalar(String name, Number value)
+        +YamlScalar yamlScalar(String name, Boolean value)
+        +YamlScalar yamlScalar(String name, String value)
+        --(checks)--
+        +boolean isBoolean()
+        +boolean isEnum()
+        +boolean isNumber()
+        +boolean isString()
+        --(conversion)--
+        +Bytes asBytes()
+        +int asInt()
+        +LocalTime asLocalFilesystemTime()
+        +LocalTime asLocalTime()
+        +long asLong()
+        +T asObject(StringConverter<T>)
+        +T asObject(Function<String,T>)
+    }
+    
+@enduml
+

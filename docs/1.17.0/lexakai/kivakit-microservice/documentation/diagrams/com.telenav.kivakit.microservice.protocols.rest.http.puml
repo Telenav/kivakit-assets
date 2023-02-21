@@ -1,0 +1,198 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest.http"
+    
+    abstract BaseComponent
+    
+    interface Comparable
+    interface Initializable
+    interface TryTrait
+    interface RegistryTrait
+    
+    Problem <|-- HttpProblem
+    class HttpProblem
+    {
+        --(constructors)--
+        +HttpProblem(HttpStatus, String, Object)
+        +HttpProblem(HttpStatus, Throwable, String, Object)
+        --(status)--
+        +HttpStatus httpStatus()
+    }
+    
+    BaseComponent <|-- RestClient
+    TryTrait <|-- RestClient
+    class RestClient<Request, Response>
+    {
+        --(constructors)--
+        +RestClient(RestClientSerializer<Request, Response>, Port, Version)
+        --
+        +Response get(String path, Class<Response> responseType)
+        +Response post(String path, Class<Response> responseType)
+        +Response post(String path, Request, Class<Response> responseType)
+        --(identity)--
+        +Version serverVersion()
+    }
+    
+    interface RestClientSerializer<Request, Response>
+    {
+        --
+        +String contentType()
+        +Response deserializeResponse(Reader in, Class<Response> type)
+        +void serializeRequest(PrintWriter out, Request object)
+        --(status)--
+        +MicroservletErrorResponse deserializeErrors(Reader in)
+    }
+    
+    RegistryTrait <|-- RestPath
+    Comparable <|-- RestPath
+    class RestPath
+    {
+        --(constructors)--
+        +RestPath(FilePath, HttpMethod)
+        --(collection)--
+        +boolean isNonEmpty()
+        +String key()
+        --(identity)--
+        +Version version()
+        --(network)--
+        +HttpMethod httpMethod()
+        --(path)--
+        +RestPath parseRestPath(Listener, String path, HttpMethod)
+        +FilePath path()
+        +FilePath resolvedPath()
+        +RestPath withoutLast()
+    }
+    
+    interface Restful
+    Restful <|-- RestProblemReportingTrait
+    interface RestProblemReportingTrait
+    {
+        --
+        +void okay(String text, Object... arguments)
+        --(messaging)--
+        +Problem problem(HttpStatus, String text, Object... arguments)
+        +Problem problem(HttpStatus, Throwable exception, String text, Object... arguments)
+    }
+    
+    interface Restful
+    Restful <|-- RestRequest
+    interface RestRequest
+    {
+        --(checks)--
+        +boolean hasBody()
+        --(collection)--
+        +PropertyMap parameters()
+        +PropertyMap parameters(FilePath)
+        --(filesystem)--
+        +FilePath path()
+        --(network)--
+        +HttpServletRequest httpServletRequest()
+        --(read)--
+        +ServletInputStream open()
+        +Request readRequest(Class<Request> requestType)
+    }
+    
+    interface RestRequestCycle
+    {
+        --
+        +Microservlet<?,?> microservlet()
+        +RestRequest restRequest()
+        +RestResponse restResponse()
+        --(service)--
+        +RestService restService()
+    }
+    
+    class RestRequestThread
+    {
+        --
+        +RestRequestCycle requestCycle()
+        +void requestThreadAttach(RestRequestCycle)
+        +void requestThreadDetach()
+    }
+    
+    interface RestProblemReportingTrait
+    RestProblemReportingTrait <|-- RestResponse
+    interface RestResponse
+    {
+        --(collection)--
+        +void addHeader(String header, String value)
+        --(network)--
+        +HttpServletResponse httpServletResponse()
+        --(status)--
+        +MicroservletErrorResponse errors()
+        +void httpStatus(HttpStatus)
+        +HttpStatus httpStatus()
+        --(write)--
+        +void writeResponse(MicroservletResponse)
+    }
+    
+    interface RestSerializer<Request, Response>
+    {
+        --
+        +String contentType()
+        +Request deserializeRequest(PropertyMap properties, Class<Request> requestType)
+        +Request deserializeRequest(Reader in, Class<Request> requestType)
+        +void serializeErrors(PrintWriter out, MicroservletErrorResponse errors)
+        +void serializeResponse(PrintWriter out, Response)
+    }
+    
+    class RestSerializers
+    {
+        --
+        +RestSerializer<Request,Response> restSerializer(Class<?> requestType)
+    }
+    
+    BaseComponent <|-- RestService
+    Initializable <|-- RestService
+    RestService --> Microservlet : "mounts"
+    RestService o-- Microservice
+    abstract class RestService
+    {
+        --(constructors)--
+        #RestService(Microservice<?>)
+        --
+        +Microservice<?> microservice()
+        +void mount(RestPath, Microservlet<?,?>)
+        +void mount(Version, String path, HttpMethod, Class<Request> requestType)
+        +void mount(String path, HttpMethod, Class<Request> requestType)
+        +void mountAllOn(MicroservletMountTarget)
+        +void onRequestPerformance(MicroservletPerformance)
+        +void onRequested(MicroservletRequest, HttpMethod)
+        +void onRequesting(MicroservletRequest, HttpMethod)
+        +RestSerializer<Request,Response> restSerializer()
+        --(collection)--
+        +ObjectList<Class<?>> onOpenApiSchemas()
+        --(command line parsing)--
+        +void mountApi(Version, Resource jar, String commandLine, int port)
+        +void mountApi(Version, String path, Resource jar, String commandLine, int port)
+        --(identity)--
+        +Version apiVersion()
+        --(lifecycle)--
+        +void onInitialize(JettyServer)
+        --(path)--
+        #Version pathToVersion(String path)
+        #String rootPath()
+        #String versionToPath(Version)
+    }
+    
+    interface Component
+    Component <|-- Restful
+    interface Restful
+    {
+        --
+        +RestSerializer<Request,Response> defaultRestSerializer()
+        +Microservice<?> microservice()
+        +RestRequest restRequest()
+        +RestRequestCycle restRequestCycle()
+        +RestResponse restResponse()
+        --(identity)--
+        +Version apiVersion()
+        --(service)--
+        +RestService restService()
+    }
+    
+@enduml
+

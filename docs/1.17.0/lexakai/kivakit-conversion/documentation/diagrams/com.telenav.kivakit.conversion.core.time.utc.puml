@@ -1,0 +1,27 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.conversion.core.time.utc"
+    
+    abstract BaseTimeConverter
+    
+    BaseTimeConverter <|-- HttpDateTimeConverter
+    class HttpDateTimeConverter
+    {
+        --(constructors)--
+        +HttpDateTimeConverter()
+        +HttpDateTimeConverter(Listener)
+    }
+    
+    BaseTimeConverter <|-- IsoDateTimeConverter
+    class IsoDateTimeConverter
+    {
+        --(constructors)--
+        +IsoDateTimeConverter()
+        +IsoDateTimeConverter(Listener)
+    }
+    
+@enduml
+
