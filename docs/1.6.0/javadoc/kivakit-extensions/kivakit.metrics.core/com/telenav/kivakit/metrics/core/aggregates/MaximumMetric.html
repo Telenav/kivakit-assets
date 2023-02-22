@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="dc.created" content="2022-06-18">
-<meta name="description" content="declaration: module: kivakit.metrics.core, package: com.telenav.kivakit.metrics.core.aggregates, class: MaximumMetric">
+<meta name="description" content="declaration: module: kivakit.metrics.core, package: com.telenav.kivakit.metrics.core.statistics, class: MaximumMetric">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../../../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../../../../../script-dir/jquery-ui.min.css" title="Style">
@@ -71,13 +71,13 @@ loadScripts(document, 'script');</script>
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
 <div class="sub-title"><span class="module-label-in-type">Module</span>&nbsp;<a href="../../../../../../module-summary.html">kivakit.metrics.core</a></div>
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.telenav.kivakit.metrics.core.aggregates</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.telenav.kivakit.metrics.core.statistics</a></div>
 <h1 title="Class MaximumMetric" class="title">Class MaximumMetric&lt;T extends com.telenav.kivakit.interfaces.numeric.Quantizable&gt;</h1>
 </div>
 <div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
 <div class="inheritance"><a href="../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">com.telenav.kivakit.metrics.core.BaseMetric</a>&lt;T&gt;
-<div class="inheritance"><a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">com.telenav.kivakit.metrics.core.aggregates.AggregateQuantumMetric</a>&lt;T&gt;
-<div class="inheritance">com.telenav.kivakit.metrics.core.aggregates.MaximumMetric&lt;T&gt;</div>
+<div class="inheritance"><a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">com.telenav.kivakit.metrics.core.statistics.AggregateQuantumMetric</a>&lt;T&gt;
+<div class="inheritance">com.telenav.kivakit.metrics.core.statistics.MaximumMetric&lt;T&gt;</div>
 </div>
 </div>
 </div>
@@ -88,11 +88,11 @@ loadScripts(document, 'script');</script>
 </dl>
 <dl class="notes">
 <dt>Direct Known Subclasses:</dt>
-<dd><code><a href="bytes/MaximumBytesMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.bytes">MaximumBytesMetric</a></code>, <code><a href="count/MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></code>, <code><a href="duration/MaximumDurationMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.duration">MaximumDurationMetric</a></code>, <code><a href="rate/MaximumRateMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.rate">MaximumRateMetric</a></code></dd>
+<dd><code><a href="bytes/MaximumBytesMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.bytes">MaximumBytesMetric</a></code>, <code><a href="count/MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></code>, <code><a href="duration/MaximumDurationMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.duration">MaximumDurationMetric</a></code>, <code><a href="rate/MaximumRateMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.rate">MaximumRateMetric</a></code></dd>
 </dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">MaximumMetric&lt;T extends com.telenav.kivakit.interfaces.numeric.Quantizable&gt;</span>
-<span class="extends-implements">extends <a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">AggregateQuantumMetric</a>&lt;T&gt;</span></div>
+<span class="extends-implements">extends <a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">AggregateQuantumMetric</a>&lt;T&gt;</span></div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -139,7 +139,7 @@ loadScripts(document, 'script');</script>
 </div>
 </div>
 <div class="inherited-list">
-<h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.aggregates.AggregateQuantumMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.aggregates.<a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">AggregateQuantumMetric</a></h3>
+<h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.aggregates.AggregateQuantumMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.aggregates.<a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">AggregateQuantumMetric</a></h3>
 <code><a href="AggregateQuantumMetric.html#add(T)">add</a>, <a href="AggregateQuantumMetric.html#count()">count</a>, <a href="AggregateQuantumMetric.html#doubleQuantum()">doubleQuantum</a>, <a href="AggregateQuantumMetric.html#maximum()">maximum</a>, <a href="AggregateQuantumMetric.html#measurement()">measurement</a>, <a href="AggregateQuantumMetric.html#minimum()">minimum</a>, <a href="AggregateQuantumMetric.html#quantum()">quantum</a>, <a href="AggregateQuantumMetric.html#subtract(T)">subtract</a>, <a href="AggregateQuantumMetric.html#total()">total</a></code></div>
 <div class="inherited-list">
 <h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.BaseMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.<a href="../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">BaseMetric</a></h3>
@@ -199,7 +199,7 @@ loadScripts(document, 'script');</script>
 <div class="member-signature"><span class="modifiers">protected</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">compute</span>()</div>
 <dl class="notes">
 <dt>Specified by:</dt>
-<dd><code><a href="AggregateQuantumMetric.html#compute()">compute</a></code>&nbsp;in class&nbsp;<code><a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">AggregateQuantumMetric</a>&lt;<a href="MaximumMetric.html" title="type parameter in MaximumMetric">T</a> extends com.telenav.kivakit.interfaces.numeric.Quantizable&gt;</code></dd>
+<dd><code><a href="AggregateQuantumMetric.html#compute()">compute</a></code>&nbsp;in class&nbsp;<code><a href="AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">AggregateQuantumMetric</a>&lt;<a href="MaximumMetric.html" title="type parameter in MaximumMetric">T</a> extends com.telenav.kivakit.interfaces.numeric.Quantizable&gt;</code></dd>
 </dl>
 </section>
 </li>

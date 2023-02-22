@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="dc.created" content="2022-06-18">
-<meta name="description" content="declaration: module: kivakit.metrics.core, package: com.telenav.kivakit.metrics.core.aggregates.count, class: MaximumCountMetric">
+<meta name="description" content="declaration: module: kivakit.metrics.core, package: com.telenav.kivakit.metrics.core.statistics.count, class: MaximumCountMetric">
 <meta name="generator" content="javadoc/ClassWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../../../../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../../../../../../script-dir/jquery-ui.min.css" title="Style">
@@ -71,14 +71,14 @@ loadScripts(document, 'script');</script>
 <!-- ======== START OF CLASS DATA ======== -->
 <div class="header">
 <div class="sub-title"><span class="module-label-in-type">Module</span>&nbsp;<a href="../../../../../../../module-summary.html">kivakit.metrics.core</a></div>
-<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.telenav.kivakit.metrics.core.aggregates.count</a></div>
+<div class="sub-title"><span class="package-label-in-type">Package</span>&nbsp;<a href="package-summary.html">com.telenav.kivakit.metrics.core.statistics.count</a></div>
 <h1 title="Class MaximumCountMetric" class="title">Class MaximumCountMetric</h1>
 </div>
 <div class="inheritance" title="Inheritance Tree"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">java.lang.Object</a>
 <div class="inheritance"><a href="../../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">com.telenav.kivakit.metrics.core.BaseMetric</a>&lt;T&gt;
-<div class="inheritance"><a href="../AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">com.telenav.kivakit.metrics.core.aggregates.AggregateQuantumMetric</a>&lt;T&gt;
-<div class="inheritance"><a href="../MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">com.telenav.kivakit.metrics.core.aggregates.MaximumMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;
-<div class="inheritance">com.telenav.kivakit.metrics.core.aggregates.count.MaximumCountMetric</div>
+<div class="inheritance"><a href="../AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">com.telenav.kivakit.metrics.core.statistics.AggregateQuantumMetric</a>&lt;T&gt;
+<div class="inheritance"><a href="../MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">com.telenav.kivakit.metrics.core.statistics.MaximumMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;
+<div class="inheritance">com.telenav.kivakit.metrics.core.statistics.count.MaximumCountMetric</div>
 </div>
 </div>
 </div>
@@ -90,7 +90,7 @@ loadScripts(document, 'script');</script>
 </dl>
 <hr>
 <div class="type-signature"><span class="modifiers">public class </span><span class="element-name type-name-label">MaximumCountMetric</span>
-<span class="extends-implements">extends <a href="../MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">MaximumMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;</span></div>
+<span class="extends-implements">extends <a href="../MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">MaximumMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;</span></div>
 </section>
 <section class="summary">
 <ul class="summary-list">
@@ -130,26 +130,26 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-first">Modifier and Type</div>
 <div class="table-header col-second">Method</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#description(java.lang.String)" class="member-name-link">description</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;description)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#name(java.lang.String)" class="member-name-link">name</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></code></div>
+<div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#type(com.telenav.kivakit.metrics.core.Metric.MetricType)" class="member-name-link">type</a><wbr>(<a href="../../Metric.MetricType.html" title="enum class in com.telenav.kivakit.metrics.core">Metric.MetricType</a>&nbsp;type)</code></div>
 <div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
-<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></code></div>
+<div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#unit(java.lang.String)" class="member-name-link">unit</a><wbr>(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;unit)</code></div>
 <div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
 </div>
 </div>
 </div>
 <div class="inherited-list">
-<h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.aggregates.MaximumMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.aggregates.<a href="../MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">MaximumMetric</a></h3>
+<h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.aggregates.MaximumMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.aggregates.<a href="../MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">MaximumMetric</a></h3>
 <code><a href="../MaximumMetric.html#compute()">compute</a></code></div>
 <div class="inherited-list">
-<h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.aggregates.AggregateQuantumMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.aggregates.<a href="../AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">AggregateQuantumMetric</a></h3>
+<h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.aggregates.AggregateQuantumMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.aggregates.<a href="../AggregateQuantumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">AggregateQuantumMetric</a></h3>
 <code><a href="../AggregateQuantumMetric.html#add(T)">add</a>, <a href="../AggregateQuantumMetric.html#count()">count</a>, <a href="../AggregateQuantumMetric.html#doubleQuantum()">doubleQuantum</a>, <a href="../AggregateQuantumMetric.html#maximum()">maximum</a>, <a href="../AggregateQuantumMetric.html#measurement()">measurement</a>, <a href="../AggregateQuantumMetric.html#minimum()">minimum</a>, <a href="../AggregateQuantumMetric.html#quantum()">quantum</a>, <a href="../AggregateQuantumMetric.html#subtract(T)">subtract</a>, <a href="../AggregateQuantumMetric.html#total()">total</a></code></div>
 <div class="inherited-list">
 <h3 id="methods-inherited-from-class-com.telenav.kivakit.metrics.core.BaseMetric">Methods inherited from class&nbsp;com.telenav.kivakit.metrics.core.<a href="../../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">BaseMetric</a></h3>
@@ -206,7 +206,7 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="description(java.lang.String)">
 <h3>description</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">description</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;description)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">description</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;description)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="../../BaseMetric.html#description(java.lang.String)">description</a></code>&nbsp;in class&nbsp;<code><a href="../../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">BaseMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;</code></dd>
@@ -216,7 +216,7 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="name(java.lang.String)">
 <h3>name</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">name</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">name</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;name)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="../../BaseMetric.html#name(java.lang.String)">name</a></code>&nbsp;in class&nbsp;<code><a href="../../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">BaseMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;</code></dd>
@@ -226,7 +226,7 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="type(com.telenav.kivakit.metrics.core.Metric.MetricType)">
 <h3>type</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">type</span><wbr><span class="parameters">(<a href="../../Metric.MetricType.html" title="enum class in com.telenav.kivakit.metrics.core">Metric.MetricType</a>&nbsp;type)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">type</span><wbr><span class="parameters">(<a href="../../Metric.MetricType.html" title="enum class in com.telenav.kivakit.metrics.core">Metric.MetricType</a>&nbsp;type)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="../../BaseMetric.html#type(com.telenav.kivakit.metrics.core.Metric.MetricType)">type</a></code>&nbsp;in class&nbsp;<code><a href="../../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">BaseMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;</code></dd>
@@ -236,7 +236,7 @@ loadScripts(document, 'script');</script>
 <li>
 <section class="detail" id="unit(java.lang.String)">
 <h3>unit</h3>
-<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">unit</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;unit)</span></div>
+<div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="MaximumCountMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics.count">MaximumCountMetric</a></span>&nbsp;<span class="element-name">unit</span><wbr><span class="parameters">(<a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a>&nbsp;unit)</span></div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="../../BaseMetric.html#unit(java.lang.String)">unit</a></code>&nbsp;in class&nbsp;<code><a href="../../BaseMetric.html" title="class in com.telenav.kivakit.metrics.core">BaseMetric</a>&lt;com.telenav.kivakit.core.value.count.Count&gt;</code></dd>

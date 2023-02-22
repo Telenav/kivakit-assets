@@ -5,7 +5,7 @@
 <title>com.telenav.kivakit.metrics.core.aggregates (kivakit-extensions-parent 1.8.2 API)</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="description" content="declaration: module: kivakit.metrics.core, package: com.telenav.kivakit.metrics.core.aggregates">
+<meta name="description" content="declaration: module: kivakit.metrics.core, package: com.telenav.kivakit.metrics.core.statistics">
 <meta name="generator" content="javadoc/PackageWriterImpl">
 <link rel="stylesheet" type="text/css" href="../../../../../../../stylesheet.css" title="Style">
 <link rel="stylesheet" type="text/css" href="../../../../../../../script-dir/jquery-ui.min.css" title="Style">
@@ -57,10 +57,10 @@ loadScripts(document, 'script');</script>
 <main role="main">
 <div class="header">
 <div class="sub-title"><span class="module-label-in-package">Module</span>&nbsp;<a href="../../../../../../module-summary.html">kivakit.metrics.core</a></div>
-<h1 title="Package com.telenav.kivakit.metrics.core.aggregates" class="title">Package com.telenav.kivakit.metrics.core.aggregates</h1>
+<h1 title="Package com.telenav.kivakit.metrics.core.statistics" class="title">Package com.telenav.kivakit.metrics.core.statistics</h1>
 </div>
 <hr>
-<div class="package-signature">package <span class="element-name">com.telenav.kivakit.metrics.core.aggregates</span></div>
+<div class="package-signature">package <span class="element-name">com.telenav.kivakit.metrics.core.statistics</span></div>
 <section class="summary">
 <ul class="summary-list">
 <li>
@@ -71,13 +71,13 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-last">Description</div>
 <div class="col-first even-row-color"><a href="../package-summary.html">com.telenav.kivakit.metrics.core</a></div>
 <div class="col-last even-row-color">&nbsp;</div>
-<div class="col-first odd-row-color"><a href="bytes/package-summary.html">com.telenav.kivakit.metrics.core.aggregates.bytes</a></div>
+<div class="col-first odd-row-color"><a href="bytes/package-summary.html">com.telenav.kivakit.metrics.core.statistics.bytes</a></div>
 <div class="col-last odd-row-color">&nbsp;</div>
-<div class="col-first even-row-color"><a href="count/package-summary.html">com.telenav.kivakit.metrics.core.aggregates.count</a></div>
+<div class="col-first even-row-color"><a href="count/package-summary.html">com.telenav.kivakit.metrics.core.statistics.count</a></div>
 <div class="col-last even-row-color">&nbsp;</div>
-<div class="col-first odd-row-color"><a href="duration/package-summary.html">com.telenav.kivakit.metrics.core.aggregates.duration</a></div>
+<div class="col-first odd-row-color"><a href="duration/package-summary.html">com.telenav.kivakit.metrics.core.statistics.duration</a></div>
 <div class="col-last odd-row-color">&nbsp;</div>
-<div class="col-first even-row-color"><a href="rate/package-summary.html">com.telenav.kivakit.metrics.core.aggregates.rate</a></div>
+<div class="col-first even-row-color"><a href="rate/package-summary.html">com.telenav.kivakit.metrics.core.statistics.rate</a></div>
 <div class="col-last even-row-color">&nbsp;</div>
 <div class="col-first odd-row-color"><a href="../reporters/package-summary.html">com.telenav.kivakit.metrics.core.reporters</a></div>
 <div class="col-last odd-row-color">&nbsp;</div>
@@ -92,24 +92,24 @@ loadScripts(document, 'script');</script>
 <div class="summary-table two-column-summary">
 <div class="table-header col-first">Class</div>
 <div class="table-header col-last">Description</div>
-<div class="col-first even-row-color class-summary class-summary-tab2"><a href="AggregateMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">AggregateMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
+<div class="col-first even-row-color class-summary class-summary-tab2"><a href="AggregateMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">AggregateMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
 <div class="col-last even-row-color class-summary class-summary-tab2">
 <div class="block">A quantum aggregate metric is an <a href="../AggregateMetric.html" title="interface in com.telenav.kivakit.metrics.core"><code>AggregateMetric</code></a> for arbitrary
  <code>LongValued</code> objects.</div>
 </div>
-<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="AverageMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">AverageMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
+<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="AverageMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">AverageMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
 <div class="col-last odd-row-color class-summary class-summary-tab2">
 <div class="block">A metric which tracks an average</div>
 </div>
-<div class="col-first even-row-color class-summary class-summary-tab2"><a href="MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">MaximumMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
+<div class="col-first even-row-color class-summary class-summary-tab2"><a href="MaximumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">MaximumMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
 <div class="col-last even-row-color class-summary class-summary-tab2">
 <div class="block">A metric which tracks a maximum</div>
 </div>
-<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="MinimumMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">MinimumMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
+<div class="col-first odd-row-color class-summary class-summary-tab2"><a href="MinimumMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">MinimumMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
 <div class="col-last odd-row-color class-summary class-summary-tab2">
 <div class="block">A metric which tracks a minimum</div>
 </div>
-<div class="col-first even-row-color class-summary class-summary-tab2"><a href="TotalMetric.html" title="class in com.telenav.kivakit.metrics.core.aggregates">TotalMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
+<div class="col-first even-row-color class-summary class-summary-tab2"><a href="TotalMetric.html" title="class in com.telenav.kivakit.metrics.core.statistics">TotalMetric</a>&lt;T extends com.telenav.kivakit.interfaces.value.DoubleValued&gt;</div>
 <div class="col-last even-row-color class-summary class-summary-tab2">
 <div class="block">A metric which tracks a total</div>
 </div>
