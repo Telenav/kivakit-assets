@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="959.375px" preserveAspectRatio="none" style="width:1983px;height:959px;background:#333333;" version="1.1" viewBox="0 0 1983 959" width="1983.3333px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="154.1667" x="907.6042" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="131.25" x="919.0625" y="30.5583">Microservlets</text><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="7" fill="#282828" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="343.8542" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="343.8542" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="343.8542" y="76.7578"/><rect codeLine="7" fill="none" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="343.8542" y="53.7028"/><ellipse cx="358.4375" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M358.0306,66.099 L357.1822,69.8283 L358.8851,69.8283 Z M356.932,64.4511 L359.1353,64.4511 L361.5951,73.5636 L359.7945,73.5636 L359.233,71.3114 L356.8221,71.3114 L356.2728,73.5636 L354.4722,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="375.1042" y="74.1211">BaseComponent</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="344.8958" x2="486.5625" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="344.8958" x2="486.5625" y1="93.4245" y2="93.4245"/><!--MD5=[762aa3d0df6a9d47bd8e105afbd066b5]
+class BaseRepeater--><rect codeLine="8" fill="#282828" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="1806.875" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="1806.875" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="123.9583" x="1806.875" y="76.7578"/><rect codeLine="8" fill="none" height="48.055" id="BaseRepeater" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="123.9583" x="1806.875" y="53.7028"/><ellipse cx="1821.4583" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M1821.0514,66.099 L1820.203,69.8283 L1821.9059,69.8283 Z M1819.9528,64.4511 L1822.1562,64.4511 L1824.6159,73.5636 L1822.8153,73.5636 L1822.2538,71.3114 L1819.8429,71.3114 L1819.2936,73.5636 L1817.4931,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="86.4583" x="1838.125" y="74.1211">BaseRepeater</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1807.9167" x2="1929.7917" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1807.9167" x2="1929.7917" y1="93.4245" y2="93.4245"/><!--MD5=[bc12bf2eba5589f8ae5dc6c7a83f5a57]
+class MicroservletResponse--><rect codeLine="103" fill="#282828" height="155.1127" id="MicroservletResponse" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="196.875" x="611.0417" y="630.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="196.875" x="611.0417" y="630.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="196.875" x="611.0417" y="653.8411"/><rect codeLine="103" fill="none" height="155.1127" id="MicroservletResponse" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="196.875" x="611.0417" y="630.7861"/><ellipse cx="633.5938" cy="646.4803" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M630.9977,643.6422 L630.9977,642.0553 L636.4237,642.0553 L636.4237,643.6422 L634.611,643.6422 L634.611,649.5809 L636.4237,649.5809 L636.4237,651.1678 L630.9977,651.1678 L630.9977,649.5809 L632.8105,649.5809 L632.8105,643.6422 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="141.6667" x="652.0313" y="651.2044">MicroservletResponse</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="612.0833" x2="806.875" y1="662.1745" y2="662.1745"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="612.0833" x2="806.875" y1="670.5078" y2="670.5078"/><ellipse cx="622.5" cy="681.9661" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="633.9583" y="688.8774">void onPrepareResponse()</text><ellipse cx="622.5" cy="725.6226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="164.5833" x="633.9583" y="732.5338">MicroservletErrorList errors()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="612.0833" x2="675.1042" y1="708.4585" y2="708.4585"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="678.2292" y="712.2681">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="743.8542" x2="806.875" y1="708.4585" y2="708.4585"/><ellipse cx="622.5" cy="769.279" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="125" x="633.9583" y="776.1902">void onEndResponse()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="612.0833" x2="679.7917" y1="752.1149" y2="752.1149"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="682.9167" y="755.9245">(lifecycle)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="739.1667" x2="806.875" y1="752.1149" y2="752.1149"/><!--MD5=[7c5c88a606935469d5f89b0b5794816c]
+class Named--><rect codeLine="11" fill="#282828" height="48.055" id="Named" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="1255.8333" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="1255.8333" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="82.2917" x="1255.8333" y="76.7578"/><rect codeLine="11" fill="none" height="48.055" id="Named" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="82.2917" x="1255.8333" y="53.7028"/><ellipse cx="1270.4167" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1267.8206,66.5588 L1267.8206,64.9719 L1273.2467,64.9719 L1273.2467,66.5588 L1271.4339,66.5588 L1271.4339,72.4976 L1273.2467,72.4976 L1273.2467,74.0845 L1267.8206,74.0845 L1267.8206,72.4976 L1269.6334,72.4976 L1269.6334,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="44.7917" x="1287.0833" y="74.1211">Named</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1256.875" x2="1337.0833" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1256.875" x2="1337.0833" y1="93.4245" y2="93.4245"/><!--MD5=[9018f199fd71a68d97bc1708ead5744d]
+class MicroservletRequestHandler--><rect codeLine="88" fill="#282828" height="131.2012" id="MicroservletRequestHandler" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="414.5833" x="1309.4792" y="289.6403"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="414.5833" x="1309.4792" y="289.6403"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="414.5833" x="1309.4792" y="312.6953"/><rect codeLine="88" fill="none" height="131.2012" id="MicroservletRequestHandler" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="414.5833" x="1309.4792" y="289.6403"/><ellipse cx="1418.8542" cy="305.3345" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1416.2581,302.4963 L1416.2581,300.9094 L1421.6842,300.9094 L1421.6842,302.4963 L1419.8714,302.4963 L1419.8714,308.4351 L1421.6842,308.4351 L1421.6842,310.022 L1416.2581,310.022 L1416.2581,308.4351 L1418.0709,308.4351 L1418.0709,302.4963 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="181.25" x="1441.7708" y="310.0586">MicroservletRequestHandler</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1310.5208" x2="1723.0208" y1="321.0286" y2="321.0286"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1310.5208" x2="1723.0208" y1="329.362" y2="329.362"/><ellipse cx="1320.9375" cy="340.8203" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="382.2917" x="1332.3958" y="347.7315">void onMicroservletPerformance(MicroservletPerformance statistics)</text><ellipse cx="1320.9375" cy="360.5652" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="242.7083" x="1332.3958" y="367.4764">MicroservletResponse respond(String path)</text><ellipse cx="1320.9375" cy="404.2216" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="197.9167" x="1332.3958" y="411.1328">MicroservletResponse onRespond()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1310.5208" x2="1462.6042" y1="387.0575" y2="387.0575"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="1465.7292" y="390.8671">(extension points)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1570.9375" x2="1723.0208" y1="387.0575" y2="387.0575"/><!--MD5=[8ea589cb7538f222915797f7e358568c]
+class MicroservletRequest--><rect codeLine="80" fill="#282828" height="67.7999" id="MicroservletRequest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="351.0417" x="847.5" y="674.5361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="351.0417" x="847.5" y="674.5361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="351.0417" x="847.5" y="697.5911"/><rect codeLine="80" fill="none" height="67.7999" id="MicroservletRequest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="351.0417" x="847.5" y="674.5361"/><ellipse cx="950.1042" cy="690.2303" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M947.5081,687.3922 L947.5081,685.8053 L952.9342,685.8053 L952.9342,687.3922 L951.1214,687.3922 L951.1214,693.3309 L952.9342,693.3309 L952.9342,694.9178 L947.5081,694.9178 L947.5081,693.3309 L949.3209,693.3309 L949.3209,687.3922 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="131.25" x="973.0208" y="694.9544">MicroservletRequest</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="848.5417" x2="1197.5" y1="705.9245" y2="705.9245"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="848.5417" x2="1197.5" y1="714.2578" y2="714.2578"/><ellipse cx="858.9583" cy="725.7161" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="318.75" x="870.4167" y="732.6274">Class&lt;? extends MicroservletResponse&gt; responseType()</text><!--MD5=[0f61c3c6de2c085bb07c965403294b1a]
+class BaseMicroservletRequest--><rect codeLine="18" fill="#282828" height="83.3781" id="BaseMicroservletRequest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="265.625" x="1121.4583" y="859.432"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="265.625" x="1121.4583" y="859.432"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="265.625" x="1121.4583" y="882.487"/><rect codeLine="18" fill="none" height="83.3781" id="BaseMicroservletRequest" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="265.625" x="1121.4583" y="859.432"/><ellipse cx="1166.25" cy="875.1261" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M1165.8431,871.8282 L1164.9947,875.5575 L1166.6976,875.5575 Z M1164.7445,870.1803 L1166.9478,870.1803 L1169.4076,879.2928 L1167.607,879.2928 L1167.0455,877.0406 L1164.6346,877.0406 L1164.0853,879.2928 L1162.2847,879.2928 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="161.4583" x="1189.1667" y="879.8503">BaseMicroservletRequest</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1122.5" x2="1386.0417" y1="890.8203" y2="890.8203"/><polygon fill="#FFFF44" points="1132.9167,920.9819,1137.0833,925.1485,1132.9167,929.3152,1128.75,925.1485" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="233.3333" x="1144.375" y="933.1014">Frequency statisticsReportingFrequency()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1122.5" x2="1235" y1="909.0261" y2="909.0261"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="1238.125" y="912.8357">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1273.5417" x2="1386.0417" y1="909.0261" y2="909.0261"/><!--MD5=[46eb79b119643392c4d85492c0efabde]
+class BaseMicroservletResponse--><rect codeLine="26" fill="#282828" height="103.123" id="BaseMicroservletResponse" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="246.875" x="157.9167" y="849.5361"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="246.875" x="157.9167" y="849.5361"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="246.875" x="157.9167" y="872.5911"/><rect codeLine="26" fill="none" height="103.123" id="BaseMicroservletResponse" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="246.875" x="157.9167" y="849.5361"/><ellipse cx="189.375" cy="865.2303" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M188.9681,861.9324 L188.1197,865.6616 L189.8226,865.6616 Z M187.8695,860.2844 L190.0728,860.2844 L192.5326,869.397 L190.732,869.397 L190.1705,867.1448 L187.7596,867.1448 L187.2103,869.397 L185.4097,869.397 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="171.875" x="209.7917" y="869.9544">BaseMicroservletResponse</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="158.9583" x2="403.75" y1="880.9245" y2="880.9245"/><polygon fill="#FFFF44" points="169.375,911.086,173.5417,915.2527,169.375,919.4194,165.2083,915.2527" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="156.25" x="180.8333" y="923.2056">BaseMicroservletResponse()</text><polygon fill="#FFFF44" points="169.375,930.8309,173.5417,934.9976,169.375,939.1642,165.2083,934.9976" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="180.8333" y="942.9504">BaseMicroservletResponse(Result&lt;?&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="158.9583" x2="237.6042" y1="899.1302" y2="899.1302"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="240.7292" y="902.9399">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="325.1042" x2="403.75" y1="899.1302" y2="899.1302"/><!--MD5=[9ba173eb5680e013adbbda04deea3881]
+class Microservlet--><rect codeLine="38" fill="#282828" height="380.6396" id="Microservlet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="472.9167" x="179.2708" y="165.1611"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="472.9167" x="179.2708" y="165.1611"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="472.9167" x="179.2708" y="188.2161"/><rect codeLine="38" fill="none" height="380.6396" id="Microservlet" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="472.9167" x="179.2708" y="165.1611"/><ellipse cx="302.7083" cy="180.8553" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M302.3014,177.5574 L301.453,181.2866 L303.1559,181.2866 Z M301.2028,175.9094 L303.4062,175.9094 L305.8659,185.022 L304.0653,185.022 L303.5038,182.7698 L301.0929,182.7698 L300.5436,185.022 L298.7431,185.022 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="79.1667" x="325.625" y="185.5794">Microservlet</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="130.2083" x="525.1042" y="162.0361"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="121.875" x="529.2708" y="178.2878">Request, Response</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="180.3125" x2="651.1458" y1="196.5495" y2="196.5495"/><polygon fill="#FFFF44" points="190.7292,226.711,194.8958,230.8777,190.7292,235.0444,186.5625,230.8777" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="392.7083" x="202.1875" y="238.8306">Microservlet(Class&lt;? extends Request&gt;, Class&lt;? extends Response&gt;)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="180.3125" x2="371.9792" y1="214.7552" y2="214.7552"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="375.1042" y="218.5649">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="459.4792" x2="651.1458" y1="214.7552" y2="214.7552"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="180.3125" x2="651.1458" y1="248.5392" y2="248.5392"/><ellipse cx="190.7292" cy="259.9976" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="202.1875" y="266.9088">String description()</text><ellipse cx="190.7292" cy="279.7424" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="231.25" x="202.1875" y="286.6536">Class&lt;? extends Request&gt; requestType()</text><ellipse cx="190.7292" cy="299.4873" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="226.0417" x="202.1875" y="306.3985">Response respond(MicroservletRequest)</text><ellipse cx="190.7292" cy="319.2322" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="250" x="202.1875" y="326.1434">Class&lt;? extends Response&gt; responseType()</text><polygon fill="#FFFF44" points="190.7292,333.7687,194.8958,337.9354,190.7292,342.1021,186.5625,337.9354" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="157.2917" x="202.1875" y="345.8883">String parameter(String key)</text><polygon fill="#FFFF44" points="190.7292,353.5136,194.8958,357.6803,190.7292,361.8469,186.5625,357.6803" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="440.625" x="202.1875" y="365.6331">T parameterAsObject(String key, Class&lt;Converter&lt;String,T&gt;&gt; converterType)</text><polygon fill="#FFFF44" points="190.7292,373.2585,194.8958,377.4251,190.7292,381.5918,186.5625,377.4251" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="307.2917" x="202.1875" y="385.378">T parameterAsObject(String key, Converter&lt;String,T&gt;)</text><polygon fill="#FFFF44" points="190.7292,416.9149,194.8958,421.0815,190.7292,425.2482,186.5625,421.0815" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="145.8333" x="202.1875" y="429.0344">PropertyMap parameters()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="180.3125" x2="381.3542" y1="404.9591" y2="404.9591"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="384.4792" y="408.7687">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="450.1042" x2="651.1458" y1="404.9591" y2="404.9591"/><ellipse cx="190.7292" cy="465.7796" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="202.1875" y="472.6908">Response onRespond(Request)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="180.3125" x2="361.5625" y1="448.6155" y2="448.6155"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="364.6875" y="452.4251">(extension points)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="469.8958" x2="651.1458" y1="448.6155" y2="448.6155"/><polygon fill="#FFFF44" points="190.7292,504.2277,194.8958,508.3944,190.7292,512.561,186.5625,508.3944" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="167.7083" x="202.1875" y="516.3472">int parameterAsInt(String key)</text><polygon fill="#FFFF44" points="190.7292,523.9726,194.8958,528.1392,190.7292,532.3059,186.5625,528.1392" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="191.6667" x="202.1875" y="536.0921">long parameterAsLong(String key)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="180.3125" x2="383.9583" y1="492.2719" y2="492.2719"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="57.2917" x="387.0833" y="496.0815">(primitive)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="447.5" x2="651.1458" y1="492.2719" y2="492.2719"/><!--MD5=[ee1c2a74680e55708e72dc4e8bf33817]
+class JettyRestRequestCycle--><rect fill="#282828" height="48.055" id="JettyRestRequestCycle" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="182.2917" x="324.5833" y="684.432"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="182.2917" x="324.5833" y="684.432"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="182.2917" x="324.5833" y="707.487"/><rect fill="none" height="48.055" id="JettyRestRequestCycle" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="182.2917" x="324.5833" y="684.432"/><ellipse cx="339.1667" cy="700.1261" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M341.0771,704.5512 Q340.6498,704.7709 340.1799,704.8808 Q339.7099,704.9906 339.1911,704.9906 Q337.3478,704.9906 336.3774,703.776 Q335.4069,702.5614 335.4069,700.2665 Q335.4069,697.9655 336.3774,696.7509 Q337.3478,695.5363 339.1911,695.5363 Q339.7099,695.5363 340.186,695.6462 Q340.662,695.756 341.0771,695.9757 L341.0771,697.9777 Q340.6132,697.5505 340.1768,697.3521 Q339.7404,697.1537 339.2765,697.1537 Q338.2878,697.1537 337.7842,697.938 Q337.2807,698.7223 337.2807,700.2665 Q337.2807,701.8046 337.7842,702.5889 Q338.2878,703.3732 339.2765,703.3732 Q339.7404,703.3732 340.1768,703.1748 Q340.6132,702.9765 341.0771,702.5492 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="144.7917" x="355.8333" y="704.8503">JettyRestRequestCycle</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="325.625" x2="505.8333" y1="715.8203" y2="715.8203"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="325.625" x2="505.8333" y1="724.1536" y2="724.1536"/><!--MD5=[8cdbc9b94861a0551afe987ce92ce686]
+class MicroservletErrorList--><rect codeLine="60" fill="#282828" height="210.1807" id="MicroservletErrorList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="215.625" x="1761.0417" y="250.057"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="215.625" x="1761.0417" y="250.057"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="215.625" x="1761.0417" y="273.112"/><rect codeLine="60" fill="none" height="210.1807" id="MicroservletErrorList" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="215.625" x="1761.0417" y="250.057"/><ellipse cx="1795.3125" cy="265.7511" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1797.2229,270.1762 Q1796.7957,270.3959 1796.3257,270.5058 Q1795.8557,270.6156 1795.3369,270.6156 Q1793.4937,270.6156 1792.5232,269.401 Q1791.5527,268.1864 1791.5527,265.8915 Q1791.5527,263.5905 1792.5232,262.3759 Q1793.4937,261.1613 1795.3369,261.1613 Q1795.8557,261.1613 1796.3318,261.2712 Q1796.8079,261.381 1797.2229,261.6007 L1797.2229,263.6027 Q1796.759,263.1755 1796.3226,262.9771 Q1795.8862,262.7787 1795.4224,262.7787 Q1794.4336,262.7787 1793.9301,263.563 Q1793.4265,264.3473 1793.4265,265.8915 Q1793.4265,267.4296 1793.9301,268.2139 Q1794.4336,268.9982 1795.4224,268.9982 Q1795.8862,268.9982 1796.3226,268.7998 Q1796.759,268.6015 1797.2229,268.1742 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="134.375" x="1816.3542" y="270.4753">MicroservletErrorList</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1762.0833" x2="1975.625" y1="281.4453" y2="281.4453"/><ellipse cx="1772.5" cy="316.8152" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="1783.9583" y="323.7264">void add(MicroservletError)</text><ellipse cx="1772.5" cy="336.5601" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="183.3333" x="1783.9583" y="343.4713">List&lt;MicroservletError&gt; errors()</text><ellipse cx="1772.5" cy="356.3049" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="100" x="1783.9583" y="363.2161">boolean isEmpty()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1762.0833" x2="1834.4792" y1="299.6511" y2="299.6511"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1837.6042" y="303.4607">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1903.2292" x2="1975.625" y1="299.6511" y2="299.6511"/><ellipse cx="1772.5" cy="399.9613" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="121.875" x="1783.9583" y="406.8726">void sendTo(Listener)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1762.0833" x2="1831.3542" y1="382.7972" y2="382.7972"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="68.75" x="1834.4792" y="386.6069">(messaging)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1906.3542" x2="1975.625" y1="382.7972" y2="382.7972"/><ellipse cx="1772.5" cy="443.6178" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="1783.9583" y="450.529">HttpStatus httpStatus()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1762.0833" x2="1844.375" y1="426.4537" y2="426.4537"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="42.7083" x="1847.5" y="430.2633">(status)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1893.3333" x2="1975.625" y1="426.4537" y2="426.4537"/><!--MD5=[4e13963c9dc916a21a8436ef39422b32]
+class Component--><rect codeLine="97" fill="#282828" height="48.055" id="Component" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="113.5417" x="1085" y="331.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="113.5417" x="1085" y="331.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="113.5417" x="1085" y="354.362"/><rect codeLine="97" fill="none" height="48.055" id="Component" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="113.5417" x="1085" y="331.307"/><ellipse cx="1099.5833" cy="347.0011" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1096.9873,344.163 L1096.9873,342.5761 L1102.4133,342.5761 L1102.4133,344.163 L1100.6006,344.163 L1100.6006,350.1017 L1102.4133,350.1017 L1102.4133,351.6886 L1096.9873,351.6886 L1096.9873,350.1017 L1098.8,350.1017 L1098.8,344.163 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="76.0417" x="1116.25" y="351.7253">Component</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1086.0417" x2="1197.5" y1="362.6953" y2="362.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1086.0417" x2="1197.5" y1="371.0286" y2="371.0286"/><!--MD5=[9bdb0d4f32141be721a31d2870f462be]
+class RestProblemReportingTrait--><rect codeLine="98" fill="#282828" height="48.055" id="RestProblemReportingTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="212.5" x="835.5208" y="331.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="212.5" x="835.5208" y="331.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="212.5" x="835.5208" y="354.362"/><rect codeLine="98" fill="none" height="48.055" id="RestProblemReportingTrait" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="212.5" x="835.5208" y="331.307"/><ellipse cx="850.1042" cy="347.0011" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M847.5081,344.163 L847.5081,342.5761 L852.9342,342.5761 L852.9342,344.163 L851.1214,344.163 L851.1214,350.1017 L852.9342,350.1017 L852.9342,351.6886 L847.5081,351.6886 L847.5081,350.1017 L849.3209,350.1017 L849.3209,344.163 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="175" x="866.7708" y="351.7253">RestProblemReportingTrait</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="836.5625" x2="1046.9792" y1="362.6953" y2="362.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="836.5625" x2="1046.9792" y1="371.0286" y2="371.0286"/><!--MD5=[7aca7191f476af6561cf4f43a12cda50]
+class Validatable--><rect codeLine="99" fill="#282828" height="48.055" id="Validatable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="109.375" x="689.1667" y="331.307"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="109.375" x="689.1667" y="331.307"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="109.375" x="689.1667" y="354.362"/><rect codeLine="99" fill="none" height="48.055" id="Validatable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="109.375" x="689.1667" y="331.307"/><ellipse cx="703.75" cy="347.0011" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M701.154,344.163 L701.154,342.5761 L706.58,342.5761 L706.58,344.163 L704.7673,344.163 L704.7673,350.1017 L706.58,350.1017 L706.58,351.6886 L701.154,351.6886 L701.154,350.1017 L702.9667,350.1017 L702.9667,344.163 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="71.875" x="720.4167" y="351.7253">Validatable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="690.2083" x2="797.5" y1="362.6953" y2="362.6953"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="690.2083" x2="797.5" y1="371.0286" y2="371.0286"/><!--MD5=[085076096658226fe7d3ac7a26d9b629]
+class Listener--><rect codeLine="86" fill="#282828" height="48.055" id="Listener" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="1471.9792" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="1471.9792" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="89.5833" x="1471.9792" y="76.7578"/><rect codeLine="86" fill="none" height="48.055" id="Listener" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="89.5833" x="1471.9792" y="53.7028"/><ellipse cx="1486.5625" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1483.9665,66.5588 L1483.9665,64.9719 L1489.3925,64.9719 L1489.3925,66.5588 L1487.5798,66.5588 L1487.5798,72.4976 L1489.3925,72.4976 L1489.3925,74.0845 L1483.9665,74.0845 L1483.9665,72.4976 L1485.7792,72.4976 L1485.7792,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="52.0833" x="1503.2292" y="74.1211">Listener</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1473.0208" x2="1560.5208" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1473.0208" x2="1560.5208" y1="93.4245" y2="93.4245"/><!--MD5=[f9c83e6010ae985a9208c0652b37d408]
+reverse link BaseComponent to BaseMicroservletRequest--><path codeLine="15" d="M510.2083,82.1403 C711.6458,90.4007 1168.9896,114.5986 1216.7708,165.1611 C1311.5417,265.4424 1273.0833,719.682 1258.75,859.182 " fill="none" id="BaseComponent-backto-BaseMicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="510.1979,89.432,489.6667,81.3174,510.7813,74.859,510.1979,89.432" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2a8742a1c57f11f3e7db16c735fd4af6]
+reverse link MicroservletRequest to BaseMicroservletRequest--><path codeLine="16" d="M1080.4375,756.7549 C1118.5104,788.1403 1167.9688,828.9111 1204.3854,858.932 " fill="none" id="MicroservletRequest-backto-BaseMicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1075.9583,762.5153,1064.5208,743.6403,1085.2292,751.2653,1075.9583,762.5153" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[70fb66ecdae233acb685496374f5acc7]
+reverse link MicroservletRequestHandler to BaseMicroservletRequest--><path codeLine="17" d="M1475.7292,441.3278 C1418.4792,559.9111 1316.875,770.3799 1274.1146,858.9528 " fill="none" id="MicroservletRequestHandler-backto-BaseMicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1469.0625,438.3695,1484.6875,422.7757,1482.1979,444.7028,1469.0625,438.3695" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e79040d5b55038ea773026a0efa6545f]
+reverse link BaseComponent to BaseMicroservletResponse--><path codeLine="24" d="M321.6563,84.234 C265,92.9945 196.9792,114.3174 160.5208,165.1611 C6.25,380.307 176.0521,721.4111 250.2188,849.359 " fill="none" id="BaseComponent-backto-BaseMicroservletResponse" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="320.3542,77.057,341.9583,81.5778,322.25,91.5153,320.3542,77.057" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[08d14a4c36854e1550da63ac25375102]
+reverse link MicroservletResponse to BaseMicroservletResponse--><path codeLine="25" d="M590.625,762.3486 C529.8021,789.432 456.1042,822.2549 395.9063,849.057 " fill="none" id="MicroservletResponse-backto-BaseMicroservletResponse" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="587.2813,755.859,609.2813,754.0465,593.2188,769.182,587.2813,755.859" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cad845fe7f488b8bffc463f5aedd8244]
+reverse link BaseComponent to Microservlet--><path codeLine="33" d="M415.7292,123.8382 C415.7292,135.9736 415.7292,149.8903 415.7292,164.7445 " fill="none" id="BaseComponent-backto-Microservlet" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="408.4375,124.1299,415.7292,103.2965,423.0208,124.1299,408.4375,124.1299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[f9bdd993bfc013e88a1cb18eac7b6f8f]
+reverse link Named to Microservlet--><path codeLine="34" d="M1233.6875,83.4424 C1095.7396,94.4111 772.25,123.8174 670.9375,165.1611 C664.8125,167.6611 658.6979,170.3382 652.6146,173.182 " fill="none" id="Named-backto-Microservlet" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1232.7708,76.2028,1254.1146,81.8486,1233.9063,90.734,1232.7708,76.2028" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[cad7790fd7176438667d8fce64aee54f]
+link Microservlet to JettyRestRequestCycle--><path codeLine="35" d="M415.7292,545.7028 C415.7292,597.182 415.7292,647.057 415.7292,677.4736 " fill="none" id="Microservlet-to-JettyRestRequestCycle" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="415.7292,682.4528,419.8958,673.0778,415.7292,677.2445,411.5625,673.0778,415.7292,682.4528" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="54.1667" x="419.8958" y="592.8711">attaches</text><!--MD5=[f03766c34284991316478a69a9870455]
+link Microservlet to MicroservletRequest--><path codeLine="36" d="M652.3542,534.0882 C658.5729,537.9528 664.7708,541.7236 670.9375,545.3695 C755.9792,595.7028 859.3333,641.5986 931.9896,671.5778 " fill="none" id="Microservlet-to-MicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="936.5833,673.4736,929.5125,666.0403,931.7704,671.4831,926.3276,673.741,936.5833,673.4736" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="135.4167" x="768.8542" y="592.8711">references sub-class</text><!--MD5=[55f118bc27992fd0e065b28e9cefd62b]
+link Microservlet to MicroservletResponse--><path codeLine="37" d="M525.4896,545.8174 C539.1875,564.6715 553.7292,582.9424 568.8542,599.5361 C579.9271,611.682 592.5,623.4424 605.4688,634.4632 " fill="none" id="Microservlet-to-MicroservletResponse" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="#545454" points="609.4375,637.807,604.9366,628.5878,605.4486,634.4581,599.5783,634.9701,609.4375,637.807" style="stroke:#545454;stroke-width:1.5625;"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="135.4167" x="573.0208" y="592.8711">references sub-class</text><!--MD5=[17016bfa8abf044fb4244bdd25f1aeab]
+reverse link BaseRepeater to MicroservletErrorList--><path codeLine="59" d="M1868.8542,123.7757 C1868.8542,157.859 1868.8542,206.0674 1868.8542,249.5778 " fill="none" id="BaseRepeater-backto-MicroservletErrorList" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1861.5625,124.1299,1868.8542,103.2965,1876.1458,124.1299,1861.5625,124.1299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[dc58ff15663be00b9cb3c0c679eced30]
+reverse link Validatable to MicroservletRequest--><path codeLine="76" d="M749.0521,401.3695 C756.5,444.7028 774.3542,508.859 816.7708,545.3695 C865.3021,587.1403 906.9063,537.2549 957.3958,576.6195 C988.6458,600.9736 1006.1771,644.1924 1015.1042,674.234 " fill="none" id="Validatable-backto-MicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="741.875,402.6924,746.0938,381.0257,756.3125,400.5882,741.875,402.6924" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e73b211cf1c768bff1ab615cf4def493]
+reverse link Component to MicroservletRequest--><path codeLine="77" d="M1140.3854,401.5153 C1137.4583,451.682 1128.4896,534.182 1101.1458,599.5361 C1089.6354,627.0465 1069.8958,654.2028 1053.125,674.3799 " fill="none" id="Component-backto-MicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1133.0833,401.4528,1141.3229,380.9736,1147.6563,402.1195,1133.0833,401.4528" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b76cd6d6b028318c2fcb3b8bc970ea90]
+reverse link RestProblemReportingTrait to MicroservletRequest--><path codeLine="78" d="M954.8438,401.1195 C967.4792,445.4424 986.6458,515.3382 1000.1042,576.6195 C1007.3438,609.5882 1013.8021,647.6403 1018.0104,674.1507 " fill="none" id="RestProblemReportingTrait-backto-MicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="947.8438,403.1715,949.0833,381.1403,961.8542,399.1403,947.8438,403.1715" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[4e5d8e18b17909eb776d03b9bfadb0eb]
+reverse link MicroservletRequestHandler to MicroservletRequest--><path codeLine="79" d="M1407.1875,434.2236 C1301.4271,509.4111 1146.375,619.6507 1069.6146,674.2236 " fill="none" id="MicroservletRequestHandler-backto-MicroservletRequest" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1402.8542,428.3486,1424.0625,422.2236,1411.3125,440.234,1402.8542,428.3486" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[984efc99eda2a92cc7358062f763bed0]
+reverse link Listener to MicroservletRequestHandler--><path codeLine="87" d="M1516.7708,123.9111 C1516.7708,168.8903 1516.7708,238.3382 1516.7708,289.2236 " fill="none" id="Listener-backto-MicroservletRequestHandler" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1509.4792,124.1299,1516.7708,103.2965,1524.0625,124.1299,1509.4792,124.1299" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[ebc502e83bb505d623549aed33470691]
+reverse link Validatable to MicroservletResponse--><path codeLine="100" d="M739.4271,401.557 C733.7604,459.4424 723.8542,560.5882 717,630.6195 " fill="none" id="Validatable-backto-MicroservletResponse" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="732.1354,401.2028,741.4167,381.182,746.6458,402.6299,732.1354,401.2028" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[f4df3085c4ba6eb1320e53716db6c1f1]
+reverse link Component to MicroservletResponse--><path codeLine="101" d="M1132.9375,401.2861 C1122.8125,442.8382 1102.625,504.1924 1065.7292,545.3695 C991.1667,628.5882 932.2917,587.5049 829.2708,630.7861 C822.3333,633.7028 815.3438,637.0049 808.4271,640.5778 " fill="none" id="Component-backto-MicroservletResponse" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1125.7604,399.9736,1137.3958,381.2132,1140,403.1403,1125.7604,399.9736" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[2c53b553e424687ffabdc19977c0ff9f]
+reverse link RestProblemReportingTrait to MicroservletResponse--><path codeLine="102" d="M919.0833,399.234 C896.4688,439.6299 859.0938,500.4632 816.7708,545.3695 C800.8958,562.2132 789.9479,558.859 775.1042,576.6195 C761.75,592.5986 750.2188,611.7549 740.7083,630.4111 " fill="none" id="RestProblemReportingTrait-backto-MicroservletResponse" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="912.6354,395.8174,929.0313,381.0257,925.4375,402.807,912.6354,395.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[362e429b1f845c190baa4fd80cb1ea2b]
+@startuml
+
+    !include lexakai.theme
+    
+    title "Microservlets"
+    
+    abstract BaseComponent
+    abstract BaseRepeater
+    
+    interface MicroservletResponse
+    interface Named
+    interface MicroservletRequestHandler
+    interface MicroservletRequest
+    
+    BaseComponent <|- - BaseMicroservletRequest
+    MicroservletRequest <|- - BaseMicroservletRequest
+    MicroservletRequestHandler <|- - BaseMicroservletRequest
+    abstract class BaseMicroservletRequest
+    {
+        - -(time)- -
+        #Frequency statisticsReportingFrequency()
+    }
+    
+    BaseComponent <|- - BaseMicroservletResponse
+    MicroservletResponse <|- - BaseMicroservletResponse
+    abstract class BaseMicroservletResponse
+    {
+        - -(constructors)- -
+        #BaseMicroservletResponse()
+        #BaseMicroservletResponse(Result<?>)
+    }
+    
+    BaseComponent <|- - Microservlet
+    Named <|- - Microservlet
+    Microservlet - -> JettyRestRequestCycle : "attaches"
+    Microservlet - -> MicroservletRequest : "references sub-class"
+    Microservlet - -> MicroservletResponse : "references sub-class"
+    abstract class Microservlet<Request, Response>
+    {
+        - -(constructors)- -
+        #Microservlet(Class<? extends Request>, Class<? extends Response>)
+        - -
+        +String description()
+        +Class<? extends Request> requestType()
+        +Response respond(MicroservletRequest)
+        +Class<? extends Response> responseType()
+        #String parameter(String key)
+        #T parameterAsObject(String key, Class<Converter<String,T>> converterType)
+        #T parameterAsObject(String key, Converter<String,T>)
+        - -(collection)- -
+        #PropertyMap parameters()
+        - -(extension points)- -
+        +Response onRespond(Request)
+        - -(primitive)- -
+        #int parameterAsInt(String key)
+        #long parameterAsLong(String key)
+    }
+    
+    BaseRepeater <|- - MicroservletErrorList
+    class MicroservletErrorList
+    {
+        - -(collection)- -
+        +void add(MicroservletError)
+        +List<MicroservletError> errors()
+        +boolean isEmpty()
+        - -(messaging)- -
+        +void sendTo(Listener)
+        - -(status)- -
+        +HttpStatus httpStatus()
+    }
+    
+    interface Component
+    interface MicroservletRequestHandler
+    interface RestProblemReportingTrait
+    interface Validatable
+    Validatable <|- - MicroservletRequest
+    Component <|- - MicroservletRequest
+    RestProblemReportingTrait <|- - MicroservletRequest
+    MicroservletRequestHandler <|- - MicroservletRequest
+    interface MicroservletRequest
+    {
+        - -
+        +Class<? extends MicroservletResponse> responseType()
+    }
+    
+    interface Listener
+    Listener <|- - MicroservletRequestHandler
+    interface MicroservletRequestHandler
+    {
+        - -
+        +void onMicroservletPerformance(MicroservletPerformance statistics)
+        +MicroservletResponse respond(String path)
+        - -(extension points)- -
+        +MicroservletResponse onRespond()
+    }
+    
+    interface Component
+    interface RestProblemReportingTrait
+    interface Validatable
+    Validatable <|- - MicroservletResponse
+    Component <|- - MicroservletResponse
+    RestProblemReportingTrait <|- - MicroservletResponse
+    interface MicroservletResponse
+    {
+        - -
+        +void onPrepareResponse()
+        - -(collection)- -
+        +MicroservletErrorList errors()
+        - -(lifecycle)- -
+        +void onEndResponse()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "Microservlets"
+    
+    abstract BaseComponent
+    abstract BaseRepeater
+    
+    interface MicroservletResponse
+    interface Named
+    interface MicroservletRequestHandler
+    interface MicroservletRequest
+    
+    BaseComponent <|- - BaseMicroservletRequest
+    MicroservletRequest <|- - BaseMicroservletRequest
+    MicroservletRequestHandler <|- - BaseMicroservletRequest
+    abstract class BaseMicroservletRequest
+    {
+        - -(time)- -
+        #Frequency statisticsReportingFrequency()
+    }
+    
+    BaseComponent <|- - BaseMicroservletResponse
+    MicroservletResponse <|- - BaseMicroservletResponse
+    abstract class BaseMicroservletResponse
+    {
+        - -(constructors)- -
+        #BaseMicroservletResponse()
+        #BaseMicroservletResponse(Result<?>)
+    }
+    
+    BaseComponent <|- - Microservlet
+    Named <|- - Microservlet
+    Microservlet - -> JettyRestRequestCycle : "attaches"
+    Microservlet - -> MicroservletRequest : "references sub-class"
+    Microservlet - -> MicroservletResponse : "references sub-class"
+    abstract class Microservlet<Request, Response>
+    {
+        - -(constructors)- -
+        #Microservlet(Class<? extends Request>, Class<? extends Response>)
+        - -
+        +String description()
+        +Class<? extends Request> requestType()
+        +Response respond(MicroservletRequest)
+        +Class<? extends Response> responseType()
+        #String parameter(String key)
+        #T parameterAsObject(String key, Class<Converter<String,T>> converterType)
+        #T parameterAsObject(String key, Converter<String,T>)
+        - -(collection)- -
+        #PropertyMap parameters()
+        - -(extension points)- -
+        +Response onRespond(Request)
+        - -(primitive)- -
+        #int parameterAsInt(String key)
+        #long parameterAsLong(String key)
+    }
+    
+    BaseRepeater <|- - MicroservletErrorList
+    class MicroservletErrorList
+    {
+        - -(collection)- -
+        +void add(MicroservletError)
+        +List<MicroservletError> errors()
+        +boolean isEmpty()
+        - -(messaging)- -
+        +void sendTo(Listener)
+        - -(status)- -
+        +HttpStatus httpStatus()
+    }
+    
+    interface Component
+    interface MicroservletRequestHandler
+    interface RestProblemReportingTrait
+    interface Validatable
+    Validatable <|- - MicroservletRequest
+    Component <|- - MicroservletRequest
+    RestProblemReportingTrait <|- - MicroservletRequest
+    MicroservletRequestHandler <|- - MicroservletRequest
+    interface MicroservletRequest
+    {
+        - -
+        +Class<? extends MicroservletResponse> responseType()
+    }
+    
+    interface Listener
+    Listener <|- - MicroservletRequestHandler
+    interface MicroservletRequestHandler
+    {
+        - -
+        +void onMicroservletPerformance(MicroservletPerformance statistics)
+        +MicroservletResponse respond(String path)
+        - -(extension points)- -
+        +MicroservletResponse onRespond()
+    }
+    
+    interface Component
+    interface RestProblemReportingTrait
+    interface Validatable
+    Validatable <|- - MicroservletResponse
+    Component <|- - MicroservletResponse
+    RestProblemReportingTrait <|- - MicroservletResponse
+    interface MicroservletResponse
+    {
+        - -
+        +void onPrepareResponse()
+        - -(collection)- -
+        +MicroservletErrorList errors()
+        - -(lifecycle)- -
+        +void onEndResponse()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

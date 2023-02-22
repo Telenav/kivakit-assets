@@ -1,0 +1,102 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "Jetty Microservice Plugin"
+    
+    abstract BaseComponent
+    abstract BaseFilterJettyPlugin
+    abstract BaseMicroservletRequest
+    
+    interface RestRequestCycle
+    interface RestRequest
+    interface Filter
+    interface ComponentMixin
+    interface RestResponse
+    interface TryTrait
+    interface RestProblemReportingTrait
+    
+    BaseComponent <|-- JettyMicroservletFilter
+    Filter <|-- JettyMicroservletFilter
+    TryTrait <|-- JettyMicroservletFilter
+    RestProblemReportingTrait <|-- JettyMicroservletFilter
+    JettyMicroservletFilter --> JettyRestRequestCycle : "creates"
+    JettyMicroservletFilter "1" o-- "many" Microservlet : "mounts on paths"
+    JettyMicroservletFilter o-- RestService
+    class JettyMicroservletFilter
+    {
+        --(constructors)--
+        +JettyMicroservletFilter(RestService)
+        --
+        +MountedMicroservlet microservlet(RestPath)
+        +void mount(RestPath, Microservlet<?,?>)
+        +void mount(MountedApi)
+        +Collection<MountedApi> mountedApis()
+        --(filtering)--
+        +^void doFilter(ServletRequest, ServletResponse, FilterChain)
+        --(path)--
+        +Set<RestPath> microservletPaths()
+    }
+    
+    FilterHolder <|-- JettyMicroservletFilterHolder
+    ComponentMixin <|-- JettyMicroservletFilterHolder
+    JettyMicroservletFilterHolder o-- JettyMicroservletFilter
+    class JettyMicroservletFilterHolder
+    {
+        --(constructors)--
+        +JettyMicroservletFilterHolder(RestService)
+        --(filtering)--
+        +JettyMicroservletFilter filter()
+    }
+    
+    BaseComponent <|-- JettyRestRequest
+    TryTrait <|-- JettyRestRequest
+    RestRequest <|-- JettyRestRequest
+    RestProblemReportingTrait <|-- JettyRestRequest
+    JettyRestRequest o-- JettyRestRequestCycle
+    class JettyRestRequest
+    {
+        --(constructors)--
+        +JettyRestRequest(JettyRestRequestCycle, HttpServletRequest)
+    }
+    
+    BaseComponent <|-- JettyRestRequestCycle
+    RestRequestCycle <|-- JettyRestRequestCycle
+    RestProblemReportingTrait <|-- JettyRestRequestCycle
+    JettyRestRequestCycle o-- JettyRestRequest
+    JettyRestRequestCycle o-- JettyRestResponse
+    class JettyRestRequestCycle
+    {
+        --(constructors)--
+        +JettyRestRequestCycle(RestService, HttpServletRequest, HttpServletResponse)
+        --
+        +void attach(Microservlet<?,?>)
+    }
+    
+    BaseComponent <|-- JettyRestResponse
+    RestResponse <|-- JettyRestResponse
+    TryTrait <|-- JettyRestResponse
+    JettyRestResponse o-- JettyRestRequestCycle
+    JettyRestResponse o-- MicroservletErrorList
+    class JettyRestResponse
+    {
+        --(constructors)--
+        +JettyRestResponse(JettyRestRequestCycle, HttpServletResponse)
+    }
+    
+    BaseFilterJettyPlugin <|-- MicroservletJettyPlugin
+    MicroservletJettyPlugin o-- JettyMicroservletFilterHolder
+    class MicroservletJettyPlugin
+    {
+        --(constructors)--
+        +MicroservletJettyPlugin(RestService)
+    }
+    
+    BaseMicroservletRequest <|-- OpenApiRequest
+    class OpenApiRequest
+    {
+    }
+    
+@enduml
+

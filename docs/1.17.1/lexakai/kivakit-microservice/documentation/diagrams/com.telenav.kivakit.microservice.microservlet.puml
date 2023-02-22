@@ -1,0 +1,150 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.microservlet"
+    
+    abstract BaseComponent
+    abstract BaseRepeater
+    
+    interface MicroservletResponse
+    interface Named
+    interface MicroservletRequestHandler
+    interface MicroservletRequest
+    
+    BaseComponent <|-- BaseMicroservletRequest
+    MicroservletRequest <|-- BaseMicroservletRequest
+    MicroservletRequestHandler <|-- BaseMicroservletRequest
+    abstract class BaseMicroservletRequest
+    {
+        --(time)--
+        #Frequency statisticsReportingFrequency()
+    }
+    
+    BaseComponent <|-- BaseMicroservletResponse
+    MicroservletResponse <|-- BaseMicroservletResponse
+    abstract class BaseMicroservletResponse
+    {
+        --(constructors)--
+        #BaseMicroservletResponse()
+        #BaseMicroservletResponse(Result<?>)
+    }
+    
+    BaseComponent <|-- Microservlet
+    Named <|-- Microservlet
+    Microservlet --> JettyRestRequestCycle : "attaches"
+    Microservlet --> MicroservletRequest : "references sub-class"
+    Microservlet --> MicroservletResponse : "references sub-class"
+    abstract class Microservlet<Request, Response>
+    {
+        --(constructors)--
+        #Microservlet(Class<? extends Request>, Class<? extends Response>)
+        --
+        +String description()
+        +Class<? extends Request> requestType()
+        +Response respond(MicroservletRequest)
+        +Class<? extends Response> responseType()
+        #String parameter(String key)
+        #T parameterAsObject(String key, Class<Converter<String,T>> converterType)
+        #T parameterAsObject(String key, Converter<String,T>)
+        --(collection)--
+        #PropertyMap parameters()
+        --(extension points)--
+        +Response onRespond(Request)
+        --(primitive)--
+        #int parameterAsInt(String key)
+        #long parameterAsLong(String key)
+    }
+    
+    class MicroservletError
+    {
+        --(constructors)--
+        #MicroservletError(HttpStatus, String, String, String, Object)
+        --
+        +String type()
+        --(messaging)--
+        +String message()
+        +void sendTo(Listener)
+        --(status)--
+        +String hierarchicalErrorCode()
+        +HttpStatus httpStatus()
+        +MicroservletError microservletError(Message)
+    }
+    
+    BaseRepeater <|-- MicroservletErrorList
+    class MicroservletErrorList
+    {
+        --(collection)--
+        +void add(MicroservletError)
+        +List<MicroservletError> errors()
+        +boolean isEmpty()
+        --(messaging)--
+        +void sendTo(Listener)
+        --(status)--
+        +HttpStatus httpStatus()
+    }
+    
+    class MicroservletPerformance
+    {
+        --(lifecycle)--
+        +void end()
+        +void start()
+        --(path)--
+        +void path(String path)
+        +String path()
+        --(time)--
+        +Duration elapsed()
+    }
+    
+    class MicroservletPerformanceStatistics
+    {
+        --(constructors)--
+        +MicroservletPerformanceStatistics(Frequency)
+        --(collection)--
+        +void add(Listener, MicroservletPerformance)
+    }
+    
+    interface Component
+    interface MicroservletRequestHandler
+    interface RestProblemReportingTrait
+    interface Validatable
+    Validatable <|-- MicroservletRequest
+    Component <|-- MicroservletRequest
+    RestProblemReportingTrait <|-- MicroservletRequest
+    MicroservletRequestHandler <|-- MicroservletRequest
+    interface MicroservletRequest
+    {
+        --
+        +Class<? extends MicroservletResponse> responseType()
+    }
+    
+    interface Listener
+    Listener <|-- MicroservletRequestHandler
+    interface MicroservletRequestHandler
+    {
+        --
+        +void onMicroservletPerformance(MicroservletPerformance statistics)
+        +MicroservletResponse respond(String path)
+        --(extension points)--
+        +MicroservletResponse onRespond()
+    }
+    
+    interface Component
+    interface RestProblemReportingTrait
+    interface Validatable
+    Validatable <|-- MicroservletResponse
+    Component <|-- MicroservletResponse
+    RestProblemReportingTrait <|-- MicroservletResponse
+    interface MicroservletResponse
+    {
+        --
+        +void onPrepareResponse()
+        --(collection)--
+        +MicroservletErrorList errors()
+        --(lifecycle)--
+        +void onEndResponse()
+    }
+    
+@enduml
+

@@ -1,0 +1,68 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.registry"
+    
+    interface Named
+    interface RegistryTrait
+    
+    class InstanceIdentifier
+    {
+        --(constructors)--
+        #InstanceIdentifier(Enum<?>)
+        #InstanceIdentifier(String)
+        --(checks)--
+        +boolean isSingleton()
+        --(identity)--
+        +Enum<?> enumIdentifier()
+        +InstanceIdentifier instanceIdentifier(Enum<?> enumValue)
+        +InstanceIdentifier instanceIdentifier(String)
+        +InstanceIdentifier instanceIdentifierForEnumName(Listener, String enumValueName)
+        +InstanceIdentifier singleton()
+        +String stringIdentifier()
+        --(naming)--
+        +String name()
+    }
+    
+    annotation Register
+    
+    RegistryTrait <|-- Registry
+    Named <|-- Registry
+    Registry --> InstanceIdentifier : "locates instances with"
+    class Registry
+    {
+        --(constructors)--
+        +Registry(String)
+        --
+        +Registry globalRegistry()
+        +Registry registryFor(Object)
+        --(collection)--
+        +StringList asStringList()
+    }
+    
+    interface RegistryTrait
+    {
+        --
+        +Registry registry()
+        +void unregister(Object, InstanceIdentifier)
+        +void unregister(Object)
+        +void unregister(Object, Enum<?> instance)
+        --(collection)--
+        +void clearRegistry()
+        --(lookup)--
+        +T lookup(Class<T> type, Enum<?> instance)
+        +T lookup(Class<T> type)
+        +T lookup(Class<T> type, InstanceIdentifier)
+        +T register(T object, Enum<?> instance)
+        +T register(T object)
+        +T register(T object, InstanceIdentifier)
+        +T require(Class<T> type, InstanceIdentifier)
+        +T require(Class<T> type, Enum<?> instance)
+        +T require(Class<T> type)
+        +T require(Class<T> type, Factory<T>)
+    }
+    
+@enduml
+

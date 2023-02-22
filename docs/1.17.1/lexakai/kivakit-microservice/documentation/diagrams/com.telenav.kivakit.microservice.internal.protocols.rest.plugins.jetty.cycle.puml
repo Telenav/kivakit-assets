@@ -1,0 +1,52 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.internal.protocols.rest.plugins.jetty.cycle"
+    
+    abstract BaseComponent
+    
+    interface RestRequestCycle
+    interface RestRequest
+    interface RestResponse
+    interface TryTrait
+    interface RestProblemReportingTrait
+    
+    BaseComponent <|-- JettyRestRequest
+    TryTrait <|-- JettyRestRequest
+    RestRequest <|-- JettyRestRequest
+    RestProblemReportingTrait <|-- JettyRestRequest
+    JettyRestRequest o-- JettyRestRequestCycle
+    class JettyRestRequest
+    {
+        --(constructors)--
+        +JettyRestRequest(JettyRestRequestCycle, HttpServletRequest)
+    }
+    
+    BaseComponent <|-- JettyRestRequestCycle
+    RestRequestCycle <|-- JettyRestRequestCycle
+    RestProblemReportingTrait <|-- JettyRestRequestCycle
+    JettyRestRequestCycle o-- JettyRestRequest
+    JettyRestRequestCycle o-- JettyRestResponse
+    class JettyRestRequestCycle
+    {
+        --(constructors)--
+        +JettyRestRequestCycle(RestService, HttpServletRequest, HttpServletResponse)
+        --
+        +void attach(Microservlet<?,?>)
+    }
+    
+    BaseComponent <|-- JettyRestResponse
+    RestResponse <|-- JettyRestResponse
+    TryTrait <|-- JettyRestResponse
+    JettyRestResponse o-- JettyRestRequestCycle
+    JettyRestResponse o-- MicroservletErrorList
+    class JettyRestResponse
+    {
+        --(constructors)--
+        +JettyRestResponse(JettyRestRequestCycle, HttpServletResponse)
+    }
+    
+@enduml
+

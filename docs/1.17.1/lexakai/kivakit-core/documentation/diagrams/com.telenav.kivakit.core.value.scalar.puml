@@ -1,0 +1,20 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.core.value.scalar"
+    
+    interface DoubleValued
+    
+    DoubleValued <|-- Scalar
+    class Scalar
+    {
+        --(constructors)--
+        #Scalar(double)
+        --
+        +Scalar scalar(double value)
+    }
+    
+@enduml
+

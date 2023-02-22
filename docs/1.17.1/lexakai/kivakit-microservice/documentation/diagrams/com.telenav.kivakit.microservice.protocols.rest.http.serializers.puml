@@ -1,0 +1,34 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest.http.serializers"
+    
+    abstract BaseComponent
+    abstract BaseGsonElementSerializer
+    
+    interface RestSerializer
+    interface RestClientSerializer
+    
+    BaseComponent <|-- GsonRestClientSerializer
+    RestClientSerializer <|-- GsonRestClientSerializer
+    class GsonRestClientSerializer<Request, Response>
+    {
+    }
+    
+    BaseComponent <|-- GsonRestSerializer
+    RestSerializer <|-- GsonRestSerializer
+    class GsonRestSerializer<Request, Response>
+    {
+    }
+    
+    BaseGsonElementSerializer <|-- MicroservletErrorListSerializer
+    class MicroservletErrorListSerializer
+    {
+        --(constructors)--
+        +MicroservletErrorListSerializer()
+    }
+    
+@enduml
+

@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="254.1667px" preserveAspectRatio="none" style="width:942px;height:254px;background:#333333;" version="1.1" viewBox="0 0 942 254" width="942.7083px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="646.875" x="140.625" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="623.9583" x="152.0833" y="30.5583">com.telenav.kivakit.microservice.protocols.rest.http.serializers</text><!--MD5=[784d533083758286c885e86b9fe3090e]
+class BaseComponent--><rect codeLine="7" fill="#282828" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="283.3333" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="283.3333" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="143.75" x="283.3333" y="76.7578"/><rect codeLine="7" fill="none" height="48.055" id="BaseComponent" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="143.75" x="283.3333" y="53.7028"/><ellipse cx="297.9167" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M297.5098,66.099 L296.6614,69.8283 L298.3643,69.8283 Z M296.4111,64.4511 L298.6145,64.4511 L301.0742,73.5636 L299.2737,73.5636 L298.7122,71.3114 L296.3013,71.3114 L295.752,73.5636 L293.9514,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="106.25" x="314.5833" y="74.1211">BaseComponent</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="284.375" x2="426.0417" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="284.375" x2="426.0417" y1="93.4245" y2="93.4245"/><!--MD5=[4d481b421e52070fd4f114f2b3e16d1c]
+class BaseGsonElementSerializer--><rect codeLine="8" fill="#282828" height="48.055" id="BaseGsonElementSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="212.5" x="713.5417" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="212.5" x="713.5417" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="212.5" x="713.5417" y="76.7578"/><rect codeLine="8" fill="none" height="48.055" id="BaseGsonElementSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="212.5" x="713.5417" y="53.7028"/><ellipse cx="728.125" cy="69.397" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M727.7181,66.099 L726.8697,69.8283 L728.5726,69.8283 Z M726.6195,64.4511 L728.8228,64.4511 L731.2826,73.5636 L729.482,73.5636 L728.9205,71.3114 L726.5096,71.3114 L725.9603,73.5636 L724.1597,73.5636 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="175" x="744.7917" y="74.1211">BaseGsonElementSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="714.5833" x2="925" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="714.5833" x2="925" y1="93.4245" y2="93.4245"/><!--MD5=[0186311a9eac18613be5e5843f3845e0]
+class RestSerializer--><rect codeLine="10" fill="#282828" height="48.055" id="RestSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="125" x="463.5417" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="125" x="463.5417" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="125" x="463.5417" y="76.7578"/><rect codeLine="10" fill="none" height="48.055" id="RestSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="125" x="463.5417" y="53.7028"/><ellipse cx="478.125" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M475.529,66.5588 L475.529,64.9719 L480.955,64.9719 L480.955,66.5588 L479.1423,66.5588 L479.1423,72.4976 L480.955,72.4976 L480.955,74.0845 L475.529,74.0845 L475.529,72.4976 L477.3417,72.4976 L477.3417,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="87.5" x="494.7917" y="74.1211">RestSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="464.5833" x2="587.5" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="464.5833" x2="587.5" y1="93.4245" y2="93.4245"/><!--MD5=[2315ec561f88077bd8e66221aa03f305]
+class RestClientSerializer--><rect codeLine="11" fill="#282828" height="48.055" id="RestClientSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="163.5417" x="82.8125" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="163.5417" x="82.8125" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="163.5417" x="82.8125" y="76.7578"/><rect codeLine="11" fill="none" height="48.055" id="RestClientSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="163.5417" x="82.8125" y="53.7028"/><ellipse cx="97.3958" cy="69.397" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M94.7998,66.5588 L94.7998,64.9719 L100.2258,64.9719 L100.2258,66.5588 L98.4131,66.5588 L98.4131,72.4976 L100.2258,72.4976 L100.2258,74.0845 L94.7998,74.0845 L94.7998,72.4976 L96.6125,72.4976 L96.6125,66.5588 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="126.0417" x="114.0625" y="74.1211">RestClientSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="83.8542" x2="245.3125" y1="85.0911" y2="85.0911"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="83.8542" x2="245.3125" y1="93.4245" y2="93.4245"/><!--MD5=[03de8b22b00866f8338b59b73fd28e24]
+class GsonRestClientSerializer--><rect codeLine="15" fill="#282828" height="48.055" id="GsonRestClientSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="329.1667" x="7.2917" y="181.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="329.1667" x="7.2917" y="181.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="329.1667" x="7.2917" y="204.8828"/><rect codeLine="15" fill="none" height="48.055" id="GsonRestClientSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="329.1667" x="7.2917" y="181.8278"/><ellipse cx="21.875" cy="197.522" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M23.7854,201.947 Q23.3582,202.1667 22.8882,202.2766 Q22.4182,202.3865 21.8994,202.3865 Q20.0562,202.3865 19.0857,201.1719 Q18.1152,199.9573 18.1152,197.6624 Q18.1152,195.3613 19.0857,194.1467 Q20.0562,192.9321 21.8994,192.9321 Q22.4182,192.9321 22.8943,193.042 Q23.3704,193.1519 23.7854,193.3716 L23.7854,195.3735 Q23.3215,194.9463 22.8851,194.7479 Q22.4487,194.5496 21.9849,194.5496 Q20.9961,194.5496 20.4926,195.3339 Q19.989,196.1182 19.989,197.6624 Q19.989,199.2004 20.4926,199.9847 Q20.9961,200.769 21.9849,200.769 Q22.4487,200.769 22.8851,200.5707 Q23.3215,200.3723 23.7854,199.9451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="159.375" x="38.5417" y="202.2461">GsonRestClientSerializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="130.2083" x="209.375" y="178.7028"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="121.875" x="213.5417" y="194.9544">Request, Response</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="335.4167" y1="213.2161" y2="213.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="8.3333" x2="335.4167" y1="221.5495" y2="221.5495"/><!--MD5=[92eebdd6b2c807107d7b8d2098ccf1d2]
+class GsonRestSerializer--><rect codeLine="21" fill="#282828" height="48.055" id="GsonRestSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="290.625" x="376.5625" y="181.8278"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="290.625" x="376.5625" y="181.8278"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="290.625" x="376.5625" y="204.8828"/><rect codeLine="21" fill="none" height="48.055" id="GsonRestSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="290.625" x="376.5625" y="181.8278"/><ellipse cx="391.1458" cy="197.522" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M393.0562,201.947 Q392.629,202.1667 392.159,202.2766 Q391.689,202.3865 391.1702,202.3865 Q389.327,202.3865 388.3565,201.1719 Q387.3861,199.9573 387.3861,197.6624 Q387.3861,195.3613 388.3565,194.1467 Q389.327,192.9321 391.1702,192.9321 Q391.689,192.9321 392.1651,193.042 Q392.6412,193.1519 393.0562,193.3716 L393.0562,195.3735 Q392.5924,194.9463 392.156,194.7479 Q391.7196,194.5496 391.2557,194.5496 Q390.2669,194.5496 389.7634,195.3339 Q389.2598,196.1182 389.2598,197.6624 Q389.2598,199.2004 389.7634,199.9847 Q390.2669,200.769 391.2557,200.769 Q391.7196,200.769 392.156,200.5707 Q392.5924,200.3723 393.0562,199.9451 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="120.8333" x="407.8125" y="202.2461">GsonRestSerializer</text><rect fill="#333333" height="23.055" style="stroke:#A0A0A0;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" width="130.2083" x="540.1042" y="178.7028"/><text fill="#A0A0A0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="121.875" x="544.2708" y="194.9544">Request, Response</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="377.6042" x2="666.1458" y1="213.2161" y2="213.2161"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="377.6042" x2="666.1458" y1="221.5495" y2="221.5495"/><!--MD5=[4468bceaec5fecc15663e31cc82dc4e5]
+class MicroservletErrorListSerializer--><rect codeLine="26" fill="#282828" height="83.3781" id="MicroservletErrorListSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="231.25" x="704.1667" y="164.1195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="231.25" x="704.1667" y="164.1195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="231.25" x="704.1667" y="187.1745"/><rect codeLine="26" fill="none" height="83.3781" id="MicroservletErrorListSerializer" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="231.25" x="704.1667" y="164.1195"/><ellipse cx="718.75" cy="179.8136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M720.6604,184.2387 Q720.2332,184.4584 719.7632,184.5683 Q719.2932,184.6781 718.7744,184.6781 Q716.9312,184.6781 715.9607,183.4635 Q714.9902,182.2489 714.9902,179.954 Q714.9902,177.653 715.9607,176.4384 Q716.9312,175.2238 718.7744,175.2238 Q719.2932,175.2238 719.7693,175.3337 Q720.2454,175.4435 720.6604,175.6632 L720.6604,177.6652 Q720.1965,177.238 719.7601,177.0396 Q719.3237,176.8412 718.8599,176.8412 Q717.8711,176.8412 717.3676,177.6255 Q716.864,178.4098 716.864,179.954 Q716.864,181.4921 717.3676,182.2764 Q717.8711,183.0607 718.8599,183.0607 Q719.3237,183.0607 719.7601,182.8623 Q720.1965,182.664 720.6604,182.2367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="193.75" x="735.4167" y="184.5378">MicroservletErrorListSerializer</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="705.2083" x2="934.375" y1="195.5078" y2="195.5078"/><ellipse cx="715.625" cy="230.8777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="727.0833" y="237.7889">MicroservletErrorListSerializer()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="705.2083" x2="776.0417" y1="213.7136" y2="213.7136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="779.1667" y="217.5232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="863.5417" x2="934.375" y1="213.7136" y2="213.7136"/><!--MD5=[8dc450b61935a1889277ad1f19027042]
+reverse link BaseComponent to GsonRestClientSerializer--><path codeLine="13" d="M302.8646,114.6924 C271.6667,136.1403 232.9688,162.7445 205.75,181.4528 " fill="none" id="BaseComponent-backto-GsonRestClientSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="298.5521,108.807,319.8542,103.0049,306.8229,120.8174,298.5521,108.807" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[fa0b477d1eac7eaac6e3b1c90f6a55cc]
+reverse link RestClientSerializer to GsonRestClientSerializer--><path codeLine="14" d="M167.2292,124.3903 C168.3438,143.7549 169.6042,165.484 170.5313,181.4528 " fill="none" id="RestClientSerializer-backto-GsonRestClientSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="159.9479,124.9111,166.0313,103.6924,174.5104,124.0674,159.9479,124.9111" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[b185b3b17b2d78efadbf285fc000dd29]
+reverse link BaseComponent to GsonRestSerializer--><path codeLine="19" d="M404,115.5986 C432.1458,136.8903 466.6875,163.0049 491.0833,181.4528 " fill="none" id="BaseComponent-backto-GsonRestSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="399.6458,121.4528,387.4271,103.0674,408.4375,109.8174,399.6458,121.4528" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[24835d3fab69c5a468ffebd93bd19c35]
+reverse link RestSerializer to GsonRestSerializer--><path codeLine="20" d="M524.5313,124.3903 C523.8958,143.7549 523.1771,165.484 522.6458,181.4528 " fill="none" id="RestSerializer-backto-GsonRestSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="517.2396,124.2757,525.2188,103.6924,531.8125,124.7549,517.2396,124.2757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[58d437d9f1966d9d5bb2d9df9a83ebb5]
+reverse link BaseGsonElementSerializer to MicroservletErrorListSerializer--><path codeLine="25" d="M819.7917,124.4528 C819.7917,137.4215 819.7917,151.4528 819.7917,164.0986 " fill="none" id="BaseGsonElementSerializer-backto-MicroservletErrorListSerializer" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="812.5,124.5257,819.7917,103.6924,827.0833,124.5257,812.5,124.5257" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[6e4cdfec5911dfe7f0e2ea06dc3ab5d0]
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.microservice.protocols.rest.http.serializers"
+    
+    abstract BaseComponent
+    abstract BaseGsonElementSerializer
+    
+    interface RestSerializer
+    interface RestClientSerializer
+    
+    BaseComponent <|- - GsonRestClientSerializer
+    RestClientSerializer <|- - GsonRestClientSerializer
+    class GsonRestClientSerializer<Request, Response>
+    {
+    }
+    
+    BaseComponent <|- - GsonRestSerializer
+    RestSerializer <|- - GsonRestSerializer
+    class GsonRestSerializer<Request, Response>
+    {
+    }
+    
+    BaseGsonElementSerializer <|- - MicroservletErrorListSerializer
+    class MicroservletErrorListSerializer
+    {
+        - -(constructors)- -
+        +MicroservletErrorListSerializer()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "com.telenav.kivakit.microservice.protocols.rest.http.serializers"
+    
+    abstract BaseComponent
+    abstract BaseGsonElementSerializer
+    
+    interface RestSerializer
+    interface RestClientSerializer
+    
+    BaseComponent <|- - GsonRestClientSerializer
+    RestClientSerializer <|- - GsonRestClientSerializer
+    class GsonRestClientSerializer<Request, Response>
+    {
+    }
+    
+    BaseComponent <|- - GsonRestSerializer
+    RestSerializer <|- - GsonRestSerializer
+    class GsonRestSerializer<Request, Response>
+    {
+    }
+    
+    BaseGsonElementSerializer <|- - MicroservletErrorListSerializer
+    class MicroservletErrorListSerializer
+    {
+        - -(constructors)- -
+        +MicroservletErrorListSerializer()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

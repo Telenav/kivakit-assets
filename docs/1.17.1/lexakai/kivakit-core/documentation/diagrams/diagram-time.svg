@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2676.0417px" preserveAspectRatio="none" style="width:2096px;height:2676px;background:#333333;" version="1.1" viewBox="0 0 2096 2676" width="2096.875px" zoomAndPan="magnify"><defs/><g><rect fill="#48494B" height="41.2028" rx="8.3333" ry="8.3333" style="stroke:#545454;stroke-width:1.0416666666666667;" width="163.5417" x="959.375" y="2.0833"/><text fill="#C0C0C0" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="20.8333" lengthAdjust="spacing" textLength="140.625" x="970.8333" y="30.5583">diagram-time</text><!--MD5=[6bf2bcc25bea86890f945b729b0dc06b]
+class BaseTime--><rect codeLine="7" fill="#282828" height="48.055" id="BaseTime" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="100" x="873.4375" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="100" x="873.4375" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="100" x="873.4375" y="195.5078"/><rect codeLine="7" fill="none" height="48.055" id="BaseTime" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="100" x="873.4375" y="172.4528"/><ellipse cx="888.0208" cy="188.147" fill="#C8AC00" rx="10.4167" ry="10.4167" style="stroke:#D8BC00;stroke-width:1.0416666666666667;"/><path d="M887.6139,184.849 L886.7655,188.5783 L888.4684,188.5783 Z M886.5153,183.2011 L888.7187,183.2011 L891.1784,192.3136 L889.3778,192.3136 L888.8163,190.0614 L886.4054,190.0614 L885.8561,192.3136 L884.0556,192.3136 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="62.5" x="904.6875" y="192.8711">BaseTime</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="874.4792" x2="972.3958" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="874.4792" x2="972.3958" y1="212.1745" y2="212.1745"/><!--MD5=[f39ad9880bdb1ab85099c19a5add36ec]
+class AsString--><rect codeLine="9" fill="#282828" height="48.055" id="AsString" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="92.7083" x="1167.7083" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="92.7083" x="1167.7083" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="92.7083" x="1167.7083" y="195.5078"/><rect codeLine="9" fill="none" height="48.055" id="AsString" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="92.7083" x="1167.7083" y="172.4528"/><ellipse cx="1182.2917" cy="188.147" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1179.6956,185.3088 L1179.6956,183.7219 L1185.1217,183.7219 L1185.1217,185.3088 L1183.3089,185.3088 L1183.3089,191.2476 L1185.1217,191.2476 L1185.1217,192.8345 L1179.6956,192.8345 L1179.6956,191.2476 L1181.5084,191.2476 L1181.5084,185.3088 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="55.2083" x="1198.9583" y="192.8711">AsString</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1168.75" x2="1259.375" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1168.75" x2="1259.375" y1="212.1745" y2="212.1745"/><!--MD5=[7a4729d26b999f6a4650b01106c103c5]
+class Comparable--><rect codeLine="10" fill="#282828" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="1296.875" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="1296.875" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="115.625" x="1296.875" y="195.5078"/><rect codeLine="10" fill="none" height="48.055" id="Comparable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="115.625" x="1296.875" y="172.4528"/><ellipse cx="1311.4583" cy="188.147" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1308.8623,185.3088 L1308.8623,183.7219 L1314.2883,183.7219 L1314.2883,185.3088 L1312.4756,185.3088 L1312.4756,191.2476 L1314.2883,191.2476 L1314.2883,192.8345 L1308.8623,192.8345 L1308.8623,191.2476 L1310.675,191.2476 L1310.675,185.3088 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="78.125" x="1328.125" y="192.8711">Comparable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1297.9167" x2="1411.4583" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1297.9167" x2="1411.4583" y1="212.1745" y2="212.1745"/><!--MD5=[3ed1638fef5c852b5bd9627bac9d799e]
+class Minimizable--><rect codeLine="11" fill="#282828" height="48.055" id="Minimizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="1449.4792" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="1449.4792" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="116.6667" x="1449.4792" y="195.5078"/><rect codeLine="11" fill="none" height="48.055" id="Minimizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="116.6667" x="1449.4792" y="172.4528"/><ellipse cx="1464.0625" cy="188.147" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1461.4665,185.3088 L1461.4665,183.7219 L1466.8925,183.7219 L1466.8925,185.3088 L1465.0798,185.3088 L1465.0798,191.2476 L1466.8925,191.2476 L1466.8925,192.8345 L1461.4665,192.8345 L1461.4665,191.2476 L1463.2792,191.2476 L1463.2792,185.3088 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="79.1667" x="1480.7292" y="192.8711">Minimizable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1450.5208" x2="1565.1042" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1450.5208" x2="1565.1042" y1="212.1745" y2="212.1745"/><!--MD5=[655bbc760eaaff26224bbdb16ebaf629]
+class Maximizable--><rect codeLine="12" fill="#282828" height="48.055" id="Maximizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="118.75" x="1602.6042" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="118.75" x="1602.6042" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="118.75" x="1602.6042" y="195.5078"/><rect codeLine="12" fill="none" height="48.055" id="Maximizable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="118.75" x="1602.6042" y="172.4528"/><ellipse cx="1617.1875" cy="188.147" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1614.5915,185.3088 L1614.5915,183.7219 L1620.0175,183.7219 L1620.0175,185.3088 L1618.2048,185.3088 L1618.2048,191.2476 L1620.0175,191.2476 L1620.0175,192.8345 L1614.5915,192.8345 L1614.5915,191.2476 L1616.4042,191.2476 L1616.4042,185.3088 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="81.25" x="1633.8542" y="192.8711">Maximizable</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1603.6458" x2="1720.3125" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1603.6458" x2="1720.3125" y1="212.1745" y2="212.1745"/><!--MD5=[0cb890e771cbf1de9f9274374e655c52]
+class LengthOfTime--><rect codeLine="13" fill="#282828" height="48.055" id="LengthOfTime" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="130.2083" x="1922.9167" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="130.2083" x="1922.9167" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="130.2083" x="1922.9167" y="195.5078"/><rect codeLine="13" fill="none" height="48.055" id="LengthOfTime" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="130.2083" x="1922.9167" y="172.4528"/><ellipse cx="1937.5" cy="188.147" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1934.904,185.3088 L1934.904,183.7219 L1940.33,183.7219 L1940.33,185.3088 L1938.5173,185.3088 L1938.5173,191.2476 L1940.33,191.2476 L1940.33,192.8345 L1934.904,192.8345 L1934.904,191.2476 L1936.7167,191.2476 L1936.7167,185.3088 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="92.7083" x="1954.1667" y="192.8711">LengthOfTime</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1923.9583" x2="2052.0833" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1923.9583" x2="2052.0833" y1="212.1745" y2="212.1745"/><!--MD5=[0d9dfcbd50e142a0c90be03e16bd91c3]
+class DoubleValued--><rect codeLine="14" fill="#282828" height="48.055" id="DoubleValued" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="128.125" x="1758.3333" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="128.125" x="1758.3333" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="128.125" x="1758.3333" y="195.5078"/><rect codeLine="14" fill="none" height="48.055" id="DoubleValued" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="128.125" x="1758.3333" y="172.4528"/><ellipse cx="1772.9167" cy="188.147" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M1770.3206,185.3088 L1770.3206,183.7219 L1775.7467,183.7219 L1775.7467,185.3088 L1773.9339,185.3088 L1773.9339,191.2476 L1775.7467,191.2476 L1775.7467,192.8345 L1770.3206,192.8345 L1770.3206,191.2476 L1772.1334,191.2476 L1772.1334,185.3088 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="90.625" x="1789.5833" y="192.8711">DoubleValued</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1759.375" x2="1885.4167" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1759.375" x2="1885.4167" y1="212.1745" y2="212.1745"/><!--MD5=[02f1f09fbd906f4085b2deb8c3595504]
+class DayOfWeek--><rect codeLine="17" fill="#282828" height="348.3948" id="DayOfWeek" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="305.2083" x="614.5833" y="658.3903"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="305.2083" x="614.5833" y="658.3903"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="305.2083" x="614.5833" y="681.4453"/><rect codeLine="17" fill="none" height="348.3948" id="DayOfWeek" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="305.2083" x="614.5833" y="658.3903"/><ellipse cx="722.3958" cy="674.0845" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M724.3062,678.5095 Q723.879,678.7292 723.409,678.8391 Q722.939,678.949 722.4202,678.949 Q720.577,678.949 719.6065,677.7344 Q718.6361,676.5198 718.6361,674.2249 Q718.6361,671.9238 719.6065,670.7092 Q720.577,669.4946 722.4202,669.4946 Q722.939,669.4946 723.4151,669.6045 Q723.8912,669.7144 724.3062,669.9341 L724.3062,671.936 Q723.8424,671.5088 723.406,671.3104 Q722.9696,671.1121 722.5057,671.1121 Q721.5169,671.1121 721.0134,671.8964 Q720.5098,672.6807 720.5098,674.2249 Q720.5098,675.7629 721.0134,676.5472 Q721.5169,677.3315 722.5057,677.3315 Q722.9696,677.3315 723.406,677.1332 Q723.8424,676.9348 724.3062,676.5076 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="75" x="745.3125" y="678.8086">DayOfWeek</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="615.625" x2="918.75" y1="689.7786" y2="689.7786"/><polygon fill="#FFFF44" points="626.0417,719.9402,630.2083,724.1069,626.0417,728.2735,621.875,724.1069" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="637.5" y="732.0597">DayOfWeek()</text><polygon fill="#FFFF44" points="626.0417,739.6851,630.2083,743.8517,626.0417,748.0184,621.875,743.8517" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="85.4167" x="637.5" y="751.8046">DayOfWeek(int)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="615.625" x2="723.4375" y1="707.9844" y2="707.9844"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="726.5625" y="711.794">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="810.9375" x2="918.75" y1="707.9844" y2="707.9844"/><ellipse cx="626.0417" cy="788.5498" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="96.875" x="637.5" y="795.461">int asIsoOrdinal()</text><ellipse cx="626.0417" cy="808.2947" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="637.5" y="815.2059">int asJavaOrdinal()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="615.625" x2="728.6458" y1="771.3857" y2="771.3857"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="731.7708" y="775.1953">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="805.7292" x2="918.75" y1="771.3857" y2="771.3857"/><ellipse cx="626.0417" cy="851.9511" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="65.625" x="637.5" y="858.8623">Day asDay()</text><ellipse cx="626.0417" cy="871.696" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="163.5417" x="637.5" y="878.6072">HourOfWeek asHourOfWeek()</text><ellipse cx="626.0417" cy="891.4408" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="222.9167" x="637.5" y="898.3521">java.time.DayOfWeek asJavaDayOfWeek()</text><ellipse cx="626.0417" cy="911.1857" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="637.5" y="918.0969">HourOfWeek at(Hour)</text><ellipse cx="626.0417" cy="930.9306" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="216.6667" x="637.5" y="937.8418">ObjectList&lt;DayOfWeek&gt; daysOfWeek()</text><ellipse cx="626.0417" cy="950.6755" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="637.5" y="957.5867">DayOfWeek isoDayOfWeek(int day)</text><ellipse cx="626.0417" cy="970.4203" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="272.9167" x="637.5" y="977.3315">DayOfWeek javaDayOfWeek(java.time.DayOfWeek)</text><ellipse cx="626.0417" cy="990.1652" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="195.8333" x="637.5" y="997.0764">DayOfWeek javaDayOfWeek(int day)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="615.625" x2="747.9167" y1="834.787" y2="834.787"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="751.0417" y="838.5966">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="786.4583" x2="918.75" y1="834.787" y2="834.787"/><!--MD5=[e7713a66b67445a0eb297b7e73c442e5]
+class Duration--><rect codeLine="38" fill="#282828" height="861.7615" id="Duration" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="359.375" x="1730.2083" y="401.6195"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="359.375" x="1730.2083" y="401.6195"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="359.375" x="1730.2083" y="424.6745"/><rect codeLine="38" fill="none" height="861.7615" id="Duration" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="359.375" x="1730.2083" y="401.6195"/><ellipse cx="1873.9583" cy="417.3136" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1875.8687,421.7387 Q1875.4415,421.9584 1874.9715,422.0683 Q1874.5015,422.1781 1873.9827,422.1781 Q1872.1395,422.1781 1871.169,420.9635 Q1870.1986,419.7489 1870.1986,417.454 Q1870.1986,415.153 1871.169,413.9384 Q1872.1395,412.7238 1873.9827,412.7238 Q1874.5015,412.7238 1874.9776,412.8337 Q1875.4537,412.9435 1875.8687,413.1632 L1875.8687,415.1652 Q1875.4049,414.738 1874.9685,414.5396 Q1874.5321,414.3412 1874.0682,414.3412 Q1873.0794,414.3412 1872.5759,415.1255 Q1872.0723,415.9098 1872.0723,417.454 Q1872.0723,418.9921 1872.5759,419.7764 Q1873.0794,420.5607 1874.0682,420.5607 Q1874.5321,420.5607 1874.9685,420.3623 Q1875.4049,420.164 1875.8687,419.7367 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="57.2917" x="1896.875" y="422.0378">Duration</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1731.25" x2="2088.5417" y1="433.0078" y2="433.0078"/><polygon fill="#FFFF44" points="1741.6667,463.1694,1745.8333,467.336,1741.6667,471.5027,1737.5,467.336" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="200" x="1753.125" y="475.2889">Duration(Nanoseconds, Restriction)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1731.25" x2="1866.1458" y1="451.2136" y2="451.2136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1869.2708" y="455.0232">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1953.6458" x2="2088.5417" y1="451.2136" y2="451.2136"/><ellipse cx="1741.6667" cy="512.0341" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="1753.125" y="518.9453">boolean isMaximum()</text><ellipse cx="1741.6667" cy="531.779" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="203.125" x="1753.125" y="538.6902">Percent percentageOf(Duration that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1731.25" x2="1888.5417" y1="494.87" y2="494.87"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="1891.6667" y="498.6796">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1931.25" x2="2088.5417" y1="494.87" y2="494.87"/><ellipse cx="1741.6667" cy="575.4354" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="140.625" x="1753.125" y="582.3466">Frequency asFrequency()</text><ellipse cx="1741.6667" cy="595.1803" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="1753.125" y="602.0915">Duration cpuTime()</text><ellipse cx="1741.6667" cy="614.9251" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="1753.125" y="621.8363">Duration days(double days)</text><ellipse cx="1741.6667" cy="634.67" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="220.8333" x="1753.125" y="641.5812">Duration days(double days, Restriction)</text><ellipse cx="1741.6667" cy="654.4149" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="235.4167" x="1753.125" y="661.3261">Duration hours(double hours, Restriction)</text><ellipse cx="1741.6667" cy="674.1597" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="1753.125" y="681.071">Duration hours(double hours)</text><ellipse cx="1741.6667" cy="693.9046" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="216.6667" x="1753.125" y="700.8158">Duration longerBy(Percent percentage)</text><ellipse cx="1741.6667" cy="713.6495" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="189.5833" x="1753.125" y="720.5607">Duration maximum(Duration that)</text><ellipse cx="1741.6667" cy="733.3944" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="327.0833" x="1753.125" y="740.3056">Duration microseconds(double microseconds, Restriction)</text><ellipse cx="1741.6667" cy="753.1392" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="260.4167" x="1753.125" y="760.0505">Duration microseconds(double microseconds)</text><ellipse cx="1741.6667" cy="772.8841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="241.6667" x="1753.125" y="779.7953">Duration milliseconds(double milliseconds)</text><ellipse cx="1741.6667" cy="792.629" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="308.3333" x="1753.125" y="799.5402">Duration milliseconds(double milliseconds, Restriction)</text><ellipse cx="1741.6667" cy="812.3739" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="186.4583" x="1753.125" y="819.2851">Duration minimum(Duration that)</text><ellipse cx="1741.6667" cy="832.1187" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="1753.125" y="839.0299">Duration minus(Duration that)</text><ellipse cx="1741.6667" cy="851.8636" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="235.4167" x="1753.125" y="858.7748">Duration minus(Duration that, Restriction)</text><ellipse cx="1741.6667" cy="871.6085" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="191.6667" x="1753.125" y="878.5197">Duration minutes(double minutes)</text><ellipse cx="1741.6667" cy="891.3534" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="258.3333" x="1753.125" y="898.2646">Duration minutes(double minutes, Restriction)</text><ellipse cx="1741.6667" cy="911.0982" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="252.0833" x="1753.125" y="918.0094">Duration nanoseconds(double nanoseconds)</text><ellipse cx="1741.6667" cy="930.8431" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="211.4583" x="1753.125" y="937.7543">Duration nanoseconds(Nanoseconds)</text><ellipse cx="1741.6667" cy="950.588" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="278.125" x="1753.125" y="957.4992">Duration nanoseconds(Nanoseconds, Restriction)</text><ellipse cx="1741.6667" cy="970.3328" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="318.75" x="1753.125" y="977.2441">Duration nanoseconds(double nanoseconds, Restriction)</text><ellipse cx="1741.6667" cy="990.0777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="130.2083" x="1753.125" y="996.9889">Duration nearestHour()</text><ellipse cx="1741.6667" cy="1009.8226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="139.5833" x="1753.125" y="1016.7338">Duration nearestMinute()</text><ellipse cx="1741.6667" cy="1029.5675" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="198.9583" x="1753.125" y="1036.4787">Duration parseDuration(String text)</text><ellipse cx="1741.6667" cy="1049.3123" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="250" x="1753.125" y="1056.2236">Duration parseDuration(Listener, String text)</text><ellipse cx="1741.6667" cy="1069.0572" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="158.3333" x="1753.125" y="1075.9684">Duration plus(Duration that)</text><ellipse cx="1741.6667" cy="1088.8021" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="225" x="1753.125" y="1095.7133">Duration plus(Duration that, Restriction)</text><ellipse cx="1741.6667" cy="1108.547" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="262.5" x="1753.125" y="1115.4582">Duration seconds(double seconds, Restriction)</text><ellipse cx="1741.6667" cy="1128.2918" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="195.8333" x="1753.125" y="1135.203">Duration seconds(double seconds)</text><ellipse cx="1741.6667" cy="1148.0367" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="1753.125" y="1154.9479">Duration shorterBy(Percent percentage)</text><ellipse cx="1741.6667" cy="1167.7816" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="152.0833" x="1753.125" y="1174.6928">Duration untilNextSecond()</text><ellipse cx="1741.6667" cy="1187.5264" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="1753.125" y="1194.4377">Duration weeks(double weeks)</text><ellipse cx="1741.6667" cy="1207.2713" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="235.4167" x="1753.125" y="1214.1825">Duration weeks(double weeks, Restriction)</text><ellipse cx="1741.6667" cy="1227.0162" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="229.1667" x="1753.125" y="1233.9274">Duration years(double years, Restriction)</text><ellipse cx="1741.6667" cy="1246.7611" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="162.5" x="1753.125" y="1253.6723">Duration years(double years)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1731.25" x2="1890.625" y1="558.2713" y2="558.2713"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="1893.75" y="562.0809">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1929.1667" x2="2088.5417" y1="558.2713" y2="558.2713"/><!--MD5=[8f3fa1c68227f7296546d55286502fc6]
+class Frequency--><rect codeLine="83" fill="#282828" height="284.9935" id="Frequency" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="301.0417" x="9.375" y="53.7028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="301.0417" x="9.375" y="53.7028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="301.0417" x="9.375" y="76.7578"/><rect codeLine="83" fill="none" height="284.9935" id="Frequency" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="301.0417" x="9.375" y="53.7028"/><ellipse cx="119.7917" cy="69.397" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M121.7021,73.822 Q121.2748,74.0417 120.8049,74.1516 Q120.3349,74.2615 119.8161,74.2615 Q117.9728,74.2615 117.0024,73.0469 Q116.0319,71.8323 116.0319,69.5374 Q116.0319,67.2363 117.0024,66.0217 Q117.9728,64.8071 119.8161,64.8071 Q120.3349,64.8071 120.811,64.917 Q121.287,65.0269 121.7021,65.2466 L121.7021,67.2485 Q121.2382,66.8213 120.8018,66.6229 Q120.3654,66.4246 119.9015,66.4246 Q118.9128,66.4246 118.4092,67.2089 Q117.9057,67.9932 117.9057,69.5374 Q117.9057,71.0754 118.4092,71.8597 Q118.9128,72.644 119.9015,72.644 Q120.3654,72.644 120.8018,72.4457 Q121.2382,72.2473 121.7021,71.8201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="65.625" x="142.7083" y="74.1211">Frequency</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="10.4167" x2="309.375" y1="85.0911" y2="85.0911"/><polygon fill="#FFFF44" points="20.8333,115.2527,25,119.4194,20.8333,123.586,16.6667,119.4194" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="115.625" x="32.2917" y="127.3722">Frequency(Duration)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="116.1458" y1="103.2969" y2="103.2969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="119.2708" y="107.1065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="203.6458" x2="309.375" y1="103.2969" y2="103.2969"/><ellipse cx="20.8333" cy="164.1174" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="32.2917" y="171.0286">Duration cycleLength()</text><ellipse cx="20.8333" cy="183.8623" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="190.625" x="32.2917" y="190.7735">Frequency cyclesPerDay(int times)</text><ellipse cx="20.8333" cy="203.6072" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="197.9167" x="32.2917" y="210.5184">Frequency cyclesPerHour(int times)</text><ellipse cx="20.8333" cy="223.3521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="207.2917" x="32.2917" y="230.2633">Frequency cyclesPerMinute(int times)</text><ellipse cx="20.8333" cy="243.0969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="32.2917" y="250.0081">Frequency cyclesPerSecond(int times)</text><ellipse cx="20.8333" cy="262.8418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="32.2917" y="269.753">Frequency every(Duration)</text><ellipse cx="20.8333" cy="282.5867" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="268.75" x="32.2917" y="289.4979">Frequency parseFrequency(Listener, String text)</text><ellipse cx="20.8333" cy="302.3315" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="32.2917" y="309.2428">Cycle startingAt(Time start)</text><ellipse cx="20.8333" cy="322.0764" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="32.2917" y="328.9876">Cycle startingNow()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="10.4167" x2="140.625" y1="146.9533" y2="146.9533"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="143.75" y="150.7629">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="179.1667" x2="309.375" y1="146.9533" y2="146.9533"/><!--MD5=[d29e0afeec7a9a123162940e50526c50]
+class KivaKitTimeFormats--><rect codeLine="99" fill="#282828" height="48.055" id="KivaKitTimeFormats" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="346.875" y="172.4528"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="346.875" y="172.4528"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="169.7917" x="346.875" y="195.5078"/><rect codeLine="99" fill="none" height="48.055" id="KivaKitTimeFormats" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="169.7917" x="346.875" y="172.4528"/><ellipse cx="361.4583" cy="188.147" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M363.3687,192.572 Q362.9415,192.7917 362.4715,192.9016 Q362.0015,193.0115 361.4827,193.0115 Q359.6395,193.0115 358.669,191.7969 Q357.6986,190.5823 357.6986,188.2874 Q357.6986,185.9863 358.669,184.7717 Q359.6395,183.5571 361.4827,183.5571 Q362.0015,183.5571 362.4776,183.667 Q362.9537,183.7769 363.3687,183.9966 L363.3687,185.9985 Q362.9049,185.5713 362.4685,185.3729 Q362.0321,185.1746 361.5682,185.1746 Q360.5794,185.1746 360.0759,185.9589 Q359.5723,186.7432 359.5723,188.2874 Q359.5723,189.8254 360.0759,190.6097 Q360.5794,191.394 361.5682,191.394 Q362.0321,191.394 362.4685,191.1957 Q362.9049,190.9973 363.3687,190.5701 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="132.2917" x="378.125" y="192.8711">KivaKitTimeFormats</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="347.9167" x2="515.625" y1="203.8411" y2="203.8411"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="347.9167" x2="515.625" y1="212.1745" y2="212.1745"/><!--MD5=[2e42295458bb0bec21c9622a623eb29e]
+class Time--><rect codeLine="220" fill="#282828" height="782.782" id="Time" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="406.25" x="956.7708" y="441.2028"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="406.25" x="956.7708" y="441.2028"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="406.25" x="956.7708" y="464.2578"/><rect codeLine="220" fill="none" height="782.782" id="Time" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="406.25" x="956.7708" y="441.2028"/><ellipse cx="1136.4583" cy="456.897" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1138.3687,461.322 Q1137.9415,461.5417 1137.4715,461.6516 Q1137.0015,461.7615 1136.4827,461.7615 Q1134.6395,461.7615 1133.669,460.5469 Q1132.6986,459.3323 1132.6986,457.0374 Q1132.6986,454.7363 1133.669,453.5217 Q1134.6395,452.3071 1136.4827,452.3071 Q1137.0015,452.3071 1137.4776,452.417 Q1137.9537,452.5269 1138.3687,452.7466 L1138.3687,454.7485 Q1137.9049,454.3213 1137.4685,454.1229 Q1137.0321,453.9246 1136.5682,453.9246 Q1135.5794,453.9246 1135.0759,454.7089 Q1134.5723,455.4932 1134.5723,457.0374 Q1134.5723,458.5754 1135.0759,459.3597 Q1135.5794,460.144 1136.5682,460.144 Q1137.0321,460.144 1137.4685,459.9457 Q1137.9049,459.7473 1138.3687,459.3201 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="32.2917" x="1159.375" y="461.6211">Time</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="957.8125" x2="1361.9792" y1="472.5911" y2="472.5911"/><polygon fill="#FFFF44" points="968.2292,502.7527,972.3958,506.9194,968.2292,511.086,964.0625,506.9194" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="35.4167" x="979.6875" y="514.8722">Time()</text><polygon fill="#FFFF44" points="968.2292,522.4976,972.3958,526.6642,968.2292,530.8309,964.0625,526.6642" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="111.4583" x="979.6875" y="534.6171">Time(Nanoseconds)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="957.8125" x2="1116.1458" y1="490.7969" y2="490.7969"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1119.2708" y="494.6065">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1203.6458" x2="1361.9792" y1="490.7969" y2="490.7969"/><ellipse cx="968.2292" cy="571.3623" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="94.7917" x="979.6875" y="578.2735">boolean isLocal()</text><ellipse cx="968.2292" cy="591.1072" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="180.2083" x="979.6875" y="598.0184">boolean isNewerThan(Time that)</text><ellipse cx="968.2292" cy="610.8521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="979.6875" y="617.7633">boolean isNewerThan(Duration)</text><ellipse cx="968.2292" cy="630.5969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="221.875" x="979.6875" y="637.5081">boolean isNewerThanOrEqual(Duration)</text><ellipse cx="968.2292" cy="650.3418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="239.5833" x="979.6875" y="657.253">boolean isNewerThanOrEqualTo(Time that)</text><ellipse cx="968.2292" cy="670.0867" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="979.6875" y="676.9979">boolean isOlderThan(Time that)</text><ellipse cx="968.2292" cy="689.8315" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="173.9583" x="979.6875" y="696.7428">boolean isOlderThan(Duration)</text><ellipse cx="968.2292" cy="709.5764" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="979.6875" y="716.4876">boolean isOlderThanOrEqual(Duration)</text><ellipse cx="968.2292" cy="729.3213" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="236.4583" x="979.6875" y="736.2325">boolean isOlderThanOrEqualTo(Time that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="957.8125" x2="1133.3333" y1="554.1982" y2="554.1982"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="1136.4583" y="558.0078">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1186.4583" x2="1361.9792" y1="554.1982" y2="554.1982"/><ellipse cx="968.2292" cy="772.9777" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="194.7917" x="979.6875" y="779.8889">LocalTime asLocalFilesystemTime()</text><ellipse cx="968.2292" cy="792.7226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="233.3333" x="979.6875" y="799.6338">LocalTime asLocalFilesystemTime(ZoneId)</text><ellipse cx="968.2292" cy="812.4674" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="175" x="979.6875" y="819.3787">LocalTime asLocalTime(ZoneId)</text><ellipse cx="968.2292" cy="832.2123" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="136.4583" x="979.6875" y="839.1235">LocalTime asLocalTime()</text><ellipse cx="968.2292" cy="851.9572" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="69.7917" x="979.6875" y="858.8684">Time asUtc()</text><ellipse cx="968.2292" cy="871.7021" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="184.375" x="979.6875" y="878.6133">Duration elapsedSince(Time that)</text><ellipse cx="968.2292" cy="891.4469" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="979.6875" y="898.3582">Duration elapsedSince()</text><ellipse cx="968.2292" cy="911.1918" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="247.9167" x="979.6875" y="918.103">Time epochMilliseconds(String milliseconds)</text><ellipse cx="968.2292" cy="930.9367" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="239.5833" x="979.6875" y="937.8479">Time epochMilliseconds(long milliseconds)</text><ellipse cx="968.2292" cy="950.6816" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="225" x="979.6875" y="957.5928">Time epochNanoseconds(Nanoseconds)</text><ellipse cx="968.2292" cy="970.4264" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="198.9583" x="979.6875" y="977.3376">Duration leftUntil(Duration elapsed)</text><ellipse cx="968.2292" cy="990.1713" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="214.5833" x="979.6875" y="997.0825">Time milliseconds(String milliseconds)</text><ellipse cx="968.2292" cy="1009.9162" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="61.4583" x="979.6875" y="1016.8274">Time now()</text><ellipse cx="968.2292" cy="1029.6611" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="295.8333" x="979.6875" y="1036.5723">Time parseMilliseconds(Listener, String milliseconds)</text><ellipse cx="968.2292" cy="1049.4059" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="206.25" x="979.6875" y="1056.3171">Time parseTime(Listener, String text)</text><ellipse cx="968.2292" cy="1069.1508" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="120.8333" x="979.6875" y="1076.062">Time time(String text)</text><ellipse cx="968.2292" cy="1088.8957" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="102.0833" x="979.6875" y="1095.8069">ZoneId timeZone()</text><ellipse cx="968.2292" cy="1108.6405" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="137.5" x="979.6875" y="1115.5518">Duration until(Time that)</text><ellipse cx="968.2292" cy="1128.3854" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="979.6875" y="1135.2966">Duration untilNow()</text><ellipse cx="968.2292" cy="1148.1303" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="373.9583" x="979.6875" y="1155.0415">Time utcTime(Year, Month, Day dayOfMonth, Hour, Minute, Second)</text><ellipse cx="968.2292" cy="1167.8752" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="248.9583" x="979.6875" y="1174.7864">Time utcTime(Year, Month, Day dayOfMonth)</text><ellipse cx="968.2292" cy="1187.62" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="283.3333" x="979.6875" y="1194.5313">Time utcTime(Year, Month, Day dayOfMonth, Hour)</text><ellipse cx="968.2292" cy="1207.3649" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="979.6875" y="1214.2761">Time utcTime(Year, Month)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="957.8125" x2="1140.625" y1="755.8136" y2="755.8136"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="1143.75" y="759.6232">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1179.1667" x2="1361.9792" y1="755.8136" y2="755.8136"/><!--MD5=[5d021a7dc803259edaa3fcf733753c7e]
+class LocalTime--><rect codeLine="104" fill="#282828" height="1343.9718" id="LocalTime" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="488.5417" x="915.625" y="1325.5778"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="488.5417" x="915.625" y="1325.5778"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="488.5417" x="915.625" y="1348.6328"/><rect codeLine="104" fill="none" height="1343.9718" id="LocalTime" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="488.5417" x="915.625" y="1325.5778"/><ellipse cx="1119.7917" cy="1341.272" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1121.7021,1345.697 Q1121.2748,1345.9167 1120.8049,1346.0266 Q1120.3349,1346.1365 1119.8161,1346.1365 Q1117.9728,1346.1365 1117.0024,1344.9219 Q1116.0319,1343.7073 1116.0319,1341.4124 Q1116.0319,1339.1113 1117.0024,1337.8967 Q1117.9728,1336.6821 1119.8161,1336.6821 Q1120.3349,1336.6821 1120.811,1336.792 Q1121.287,1336.9019 1121.7021,1337.1216 L1121.7021,1339.1235 Q1121.2382,1338.6963 1120.8018,1338.4979 Q1120.3654,1338.2996 1119.9015,1338.2996 Q1118.9128,1338.2996 1118.4092,1339.0839 Q1117.9057,1339.8682 1117.9057,1341.4124 Q1117.9057,1342.9504 1118.4092,1343.7347 Q1118.9128,1344.519 1119.9015,1344.519 Q1120.3654,1344.519 1120.8018,1344.3207 Q1121.2382,1344.1223 1121.7021,1343.6951 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="65.625" x="1142.7083" y="1345.9961">LocalTime</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="916.6667" x2="1403.125" y1="1356.9661" y2="1356.9661"/><polygon fill="#FFFF44" points="927.0833,1387.1277,931.25,1391.2944,927.0833,1395.461,922.9167,1391.2944" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="64.5833" x="938.5417" y="1399.2472">LocalTime()</text><polygon fill="#FFFF44" points="927.0833,1406.8726,931.25,1411.0392,927.0833,1415.2059,922.9167,1411.0392" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="185.4167" x="938.5417" y="1418.9921">LocalTime(ZoneId, Nanoseconds)</text><polygon fill="#FFFF44" points="927.0833,1426.6174,931.25,1430.7841,927.0833,1434.9508,922.9167,1430.7841" style="stroke:#B38D22;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="136.4583" x="938.5417" y="1438.737">LocalTime(ZoneId, Time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="916.6667" x2="1116.1458" y1="1375.1719" y2="1375.1719"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1119.2708" y="1378.9815">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1203.6458" x2="1403.125" y1="1375.1719" y2="1375.1719"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="916.6667" x2="1403.125" y1="1448.4456" y2="1448.4456"/><ellipse cx="927.0833" cy="1459.904" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="146.875" x="938.5417" y="1466.8152">Quarter calendarQuarter()</text><ellipse cx="927.0833" cy="1479.6488" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="128.125" x="938.5417" y="1486.5601">Quarter fiscalQuarter()</text><ellipse cx="927.0833" cy="1499.3937" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="114.5833" x="938.5417" y="1506.3049">Meridiem meridiem()</text><ellipse cx="927.0833" cy="1519.1386" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="91.6667" x="938.5417" y="1526.0498">int weekOfYear()</text><ellipse cx="927.0833" cy="1538.8835" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="60.4167" x="938.5417" y="1545.7947">Year year()</text><ellipse cx="927.0833" cy="1582.5399" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="115.625" x="938.5417" y="1589.4511">String asDateString()</text><ellipse cx="927.0833" cy="1602.2847" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="938.5417" y="1609.196">String asDateString(ZoneId)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="916.6667" x2="1121.3542" y1="1565.3758" y2="1565.3758"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="1124.4792" y="1569.1854">(conversion)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1198.4375" x2="1403.125" y1="1565.3758" y2="1565.3758"/><ellipse cx="927.0833" cy="1645.9412" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="189.5833" x="938.5417" y="1652.8524">String asDateTimeSecondsString()</text><ellipse cx="927.0833" cy="1665.686" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="228.125" x="938.5417" y="1672.5972">String asDateTimeSecondsString(ZoneId)</text><ellipse cx="927.0833" cy="1685.4309" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="938.5417" y="1692.3421">String asDateTimeString(ZoneId)</text><ellipse cx="927.0833" cy="1705.1758" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="142.7083" x="938.5417" y="1712.087">String asDateTimeString()</text><ellipse cx="927.0833" cy="1724.9207" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="938.5417" y="1731.8319">LocalDateTime asJavaLocalDateTime()</text><ellipse cx="927.0833" cy="1744.6655" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="210.4167" x="938.5417" y="1751.5767">java.time.LocalTime asJavaLocalTime()</text><ellipse cx="927.0833" cy="1764.4104" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="193.75" x="938.5417" y="1771.3216">ZonedDateTime asJavaZonedDate()</text><ellipse cx="927.0833" cy="1784.1553" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="283.3333" x="938.5417" y="1791.0665">ZonedDateTime asJavaZonedDateTime(ZoneOffset)</text><ellipse cx="927.0833" cy="1803.9001" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="156.25" x="938.5417" y="1810.8114">String asTimeString(ZoneId)</text><ellipse cx="927.0833" cy="1823.645" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="117.7083" x="938.5417" y="1830.5562">String asTimeString()</text><ellipse cx="927.0833" cy="1843.3899" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="153.125" x="938.5417" y="1850.3011">long asZonedMilliseconds()</text><ellipse cx="927.0833" cy="1863.1348" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="938.5417" y="1870.046">Day dayOfMonth()</text><ellipse cx="927.0833" cy="1882.8796" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="938.5417" y="1889.7909">Day dayOfUnixEpoch()</text><ellipse cx="927.0833" cy="1902.6245" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="135.4167" x="938.5417" y="1909.5357">DayOfWeek dayOfWeek()</text><ellipse cx="927.0833" cy="1922.3694" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="90.625" x="938.5417" y="1929.2806">Day dayOfYear()</text><ellipse cx="927.0833" cy="1942.1143" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="101.0417" x="938.5417" y="1949.0255">Hour hourOfDay()</text><ellipse cx="927.0833" cy="1961.8591" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="150" x="938.5417" y="1968.7703">HourOfWeek hourOfWeek()</text><ellipse cx="927.0833" cy="1981.604" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="292.7083" x="938.5417" y="1988.5152">LocalTime localTime(DateTimeFormatter, String text)</text><ellipse cx="927.0833" cy="2001.3489" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="331.25" x="938.5417" y="2008.2601">LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth)</text><ellipse cx="927.0833" cy="2021.0938" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="232.2917" x="938.5417" y="2028.005">LocalTime localTime(ZoneId, Year, Month)</text><ellipse cx="927.0833" cy="2040.8386" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="208.3333" x="938.5417" y="2047.7498">LocalTime localTime(ZonedDateTime)</text><ellipse cx="927.0833" cy="2060.5835" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="938.5417" y="2067.4947">LocalTime localTime(String text)</text><ellipse cx="927.0833" cy="2080.3284" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="223.9583" x="938.5417" y="2087.2396">LocalTime localTime(String text, ZoneId)</text><ellipse cx="927.0833" cy="2100.0732" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="241.6667" x="938.5417" y="2106.9845">LocalTime localTime(ZoneId, BaseTime&lt;?&gt;)</text><ellipse cx="927.0833" cy="2119.8181" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="365.625" x="938.5417" y="2126.7293">LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth, Hour)</text><ellipse cx="927.0833" cy="2139.563" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="456.25" x="938.5417" y="2146.4742">LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth, Hour, Minute, Second)</text><ellipse cx="927.0833" cy="2159.3079" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="246.875" x="938.5417" y="2166.2191">LocalTime localTime(ZoneId, LocalDateTime)</text><ellipse cx="927.0833" cy="2179.0527" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="337.5" x="938.5417" y="2185.9639">LocalTime localTime(DateTimeFormatter, String text, ZoneId)</text><ellipse cx="927.0833" cy="2198.7976" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="131.25" x="938.5417" y="2205.7088">ZoneId localTimeZone()</text><ellipse cx="927.0833" cy="2218.5425" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="313.5417" x="938.5417" y="2225.4537">LocalTime milliseconds(ZoneId, long epochMilliseconds)</text><ellipse cx="927.0833" cy="2238.2874" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="327.0833" x="938.5417" y="2245.1986">LocalTime milliseconds(ZoneId, double epochMilliseconds)</text><ellipse cx="927.0833" cy="2258.0322" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="87.5" x="938.5417" y="2264.9434">Minute minute()</text><ellipse cx="927.0833" cy="2277.7771" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="98.9583" x="938.5417" y="2284.6883">int minuteOfDay()</text><ellipse cx="927.0833" cy="2297.522" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="129.1667" x="938.5417" y="2304.4332">Minute minuteOfHour()</text><ellipse cx="927.0833" cy="2317.2668" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="83.3333" x="938.5417" y="2324.1781">Month month()</text><ellipse cx="927.0833" cy="2337.0117" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="377.0833" x="938.5417" y="2343.9229">LocalTime nanoseconds(ZoneId, Nanoseconds epochNanoseconds)</text><ellipse cx="927.0833" cy="2356.7566" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="90.625" x="938.5417" y="2363.6678">LocalTime now()</text><ellipse cx="927.0833" cy="2376.5015" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="348.9583" x="938.5417" y="2383.4127">Time parseLocalTime(Listener, DateTimeFormatter, String text)</text><ellipse cx="927.0833" cy="2396.2463" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="422.9167" x="938.5417" y="2403.1576">LocalTime parseLocalTime(Listener, DateTimeFormatter, String text, ZoneId)</text><ellipse cx="927.0833" cy="2415.9912" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="264.5833" x="938.5417" y="2422.9024">LocalTime parseLocalTime(Listener, String text)</text><ellipse cx="927.0833" cy="2435.7361" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="309.375" x="938.5417" y="2442.6473">LocalTime parseLocalTime(Listener, String text, ZoneId)</text><ellipse cx="927.0833" cy="2455.481" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="268.75" x="938.5417" y="2462.3922">LocalTime seconds(ZoneId, long epochSeconds)</text><ellipse cx="927.0833" cy="2475.2258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="128.125" x="938.5417" y="2482.137">LocalTime startOfDay()</text><ellipse cx="927.0833" cy="2494.9707" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="135.4167" x="938.5417" y="2501.8819">LocalTime startOfHour()</text><ellipse cx="927.0833" cy="2514.7156" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="161.4583" x="938.5417" y="2521.6268">LocalTime startOfNextHour()</text><ellipse cx="927.0833" cy="2534.4604" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="938.5417" y="2541.3717">LocalTime startOfTomorrow()</text><ellipse cx="927.0833" cy="2554.2053" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="938.5417" y="2561.1165">ZoneId utcTimeZone()</text><ellipse cx="927.0833" cy="2573.9502" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="132.2917" x="938.5417" y="2580.8614">LocalTime withDay(Day)</text><ellipse cx="927.0833" cy="2593.6951" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="215.625" x="938.5417" y="2600.6063">LocalTime withDayOfWeek(DayOfWeek)</text><ellipse cx="927.0833" cy="2613.4399" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="938.5417" y="2620.3512">LocalTime withHourOfDay(Hour)</text><ellipse cx="927.0833" cy="2633.1848" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="938.5417" y="2640.096">LocalTime withMinute(Minute)</text><ellipse cx="927.0833" cy="2652.9297" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="251.0417" x="938.5417" y="2659.8409">LocalTime withUnixEpochDay(Day epochDay)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="916.6667" x2="1140.625" y1="1628.7771" y2="1628.7771"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="1143.75" y="1632.5867">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1179.1667" x2="1403.125" y1="1628.7771" y2="1628.7771"/><!--MD5=[30dd1befa5e1579db0248cd9ac462818]
+class Meridiem--><rect codeLine="174" fill="#282828" height="107.2896" id="Meridiem" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="97.9167" x="553.6458" y="142.7653"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="97.9167" x="553.6458" y="142.7653"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="97.9167" x="553.6458" y="165.8203"/><rect codeLine="174" fill="none" height="107.2896" id="Meridiem" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="97.9167" x="553.6458" y="142.7653"/><ellipse cx="568.2292" cy="158.4595" fill="#CF6300" rx="10.4167" ry="10.4167" style="stroke:#EF8300;stroke-width:1.0416666666666667;"/><path d="M571.285,163.147 L565.6087,163.147 L565.6087,154.0344 L571.285,154.0344 L571.285,155.6213 L567.4093,155.6213 L567.4093,157.5867 L570.9188,157.5867 L570.9188,159.1736 L567.4093,159.1736 L567.4093,161.5601 L571.285,161.5601 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="60.4167" x="584.8958" y="163.1836">Meridiem</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="554.6875" x2="650.5208" y1="174.1536" y2="174.1536"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="17.7083" x="563.0208" y="192.5232">AM</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="77.0833" x="563.0208" y="212.2681">NO_MERIDIEM</text><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="15.625" x="563.0208" y="232.0129">PM</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="554.6875" x2="650.5208" y1="241.7216" y2="241.7216"/><!--MD5=[744747ec7e51775f9e559c3c8d441a64]
+class Modifiable--><rect codeLine="181" fill="#282828" height="83.3781" id="Modifiable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="183.3333" x="68.2292" y="790.682"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="183.3333" x="68.2292" y="790.682"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="183.3333" x="68.2292" y="813.737"/><rect codeLine="181" fill="none" height="83.3781" id="Modifiable" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="183.3333" x="68.2292" y="790.682"/><ellipse cx="118.2292" cy="806.3761" fill="#008400" rx="10.4167" ry="10.4167" style="stroke:#239C23;stroke-width:1.0416666666666667;"/><path d="M115.6331,803.538 L115.6331,801.9511 L121.0592,801.9511 L121.0592,803.538 L119.2464,803.538 L119.2464,809.4767 L121.0592,809.4767 L121.0592,811.0636 L115.6331,811.0636 L115.6331,809.4767 L117.4459,809.4767 L117.4459,803.538 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="68.75" x="141.1458" y="811.1003">Modifiable</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="69.2708" x2="250.5208" y1="822.0703" y2="822.0703"/><ellipse cx="79.6875" cy="857.4402" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="151.0417" x="91.1458" y="864.3514">boolean lastModified(Time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="69.2708" x2="140.625" y1="840.2761" y2="840.2761"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="143.75" y="844.0857">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="179.1667" x2="250.5208" y1="840.2761" y2="840.2761"/><!--MD5=[0b83492021a2ada4b97aa2318f99f432]
+class Rate--><rect codeLine="192" fill="#282828" height="503.2756" id="Rate" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="215.625" x="1400" y="580.7861"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="215.625" x="1400" y="580.7861"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="215.625" x="1400" y="603.8411"/><rect codeLine="192" fill="none" height="503.2756" id="Rate" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="215.625" x="1400" y="580.7861"/><ellipse cx="1486.4583" cy="596.4803" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M1488.3687,600.9054 Q1487.9415,601.1251 1487.4715,601.2349 Q1487.0015,601.3448 1486.4827,601.3448 Q1484.6395,601.3448 1483.669,600.1302 Q1482.6986,598.9156 1482.6986,596.6207 Q1482.6986,594.3197 1483.669,593.1051 Q1484.6395,591.8905 1486.4827,591.8905 Q1487.0015,591.8905 1487.4776,592.0003 Q1487.9537,592.1102 1488.3687,592.3299 L1488.3687,594.3319 Q1487.9049,593.9046 1487.4685,593.7063 Q1487.0321,593.5079 1486.5682,593.5079 Q1485.5794,593.5079 1485.0759,594.2922 Q1484.5723,595.0765 1484.5723,596.6207 Q1484.5723,598.1588 1485.0759,598.9431 Q1485.5794,599.7274 1486.5682,599.7274 Q1487.0321,599.7274 1487.4685,599.529 Q1487.9049,599.3306 1488.3687,598.9034 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="28.125" x="1509.375" y="601.2044">Rate</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="1401.0417" x2="1614.5833" y1="612.1745" y2="612.1745"/><ellipse cx="1411.4583" cy="647.5444" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="126.0417" x="1422.9167" y="654.4556">Rate(double, Duration)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1401.0417" x2="1464.0625" y1="630.3802" y2="630.3802"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1467.1875" y="634.1899">(constructors)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1551.5625" x2="1614.5833" y1="630.3802" y2="630.3802"/><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1401.0417" x2="1614.5833" y1="664.1642" y2="664.1642"/><ellipse cx="1411.4583" cy="675.6226" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="79.1667" x="1422.9167" y="682.5338">Rate perYear()</text><ellipse cx="1411.4583" cy="695.3674" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="153.125" x="1422.9167" y="702.2786">Rate perYear(double count)</text><ellipse cx="1411.4583" cy="715.1123" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="183.3333" x="1422.9167" y="722.0235">void throttle(Rate maximumRate)</text><ellipse cx="1411.4583" cy="758.7687" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="177.0833" x="1422.9167" y="765.6799">boolean isFasterThan(Rate that)</text><ellipse cx="1411.4583" cy="778.5136" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="179.1667" x="1422.9167" y="785.4248">boolean isSlowerThan(Rate that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1401.0417" x2="1481.25" y1="741.6046" y2="741.6046"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="1484.375" y="745.4142">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1534.375" x2="1614.5833" y1="741.6046" y2="741.6046"/><ellipse cx="1411.4583" cy="822.17" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="82.2917" x="1422.9167" y="829.0812">double count()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1401.0417" x2="1473.4375" y1="805.0059" y2="805.0059"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1476.5625" y="808.8155">(collection)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1542.1875" x2="1614.5833" y1="805.0059" y2="805.0059"/><ellipse cx="1411.4583" cy="865.8264" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="108.3333" x="1422.9167" y="872.7376">Rate plus(Rate that)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1401.0417" x2="1486.4583" y1="848.6623" y2="848.6623"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="36.4583" x="1489.5833" y="852.4719">(math)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1529.1667" x2="1614.5833" y1="848.6623" y2="848.6623"/><ellipse cx="1411.4583" cy="909.4828" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="1422.9167" y="916.394">String asBytesPerSecond()</text><ellipse cx="1411.4583" cy="929.2277" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="1422.9167" y="936.1389">Rate perDay(double count)</text><ellipse cx="1411.4583" cy="948.9726" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="1422.9167" y="955.8838">Rate perDay()</text><ellipse cx="1411.4583" cy="968.7174" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="156.25" x="1422.9167" y="975.6287">Rate perHour(double count)</text><ellipse cx="1411.4583" cy="988.4623" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="82.2917" x="1422.9167" y="995.3735">Rate perHour()</text><ellipse cx="1411.4583" cy="1008.2072" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="165.625" x="1422.9167" y="1015.1184">Rate perMinute(double count)</text><ellipse cx="1411.4583" cy="1027.9521" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="91.6667" x="1422.9167" y="1034.8633">Rate perMinute()</text><ellipse cx="1411.4583" cy="1047.6969" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="168.75" x="1422.9167" y="1054.6082">Rate perSecond(double count)</text><ellipse cx="1411.4583" cy="1067.4418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="94.7917" x="1422.9167" y="1074.353">Rate perSecond()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1401.0417" x2="1488.5417" y1="892.3187" y2="892.3187"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="32.2917" x="1491.6667" y="896.1283">(time)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="1527.0833" x2="1614.5833" y1="892.3187" y2="892.3187"/><!--MD5=[95ca36ccc8d9476d4037179dbb0dc59d]
+class TimeZones--><rect codeLine="261" fill="#282828" height="166.5243" id="TimeZones" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="289.5833" x="288.0208" y="749.0153"/><rect fill="#1B1B1A" height="31.3883" rx="8.3333" ry="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="289.5833" x="288.0208" y="749.0153"/><rect fill="#1B1B1A" height="8.3333" style="stroke:#1B1B1A;stroke-width:1.0416666666666667;" width="289.5833" x="288.0208" y="772.0703"/><rect codeLine="261" fill="none" height="166.5243" id="TimeZones" rx="8.3333" ry="8.3333" style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" width="289.5833" x="288.0208" y="749.0153"/><ellipse cx="389.5833" cy="764.7095" fill="#0066CF" rx="10.4167" ry="10.4167" style="stroke:#0086EF;stroke-width:1.0416666666666667;"/><path d="M391.4937,769.1345 Q391.0665,769.3542 390.5965,769.4641 Q390.1265,769.574 389.6077,769.574 Q387.7645,769.574 386.794,768.3594 Q385.8236,767.1448 385.8236,764.8499 Q385.8236,762.5488 386.794,761.3342 Q387.7645,760.1196 389.6077,760.1196 Q390.1265,760.1196 390.6026,760.2295 Q391.0787,760.3394 391.4937,760.5591 L391.4937,762.561 Q391.0299,762.1338 390.5935,761.9354 Q390.1571,761.7371 389.6932,761.7371 Q388.7044,761.7371 388.2009,762.5214 Q387.6973,763.3057 387.6973,764.8499 Q387.6973,766.3879 388.2009,767.1722 Q388.7044,767.9565 389.6932,767.9565 Q390.1571,767.9565 390.5935,767.7582 Q391.0299,767.5598 391.4937,767.1326 Z " fill="#000000"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="71.875" x="412.5" y="769.4336">TimeZones</text><line style="stroke:#5E5E5E;stroke-width:1.5625;" x1="289.0625" x2="576.5625" y1="780.4036" y2="780.4036"/><ellipse cx="299.4792" cy="815.7735" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="310.9375" y="822.6847">boolean isUtc(ZoneId)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="289.0625" x2="406.25" y1="798.6094" y2="798.6094"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="46.875" x="409.375" y="802.419">(checks)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="459.375" x2="576.5625" y1="798.6094" y2="798.6094"/><ellipse cx="299.4792" cy="859.4299" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="217.7083" x="310.9375" y="866.3411">boolean isValidZoneId(String identifier)</text><ellipse cx="299.4792" cy="879.1748" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="257.2917" x="310.9375" y="886.086">ZoneId parseZoneId(Listener, String identifier)</text><ellipse cx="299.4792" cy="898.9197" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="67.7083" x="310.9375" y="905.8309">ZoneId utc()</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="289.0625" x2="404.6875" y1="842.2658" y2="842.2658"/><text fill="#D8BC00" font-family="Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif" font-size="11.4583" lengthAdjust="spacing" textLength="50" x="407.8125" y="846.0754">(identity)</text><line style="stroke:#5E5E5E;stroke-width:1.0416666666666667;" x1="460.9375" x2="576.5625" y1="842.2658" y2="842.2658"/><!--MD5=[e7084d99736becb2dd50746b091bebfd]
+reverse link BaseTime to DayOfWeek--><path codeLine="16" d="M912.3646,242.3695 C891.3542,327.5986 844.6979,516.8799 809.9167,657.984 " fill="none" id="BaseTime-backto-DayOfWeek" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="905.25,240.7757,917.3125,222.2965,919.4063,244.2653,905.25,240.7757" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[a41eb08382253451bfba9ecc5e57c229]
+reverse link LengthOfTime to Duration--><path codeLine="36" d="M1982.4271,242.807 C1977.8333,280.1299 1970.8021,337.1924 1962.8854,401.3695 " fill="none" id="LengthOfTime-backto-Duration" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1975.1667,242.109,1984.9583,222.3278,1989.6458,243.9007,1975.1667,242.109" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[d63b760d384ef307df7b45d060a098b4]
+reverse link DoubleValued to Duration--><path codeLine="37" d="M1828.6563,242.807 C1833.8125,280.1299 1841.6875,337.1924 1850.5417,401.3695 " fill="none" id="DoubleValued-backto-Duration" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1821.4583,243.9632,1825.8333,222.3278,1835.9063,241.9632,1821.4583,243.9632" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[62e9a87d5b316abb9fb236016423be1c]
+reverse link Time to LocalTime--><path codeLine="103" d="M1159.8958,1246.0674 C1159.8958,1272.0153 1159.8958,1298.4528 1159.8958,1325.1507 " fill="none" id="Time-backto-LocalTime" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1152.6042,1246.307,1159.8958,1225.4736,1167.1875,1246.307,1152.6042,1246.307" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[82977a66621f7f751a990926e672fb3a]
+reverse link Comparable to Rate--><path codeLine="187" d="M1365.4792,242.1403 C1382.4688,312.432 1416.6458,453.932 1447.2604,580.6403 " fill="none" id="Comparable-backto-Rate" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1358.4896,244.2549,1360.6875,222.2965,1372.6667,240.8382,1358.4896,244.2549" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[a59a54d376ae2d21e110d050ad6c3edc]
+reverse link Maximizable to Rate--><path codeLine="188" d="M1651.1146,242.1403 C1634.0104,312.432 1599.5938,453.932 1568.7813,580.6403 " fill="none" id="Maximizable-backto-Rate" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1643.9271,240.8174,1655.9375,222.2965,1658.0938,244.2653,1643.9271,240.8174" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[7e944b5e2e8561171eb3b2e429e4f278]
+reverse link Minimizable to Rate--><path codeLine="189" d="M1507.8125,243.057 C1507.8125,313.6715 1507.8125,454.484 1507.8125,580.6403 " fill="none" id="Minimizable-backto-Rate" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1500.5208,243.1715,1507.8125,222.3382,1515.1042,243.1715,1500.5208,243.1715" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[07fd29d1026d41f7ad35996a69c5d40d]
+reverse link DoubleValued to Rate--><path codeLine="190" d="M1798.3646,240.3174 C1775.5417,281.4007 1740.5729,345.2965 1711.9792,401.6195 C1679.9271,464.7757 1646.4375,533.8278 1616.0729,597.7445 " fill="none" id="DoubleValued-backto-Rate" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1791.9583,236.8382,1808.4792,222.1924,1804.6979,243.9424,1791.9583,236.8382" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[f50972e176fe3e85de396a58c92029c4]
+reverse link AsString to Rate--><path codeLine="191" d="M1226.6458,241.7028 C1236.8958,271.7653 1253.7813,311.0361 1278.6458,339.1195 C1313.9063,378.9528 1348.3438,359.4111 1380.7292,401.6195 C1420.5729,453.5361 1447.9479,517.734 1466.75,580.5361 " fill="none" id="AsString-backto-Rate" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="1219.7083,243.9528,1220.4271,221.8903,1233.625,239.5778,1219.7083,243.9528" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[93154735aaca74832279638a08dad50b]
+reverse link BaseTime to Time--><path codeLine="219" d="M939.9167,241.6403 C956.6042,286.3486 984.1563,360.2132 1014.2083,440.7861 " fill="none" id="BaseTime-backto-Time" style="stroke:#545454;stroke-width:1.5625;"/><polygon fill="none" points="933.1354,244.307,932.6875,222.2445,946.8021,239.2132,933.1354,244.307" style="stroke:#545454;stroke-width:1.5625;"/><!--MD5=[e62b467e93f4279cfb2f59ab9b346345]
+link Frequency to KivaKitTimeFormats--><!--MD5=[cfc2999b91f8639a13e953ea7c959968]
+link KivaKitTimeFormats to Meridiem--><!--MD5=[ad7210d6226f4ea2d4919b18af58eef0]
+link Frequency to Modifiable--><!--MD5=[0176455cd94350e54fcfb43f29cc9e9f]
+link Modifiable to TimeZones--><!--MD5=[b408454dba167e18cbcad4329a1ebc10]
+@startuml
+
+    !include lexakai.theme
+    
+    title "diagram-time"
+    
+    abstract BaseTime
+    
+    interface AsString
+    interface Comparable
+    interface Minimizable
+    interface Maximizable
+    interface LengthOfTime
+    interface DoubleValued
+    
+    BaseTime <|- - DayOfWeek
+    class DayOfWeek
+    {
+        - -(constructors)- -
+        #DayOfWeek()
+        #DayOfWeek(int)
+        - -(conversion)- -
+        +int asIsoOrdinal()
+        +int asJavaOrdinal()
+        - -(time)- -
+        +Day asDay()
+        +HourOfWeek asHourOfWeek()
+        +java.time.DayOfWeek asJavaDayOfWeek()
+        +HourOfWeek at(Hour)
+        +ObjectList<DayOfWeek> daysOfWeek()
+        +DayOfWeek isoDayOfWeek(int day)
+        +DayOfWeek javaDayOfWeek(java.time.DayOfWeek)
+        +DayOfWeek javaDayOfWeek(int day)
+    }
+    
+    LengthOfTime <|- - Duration
+    DoubleValued <|- - Duration
+    class Duration
+    {
+        - -(constructors)- -
+        #Duration(Nanoseconds, Restriction)
+        - -(math)- -
+        +boolean isMaximum()
+        +Percent percentageOf(Duration that)
+        - -(time)- -
+        +Frequency asFrequency()
+        +Duration cpuTime()
+        +Duration days(double days)
+        +Duration days(double days, Restriction)
+        +Duration hours(double hours, Restriction)
+        +Duration hours(double hours)
+        +Duration longerBy(Percent percentage)
+        +Duration maximum(Duration that)
+        +Duration microseconds(double microseconds, Restriction)
+        +Duration microseconds(double microseconds)
+        +Duration milliseconds(double milliseconds)
+        +Duration milliseconds(double milliseconds, Restriction)
+        +Duration minimum(Duration that)
+        +Duration minus(Duration that)
+        +Duration minus(Duration that, Restriction)
+        +Duration minutes(double minutes)
+        +Duration minutes(double minutes, Restriction)
+        +Duration nanoseconds(double nanoseconds)
+        +Duration nanoseconds(Nanoseconds)
+        +Duration nanoseconds(Nanoseconds, Restriction)
+        +Duration nanoseconds(double nanoseconds, Restriction)
+        +Duration nearestHour()
+        +Duration nearestMinute()
+        +Duration parseDuration(String text)
+        +Duration parseDuration(Listener, String text)
+        +Duration plus(Duration that)
+        +Duration plus(Duration that, Restriction)
+        +Duration seconds(double seconds, Restriction)
+        +Duration seconds(double seconds)
+        +Duration shorterBy(Percent percentage)
+        +Duration untilNextSecond()
+        +Duration weeks(double weeks)
+        +Duration weeks(double weeks, Restriction)
+        +Duration years(double years, Restriction)
+        +Duration years(double years)
+    }
+    
+    class Frequency
+    {
+        - -(constructors)- -
+        #Frequency(Duration)
+        - -(time)- -
+        +Duration cycleLength()
+        +Frequency cyclesPerDay(int times)
+        +Frequency cyclesPerHour(int times)
+        +Frequency cyclesPerMinute(int times)
+        +Frequency cyclesPerSecond(int times)
+        +Frequency every(Duration)
+        +Frequency parseFrequency(Listener, String text)
+        +Cycle startingAt(Time start)
+        +Cycle startingNow()
+    }
+    
+    class KivaKitTimeFormats
+    {
+    }
+    
+    Time <|- - LocalTime
+    class LocalTime
+    {
+        - -(constructors)- -
+        #LocalTime()
+        #LocalTime(ZoneId, Nanoseconds)
+        #LocalTime(ZoneId, Time)
+        - -
+        +Quarter calendarQuarter()
+        +Quarter fiscalQuarter()
+        +Meridiem meridiem()
+        +int weekOfYear()
+        +Year year()
+        - -(conversion)- -
+        +String asDateString()
+        +String asDateString(ZoneId)
+        - -(time)- -
+        +String asDateTimeSecondsString()
+        +String asDateTimeSecondsString(ZoneId)
+        +String asDateTimeString(ZoneId)
+        +String asDateTimeString()
+        +LocalDateTime asJavaLocalDateTime()
+        +java.time.LocalTime asJavaLocalTime()
+        +ZonedDateTime asJavaZonedDate()
+        +ZonedDateTime asJavaZonedDateTime(ZoneOffset)
+        +String asTimeString(ZoneId)
+        +String asTimeString()
+        +long asZonedMilliseconds()
+        +Day dayOfMonth()
+        +Day dayOfUnixEpoch()
+        +DayOfWeek dayOfWeek()
+        +Day dayOfYear()
+        +Hour hourOfDay()
+        +HourOfWeek hourOfWeek()
+        +LocalTime localTime(DateTimeFormatter, String text)
+        +LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth)
+        +LocalTime localTime(ZoneId, Year, Month)
+        +LocalTime localTime(ZonedDateTime)
+        +LocalTime localTime(String text)
+        +LocalTime localTime(String text, ZoneId)
+        +LocalTime localTime(ZoneId, BaseTime<?>)
+        +LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth, Hour)
+        +LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth, Hour, Minute, Second)
+        +LocalTime localTime(ZoneId, LocalDateTime)
+        +LocalTime localTime(DateTimeFormatter, String text, ZoneId)
+        +ZoneId localTimeZone()
+        +LocalTime milliseconds(ZoneId, long epochMilliseconds)
+        +LocalTime milliseconds(ZoneId, double epochMilliseconds)
+        +Minute minute()
+        +int minuteOfDay()
+        +Minute minuteOfHour()
+        +Month month()
+        +LocalTime nanoseconds(ZoneId, Nanoseconds epochNanoseconds)
+        +LocalTime now()
+        +Time parseLocalTime(Listener, DateTimeFormatter, String text)
+        +LocalTime parseLocalTime(Listener, DateTimeFormatter, String text, ZoneId)
+        +LocalTime parseLocalTime(Listener, String text)
+        +LocalTime parseLocalTime(Listener, String text, ZoneId)
+        +LocalTime seconds(ZoneId, long epochSeconds)
+        +LocalTime startOfDay()
+        +LocalTime startOfHour()
+        +LocalTime startOfNextHour()
+        +LocalTime startOfTomorrow()
+        +ZoneId utcTimeZone()
+        +LocalTime withDay(Day)
+        +LocalTime withDayOfWeek(DayOfWeek)
+        +LocalTime withHourOfDay(Hour)
+        +LocalTime withMinute(Minute)
+        +LocalTime withUnixEpochDay(Day epochDay)
+    }
+    
+    enum Meridiem
+    {
+        AM
+        NO_MERIDIEM
+        PM
+    }
+    
+    interface Modifiable
+    {
+        - -(time)- -
+        +boolean lastModified(Time)
+    }
+    
+    Comparable <|- - Rate
+    Maximizable <|- - Rate
+    Minimizable <|- - Rate
+    DoubleValued <|- - Rate
+    AsString <|- - Rate
+    class Rate
+    {
+        - -(constructors)- -
+        +Rate(double, Duration)
+        - -
+        +Rate perYear()
+        +Rate perYear(double count)
+        +void throttle(Rate maximumRate)
+        - -(checks)- -
+        +boolean isFasterThan(Rate that)
+        +boolean isSlowerThan(Rate that)
+        - -(collection)- -
+        +double count()
+        - -(math)- -
+        +Rate plus(Rate that)
+        - -(time)- -
+        +String asBytesPerSecond()
+        +Rate perDay(double count)
+        +Rate perDay()
+        +Rate perHour(double count)
+        +Rate perHour()
+        +Rate perMinute(double count)
+        +Rate perMinute()
+        +Rate perSecond(double count)
+        +Rate perSecond()
+    }
+    
+    BaseTime <|- - Time
+    class Time
+    {
+        - -(constructors)- -
+        #Time()
+        #Time(Nanoseconds)
+        - -(checks)- -
+        +boolean isLocal()
+        +boolean isNewerThan(Time that)
+        +boolean isNewerThan(Duration)
+        +boolean isNewerThanOrEqual(Duration)
+        +boolean isNewerThanOrEqualTo(Time that)
+        +boolean isOlderThan(Time that)
+        +boolean isOlderThan(Duration)
+        +boolean isOlderThanOrEqual(Duration)
+        +boolean isOlderThanOrEqualTo(Time that)
+        - -(time)- -
+        +LocalTime asLocalFilesystemTime()
+        +LocalTime asLocalFilesystemTime(ZoneId)
+        +LocalTime asLocalTime(ZoneId)
+        +LocalTime asLocalTime()
+        +Time asUtc()
+        +Duration elapsedSince(Time that)
+        +Duration elapsedSince()
+        +Time epochMilliseconds(String milliseconds)
+        +Time epochMilliseconds(long milliseconds)
+        +Time epochNanoseconds(Nanoseconds)
+        +Duration leftUntil(Duration elapsed)
+        +Time milliseconds(String milliseconds)
+        +Time now()
+        +Time parseMilliseconds(Listener, String milliseconds)
+        +Time parseTime(Listener, String text)
+        +Time time(String text)
+        +ZoneId timeZone()
+        +Duration until(Time that)
+        +Duration untilNow()
+        +Time utcTime(Year, Month, Day dayOfMonth, Hour, Minute, Second)
+        +Time utcTime(Year, Month, Day dayOfMonth)
+        +Time utcTime(Year, Month, Day dayOfMonth, Hour)
+        +Time utcTime(Year, Month)
+    }
+    
+    class TimeZones
+    {
+        - -(checks)- -
+        +boolean isUtc(ZoneId)
+        - -(identity)- -
+        +boolean isValidZoneId(String identifier)
+        +ZoneId parseZoneId(Listener, String identifier)
+        +ZoneId utc()
+    }
+    
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+
+
+skinparam backgroundColor #333333
+
+
+
+
+
+
+skinparam  {
+    defaultFontName   "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+    defaultFontSize   12
+    defaultTextAlignment left
+    shadowing false
+    RoundCorner 10
+    TitleFontSize 18
+}
+
+skinparam defaultFontName       "Open Sans,Avenir,Nunito,Arial,Helvetica,SansSerif"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           16
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               3
+skinparam ArrowColor            #545454
+skinparam stereotype {
+    CBackgroundColor #0066cf
+    CBorderColor #0086ef
+    ABackgroundColor #C8Ac00
+    ABorderColor #D8Bc00
+    IBackgroundColor #008400
+    IBorderColor #239c23
+    EBackgroundColor #cf6300
+    EBorderColor #ef8300
+    NBackgroundColor #3380b9
+    NBorderColor #004d86
+}
+skinparam title {
+	FontColor	                 #c0c0c0
+ 	BorderColor                  #545454
+	FontSize	    	         20
+	BorderRoundCorner            16
+	BorderThickness 	         1
+	BackgroundColor              #48494b
+}
+
+
+skinparam legend {
+	BackgroundColor #303030
+	BorderColor #404040
+	FontColor #a0a0a0
+}
+
+	skinparam swimlane {
+	BorderColor #5e5e5e
+	BorderThickness 2
+	TitleBackgroundColor  #6d6d6d-#484848
+	TitleFontColor #303030
+}
+
+skinparam activity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BarColor #00FF00
+	StartColor #0060a8
+	EndColor #0060a8
+	DiamondBackgroundColor #6d6d6d-#3a3a3a
+  	DiamondBorderColor #3a3a3a
+  	DiamondFontColor #fefefe
+}
+
+
+skinparam participant {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam arrow {
+	Thickness 1.5
+	Color #545454
+	FontColor #a0a0a0
+    FontStyle bold
+    MessageAlignment center
+}
+
+
+
+skinparam sequence {
+	BorderColor #303030
+	TitleFontColor #303030
+	BackgroundColor #333333
+	StartColor #303030
+	EndColor #303030
+	BoxBackgroundColor #333333
+	BoxBorderColor #484848
+	BoxFontColor #484848
+	LifeLineBorderColor #484848
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor #3a3a3a
+	GroupBorderColor #484848
+	GroupFontColor #484848
+	GroupHeaderFontColor #0060a8
+	GroupBackgroundColor #484848
+	GroupHeaderBackgroundColor #333333
+	DividerBackgroundColor #484848
+    DividerBorderColor #484848
+    DividerBorderThickness 2
+    DividerFontColor #D8Bc00
+	ReferenceBackgroundColor #333333
+	ReferenceBorderColor #484848
+	ReferenceFontColor #fefefe
+	ReferenceHeaderBackgroundColor #484848
+}
+
+
+skinparam partition {
+	BorderColor #303030
+	FontColor #333333
+	BackgroundColor #333333
+}
+
+
+skinparam collections {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam control {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam entity {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam boundary {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam agent {
+	BackgroundColor #ff8000
+	BorderColor #ff9933
+	FontColor #484848
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor #1b1b1a
+	BorderColor #5e5e5e
+	FontSize 11
+	FontColor #a0a0a0
+}
+
+
+skinparam artifact {
+	BorderThickness 10
+	BorderColor #5e5e5e
+	BackgroundColor #1b1b1a
+	FontColor #D8Bc00
+}
+
+
+skinparam component {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam interface {
+	BackgroundColor  #008400
+	BorderColor  #007F00
+	FontColor #484848
+}
+
+
+skinparam storage {
+	BackgroundColor #ff8000
+  	BorderColor #cc6600
+	FontColor #222222
+}
+
+
+skinparam node {
+	BackgroundColor #333333
+	BorderColor #333333
+	FontColor #C8Ac00
+}
+
+
+skinparam cloud {
+	BackgroundColor #484848-black
+	BorderColor #484848
+	FontColor #D8Bc00
+}
+
+
+skinparam database {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor  #333333
+}
+
+
+skinparam class {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	HeaderBackgroundColor #1b1b1a
+    BackgroundColor #282828
+    BorderColor #5e5e5e
+ 	StereotypeFontColor #a0a0a0
+    StereotypeFontStyle bold
+	BorderThickness 1
+	AttributeFontColor #D8Bc00
+	AttributeFontSize 11
+    FontColor #D8Bc00
+    FontStyle bold
+}
+
+
+skinparam object {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StereotypeFontColor #484848
+	BorderThickness 1
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam rectangle {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+	StereotypeFontColor #303030
+}
+
+
+skinparam package {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	BackgroundColor #333333
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor #6d6d6d
+  	BorderColor #ff8000
+	FontColor #ff8000
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor #6d6d6d
+  	BorderColor #0060a8
+	FontColor #0060a8
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+	StartColor #0060a8
+	EndColor #0060a8
+	AttributeFontColor #fefefe
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+
+skinparam card {
+	BackgroundColor #0060a8
+	BorderColor #004d86
+	FontColor $INFO_TEXT
+}
+
+
+skinparam file {
+	BackgroundColor #6d6d6d-#484848
+	BorderColor #0060a8
+	FontColor #fefefe
+}
+
+
+skinparam stack {
+		FontColor #C8Ac00
+	BorderColor #333333
+	BackgroundColor #333333-#333333
+}
+
+    
+    title "diagram-time"
+    
+    abstract BaseTime
+    
+    interface AsString
+    interface Comparable
+    interface Minimizable
+    interface Maximizable
+    interface LengthOfTime
+    interface DoubleValued
+    
+    BaseTime <|- - DayOfWeek
+    class DayOfWeek
+    {
+        - -(constructors)- -
+        #DayOfWeek()
+        #DayOfWeek(int)
+        - -(conversion)- -
+        +int asIsoOrdinal()
+        +int asJavaOrdinal()
+        - -(time)- -
+        +Day asDay()
+        +HourOfWeek asHourOfWeek()
+        +java.time.DayOfWeek asJavaDayOfWeek()
+        +HourOfWeek at(Hour)
+        +ObjectList<DayOfWeek> daysOfWeek()
+        +DayOfWeek isoDayOfWeek(int day)
+        +DayOfWeek javaDayOfWeek(java.time.DayOfWeek)
+        +DayOfWeek javaDayOfWeek(int day)
+    }
+    
+    LengthOfTime <|- - Duration
+    DoubleValued <|- - Duration
+    class Duration
+    {
+        - -(constructors)- -
+        #Duration(Nanoseconds, Restriction)
+        - -(math)- -
+        +boolean isMaximum()
+        +Percent percentageOf(Duration that)
+        - -(time)- -
+        +Frequency asFrequency()
+        +Duration cpuTime()
+        +Duration days(double days)
+        +Duration days(double days, Restriction)
+        +Duration hours(double hours, Restriction)
+        +Duration hours(double hours)
+        +Duration longerBy(Percent percentage)
+        +Duration maximum(Duration that)
+        +Duration microseconds(double microseconds, Restriction)
+        +Duration microseconds(double microseconds)
+        +Duration milliseconds(double milliseconds)
+        +Duration milliseconds(double milliseconds, Restriction)
+        +Duration minimum(Duration that)
+        +Duration minus(Duration that)
+        +Duration minus(Duration that, Restriction)
+        +Duration minutes(double minutes)
+        +Duration minutes(double minutes, Restriction)
+        +Duration nanoseconds(double nanoseconds)
+        +Duration nanoseconds(Nanoseconds)
+        +Duration nanoseconds(Nanoseconds, Restriction)
+        +Duration nanoseconds(double nanoseconds, Restriction)
+        +Duration nearestHour()
+        +Duration nearestMinute()
+        +Duration parseDuration(String text)
+        +Duration parseDuration(Listener, String text)
+        +Duration plus(Duration that)
+        +Duration plus(Duration that, Restriction)
+        +Duration seconds(double seconds, Restriction)
+        +Duration seconds(double seconds)
+        +Duration shorterBy(Percent percentage)
+        +Duration untilNextSecond()
+        +Duration weeks(double weeks)
+        +Duration weeks(double weeks, Restriction)
+        +Duration years(double years, Restriction)
+        +Duration years(double years)
+    }
+    
+    class Frequency
+    {
+        - -(constructors)- -
+        #Frequency(Duration)
+        - -(time)- -
+        +Duration cycleLength()
+        +Frequency cyclesPerDay(int times)
+        +Frequency cyclesPerHour(int times)
+        +Frequency cyclesPerMinute(int times)
+        +Frequency cyclesPerSecond(int times)
+        +Frequency every(Duration)
+        +Frequency parseFrequency(Listener, String text)
+        +Cycle startingAt(Time start)
+        +Cycle startingNow()
+    }
+    
+    class KivaKitTimeFormats
+    {
+    }
+    
+    Time <|- - LocalTime
+    class LocalTime
+    {
+        - -(constructors)- -
+        #LocalTime()
+        #LocalTime(ZoneId, Nanoseconds)
+        #LocalTime(ZoneId, Time)
+        - -
+        +Quarter calendarQuarter()
+        +Quarter fiscalQuarter()
+        +Meridiem meridiem()
+        +int weekOfYear()
+        +Year year()
+        - -(conversion)- -
+        +String asDateString()
+        +String asDateString(ZoneId)
+        - -(time)- -
+        +String asDateTimeSecondsString()
+        +String asDateTimeSecondsString(ZoneId)
+        +String asDateTimeString(ZoneId)
+        +String asDateTimeString()
+        +LocalDateTime asJavaLocalDateTime()
+        +java.time.LocalTime asJavaLocalTime()
+        +ZonedDateTime asJavaZonedDate()
+        +ZonedDateTime asJavaZonedDateTime(ZoneOffset)
+        +String asTimeString(ZoneId)
+        +String asTimeString()
+        +long asZonedMilliseconds()
+        +Day dayOfMonth()
+        +Day dayOfUnixEpoch()
+        +DayOfWeek dayOfWeek()
+        +Day dayOfYear()
+        +Hour hourOfDay()
+        +HourOfWeek hourOfWeek()
+        +LocalTime localTime(DateTimeFormatter, String text)
+        +LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth)
+        +LocalTime localTime(ZoneId, Year, Month)
+        +LocalTime localTime(ZonedDateTime)
+        +LocalTime localTime(String text)
+        +LocalTime localTime(String text, ZoneId)
+        +LocalTime localTime(ZoneId, BaseTime<?>)
+        +LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth, Hour)
+        +LocalTime localTime(ZoneId, Year, Month, Day dayOfMonth, Hour, Minute, Second)
+        +LocalTime localTime(ZoneId, LocalDateTime)
+        +LocalTime localTime(DateTimeFormatter, String text, ZoneId)
+        +ZoneId localTimeZone()
+        +LocalTime milliseconds(ZoneId, long epochMilliseconds)
+        +LocalTime milliseconds(ZoneId, double epochMilliseconds)
+        +Minute minute()
+        +int minuteOfDay()
+        +Minute minuteOfHour()
+        +Month month()
+        +LocalTime nanoseconds(ZoneId, Nanoseconds epochNanoseconds)
+        +LocalTime now()
+        +Time parseLocalTime(Listener, DateTimeFormatter, String text)
+        +LocalTime parseLocalTime(Listener, DateTimeFormatter, String text, ZoneId)
+        +LocalTime parseLocalTime(Listener, String text)
+        +LocalTime parseLocalTime(Listener, String text, ZoneId)
+        +LocalTime seconds(ZoneId, long epochSeconds)
+        +LocalTime startOfDay()
+        +LocalTime startOfHour()
+        +LocalTime startOfNextHour()
+        +LocalTime startOfTomorrow()
+        +ZoneId utcTimeZone()
+        +LocalTime withDay(Day)
+        +LocalTime withDayOfWeek(DayOfWeek)
+        +LocalTime withHourOfDay(Hour)
+        +LocalTime withMinute(Minute)
+        +LocalTime withUnixEpochDay(Day epochDay)
+    }
+    
+    enum Meridiem
+    {
+        AM
+        NO_MERIDIEM
+        PM
+    }
+    
+    interface Modifiable
+    {
+        - -(time)- -
+        +boolean lastModified(Time)
+    }
+    
+    Comparable <|- - Rate
+    Maximizable <|- - Rate
+    Minimizable <|- - Rate
+    DoubleValued <|- - Rate
+    AsString <|- - Rate
+    class Rate
+    {
+        - -(constructors)- -
+        +Rate(double, Duration)
+        - -
+        +Rate perYear()
+        +Rate perYear(double count)
+        +void throttle(Rate maximumRate)
+        - -(checks)- -
+        +boolean isFasterThan(Rate that)
+        +boolean isSlowerThan(Rate that)
+        - -(collection)- -
+        +double count()
+        - -(math)- -
+        +Rate plus(Rate that)
+        - -(time)- -
+        +String asBytesPerSecond()
+        +Rate perDay(double count)
+        +Rate perDay()
+        +Rate perHour(double count)
+        +Rate perHour()
+        +Rate perMinute(double count)
+        +Rate perMinute()
+        +Rate perSecond(double count)
+        +Rate perSecond()
+    }
+    
+    BaseTime <|- - Time
+    class Time
+    {
+        - -(constructors)- -
+        #Time()
+        #Time(Nanoseconds)
+        - -(checks)- -
+        +boolean isLocal()
+        +boolean isNewerThan(Time that)
+        +boolean isNewerThan(Duration)
+        +boolean isNewerThanOrEqual(Duration)
+        +boolean isNewerThanOrEqualTo(Time that)
+        +boolean isOlderThan(Time that)
+        +boolean isOlderThan(Duration)
+        +boolean isOlderThanOrEqual(Duration)
+        +boolean isOlderThanOrEqualTo(Time that)
+        - -(time)- -
+        +LocalTime asLocalFilesystemTime()
+        +LocalTime asLocalFilesystemTime(ZoneId)
+        +LocalTime asLocalTime(ZoneId)
+        +LocalTime asLocalTime()
+        +Time asUtc()
+        +Duration elapsedSince(Time that)
+        +Duration elapsedSince()
+        +Time epochMilliseconds(String milliseconds)
+        +Time epochMilliseconds(long milliseconds)
+        +Time epochNanoseconds(Nanoseconds)
+        +Duration leftUntil(Duration elapsed)
+        +Time milliseconds(String milliseconds)
+        +Time now()
+        +Time parseMilliseconds(Listener, String milliseconds)
+        +Time parseTime(Listener, String text)
+        +Time time(String text)
+        +ZoneId timeZone()
+        +Duration until(Time that)
+        +Duration untilNow()
+        +Time utcTime(Year, Month, Day dayOfMonth, Hour, Minute, Second)
+        +Time utcTime(Year, Month, Day dayOfMonth)
+        +Time utcTime(Year, Month, Day dayOfMonth, Hour)
+        +Time utcTime(Year, Month)
+    }
+    
+    class TimeZones
+    {
+        - -(checks)- -
+        +boolean isUtc(ZoneId)
+        - -(identity)- -
+        +boolean isValidZoneId(String identifier)
+        +ZoneId parseZoneId(Listener, String identifier)
+        +ZoneId utc()
+    }
+    
+@enduml
+
+PlantUML version 1.2021.01(Tue Feb 02 00:55:08 MST 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

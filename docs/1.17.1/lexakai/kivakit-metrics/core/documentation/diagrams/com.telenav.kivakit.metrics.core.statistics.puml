@@ -1,0 +1,63 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core.statistics"
+    
+    abstract BaseStatistics
+    
+    interface Statistics
+    
+    Statistics <|-- BaseStatistics
+    abstract class BaseStatistics<T>
+    {
+        --(constructors)--
+        #BaseStatistics(Mapper<Double, T>)
+        --
+        +BaseStatistics<T> description(String description)
+        +BaseStatistics<T> type(Metric.MetricType)
+        +BaseStatistics<T> unit(String unit)
+        --(math)--
+        +boolean subtract(T metric)
+        --(naming)--
+        +BaseStatistics<T> name(String name)
+    }
+    
+    BaseStatistics <|-- BytesStatistics
+    class BytesStatistics
+    {
+        --(constructors)--
+        +BytesStatistics()
+    }
+    
+    BaseStatistics <|-- CountStatistics
+    class CountStatistics
+    {
+        --(constructors)--
+        +CountStatistics()
+    }
+    
+    BaseStatistics <|-- DurationStatistics
+    class DurationStatistics
+    {
+        --(constructors)--
+        +DurationStatistics()
+    }
+    
+    BaseStatistics <|-- RateStatistics
+    class RateStatistics
+    {
+        --(constructors)--
+        +RateStatistics()
+    }
+    
+    BaseStatistics <|-- ScalarStatistics
+    class ScalarStatistics
+    {
+        --(constructors)--
+        +ScalarStatistics()
+    }
+    
+@enduml
+

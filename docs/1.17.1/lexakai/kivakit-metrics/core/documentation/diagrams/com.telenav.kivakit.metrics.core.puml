@@ -1,0 +1,66 @@
+
+@startuml
+
+    !include lexakai.theme
+    
+    title "com.telenav.kivakit.metrics.core"
+    
+    interface CreatedAt
+    interface DoubleValued
+    interface Named
+    Named <|-- Metric
+    CreatedAt <|-- Metric
+    DoubleValued <|-- Metric
+    interface Metric<T>
+    {
+        --
+        +String description()
+        +T measurement()
+        +MetricType type()
+        +String unit()
+    }
+    
+    enum Metric.MetricType
+    {
+        COUNTER
+        GAUGE
+        HISTOGRAM
+    }
+    
+    interface MetricsReporter
+    {
+        --
+        +void reportMetric(Metric<?>)
+    }
+    
+    interface RegistryTrait
+    RegistryTrait <|-- MetricsTrait
+    interface MetricsTrait
+    {
+        --
+        +void reportMetric(Metric<?>)
+        +MetricsReporter reporter()
+    }
+    
+    interface Addable<T>
+    interface CreatedAt
+    interface Named
+    Addable <|-- Statistics
+    Named <|-- Statistics
+    CreatedAt <|-- Statistics
+    interface Statistics<T>
+    {
+        --
+        +Metric<T> average()
+        +String description()
+        +Metric<T> samples()
+        +Metric<T> total()
+        +Metric.MetricType type()
+        +String unit()
+        --(math)--
+        +Metric<T> maximum()
+        +Metric<T> minimum()
+    }
+    
+@enduml
+
